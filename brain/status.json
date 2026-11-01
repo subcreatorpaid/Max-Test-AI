@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-01T07:45:00Z",
+  "updated": "2026-11-01T08:53:00Z",
   "today": [
-    "Read the first video's script and recordings list (videos/claude-capcut-edit/)",
-    "Record the screen recordings on the list",
-    "Make the 4 Max clips in Google Flow from flow-prompts.md"
+    "Record the test R1-R7 (see /mnt/project-files/first-video/next-steps.md)",
+    "Send Claude's answer + stopwatch times",
+    "One-time PC setup (Step 4)"
   ],
   "approvals": [
     {
@@ -11,7 +11,7 @@
       "what": "OK the storyboard for 'Claude + CapCut' video",
       "file": "videos/claude-capcut-edit/storyboard.md",
       "gate": "storyboard",
-      "status": "waiting"
+      "status": "approved 2026-11-01"
     },
     {
       "id": "A2",
@@ -34,7 +34,7 @@
     {
       "slug": "claude-capcut-edit",
       "title": "I Edited a Full YouTube Video With Claude + CapCut",
-      "stage": "script",
+      "stage": "recordings",
       "due": "2026-11-08"
     }
   ],

@@ -1,8 +1,28 @@
 {
   "updated": "2026-11-01",
   "videos": [
-    {"slug": "claude-capcut-edit", "title": "I Edited a Full YouTube Video With Claude + CapCut", "stage": "script", "gates": {"storyboard": "waiting", "review_render": "not started", "final_upload": "not started"}, "target_publish": "2026-11-08"},
-    {"slug": "vids-consistent-host", "title": "How I Made a Consistent AI Host in Google Vids", "stage": "idea", "target_publish": "2026-11-15"},
-    {"slug": "black-friday-ad", "title": "I Built a Black Friday Ad With Free AI Tools", "stage": "idea", "target_publish": "2026-11-22"}
+    {
+      "slug": "claude-capcut-edit",
+      "title": "I Edited a Full YouTube Video With Claude + CapCut",
+      "stage": "recordings",
+      "gates": {
+        "storyboard": "approved 2026-11-01",
+        "review_render": "not started",
+        "final_upload": "not started"
+      },
+      "target_publish": "2026-11-08"
+    },
+    {
+      "slug": "vids-consistent-host",
+      "title": "How I Made a Consistent AI Host in Google Vids",
+      "stage": "idea",
+      "target_publish": "2026-11-15"
+    },
+    {
+      "slug": "black-friday-ad",
+      "title": "I Built a Black Friday Ad With Free AI Tools",
+      "stage": "idea",
+      "target_publish": "2026-11-22"
+    }
   ]
 }
