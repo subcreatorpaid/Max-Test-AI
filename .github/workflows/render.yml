@@ -1,5 +1,5 @@
 name: render
-# Preview (480p) after the storyboard OK; final (1080p) after the review OK.
+# Quick previews in the cloud. Real edits with the Motion Graphics MAX kit run on Hammad's PC (editor skill).
 # Run from the Actions tab: choose the video folder name and the mode.
 on:
   workflow_dispatch:
@@ -27,12 +27,10 @@ jobs:
           find /tmp/inter -name "Inter-*.ttf" -path "*extras/ttf*" -exec cp {} assets/brand/inter/ \;
       - uses: actions/cache@v4
         with: {path: ~/.cache/kokoro, key: kokoro-v1.0}
-      - name: Voiceover (Gemini voice if GEMINI_API_KEY is set, else Kokoro preview) unless Hammad supplied audio
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Placeholder voice (Kokoro) only if the edit uses it
         run: |
           V=videos/${{ inputs.slug }}
-          if [ ! -f $V/audio/timing.json ]; then python scripts/tts.py $V/narration.txt $V/audio; fi
+          if grep -q voiceover-placeholder $V/edit.json; then python scripts/tts.py $V/voiceover.md $V/audio; fi
       - name: Render
         run: python scripts/render.py videos/${{ inputs.slug }} --${{ inputs.mode }}
       - uses: actions/upload-artifact@v4

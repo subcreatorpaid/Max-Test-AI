@@ -16,7 +16,8 @@ Max Tests AI is a long-form YouTube channel (English, US accent) hosted by **Max
 | storyteller | story arc, hook-to-payoff, open loops (Opus) |
 | director | final look: shot list, pacing, host vs screen vs animation mix, SFX/music cues; approves storyboard |
 | scriptwriter | full script, retention structure, chapters (Opus) |
-| creator | storyboard, motion graphics, voiceover, captions, renders |
+| creator | motion graphics (Motion Graphics MAX kit, on Hammad's PC), placeholder voice, assets |
+| editor | the full edit on Hammad's PC: assembles Max clips, screen recordings, narration, graphics, sound, captions; delivers the upload-ready MP4 + CapCut edit list |
 | packager | 3 titles + 3 thumbnails, scored before choosing |
 | publisher | description, chapters, tags, end screens, scheduling (after OK only) |
 | guard | release checks: facts, copyright, AI disclosure, links, specs |
@@ -53,4 +54,5 @@ Helpers: goal-lock, competitor-analysis, hook-lab, script-qa, storyboard, analyt
 He may write in Urdu/Hindi: open with one English line summarising what he said, then answer in short plain English. Ask questions as a clickable form (recommended option preselected, A/B/C + Other box).
 
 ## Current state (keep short)
-- 2026-11-01: brain built. First video `videos/claude-capcut-edit/` in progress (script + recordings list). Max redesigned ("Brand-blue Max"); talking clips via Google Vids custom avatar; one Google voice everywhere (name TBD), see `brain/host.md`. Render: GitHub Actions.
+- 2026-11-01: brain built. First video `videos/claude-capcut-edit/` in progress (script + storyboard waiting on gate 1).
+- Production split: Max clips by Hammad in Google Vids (`vids-scenes.md`); screen narration = one file recorded by Hammad (`voiceover.md` -> `audio/voiceover.mp3`); animations by Claude with the kit on Hammad's PC; full edit by Claude (editor skill) -> final MP4. Max redesigned 2026-11-01 ("Brand-blue Max", `brain/host.md`); his voice is one Google voice everywhere (name TBD); Kokoro is placeholder only. GitHub Actions: guard + previews.

@@ -50,7 +50,7 @@ Checked 2026-11-01 against Google's own pages (sources at the bottom). Re-check 
 6. Put them with the screen recordings and the narration audio, and tell Claude.
 
 ## Narration (separate audio)
-`videos/<slug>/voiceover.md` has every `[VO]` line in order as one block. Make it in one go with the **same Google voice as Max** (Hammad picked "one Google voice everywhere", 2026-11-01). If the `GEMINI_API_KEY` secret is set, `scripts/tts.py` can also make it automatically, export one audio file `voiceover.mp3` (or one per chapter).
+`videos/<slug>/voiceover.md` has every `[VO]` line in order as one block. Make it in one go with the **same Google voice as Max** (Hammad picked "one Google voice everywhere", 2026-11-01), export one audio file `voiceover.mp3` (or one per chapter).
 
 ## Rules that still apply
 - Every upload ticks YouTube's "altered or synthetic content" box; About page says Max is an AI.
