@@ -8,7 +8,7 @@ description: Make the storyboard stills, motion graphics, voiceover, captions an
 Start: `git pull`, read `CLAUDE.md`, `brain/rules.md`, `brain/status.json`. End: run `python scripts/guard.py`, one commit, push, write one log file in `brain/log/`, put any ask for Hammad in `brain/status.json -> approvals`.
 
 ## Job
-1. **Voiceover:** Hammad records the real narration (`voiceover.md` -> `audio/voiceover.mp3`). Until then, `python scripts/tts.py videos/<slug>/voiceover.md videos/<slug>/audio/` makes a Kokoro placeholder for previews only.
+1. **Voiceover:** Hammad records the real narration (`voiceover.md` -> `audio/voiceover.mp3`). Until then, `python scripts/tts.py videos/<slug>/voiceover.md videos/<slug>/audio/` makes it with Max's Google voice (Gemini TTS, needs `GEMINI_API_KEY` + `MAX_VOICE`), or a Kokoro stand-in for timing previews only.
 2. **edit.json:** see the editor skill; `videos/<slug>/spec.json` from the storyboard: an ordered list of scenes, each `{"id", "type": "host|screen|card|zoom", "src", "start", "end", "text", "zoom": [x,y,scale], "caption": true}`. Same format later feeds Shorts (9:16).
 3. **Motion graphics (HyperFrames kit, see below):** step cards, verdict card, arrows from `brain/brand.md` tokens (Inter, #2F6BFF, #FFD23F). Follow the Motion System approach in handbook ch.6 (Prompts 2 and 3 in `docs/handbook.md` ch.10) when building new graphic types.
 4. Preview and final renders are the **editor** skill's job (on Hammad's PC; GitHub `render` Action for quick previews).

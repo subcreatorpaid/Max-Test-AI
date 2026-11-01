@@ -7,5 +7,6 @@
 | GSAP 3.15.0 | npm | GSAP Standard Licence (free) | Use in renders | - | 2026-11-01 |
 | HyperFrames 0.8.140 | npx | HyperFrames licence | Render | - | 2026-11-01 |
 | Inter, Instrument Serif, JetBrains Mono, Bricolage | Google Fonts | SIL OFL 1.1 | Embed, redistribute | Sell alone | 2026-11-01 |
-| Kokoro v1.0 voice (am_michael) | open model | Apache 2.0 | Commercial voiceover | - | 2026-11-01 |
+| Max's voice (Google Gemini voice, same as the Vids avatar) | Google Vids / Gemini TTS (Hammad's plan) | Google terms | Commercial voiceover on YouTube | - | 2026-11-01 |
+| Max avatar clips | Google Vids (Hammad's plan) | Google terms | YouTube, with AI disclosure | - | 2026-11-01 |
 | Music track (if used) | YouTube Audio Library | per track | | | |

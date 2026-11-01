@@ -13,8 +13,8 @@ Calm, slightly witty builder. Honest about being an AI and about what tools can'
 - **Never:** fake income claims, hype words ("insane", "game-changer"), pretending to be human, trash-talking other creators, reading a sponsor line without disclosure.
 
 ## Voice
-**One Google (Gemini) voice everywhere** (Hammad's pick, 2026-11-01): the same voice on Max's Google Vids avatar and on all narration. Voice name: **TBD**. Hammad picks it in Vids with **Select voice** (calm, warm, mid-pitch, American; closest to the old sample `brain/host/voice-sample-michael.mp3`). Once known, write it here.
-Narration: Hammad makes it in one go in the same voice (`voiceover.md` -> `audio/voiceover.mp3`). Kokoro am_michael (`scripts/tts.py`) is a placeholder for previews only. Never change the voice without Hammad's OK.
+**One Google (Gemini) voice everywhere** (Hammad's pick, 2026-11-01): the same voice on Max's Google Vids avatar and on all narration. Voice name: **TBD**. Hammad picks it in Vids with **Select voice** (calm, warm, mid-pitch, American; closest to the old sample `brain/host/voice-sample-michael.mp3`). Once known, write it here and in `scripts/tts.py` `MAX_VOICE`.
+Narration: Hammad makes it in one go in the same voice (`voiceover.md` -> `audio/voiceover.mp3`). If the `GEMINI_API_KEY` secret is set, `scripts/tts.py` can make it in the same Gemini voice (`MAX_VOICE`); otherwise Kokoro am_michael is a placeholder for previews only. Never change the voice without Hammad's OK.
 
 ## On-screen use
 20-30% max: the hook, 1-2 reactions, the outro. Everything else is screen recording + motion graphics.
