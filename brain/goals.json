@@ -1,0 +1,12 @@
+{
+  "updated": "2026-11-01",
+  "goal": "Grow Max Tests AI with 1 strong long video a week; reach YouTube Partner Program (1,000 subs + 4,000 watch hours) and first affiliate income.",
+  "milestones": [
+    {"by": "2026-11-08", "what": "First video live"},
+    {"by": "2026-12-01", "what": "4 videos live; decide upload day/time and Shorts rhythm; review vidIQ trial"},
+    {"by": "2027-01-30", "what": "12 videos live; 1,000 subscribers target"},
+    {"by": "2027-03-01", "what": "YPP early tier (500 subs + 3,000 watch hours)"}
+  ],
+  "judge_on": ["views per video", "subscribers per 1,000 views", "CTR", "30-second retention"],
+  "numbers": {"subscribers": null, "watch_hours": null, "views_total": null, "videos_published": 0, "revenue_usd": 0, "as_of": null, "source": null}
+}

@@ -1,0 +1,43 @@
+name: render
+# Preview (480p) after the storyboard OK; final (1080p) after the review OK.
+# Run from the Actions tab: choose the video folder name and the mode.
+on:
+  workflow_dispatch:
+    inputs:
+      slug: {description: "Video folder in videos/ (e.g. claude-capcut-edit)", required: true}
+      mode: {description: "preview or final", required: true, default: "preview", type: choice, options: [preview, final]}
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q kokoro-onnx soundfile pillow
+          if [ "${{ inputs.mode }}" = "final" ]; then pip install -q faster-whisper; fi
+      - name: Inter font
+        run: |
+          mkdir -p assets/brand/inter
+          curl -sSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip
+          unzip -q -o /tmp/inter.zip -d /tmp/inter
+          find /tmp/inter -name "Inter-*.ttf" -path "*extras/ttf*" -exec cp {} assets/brand/inter/ \;
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/kokoro, key: kokoro-v1.0}
+      - name: Voiceover (Kokoro am_michael) unless Speechify audio was supplied
+        run: |
+          V=videos/${{ inputs.slug }}
+          if [ ! -f $V/audio/timing.json ]; then python scripts/tts.py $V/narration.txt $V/audio; fi
+      - name: Render
+        run: python scripts/render.py videos/${{ inputs.slug }} --${{ inputs.mode }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.slug }}-${{ inputs.mode }}
+          path: |
+            videos/${{ inputs.slug }}/*_480p.mp4
+            videos/${{ inputs.slug }}/*_1080p.mp4
+            videos/${{ inputs.slug }}/*.srt
+          retention-days: 14

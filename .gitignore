@@ -1,0 +1,15 @@
+# Licensed kit: never in a public tree (Motion Graphics MAX licence)
+vendor/
+motion-studio/
+**/sound-fx/
+*.wav
+models/
+*.onnx
+voices*.bin
+# build output
+videos/*/build/
+videos/*/preview_480p.mp4
+videos/*/final_1080p.mp4
+node_modules/
+__pycache__/
+!videos/*/audio/*.wav
