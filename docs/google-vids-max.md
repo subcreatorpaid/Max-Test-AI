@@ -64,3 +64,12 @@ Only needed to rebuild the avatar: make 3-4, pick the one that looks most like t
 - Enhanced AI avatars (Jun 2026): https://workspaceupdates.googleblog.com/2026/06/enhanced-ai-avatars-vids.html
 - Personal avatar (Jul 2026): https://support.google.com/docs/answer/16970930
 - 720p / 16:9-9:16 (third party): https://www.aicloudit.com/blog/news/custom-avatars-and-veo-3-1-strategic-breakdown-of-google-vids/
+
+## Acting clips with gestures (the way clip 1 was made)
+Source: https://support.google.com/docs/answer/16143507 (checked 2026-11-01). This is the **AI video** (Veo) route, not the plain talking avatar, because only a prompt can direct hands, face and eyes.
+1. In the video, click the **AI video** icon on the right > **Create**.
+2. Select **Avatar** > **Max Reed** (his voice comes with him). Optional: **Ingredients** > upload `max-vids-ref.jpg`.
+3. Prompt = Direction block + Framing block + action + `He says: "..."` (from `vids-scenes.md`).
+4. **Landscape**, duration **8 s** (3-10 s allowed) > **Generate**. Not right? Edit the prompt or **Recreate**.
+5. **Insert**, then download that clip as its own MP4.
+Limits: about 50 AI videos a month (resets on the 1st), 720p/1080p at 24 fps. Avatars as ingredients: English only; Google AI Pro is listed as US only.
