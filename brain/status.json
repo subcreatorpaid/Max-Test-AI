@@ -23,10 +23,11 @@
     },
     {
       "id": "A3",
-      "what": "Make Max in Google Vids (docs/google-vids-max.md steps 1-2), then send Claude max-vids-ref.png and the voice name you picked",
+      "what": "Make Max clips 2-9 in Google Vids (videos/claude-capcut-edit/vids-scenes.md) and tell Claude the voice name",
       "file": "docs/google-vids-max.md",
       "gate": "host-setup",
-      "status": "waiting"
+      "status": "waiting",
+      "note": "Clip 1 done 2026-11-01; look kept as dark tee"
     }
   ],
   "pipeline": [

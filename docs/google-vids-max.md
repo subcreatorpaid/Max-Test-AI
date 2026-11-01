@@ -27,15 +27,16 @@ Checked 2026-11-01 against Google's own pages (sources at the bottom). Re-check 
 ### Step 1. Make Max's 16:9 reference picture (Gemini app, Nano Banana)
 `brain/host/host-hero.jpeg` is tall (9:16). Vids wants wide. In the Gemini app, upload `host-hero.jpeg` and paste the prompt for the look Hammad picked:
 
+- **Locked look (2026-11-01):** Hammad kept the dark-tee desk-studio look from the first Vids clip; see `brain/host.md`. The prompts below are kept for reference.
 - **A. Brand-blue Max:** `Same man as this photo, same face, hair and stubble. Now wearing an open electric-blue (#2f6bff) overshirt over a plain white crew-neck tee. Seated at a clean white desk in a bright modern home studio: laptop, a monitor behind him showing a software screen, one green plant, a soft blue glow on the back wall. Chest-up, centred, looking straight at the camera, warm slight smile, mouth closed. Natural daylight, sharp, no text, no logos. Wide 16:9 landscape.`
 - **B. Tech-lab Max:** `Same man as this photo, same face, hair and stubble. Now wearing thin clear-frame glasses and a plain black crew-neck tee. Darker modern tech studio behind him with a blue LED rim light on one side and a warm yellow light on the other, shelves softly out of focus. Chest-up, centred, looking straight at the camera, calm slight smile, mouth closed. Sharp, no text, no logos. Wide 16:9 landscape.`
 - **C. Today's Max:** `Same man, same clothes and same room as this photo. Recompose as a wide 16:9 landscape: chest-up, centred, looking straight at the camera, slight smile, mouth closed, window and plants behind him. Natural daylight, sharp, no text.`
 
-**Hammad picked A (2026-11-01).** Make 3-4, pick the one that looks most like the face in `host-hero.jpeg`. Save it as `max-vids-ref.png` and send it to Claude (it goes into `brain/host/`).
+Only needed to rebuild the avatar: make 3-4, pick the one that looks most like the face in `host-hero.jpeg`. Save it as `max-vids-ref.jpg` and send it to Claude (it goes into `brain/host/`).
 
 ### Step 2. Create the avatar (Google Vids, Chrome on a computer)
 1. Open **vids.google.com** > new blank video. Name the file **Max master**.
-2. Click **AI avatar** > **Design a custom avatar** > **Upload image** > **Upload** > choose `max-vids-ref.png`.
+2. Click **AI avatar** > **Design a custom avatar** > **Upload image** > **Upload** > choose `max-vids-ref.jpg`.
 3. If it doesn't look like Max, click **Recreate**. When close, **Refine selected** and type small fixes, e.g. `keep the same face; slightly shorter beard; keep the shirt exactly the same`.
 4. **Select voice:** play the male voices, pick a calm, warm, mid-pitch American one (closest to our sample `brain/host/voice-sample-michael.mp3`). Write the voice name down and tell Claude; it goes in `brain/host.md`.
 5. Name it **Max Reed** > **Save** > **Select**.
