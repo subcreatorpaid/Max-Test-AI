@@ -15,7 +15,7 @@ Thumbnail: Max, sceptical, left third. Right: a CapCut timeline full of cut mark
 - **C (stakes):** "Editing one video used to cost me an entire evening. I gave the whole job to Claude. Here's what it saved, and where it failed."
 
 ## Script (~1,450 words, ~10 min at 150 wpm)
-`[MAX]` = Max on camera (Flow clip) · `[VO]` = voice over screen · cues in brackets.
+`[MAX]` = Max on camera (Google Vids avatar clip, see vids-scenes.md) · `[VO]` = voice over screen · cues in brackets.
 
 ### 0:00 Hook
 [MAX] (confident) This video was edited by Claude. Not the script. The actual edit.
@@ -75,7 +75,7 @@ Thumbnail: Max, sceptical, left third. Right: a CapCut timeline full of cut mark
 [MAX] My advice: let Claude plan and cut. Keep your own eyes on the final watch-through.
 
 ### 8:45 Outro
-[MAX] (smiling) One more thing. The host you've been watching, me, looks the same in every clip. Next video I'll show you exactly how I made a consistent AI host in Google Flow.
+[MAX] (smiling) One more thing. The host you've been watching, me, looks the same in every clip. Next video I'll show you exactly how I made a consistent AI host in Google Vids.
 [MAX] I'm Max. I test AI so you don't waste your time.
 
 ## On-screen disclosures

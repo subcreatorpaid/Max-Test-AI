@@ -1,0 +1,1 @@
+2026-11-01 0750 | creator | Locked Max redesign (Brand-blue Max, Google Vids talking clips, one Google voice): host.md, tts.py Gemini TTS backend, render.yml secret, first video files | Hammad: build avatar in Vids, send ref image + voice name; optional GEMINI_API_KEY secret

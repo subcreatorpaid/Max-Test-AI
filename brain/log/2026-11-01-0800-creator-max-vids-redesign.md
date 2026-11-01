@@ -1,0 +1,1 @@
+2026-11-01 0800 | creator | Max redesign options (round-5 form), Google Vids avatar guide, Vids scene prompts + narration file for claude-capcut-edit | Hammad: pick look/tool/voice in the round-5 form

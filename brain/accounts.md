@@ -7,7 +7,8 @@
 | Claude | live | paid (Hammad) | scripts, skills, brain | Hammad |
 | Gemini / Google Flow (Veo) | live | Pro (Hammad) | Max host clips, images, trend research | Hammad |
 | vidIQ | live | paid, 1-month test to ~2026-12-01 | keywords, competitors, title/thumbnail scores | connector |
-| Kokoro TTS | free, runs in Actions | free | voiceover (voice am_michael) | none |
+| Kokoro TTS | free, runs in Actions | free | timing previews only (am_michael) | none |
+| Google Vids | Hammad's Google AI Pro | included | Max avatar "Max Reed" (file "Max master") | Hammad |
 | Speechify | Hammad's | Hammad's | backup voiceover | Hammad |
 | CapCut | Hammad's PC | free | the first video's subject; manual touch-ups | Hammad |
 | Motion Graphics MAX kit (HyperFrames, 195 SFX) | Hammad's PC only (C:\Users\hamma\Documents\Motion-Graphics-MAX) | purchased | motion graphics, SFX, mix, final render | Hammad / Remote Control |
