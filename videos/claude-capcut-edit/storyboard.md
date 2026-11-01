@@ -38,6 +38,7 @@ Graphics (G*) are built with the Motion Graphics MAX kit on Hammad's PC (minimal
 | 31 | 8:40 | GRAPHIC G11 | next video tease (Flow host) | "Next: consistent AI host" | CTA as interaction | outro |
 | 32 | 8:50 | MAX | max-06-outro | - | static, wave | sign-off |
 
-Assets Hammad supplies: R1-R7 (see `recordings.md`), max-01 to max-06 (see `flow-prompts.md`), stopwatch times, Claude's answer text.
-Built by Claude: G1-G11 (kit, on Hammad's PC), voiceover (Kokoro am_michael), captions, music bed (YouTube Audio Library or kit score).
+Assets Hammad supplies: R1-R7 (`recordings.md`), Max clips max-01 to max-09 made in Google Vids (`vids-scenes.md`), the narration as one file `audio/voiceover.mp3` (`voiceover.md`), stopwatch times, Claude's answer text.
+Built by Claude: G1-G11 + SFX/music (Motion Graphics MAX kit, on Hammad's PC), then the full edit (editor skill) -> final MP4 + CapCut edit list.
+Max clip ids in the table above follow the old 6-clip plan; the editor maps them to the 9 clips in `vids-scenes.md`.
 After the recordings, `[RESULT]` lines are filled in from the real footage, then the narration is locked and the preview renders.

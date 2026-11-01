@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Voiceover with Kokoro (free). Usage: python scripts/tts.py videos/<slug>/narration.txt videos/<slug>/audio/
-narration.txt: one paragraph per beat, separated by a blank line. Lines starting with # are ignored.
-Writes beat_001.wav ... and timing.json [{beat, file, seconds, text}]."""
+"""Placeholder voiceover with Kokoro (free) so previews have sound before Hammad's real narration exists.
+Usage: python scripts/tts.py videos/<slug>/voiceover.md videos/<slug>/audio/
+Reads voiceover.md (one sentence per line, '---' = chapter break with 1 s pause; headings and [RESULT] lines skipped)
+and writes audio/voiceover-placeholder.wav + audio/voiceover-placeholder.json (start/end of every line, for edit.json).
+Hammad's real file is audio/voiceover.mp3 and always wins."""
 import json, pathlib, sys, urllib.request
 import soundfile as sf
 from kokoro_onnx import Kokoro
 
-VOICE, SPEED, LANG = "am_michael", 1.0, "en-us"   # locked in brain/host.md
+VOICE, SPEED, LANG = "am_michael", 1.0, "en-us"   # FALLBACK ONLY: Max's real voice is pending (Google Vids voice, round 5)
 MODEL_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
 CACHE = pathlib.Path.home() / ".cache/kokoro"
 
@@ -19,17 +21,21 @@ def model():
 
 def main(src, out):
     out = pathlib.Path(out); out.mkdir(parents=True, exist_ok=True)
-    text = "\n".join(l for l in pathlib.Path(src).read_text().splitlines() if not l.startswith("#"))
-    beats = [b.strip().replace("\n", " ") for b in text.split("\n\n") if b.strip()]
-    k, timing = model(), []
-    for i, b in enumerate(beats, 1):
-        samples, sr = k.create(b, voice=VOICE, speed=SPEED, lang=LANG)
-        f = out / f"beat_{i:03d}.wav"
-        sf.write(f, samples, sr)
-        timing.append({"beat": i, "file": f.name, "seconds": round(len(samples) / sr, 3), "text": b})
-        print(f"beat {i}: {timing[-1]['seconds']}s")
-    (out / "timing.json").write_text(json.dumps(timing, indent=1))
-    print(f"total {sum(t['seconds'] for t in timing):.1f}s")
+    import json as _j, numpy as np
+    k, sr0, chunks, marks, t = None, 24000, [], [], 0.0
+    for line in pathlib.Path(src).read_text().splitlines():
+        line = line.strip()
+        if line == "---":
+            chunks.append(np.zeros(sr0)); t += 1.0; continue
+        if not line or line.startswith(("#", "**", "Make this")) or "[RESULT" in line:
+            continue
+        k = k or model()
+        samples, sr0 = k.create(line, voice=VOICE, speed=SPEED, lang=LANG)
+        marks.append({"text": line, "start": round(t, 2), "end": round(t + len(samples) / sr0, 2)})
+        chunks += [samples, np.zeros(int(sr0 * 0.3))]; t += len(samples) / sr0 + 0.3
+    sf.write(out / "voiceover-placeholder.wav", np.concatenate(chunks), sr0)
+    (out / "voiceover-placeholder.json").write_text(_j.dumps(marks, indent=1))
+    print(f"{len(marks)} lines, {t:.1f}s")
 
 if __name__ == "__main__":
     main(*sys.argv[1:3])
