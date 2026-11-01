@@ -17,4 +17,4 @@ Replaces `flow-prompts.md` for all talking clips (Hammad picked Google Vids, 202
 | max-09-outro.mp4 | 8:45 | One more thing. The host you've been watching, me, looks the same in every clip. Next video I'll show you exactly how I made a consistent AI host in Google Vids. [short pause] I'm Max. I test AI so you don't waste your time. | smiling, friendly; slower on the sign-off |
 
 9 generations, plus retakes (budget about 12 of the ~25 a month).
-Check each one: mouth matches the words, face matches `brain/host/max-vids-ref.png`, no extra hands or text, voice is the saved Max voice.
+Check each one: mouth matches the words, face matches `brain/host/max-vids-ref.jpg`, no extra hands or text, voice is the saved Max voice.

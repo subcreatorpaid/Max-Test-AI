@@ -26,7 +26,7 @@
 - Corners 16 px on cards; soft shadow only on the one card in focus.
 
 ## Thumbnails
-Same layout every time: Max's face (in his electric-blue overshirt) (reacting: surprised / sceptical / smiling) on one side, the finished result on the other, **2-3 big words** in Inter Black, white or yellow on a blue bar. Text never repeats the title. 3 options per video, scored with vidIQ before choosing.
+Same layout every time: Max's face (dark tee, bright desk studio) (reacting: surprised / sceptical / smiling) on one side, the finished result on the other, **2-3 big words** in Inter Black, white or yellow on a blue bar. Text never repeats the title. 3 options per video, scored with vidIQ before choosing.
 
 ## Motion (clean motion graphics)
 **Engine:** HyperFrames + GSAP via Hammad's motion-studio kit (Motion Graphics MAX, `hyperframes@0.8.140`), **minimal** style, **Cobalt Field** look recoloured to our tokens (field/accent #2F6BFF, white surfaces, ink #141A26, grey #5B6578) with Inter 800/900 headlines and Inter 500/600 labels. Shape: the kit's **tool film** (open on the input -> the prompt -> the tool responding -> proof -> one big result -> CTA as an interaction). No title card or logo at the start. Something lands every 0.2-0.6 s; camera always pushing 1.00 -> 1.05; the accent only on state changes (checked, sent, done).
