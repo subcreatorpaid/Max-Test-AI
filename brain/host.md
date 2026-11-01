@@ -22,3 +22,6 @@ Host clips are made by Hammad in **Google Flow** (Veo) from Claude's prompts in 
 
 ## Disclosure
 Max looks like a real person, so every upload ticks YouTube's "altered or synthetic content" box, and the channel About page and banner say Max is an AI.
+
+## Pending (2026-11-01)
+Redesign + move talking clips to a Google Vids custom avatar: options in the round-5 form, how-to in `docs/google-vids-max.md`. The look, tool and voice above stay locked until Hammad picks.

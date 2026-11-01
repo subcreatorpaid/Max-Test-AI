@@ -6,10 +6,28 @@
     "Make the 4 Max clips in Google Flow from flow-prompts.md"
   ],
   "approvals": [
-    {"id": "A1", "what": "OK the storyboard for 'Claude + CapCut' video", "file": "videos/claude-capcut-edit/storyboard.md", "gate": "storyboard", "status": "waiting"}
+    {
+      "id": "A1",
+      "what": "OK the storyboard for 'Claude + CapCut' video",
+      "file": "videos/claude-capcut-edit/storyboard.md",
+      "gate": "storyboard",
+      "status": "waiting"
+    },
+    {
+      "id": "A2",
+      "what": "Pick Max's new look, clip tool and voice (round 5 form)",
+      "file": "https://claude.ai/artifact/R5MB8bJP9AKXLwfJRSERJi",
+      "gate": "host-redesign",
+      "status": "waiting"
+    }
   ],
   "pipeline": [
-    {"slug": "claude-capcut-edit", "title": "I Edited a Full YouTube Video With Claude + CapCut", "stage": "script", "due": "2026-11-08"}
+    {
+      "slug": "claude-capcut-edit",
+      "title": "I Edited a Full YouTube Video With Claude + CapCut",
+      "stage": "script",
+      "due": "2026-11-08"
+    }
   ],
   "alerts": []
 }
