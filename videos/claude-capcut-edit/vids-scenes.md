@@ -2,14 +2,16 @@
 
 v2 (2026-11-01, Hammad's ask): Max must look human, with hand gestures, changing expressions, clear eye and lip movement, and natural delivery. He also appears in a **corner bubble** over the screen recordings. Claude animates the move from full screen down into the bubble and back in the edit.
 
+**Studio v3 (2026-11-01, Hammad):** studio set with a podcast mic in front, plain black tee with no logo. Before making clips: (1) in Max master, **Refine selected** on the avatar: `plain black crew-neck T-shirt, no logo, no print`, save; (2) make the studio reference image (prompt in `vids-paste-prompts.md`) and add it under **Ingredients** for every clip.
+
 **How:** make each clip in the **Max master** copy with Max Reed, 16:9, the same way as clip 1 (generated clip with the avatar). **Every prompt = Direction block + Framing block + the row's Action + "He says:" + the line.** One clip per row, max 8 s, named exactly as the File column. Keep each clip's own sound.
 
 ## Direction block (paste first, every clip)
-> Max Reed, the saved avatar: same face, plain dark charcoal tee with the small chest logo, bright white desk studio. He behaves like a real person on camera: natural blinking, eyes on the lens with small natural glances away when he thinks, clearly visible lip movement that matches every word, relaxed shoulders, small head nods and tilts. Natural hand gestures at chest height that match his words. His face changes with the meaning of the line. He talks like a friendly American YouTuber chatting to one viewer, not a news reader: conversational pace, tiny pauses, stress on the key words. Static camera, eye level, 16:9. No text, no captions, no music.
+> Max Reed, the saved avatar: same face and hair. He wears a plain black crew-neck T-shirt with no logo, no print and no text. Set (identical in every clip, match the studio reference image): a modern YouTube tech studio with light-grey acoustic panels on the wall behind him, a soft electric-blue LED light strip glowing along the wall, a small shelf with a plant softly out of focus, a white desk with a silver laptop. A black podcast microphone on a boom arm sits in front of him, slightly to one side and below his mouth, so his lips stay fully visible. He behaves like a real person on camera: natural blinking, eyes on the lens with small natural glances away when he thinks, clearly visible lip movement that matches every word, relaxed shoulders, small head nods and tilts. Natural hand gestures at chest height that match his words. His face changes with the meaning of the line. He talks like a friendly American YouTuber chatting to one viewer, not a news reader: conversational pace, tiny pauses, stress on the key words. He says ONLY the exact words given, once, with no extra words, no ad-libs and no repeats. Static camera, eye level, 16:9. No text, no name tags, no captions, no graphics, no music.
 
 ## Framing blocks
-- **FULL:** `Medium shot, chest-up, both hands visible above the laptop.`
-- **BUBBLE:** `Head-and-shoulders close-up, face centred with a little space above the head, background softly blurred, hands only at the bottom edge.` (shown small in a rounded box in the bottom-left corner)
+- **FULL:** `Medium shot, chest-up, both hands visible above the desk, microphone in the lower corner of the frame.`
+- **BUBBLE:** `Head-and-shoulders close-up, face centred with a little space above the head, the microphone just visible at the bottom edge, studio softly blurred behind him.` (shown small in a rounded box in the bottom-left corner)
 
 ## Full-screen clips (Framing: FULL)
 | File | Where | Action (hands, face, eyes) | He says |
@@ -42,5 +44,5 @@ These lines are also in `voiceover.md`. Record the narration in full anyway: in 
 
 ## Count and checks
 19 clips (13 full + 6 bubble), plus retakes. If Vids runs out of generations this month, make the full clips first; the bubble clips are nice-to-have because the narration already covers those lines.
-Check each one: lips match every word, he blinks, his hands move with the words, his face changes, same face and tee as `brain/host/max-vids-ref.jpg`, no extra fingers or text, and the voice is the saved Max voice. Leave the "Veo" mark as it is.
+Check each one: lips match every word, he blinks, his hands move with the words, his face changes, same face as `brain/host/max-vids-ref.jpg`, plain black tee with no logo, same studio and mic, no extra fingers or text, and the voice is the saved Max voice. Leave the "Veo" mark as it is.
 Clip 1 (already made) can stay. Redo it with the new hook action only if you want more hand movement.
