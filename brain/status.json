@@ -18,6 +18,14 @@
       "what": "Pick Max's new look, clip tool and voice (round 5 form)",
       "file": "https://claude.ai/artifact/R5MB8bJP9AKXLwfJRSERJi",
       "gate": "host-redesign",
+      "status": "done",
+      "answer": "A/A/A: Brand-blue Max, Google Vids for talking, one Google voice everywhere"
+    },
+    {
+      "id": "A3",
+      "what": "Make Max in Google Vids (docs/google-vids-max.md steps 1-2), then send Claude max-vids-ref.png and the voice name you picked",
+      "file": "docs/google-vids-max.md",
+      "gate": "host-setup",
       "status": "waiting"
     }
   ],

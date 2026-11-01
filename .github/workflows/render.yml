@@ -17,7 +17,7 @@ jobs:
       - name: Tools
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
-          pip install -q kokoro-onnx soundfile pillow
+          pip install -q kokoro-onnx soundfile pillow numpy
           if [ "${{ inputs.mode }}" = "final" ]; then pip install -q faster-whisper; fi
       - name: Inter font
         run: |
@@ -27,7 +27,9 @@ jobs:
           find /tmp/inter -name "Inter-*.ttf" -path "*extras/ttf*" -exec cp {} assets/brand/inter/ \;
       - uses: actions/cache@v4
         with: {path: ~/.cache/kokoro, key: kokoro-v1.0}
-      - name: Voiceover (Kokoro am_michael) unless Speechify audio was supplied
+      - name: Voiceover (Gemini voice if GEMINI_API_KEY is set, else Kokoro preview) unless Hammad supplied audio
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           V=videos/${{ inputs.slug }}
           if [ ! -f $V/audio/timing.json ]; then python scripts/tts.py $V/narration.txt $V/audio; fi

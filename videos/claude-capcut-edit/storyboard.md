@@ -39,5 +39,5 @@ Graphics (G*) are built with the Motion Graphics MAX kit on Hammad's PC (minimal
 | 32 | 8:50 | MAX | max-06-outro | - | static, wave | sign-off |
 
 Assets Hammad supplies: R1-R7 (see `recordings.md`), max-01 to max-06 (see `flow-prompts.md`), stopwatch times, Claude's answer text.
-Built by Claude: G1-G11 (kit, on Hammad's PC), voiceover (Kokoro am_michael), captions, music bed (YouTube Audio Library or kit score).
+Built by Claude: G1-G11 (kit, on Hammad's PC), voiceover (Max's Google voice, see brain/host.md), captions, music bed (YouTube Audio Library or kit score).
 After the recordings, `[RESULT]` lines are filled in from the real footage, then the narration is locked and the preview renders.

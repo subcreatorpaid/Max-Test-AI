@@ -8,7 +8,7 @@ description: Make the storyboard stills, motion graphics, voiceover, captions an
 Start: `git pull`, read `CLAUDE.md`, `brain/rules.md`, `brain/status.json`. End: run `python scripts/guard.py`, one commit, push, write one log file in `brain/log/`, put any ask for Hammad in `brain/status.json -> approvals`.
 
 ## Job
-1. **Voiceover:** `python scripts/tts.py videos/<slug>/narration.txt videos/<slug>/audio/` (Kokoro, voice am_michael). If Hammad supplied Speechify audio, use that instead.
+1. **Voiceover:** `python scripts/tts.py videos/<slug>/narration.txt videos/<slug>/audio/` (Gemini voice from `brain/host.md` when GEMINI_API_KEY is set; otherwise Kokoro = preview only). If Hammad supplied Speechify audio, use that instead.
 2. **spec.json:** build `videos/<slug>/spec.json` from the storyboard: an ordered list of scenes, each `{"id", "type": "host|screen|card|zoom", "src", "start", "end", "text", "zoom": [x,y,scale], "caption": true}`. Same format later feeds Shorts (9:16).
 3. **Motion graphics (HyperFrames kit, see below):** step cards, verdict card, arrows from `brain/brand.md` tokens (Inter, #2F6BFF, #FFD23F). Follow the Motion System approach in handbook ch.6 (Prompts 2 and 3 in `docs/handbook.md` ch.10) when building new graphic types.
 4. **Preview render (after storyboard OK):** run the `render-preview` GitHub Action (480p, burned captions). Gate 2: Hammad reviews.

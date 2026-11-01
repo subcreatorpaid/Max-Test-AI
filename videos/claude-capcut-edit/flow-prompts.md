@@ -1,5 +1,7 @@
 # Max clips for Google Flow (Veo), 16:9, 8 s each
 
+> **Replaced 2026-11-01:** talking clips are now made in Google Vids, see `vids-scenes.md`. Kept for reference; the look line below is out of date (see `brain/host.md`).
+
 For every clip: reference image `brain/host/host-hero.jpeg`, aspect **16:9**, 8 seconds, ingredients/frames-to-video mode. Paste the look line first, then the clip line. Generate 2 takes, keep the best, name it as below, drop in `footage/`.
 
 **Look line (always):** Same man as the reference image: early 30s, short tousled brown hair, light stubble, dark charcoal crew-neck T-shirt, sitting in a bright white home studio with a window, plants and bookshelves behind him. Medium shot, eye level, natural daylight, clean sharp image, no film grain, no colour filter. He speaks directly to camera in a natural American accent.

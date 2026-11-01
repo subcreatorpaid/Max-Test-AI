@@ -53,4 +53,4 @@ Helpers: goal-lock, competitor-analysis, hook-lab, script-qa, storyboard, analyt
 He may write in Urdu/Hindi: open with one English line summarising what he said, then answer in short plain English. Ask questions as a clickable form (recommended option preselected, A/B/C + Other box).
 
 ## Current state (keep short)
-- 2026-11-01: brain built. First video `videos/claude-capcut-edit/` in progress (script + recordings list). Voice: Kokoro "am_michael". Render: GitHub Actions.
+- 2026-11-01: brain built. First video `videos/claude-capcut-edit/` in progress (script + recordings list). Max redesigned ("Brand-blue Max"); talking clips via Google Vids custom avatar; one Google voice everywhere (name TBD), see `brain/host.md`. Render: GitHub Actions.

@@ -2,7 +2,7 @@
 
 How to make them: `docs/google-vids-max.md` > "Every video". Avatar: **Max Reed** (from the **Max master** file). 16:9. One scene = one MP4, named as below.
 Audio tags: type `[` in the Vids script box and pick the closest tag; the ones below are what to aim for.
-Replaces `flow-prompts.md` for talking clips if Hammad picks Google Vids in round 5.
+Replaces `flow-prompts.md` for all talking clips (Hammad picked Google Vids, 2026-11-01).
 
 | File | Where | Line (paste exactly) | Feel / tags |
 |---|---|---|---|
@@ -18,4 +18,3 @@ Replaces `flow-prompts.md` for talking clips if Hammad picks Google Vids in roun
 
 9 generations, plus retakes (budget about 12 of the ~25 a month).
 Check each one: mouth matches the words, face matches `brain/host/max-vids-ref.png`, no extra hands or text, voice is the saved Max voice.
-Note: the outro now says "Google Vids" (the script said Flow). `script.md` gets the same change once the tool is confirmed.

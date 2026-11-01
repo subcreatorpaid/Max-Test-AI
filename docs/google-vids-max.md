@@ -31,7 +31,7 @@ Checked 2026-11-01 against Google's own pages (sources at the bottom). Re-check 
 - **B. Tech-lab Max:** `Same man as this photo, same face, hair and stubble. Now wearing thin clear-frame glasses and a plain black crew-neck tee. Darker modern tech studio behind him with a blue LED rim light on one side and a warm yellow light on the other, shelves softly out of focus. Chest-up, centred, looking straight at the camera, calm slight smile, mouth closed. Sharp, no text, no logos. Wide 16:9 landscape.`
 - **C. Today's Max:** `Same man, same clothes and same room as this photo. Recompose as a wide 16:9 landscape: chest-up, centred, looking straight at the camera, slight smile, mouth closed, window and plants behind him. Natural daylight, sharp, no text.`
 
-Make 3-4, pick the one that looks most like the face in `host-hero.jpeg`. Save it as `max-vids-ref.png` and send it to Claude (it goes into `brain/host/`).
+**Hammad picked A (2026-11-01).** Make 3-4, pick the one that looks most like the face in `host-hero.jpeg`. Save it as `max-vids-ref.png` and send it to Claude (it goes into `brain/host/`).
 
 ### Step 2. Create the avatar (Google Vids, Chrome on a computer)
 1. Open **vids.google.com** > new blank video. Name the file **Max master**.
@@ -50,7 +50,7 @@ Make 3-4, pick the one that looks most like the face in `host-hero.jpeg`. Save i
 6. Put them with the screen recordings and the narration audio, and tell Claude.
 
 ## Narration (separate audio)
-`videos/<slug>/voiceover.md` has every `[VO]` line in order as one block. Make it in one go with the **same voice as Max** (decision pending: see the round-5 form), export one audio file `voiceover.mp3` (or one per chapter).
+`videos/<slug>/voiceover.md` has every `[VO]` line in order as one block. Make it in one go with the **same Google voice as Max** (Hammad picked "one Google voice everywhere", 2026-11-01). If the `GEMINI_API_KEY` secret is set, `scripts/tts.py` can also make it automatically, export one audio file `voiceover.mp3` (or one per chapter).
 
 ## Rules that still apply
 - Every upload ticks YouTube's "altered or synthetic content" box; About page says Max is an AI.
