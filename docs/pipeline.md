@@ -8,7 +8,7 @@ Hammad types one command, e.g. "Make a video about X". The team runs the chain a
 | 2 | Brief + goal-lock + hooks | strategist, goal-lock, hook-lab | `brief.md` | |
 | 3 | Story arc | storyteller | `story.md` | |
 | 4 | Script + narration | scriptwriter, script-qa | `script.md`, `narration.txt` | |
-| 5 | Storyboard, recordings list, Flow prompts | director, storyboard | `storyboard.md`, `recordings.md`, `flow-prompts.md` | **1: storyboard OK** |
+| 5 | Storyboard, recordings list, Google Vids scenes, narration script | director, storyboard | `storyboard.md`, `recordings.md`, `vids-scenes.md`, `voiceover.md` | **1: storyboard OK** |
 | 6 | Hammad records screens (`recordings.md`), makes Max clips in Google Vids (`vids-scenes.md`), records the narration (`voiceover.md`) | Hammad | `footage/R*.mp4`, `footage/max-*.mp4`, `audio/voiceover.mp3` | |
 | 7 | Motion graphics + SFX/music (kit, on Hammad's PC) | creator | `footage/G*.mp4`, SFX track | |
 | 7b | Full edit: `edit.json` -> preview | editor | `preview_480p.mp4`, `edit-list.md` | |

@@ -9,4 +9,4 @@
   3. 5:00 "This is where it broke." (closed with the fix in Level 3)
 - **Max moments:** hook (confident), Level 1 surprise (surprised), Level 3 break (sceptical, laughing), outro (smiling).
 - **Payoff:** a clear score per level + exact time saved (stopwatch on screen).
-- **Next:** "The host you're watching? I'll show you how I made him consistent in Google Flow."
+- **Next:** "The host you're watching? I'll show you how I made him consistent in Google Vids."
