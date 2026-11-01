@@ -8,7 +8,7 @@ description: Do the full edit of a Max Tests AI video on Hammad's PC and deliver
 Start: `git pull`, read `CLAUDE.md`, `brain/rules.md`, `brain/status.json`, the video's `storyboard.md`. End: guard, one commit (no kit files, no raw SFX), push, one log file, approvals in `status.json`.
 
 ## Production split (Hammad, 2026-11-01)
-- **Max clips:** Hammad makes them in Google Vids from `videos/<slug>/vids-scenes.md` (prompts/voice owned by the Google Vids setup, `docs/google-vids-max.md`). Each clip keeps its own audio.
+- **Max clips:** Hammad makes them in Google Vids from `videos/<slug>/vids-scenes.md` (prompts/voice owned by the Google Vids setup, `docs/google-vids-max.md`). Each clip keeps its own audio. `max-b*` clips are **bubble** clips: show them in the corner box from `brain/host.md` (On-screen use) over the screen recording, animate full screen to bubble and back, and use the bubble clip's audio for its lines instead of the same lines in `voiceover.mp3`.
 - **Screen narration:** ONE file `videos/<slug>/audio/voiceover.mp3`, recorded by Hammad from `voiceover.md` in Max's voice.
 - **Screen recordings:** `footage/R*.mp4` per `recordings.md`.
 - **Animations:** made locally with Claude using the Motion Graphics MAX kit on Hammad's PC -> `footage/G*.mp4` (+ the kit's SFX track).

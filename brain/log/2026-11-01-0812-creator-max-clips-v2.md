@@ -1,0 +1,1 @@
+2026-11-01 0812 | creator | Max clips v2: human acting direction (hands, expressions, eyes, delivery), 19 clips incl. 6 corner-bubble shots; bubble rule in host.md + editor skill | Hammad: make the 19 clips
