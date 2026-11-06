@@ -1,74 +1,321 @@
 {
-  "updated": "2026-11-06",
-  "weights": {"peg": 2, "loss": 2, "demand": 2, "gap": 1, "depth": 1, "visual": 1, "evergreen": 1},
-  "in_production": ["INV-003 pickaxe-mountain", "INV-004 siege-economy"],
-  "topics": [
-    {"id": "T01", "title": "The War Might End. Your Bill Won't.", "type": "D", "losses": ["money", "time"],
-     "angle": "Peace-deal hopes cut Brent ~8% in a week, but prices fall slower than they rise ('rockets and feathers'). History: 1991 Gulf War, 2003, 2022. Which lines on the bill come back, which never do.",
-     "peg": "Brent Jan closed $103.60 on 3 Nov 2026 after a draft-peace report (REPORTED, unconfirmed); ~490 ships still waiting outside Hormuz.",
-     "evidence": ["vidIQ: 'Here's Why Gas Prices Will Fall Below Pre-War Levels' 4x breakout", "Energy Sec. Wright: gasoline above $3 until 2027 (Barchart)", "question demand: 'will gas prices go down'"],
-     "thumb": "Pump price board frozen + 'IT WON'T DROP'",
-     "scores": {"peg": 5, "loss": 5, "demand": 4, "gap": 4, "depth": 4, "visual": 4, "evergreen": 4}},
-    {"id": "T02", "title": "The Hunger Bill: Why Hormuz Reaches Your Plate in 2027", "type": "B", "losses": ["food", "money", "lives"],
-     "angle": "Hormuz carries ~29% of urea trade; diesel spread >$100/bbl; El Nino. Farmers buy inputs months ahead, so the food bill lands a season later. Bangladesh 4 of 5 urea plants shut since Mar 2026.",
-     "peg": "S&P Global food-crisis warning, 19 Oct 2026.",
-     "evidence": ["DW 'Who will the diesel crisis hit first?' 309K", "vidIQ 'food security' searches +156%, 'food inflation' +82%"],
-     "thumb": "Empty wheat field + tanker silhouette, 'NEXT: FOOD'",
-     "scores": {"peg": 4, "loss": 5, "demand": 4, "gap": 4, "depth": 5, "visual": 4, "evergreen": 4}},
-    {"id": "T03", "title": "What Would World War III Cost Your Family?", "type": "A", "losses": ["lives", "money", "rights", "food"],
-     "angle": "Built from history, not fear: what 1914 and 1939 actually took from ordinary households (rationing, war taxes, savings wiped, conscription, curfews). Then today's ladder, rung by rung, with claim vs fact.",
-     "peg": "Weak direct peg; rides a standing fear spike during the Iran war.",
-     "evidence": ["'What Would Happen to the World Economy If WW3 Began?' 175.7K, 434x breakout (1.6K-sub channel)", "vidIQ question 'what if world war 3 happens' ~20.9K/mo"],
-     "thumb": "Ration book on a kitchen table, 'WW3 BILL'",
-     "risk": "Must stay sober (no fear-bait); advertiser-friendly framing.",
-     "scores": {"peg": 3, "loss": 5, "demand": 5, "gap": 3, "depth": 4, "visual": 4, "evergreen": 5}},
-    {"id": "T04", "title": "The Prisoners of Hormuz: 20,000 Sailors Nobody Counts", "type": "B", "losses": ["lives", "time", "rights"],
-     "angle": "The human invoice of a choke point: crews trapped for months, drone strikes, unpaid wages, families waiting. Ends with what every shipped good in your home cost them.",
-     "peg": "UKMTO: 4 hits in Hormuz 30 Oct-2 Nov 2026 incl. LNG tanker (REPORTED); IMO said ~1,500 ships / 20,000 crew trapped (May 2026, re-verify).",
-     "evidence": ["Gap: almost no long-form channel tells the crew story", "BBC Yemen siege doc 317K (human stories outperform)"],
-     "thumb": "Lone sailor on deck at night, ship lights, '20,000 TRAPPED'",
-     "scores": {"peg": 4, "loss": 5, "demand": 3, "gap": 5, "depth": 3, "visual": 4, "evergreen": 3}},
-    {"id": "T05", "title": "What Happens If China Stops Selling Rare Earths?", "type": "C", "losses": ["jobs", "money", "safety"],
-     "angle": "The 10 Nov 2026 end of China's suspension of its Oct 2025 controls. The 0.1% rule, magnets in cars, wind turbines, phones, missiles. History: 2010 Japan cut-off.",
-     "peg": "Hard date: suspension expires 10 Nov 2026 (InvestorNews; re-verify outcome).",
-     "evidence": ["vidIQ question 'why china controls 90% of rare earths, and what happens if it stops selling' ~15.8K/mo", "'rare earth minerals' +50.7%, 'rare earth metals' +92%", "IEA: $6.5T downstream production at risk (REPORTED)"],
-     "thumb": "Glowing magnet over China map, 'CUT OFF?'",
-     "note": "Best made as a 'what changed' video after the 10 Nov decision.",
-     "scores": {"peg": 5, "loss": 3, "demand": 4, "gap": 3, "depth": 4, "visual": 3, "evergreen": 4}},
-    {"id": "T06", "title": "Iran Closed One Door. Who Holds the Other?", "type": "B", "losses": ["lives", "money", "food"],
-     "angle": "Bab el-Mandeb and the Houthis: the second choke point, Yemen's own hunger, and why Red Sea risk adds weeks to your deliveries.",
-     "peg": "Recurring Red Sea attacks 2026 (verify latest date before picking).",
-     "evidence": ["Valuetainment 'Who Are the Houthis?' 456.7K, 5.5x", "'Iran Closed One Door. Now the Houthis...' 29x breakout (small channel)", "BBC Yemen siege 317K"],
-     "thumb": "Narrow strait map, two glowing doors, 'SECOND DOOR'",
-     "scores": {"peg": 3, "loss": 4, "demand": 4, "gap": 3, "depth": 4, "visual": 5, "evergreen": 4}},
-    {"id": "T07", "title": "The Winter Bill: Who Freezes First If the Gas Stops?", "type": "B", "losses": ["health", "money", "lives"],
-     "angle": "LNG through Hormuz, Europe and UK heating, Pakistan/Bangladesh power cuts. Cold homes cost lives, not only money (excess winter deaths).",
-     "peg": "Season + LNG tanker hit 30 Oct 2026 (REPORTED).",
-     "evidence": ["'The Home Heating Crisis No One Is Talking About' 19.1K, 1.9x", "'Global Oil Shock' Joe Blogs 98.5K"],
-     "thumb": "Frosted window, gas flame going out, 'WHO FREEZES?'",
-     "scores": {"peg": 4, "loss": 5, "demand": 3, "gap": 4, "depth": 4, "visual": 3, "evergreen": 2}},
-    {"id": "T08", "title": "The Last Time Oil Did This: The 1973 Invoice", "type": "H", "losses": ["money", "jobs", "time", "trust"],
-     "angle": "History episode: the 1973 embargo bill line by line (queues, odd-even days, 55 mph, inflation, recessions, leaders who fell), then what is the same and different now.",
-     "peg": "Soft: the 1970s comparison is everywhere this autumn.",
-     "evidence": ["'Is the World Facing Another 1970s Oil Crisis?' 9.7x", "'Why Empty Tankers Could Trigger the Next 1979' 8.3x"],
-     "thumb": "1973 petrol queue photo-style still, '1973 AGAIN?'",
-     "scores": {"peg": 3, "loss": 4, "demand": 3, "gap": 3, "depth": 5, "visual": 4, "evergreen": 5}},
-    {"id": "T09", "title": "The Invoice Nobody Pays: What War Does to Water and Air", "type": "H", "losses": ["health", "land", "water"],
-     "angle": "Burning refineries, poisoned aquifers, desalination plants in range. Kuwait 1991 oil fires as the history anchor.",
-     "peg": "Weak.",
-     "evidence": ["'Toxic Battlefields: the Untold Impact of War' 122K, 3x"],
-     "thumb": "Black smoke over desert, 'WHO PAYS?'",
-     "scores": {"peg": 2, "loss": 4, "demand": 3, "gap": 4, "depth": 3, "visual": 4, "evergreen": 5}},
-    {"id": "T10", "title": "Iran Now Charges a Toll on the World's Oil", "type": "B", "losses": ["money", "rights"],
-     "angle": "The 'Persian Gulf Strait Authority' vetting and taxing ships.",
-     "peg": "Created May 2026; overlaps INV-004 part P6 Tollbooth.",
-     "evidence": [],
-     "thumb": "-",
-     "flag": "overlap with INV-004 - only as a follow-up",
-     "scores": {"peg": 3, "loss": 3, "demand": 3, "gap": 2, "depth": 3, "visual": 4, "evergreen": 3}}
-  ],
-  "excluded": [
-    {"title": "What the midterm result means for the war bill", "why": "Partisan domestic politics, banned by master prompt."},
-    {"title": "Compound interest / budgeting basics", "why": "Off-niche; flopped for the reference channel (714 and 200 views)."}
-  ]
+ "updated": "2026-11-06 (PC trends merged)",
+ "weights": {
+  "peg": 2,
+  "loss": 2,
+  "demand": 2,
+  "gap": 1,
+  "depth": 1,
+  "visual": 1,
+  "evergreen": 1
+ },
+ "in_production": [
+  "INV-003 pickaxe-mountain",
+  "INV-004 siege-economy"
+ ],
+ "topics": [
+  {
+   "id": "T01",
+   "title": "The War Might End. Your Bill Won't.",
+   "type": "D",
+   "losses": [
+    "money",
+    "time"
+   ],
+   "angle": "Peace-deal hopes cut Brent ~8% in a week, but prices fall slower than they rise ('rockets and feathers'). History: 1991 Gulf War, 2003, 2022. Which lines on the bill come back, which never do.",
+   "peg": "Brent Jan closed $103.60 on 3 Nov 2026 after a draft-peace report (REPORTED, unconfirmed); ~490 ships still waiting outside Hormuz.",
+   "evidence": [
+    "vidIQ: 'Here's Why Gas Prices Will Fall Below Pre-War Levels' 4x breakout",
+    "Energy Sec. Wright: gasoline above $3 until 2027 (Barchart)",
+    "question demand: 'will gas prices go down'",
+    "PC 2026-11-06: YouTube+Google autocomplete 'will gas prices go down soon / this week / ever go down'; GB trending 'gasoline' with diesel-price news"
+   ],
+   "thumb": "Pump price board frozen + 'IT WON'T DROP'",
+   "scores": {
+    "peg": 5,
+    "loss": 5,
+    "demand": 5,
+    "gap": 4,
+    "depth": 4,
+    "visual": 4,
+    "evergreen": 4
+   }
+  },
+  {
+   "id": "T02",
+   "title": "The Hunger Bill: Why Hormuz Reaches Your Plate in 2027",
+   "type": "B",
+   "losses": [
+    "food",
+    "money",
+    "lives"
+   ],
+   "angle": "Hormuz carries ~29% of urea trade; diesel spread >$100/bbl; El Nino. Farmers buy inputs months ahead, so the food bill lands a season later. Bangladesh 4 of 5 urea plants shut since Mar 2026.",
+   "peg": "S&P Global food-crisis warning, 19 Oct 2026.",
+   "evidence": [
+    "DW 'Who will the diesel crisis hit first?' 309K",
+    "vidIQ 'food security' searches +156%, 'food inflation' +82%",
+    "PC 2026-11-06: autocomplete 'food crisis 2027 / 2026 / coming / in pakistan'; 'diesel shortage uk/us/canada/australia/europe/india'"
+   ],
+   "thumb": "Empty wheat field + tanker silhouette, 'NEXT: FOOD'",
+   "scores": {
+    "peg": 4,
+    "loss": 5,
+    "demand": 5,
+    "gap": 4,
+    "depth": 5,
+    "visual": 4,
+    "evergreen": 4
+   }
+  },
+  {
+   "id": "T03",
+   "title": "What Would World War III Cost Your Family?",
+   "type": "A",
+   "losses": [
+    "lives",
+    "money",
+    "rights",
+    "food"
+   ],
+   "angle": "Built from history, not fear: what 1914 and 1939 actually took from ordinary households (rationing, war taxes, savings wiped, conscription, curfews). Then today's ladder, rung by rung, with claim vs fact.",
+   "peg": "Weak direct peg; rides a standing fear spike during the Iran war.",
+   "evidence": [
+    "'What Would Happen to the World Economy If WW3 Began?' 175.7K, 434x breakout (1.6K-sub channel)",
+    "vidIQ question 'what if world war 3 happens' ~20.9K/mo"
+   ],
+   "thumb": "Ration book on a kitchen table, 'WW3 BILL'",
+   "risk": "Must stay sober (no fear-bait); advertiser-friendly framing.",
+   "scores": {
+    "peg": 3,
+    "loss": 5,
+    "demand": 5,
+    "gap": 3,
+    "depth": 4,
+    "visual": 4,
+    "evergreen": 5
+   }
+  },
+  {
+   "id": "T04",
+   "title": "The Prisoners of Hormuz: 20,000 Sailors Nobody Counts",
+   "type": "B",
+   "losses": [
+    "lives",
+    "time",
+    "rights"
+   ],
+   "angle": "The human invoice of a choke point: crews trapped for months, drone strikes, unpaid wages, families waiting. Ends with what every shipped good in your home cost them.",
+   "peg": "UKMTO: 4 hits in Hormuz 30 Oct-2 Nov 2026 incl. LNG tanker (REPORTED); IMO said ~1,500 ships / 20,000 crew trapped (May 2026, re-verify).",
+   "evidence": [
+    "Gap: almost no long-form channel tells the crew story",
+    "BBC Yemen siege doc 317K (human stories outperform)",
+    "PC 2026-11-06: autocomplete 'strait of hormuz open or closed / tracker / status today' (live interest in the strait)"
+   ],
+   "thumb": "Lone sailor on deck at night, ship lights, '20,000 TRAPPED'",
+   "scores": {
+    "peg": 4,
+    "loss": 5,
+    "demand": 3,
+    "gap": 5,
+    "depth": 3,
+    "visual": 4,
+    "evergreen": 3
+   }
+  },
+  {
+   "id": "T05",
+   "title": "What Happens If China Stops Selling Rare Earths?",
+   "type": "C",
+   "losses": [
+    "jobs",
+    "money",
+    "safety"
+   ],
+   "angle": "The 10 Nov 2026 end of China's suspension of its Oct 2025 controls. The 0.1% rule, magnets in cars, wind turbines, phones, missiles. History: 2010 Japan cut-off.",
+   "peg": "Hard date: suspension expires 10 Nov 2026 (InvestorNews; re-verify outcome).",
+   "evidence": [
+    "vidIQ question 'why china controls 90% of rare earths, and what happens if it stops selling' ~15.8K/mo",
+    "'rare earth minerals' +50.7%, 'rare earth metals' +92%",
+    "IEA: $6.5T downstream production at risk (REPORTED)"
+   ],
+   "thumb": "Glowing magnet over China map, 'CUT OFF?'",
+   "note": "Best made as a 'what changed' video after the 10 Nov decision.",
+   "scores": {
+    "peg": 5,
+    "loss": 3,
+    "demand": 4,
+    "gap": 3,
+    "depth": 4,
+    "visual": 3,
+    "evergreen": 4
+   }
+  },
+  {
+   "id": "T06",
+   "title": "Iran Closed One Door. Who Holds the Other?",
+   "type": "B",
+   "losses": [
+    "lives",
+    "money",
+    "food"
+   ],
+   "angle": "Bab el-Mandeb and the Houthis: the second choke point, Yemen's own hunger, and why Red Sea risk adds weeks to your deliveries.",
+   "peg": "Recurring Red Sea attacks 2026 (verify latest date before picking).",
+   "evidence": [
+    "Valuetainment 'Who Are the Houthis?' 456.7K, 5.5x",
+    "'Iran Closed One Door. Now the Houthis...' 29x breakout (small channel)",
+    "BBC Yemen siege 317K"
+   ],
+   "thumb": "Narrow strait map, two glowing doors, 'SECOND DOOR'",
+   "scores": {
+    "peg": 3,
+    "loss": 4,
+    "demand": 4,
+    "gap": 3,
+    "depth": 4,
+    "visual": 5,
+    "evergreen": 4
+   }
+  },
+  {
+   "id": "T07",
+   "title": "The Winter Bill: Who Freezes First If the Gas Stops?",
+   "type": "B",
+   "losses": [
+    "health",
+    "money",
+    "lives"
+   ],
+   "angle": "LNG through Hormuz, Europe and UK heating, Pakistan/Bangladesh power cuts. Cold homes cost lives, not only money (excess winter deaths).",
+   "peg": "Season + LNG tanker hit 30 Oct 2026 (REPORTED).",
+   "evidence": [
+    "'The Home Heating Crisis No One Is Talking About' 19.1K, 1.9x",
+    "'Global Oil Shock' Joe Blogs 98.5K",
+    "PC 2026-11-06: GB trending 'weather polar vortex' 1000+; autocomplete 'heating bills going up / this winter / assistance'"
+   ],
+   "thumb": "Frosted window, gas flame going out, 'WHO FREEZES?'",
+   "scores": {
+    "peg": 5,
+    "loss": 5,
+    "demand": 4,
+    "gap": 4,
+    "depth": 4,
+    "visual": 3,
+    "evergreen": 2
+   }
+  },
+  {
+   "id": "T08",
+   "title": "The Last Time Oil Did This: The 1973 Invoice",
+   "type": "H",
+   "losses": [
+    "money",
+    "jobs",
+    "time",
+    "trust"
+   ],
+   "angle": "History episode: the 1973 embargo bill line by line (queues, odd-even days, 55 mph, inflation, recessions, leaders who fell), then what is the same and different now.",
+   "peg": "Soft: the 1970s comparison is everywhere this autumn.",
+   "evidence": [
+    "'Is the World Facing Another 1970s Oil Crisis?' 9.7x",
+    "'Why Empty Tankers Could Trigger the Next 1979' 8.3x"
+   ],
+   "thumb": "1973 petrol queue photo-style still, '1973 AGAIN?'",
+   "scores": {
+    "peg": 3,
+    "loss": 4,
+    "demand": 3,
+    "gap": 3,
+    "depth": 5,
+    "visual": 4,
+    "evergreen": 5
+   }
+  },
+  {
+   "id": "T09",
+   "title": "The Invoice Nobody Pays: What War Does to Water and Air",
+   "type": "H",
+   "losses": [
+    "health",
+    "land",
+    "water"
+   ],
+   "angle": "Burning refineries, poisoned aquifers, desalination plants in range. Kuwait 1991 oil fires as the history anchor.",
+   "peg": "Weak.",
+   "evidence": [
+    "'Toxic Battlefields: the Untold Impact of War' 122K, 3x"
+   ],
+   "thumb": "Black smoke over desert, 'WHO PAYS?'",
+   "scores": {
+    "peg": 2,
+    "loss": 4,
+    "demand": 3,
+    "gap": 4,
+    "depth": 3,
+    "visual": 4,
+    "evergreen": 5
+   }
+  },
+  {
+   "id": "T10",
+   "title": "Iran Now Charges a Toll on the World's Oil",
+   "type": "B",
+   "losses": [
+    "money",
+    "rights"
+   ],
+   "angle": "The 'Persian Gulf Strait Authority' vetting and taxing ships.",
+   "peg": "Created May 2026; overlaps INV-004 part P6 Tollbooth.",
+   "evidence": [],
+   "thumb": "-",
+   "flag": "overlap with INV-004 - only as a follow-up",
+   "scores": {
+    "peg": 3,
+    "loss": 3,
+    "demand": 3,
+    "gap": 2,
+    "depth": 3,
+    "visual": 4,
+    "evergreen": 3
+   }
+  },
+  {
+   "id": "T11",
+   "title": "What Happens If China Moves on Taiwan in 2027?",
+   "type": "A",
+   "losses": [
+    "jobs",
+    "money",
+    "lives",
+    "safety"
+   ],
+   "angle": "Why '2027' is in everyone's search box; 90% of advanced chips; what a blockade (not an invasion) would take from homes: phones, cars, jobs, savings. History: 1958 and 1996 strait crises.",
+   "peg": "Soft; India trending 'taiwan index' 2000+ on 6 Nov 2026 (AI stock selloff).",
+   "evidence": [
+    "PC 2026-11-06: autocomplete 'china taiwan 2027 / war / invasion / explained'"
+   ],
+   "thumb": "Taiwan glowing on dark map, chip silhouette, '2027?'",
+   "risk": "Crowded topic; needs our household angle to stand out.",
+   "scores": {
+    "peg": 3,
+    "loss": 4,
+    "demand": 4,
+    "gap": 2,
+    "depth": 4,
+    "visual": 4,
+    "evergreen": 4
+   }
+  }
+ ],
+ "excluded": [
+  {
+   "title": "What the midterm result means for the war bill",
+   "why": "Partisan domestic politics, banned by master prompt."
+  },
+  {
+   "title": "Compound interest / budgeting basics",
+   "why": "Off-niche; flopped for the reference channel (714 and 200 views)."
+  }
+ ]
 }

@@ -10,11 +10,12 @@ UA = {"User-Agent": "history-invoice-topic-finder/1.0"}
 GEOS = ["US", "GB", "CA", "AU", "IN", "PK"]
 SEEDS = ["what happens if", "will gas prices", "why is food", "strait of hormuz", "iran war",
          "world war 3", "oil price", "rare earth", "sanctions", "red sea", "diesel shortage",
-         "food crisis", "heating bill", "tariffs", "china taiwan", "russia ukraine"]
+         "food crisis", "heating bill", "tariffs", "china taiwan", "russia ukraine", "cost of war", "casualties", "shortage", "refugees"]
+# Reddit blocks unauthenticated requests (403, 2026-11-06); kept for when an official API app exists.
 SUBS = ["geopolitics", "economics", "AskEconomics", "worldnews", "explainlikeimfive", "UKPersonalFinance"]
-THEME = re.compile(r"war|iran|israel|russia|ukraine|china|taiwan|oil|gas|fuel|diesel|hormuz|red sea|houthi|"
-                   r"sanction|tariff|price|inflation|food|wheat|fertili|rare earth|nuclear|strike|missile|"
-                   r"ship|tanker|opec|dollar|gold|recession|refugee|famine|blockade|embargo", re.I)
+THEME = re.compile(r"\b(?:war|iran|israel|russia|ukraine|china|taiwan|oil|gas|fuel|diesel|hormuz|red sea|houthi|"
+                   r"sanction|tariff|price|inflation|food|wheat|fertili[sz]er|rare earth|nuclear|strike|missile|"
+                   r"ship|tanker|opec|dollar|gold|recession|refugee|famine|blockade|embargo|casualt(?:y|ies)|refugee|shortage|blackout|evacuat\w*|displaced|destroyed|invasion|territory|heritage|conscript\w*)(?:s|es)?\b", re.I)
 
 def get(url):
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
