@@ -42,11 +42,11 @@ Rules: overlap with a video in production costs 5 points. A tie goes to the stro
 - **Ready queue: always 4 topics with a locked title + thumbnail promise** (8 days of uploads), plus 6 more scored ideas in `topics.json`.
 - **Scan twice a week** (Monday and Thursday): refresh pegs, re-score, drop stale ones, add new ones. A big breaking event triggers an extra scan the same day.
 - **Mix every 2 weeks (7 uploads):** about 3 news-pegged, 2 history ("the last time this happened"), 2 human-loss stories (sailors, refugees, winter, hunger). History and human stories are the evergreen tail when the news is quiet.
-- **Format mix (see section 6):** alternate the 18-20 min flagship with a shorter 8-12 min "Receipt" episode.
+- **Format (Hammad's choice, 2026-11-06):** every upload is a full 18-20 min flagship, every other day. So the queue runs deeper: 4 locked topics plus 2 fact packs already built ahead.
 
 ## 6. Production capacity (honest note)
 Every other day is about 15 videos a month. One 18-20 min flagship currently takes: fact pack + script, 3 OKs from Hammad, Kokoro VO, storyboard, B-roll download by Hammad, render, review rounds and a 4K master. INV-003 alone has had 4 draft rounds over 3 days. At that pace, 15 flagships a month is not realistic, and rushed videos would break the trust and quality that make the channel work.
-Recommended: **upload every other day, but alternate formats**: flagship 18-20 min (about 2 a week) and a "Receipt" episode of 8-12 min built from one template (one hero map, number cards, one story) on the days between. The reference channel's 9:31 Siege Economy did 133K, so shorter can win. Shorts (2-3 per flagship) fill the gaps. Step up only once the template renders without manual fixes.
+Claude recommended alternating formats; **Hammad chose all 18-20 min, every other day (2026-11-06)**. To make it work: run 2 videos in parallel (one in script/voice while the other renders), batch Hammad's OKs into one review slot per day, reuse library templates, and cap review rounds at 2. Original note: alternate formats: flagship 18-20 min (about 2 a week) and a "Receipt" episode of 8-12 min built from one template (one hero map, number cards, one story) on the days between. The reference channel's 9:31 Siege Economy did 133K, so shorter can win. Shorts (2-3 per flagship) fill the gaps. Step up only once the template renders without manual fixes.
 
 ## 7. Each scan's output
 1. `scans/YYYY-MM-DD-scan.md`: top 5 with scores, loss tags, peg, evidence (with view counts), title, thumbnail promise, and what to re-verify.
