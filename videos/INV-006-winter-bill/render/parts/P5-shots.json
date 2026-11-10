@@ -1,0 +1,279 @@
+{
+ "part": "P5",
+ "dur": 275.64,
+ "vo_dur": 275.6408333333333,
+ "shots": [
+  {
+   "code": "P5-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.52,
+   "visual": "s_part: PART 5, YOUR TABLE.",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P5-01b",
+   "kind": "gfx",
+   "t": 4.52,
+   "dur": 6.52,
+   "visual": "Bars: domestic 37% largest; kitchen hob still.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P5-01b",
+   "kind": "photo",
+   "t": 11.04,
+   "dur": 6.52,
+   "visual": "Bars: domestic 37% largest; kitchen hob still.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P5-01c",
+   "kind": "gfx",
+   "t": 17.56,
+   "dur": 8.4,
+   "visual": "Footage: radiator; then a 4x4 grid of houses, 3 in 4 light o",
+   "sfx": "tick"
+  },
+  {
+   "code": "P5-01c",
+   "kind": "clip",
+   "t": 25.96,
+   "dur": 8.36,
+   "visual": "Footage: radiator; then a 4x4 grid of houses, 3 in 4 light o",
+   "sfx": "tick"
+  },
+  {
+   "code": "P5-01d",
+   "kind": "clip",
+   "t": 34.32,
+   "dur": 8.4,
+   "visual": "Footage: house lights at evening.",
+   "sfx": ""
+  },
+  {
+   "code": "P5-02",
+   "kind": "clip",
+   "t": 42.72,
+   "dur": 16.72,
+   "visual": "STOCK: apartment block at dusk (7317305), slow push.",
+   "sfx": "drone"
+  },
+  {
+   "code": "P5-03",
+   "kind": "gfx",
+   "t": 59.44,
+   "dur": 6.44,
+   "visual": "CARD-NUMBER: 13M+ tagged CLAIM.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P5-03",
+   "kind": "photo",
+   "t": 65.88,
+   "dur": 6.48,
+   "visual": "CARD-NUMBER: 13M+ tagged CLAIM.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P5-04",
+   "kind": "clip",
+   "t": 72.36,
+   "dur": 15.56,
+   "visual": "Quiet: one window with frost, no people. Long hold, no music",
+   "sfx": "silence, then single low hit"
+  },
+  {
+   "code": "P5-05",
+   "kind": "clip",
+   "t": 87.92,
+   "dur": 13.52,
+   "visual": "Typewriter list: older people \u00b7 prepay meters \u00b7 heat or eat.",
+   "sfx": "type keys"
+  },
+  {
+   "code": "P5-05b",
+   "kind": "gfx",
+   "t": 101.44,
+   "dur": 7.72,
+   "visual": "CARD-NUMBER: \u00a34.48bn \u00b7 3.6M customers.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P5-05b",
+   "kind": "clip",
+   "t": 109.16,
+   "dur": 7.72,
+   "visual": "CARD-NUMBER: \u00a34.48bn \u00b7 3.6M customers.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P5-05c",
+   "kind": "gfx",
+   "t": 116.88,
+   "dur": 7.72,
+   "visual": "Bars: \u00a34.48bn (Q3 2025) \u2192 ~\u00a36bn (Jun 2026); a \u00a3500m block gr",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P5-05c",
+   "kind": "clip",
+   "t": 124.6,
+   "dur": 7.76,
+   "visual": "Bars: \u00a34.48bn (Q3 2025) \u2192 ~\u00a36bn (Jun 2026); a \u00a3500m block gr",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P5-05d",
+   "kind": "gfx",
+   "t": 132.36,
+   "dur": 8.04,
+   "visual": "RECEIPT line prints: UNPAID DEBT (SHARED).",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "P5-05d",
+   "kind": "photo",
+   "t": 140.4,
+   "dur": 8.04,
+   "visual": "RECEIPT line prints: UNPAID DEBT (SHARED).",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "P5-06",
+   "kind": "gfx",
+   "t": 148.44,
+   "dur": 4.48,
+   "visual": "Bar: Feb vs Sept 2026, +12%.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P5-06",
+   "kind": "clip",
+   "t": 152.92,
+   "dur": 4.48,
+   "visual": "Bar: Feb vs Sept 2026, +12%.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P5-06b",
+   "kind": "gfx",
+   "t": 157.4,
+   "dur": 9.16,
+   "visual": "Two cards side by side: 2022 \u00a31,000 off vs 2026 0% VAT on el",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P5-06b",
+   "kind": "photo",
+   "t": 166.56,
+   "dur": 9.16,
+   "visual": "Two cards side by side: 2022 \u00a31,000 off vs 2026 0% VAT on el",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P5-06c",
+   "kind": "gfx",
+   "t": 175.72,
+   "dur": 8.16,
+   "visual": "Household maths card: \u00a31,723 \u2192 \u00a31,999 = +\u00a3276; \u2192 \u00a32,189 = +\u00a3",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P5-06c",
+   "kind": "clip",
+   "t": 183.88,
+   "dur": 8.2,
+   "visual": "Household maths card: \u00a31,723 \u2192 \u00a31,999 = +\u00a3276; \u2192 \u00a32,189 = +\u00a3",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P5-06d",
+   "kind": "gfx",
+   "t": 192.08,
+   "dur": 8.4,
+   "visual": "Calendar: JAN FEB MAR light up with +\u00a369 to +\u00a3117.",
+   "sfx": ""
+  },
+  {
+   "code": "P5-06d",
+   "kind": "clip",
+   "t": 200.48,
+   "dur": 8.44,
+   "visual": "Calendar: JAN FEB MAR light up with +\u00a369 to +\u00a3117.",
+   "sfx": ""
+  },
+  {
+   "code": "P5-07",
+   "kind": "gfx",
+   "t": 208.92,
+   "dur": 5.8,
+   "visual": "Three dials: WEATHER \u00b7 STRAIT \u00b7 AUCTION.",
+   "sfx": "tick x3"
+  },
+  {
+   "code": "P5-07",
+   "kind": "photo",
+   "t": 214.72,
+   "dur": 5.84,
+   "visual": "Three dials: WEATHER \u00b7 STRAIT \u00b7 AUCTION.",
+   "sfx": "tick x3"
+  },
+  {
+   "code": "P5-07b",
+   "kind": "gfx",
+   "t": 220.56,
+   "dur": 9.0,
+   "visual": "Dial 1 WEATHER turns to cold; storage gauge drops.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P5-07b",
+   "kind": "clip",
+   "t": 229.56,
+   "dur": 9.04,
+   "visual": "Dial 1 WEATHER turns to cold; storage gauge drops.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P5-07c",
+   "kind": "gfx",
+   "t": 238.6,
+   "dur": 7.72,
+   "visual": "Dial 2 STRAIT: 85 \u2192 1.",
+   "sfx": ""
+  },
+  {
+   "code": "P5-07c",
+   "kind": "photo",
+   "t": 246.32,
+   "dur": 7.76,
+   "visual": "Dial 2 STRAIT: 85 \u2192 1.",
+   "sfx": ""
+  },
+  {
+   "code": "P5-07d",
+   "kind": "gfx",
+   "t": 254.08,
+   "dur": 7.96,
+   "visual": "Dial 3 AUCTION: JKM above TTF, arrow to RECEIPT.",
+   "sfx": ""
+  },
+  {
+   "code": "P5-07d",
+   "kind": "clip",
+   "t": 262.04,
+   "dur": 7.96,
+   "visual": "Dial 3 AUCTION: JKM above TTF, arrow to RECEIPT.",
+   "sfx": ""
+  },
+  {
+   "code": "P5-07e",
+   "kind": "gfx",
+   "t": 270.0,
+   "dur": 5.64,
+   "visual": "Three dials side by side, all glowing.",
+   "sfx": ""
+  }
+ ]
+}
