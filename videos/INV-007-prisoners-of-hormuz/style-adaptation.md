@@ -29,6 +29,7 @@ N ledger number · L toned footage + glow + paper label · D document, key line 
 0. Footage and photos stay in COLOUR like INV-006 (Hammad, 2026-11-10), lightly graded; the paper labels and stamps carry the reference look.
 0b. About 30% of footage/photo time is SHADOW (dark, near-colourless, cold, heavy vignette) on the sombre beats: deaths, abandonment, the crews left out. The rest is colour graded by scene intensity: CALM (cooler, softer), COLOUR (INV-006 look), INTENSE (punchier, warmer) on danger and money spikes. Grade map: kit.GRADE in scripts/storyboard2/kit.py (Hammad, 2026-11-10).
 0c. All paper cards use the beige document paper (214,204,186), never white (Hammad, 2026-11-10).
+0d. Colour shots are 20% darker than the source (brightness x0.8) on top of the intensity grade (Hammad, 2026-11-10).
 1. Every clip/photo is chosen for its line (query per paragraph in `visuals_v2.py`), never by theme word. If no good match, the shot becomes a graphic.
 2. Candidates (4 per shot) are fetched and picked by eye before render; the storyboard shows the pick.
 3. No faces of identifiable people; no brands in focus; no explosions on people.

@@ -90,8 +90,8 @@ def tone(img, glow=None, mode="warm"):
     if g in("mono","shadow"):  # shadow: dark, almost colourless, cold, heavy vignette
         x=ImageEnhance.Color(im).enhance(0.12); x=ImageEnhance.Contrast(x).enhance(1.2); im=ImageEnhance.Brightness(x).enhance(0.68)
         im=Image.blend(im,Image.new("RGB",(W,H),(8,14,26)),0.15)
-    else:  # colour by scene intensity: low = calm/cool, mid = INV-006 look, high = punchy/warm
-        c,k,b,tint,a={"low":(0.8,1.0,0.95,(10,20,35),0.10),"mid":(0.9,1.05,0.92,(10,20,35),0.07),"high":(1.15,1.12,0.95,(60,30,10),0.06)}[g]
+    else:  # colour by scene intensity, all 20% darker (Hammad): low = calm/cool, mid = INV-006 look, high = punchy/warm
+        c,k,b,tint,a={"low":(0.8,1.0,0.8,(10,20,35),0.10),"mid":(0.9,1.05,0.8,(10,20,35),0.07),"high":(1.15,1.12,0.8,(60,30,10),0.06)}[g]
         im=ImageEnhance.Color(im).enhance(c); im=ImageEnhance.Contrast(im).enhance(k); im=ImageEnhance.Brightness(im).enhance(b)
         im=Image.blend(im,Image.new("RGB",(W,H),tint),a)
     if glow:
