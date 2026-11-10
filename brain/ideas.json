@@ -1,0 +1,129 @@
+{
+ "updated": "2026-11-10",
+ "source": "documentary/topic-finder/topics.json (scan 2026-11-06; pegs are stale, re-scan before picking)",
+ "note": "T03 WW3 family cost is now live as INV-005",
+ "ideas": [
+  {
+   "id": "T01",
+   "title": "The War Might End. Your Bill Won't.",
+   "type": "D",
+   "losses": [
+    "money",
+    "time"
+   ],
+   "peg": "Brent Jan closed $103.60 on 3 Nov 2026 after a draft-peace report (REPORTED, unconfirmed); ~490 ships still waiting outside Hormuz."
+  },
+  {
+   "id": "T02",
+   "title": "The Hunger Bill: Why Hormuz Reaches Your Plate in 2027",
+   "type": "B",
+   "losses": [
+    "food",
+    "money",
+    "lives"
+   ],
+   "peg": "S&P Global food-crisis warning, 19 Oct 2026."
+  },
+  {
+   "id": "T03",
+   "title": "What Would World War III Cost Your Family?",
+   "type": "A",
+   "losses": [
+    "lives",
+    "money",
+    "rights",
+    "food"
+   ],
+   "peg": "Weak direct peg; rides a standing fear spike during the Iran war."
+  },
+  {
+   "id": "T04",
+   "title": "The Prisoners of Hormuz: 20,000 Sailors Nobody Counts",
+   "type": "B",
+   "losses": [
+    "lives",
+    "time",
+    "rights"
+   ],
+   "peg": "UKMTO: 4 hits in Hormuz 30 Oct-2 Nov 2026 incl. LNG tanker (REPORTED); IMO said ~1,500 ships / 20,000 crew trapped (May 2026, re-verify)."
+  },
+  {
+   "id": "T05",
+   "title": "What Happens If China Stops Selling Rare Earths?",
+   "type": "C",
+   "losses": [
+    "jobs",
+    "money",
+    "safety"
+   ],
+   "peg": "Hard date: suspension expires 10 Nov 2026 (InvestorNews; re-verify outcome)."
+  },
+  {
+   "id": "T06",
+   "title": "Iran Closed One Door. Who Holds the Other?",
+   "type": "B",
+   "losses": [
+    "lives",
+    "money",
+    "food"
+   ],
+   "peg": "Recurring Red Sea attacks 2026 (verify latest date before picking)."
+  },
+  {
+   "id": "T07",
+   "title": "The Winter Bill: Who Freezes First If the Gas Stops?",
+   "type": "B",
+   "losses": [
+    "health",
+    "money",
+    "lives"
+   ],
+   "peg": "Season + LNG tanker hit 30 Oct 2026 (REPORTED)."
+  },
+  {
+   "id": "T08",
+   "title": "The Last Time Oil Did This: The 1973 Invoice",
+   "type": "H",
+   "losses": [
+    "money",
+    "jobs",
+    "time",
+    "trust"
+   ],
+   "peg": "Soft: the 1970s comparison is everywhere this autumn."
+  },
+  {
+   "id": "T09",
+   "title": "The Invoice Nobody Pays: What War Does to Water and Air",
+   "type": "H",
+   "losses": [
+    "health",
+    "land",
+    "water"
+   ],
+   "peg": "Weak."
+  },
+  {
+   "id": "T10",
+   "title": "Iran Now Charges a Toll on the World's Oil",
+   "type": "B",
+   "losses": [
+    "money",
+    "rights"
+   ],
+   "peg": "Created May 2026; overlaps INV-004 part P6 Tollbooth."
+  },
+  {
+   "id": "T11",
+   "title": "What Happens If China Moves on Taiwan in 2027?",
+   "type": "A",
+   "losses": [
+    "jobs",
+    "money",
+    "lives",
+    "safety"
+   ],
+   "peg": "Soft; India trending 'taiwan index' 2000+ on 6 Nov 2026 (AI stock selloff)."
+  }
+ ]
+}

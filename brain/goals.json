@@ -1,0 +1,13 @@
+{
+  "goal": "Reach YouTube Partner Program thresholds (verify current limits on YouTube Help before quoting)",
+  "deadline": "TBD with Hammad",
+  "cadence": "18-20 min flagship every other day (Hammad, 2026-11-06); capacity note in documentary/topic-finder/TOPIC-FINDER.md",
+  "targets_per_video": {"ctr_pct": 6, "retention_at_30s_pct": 70, "avg_view_pct": "35-45"},
+  "latest": {
+    "date": "2026-11-10",
+    "source": "vidIQ",
+    "subscribers": 1,
+    "total_views": 561,
+    "videos": 3
+  }
+}

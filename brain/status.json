@@ -1,0 +1,28 @@
+{
+ "updated": "2026-11-10",
+ "today": [
+  {
+   "task": "Create an empty GitHub repo for the channel (suggested name: the-history-invoice) so the brain can be pushed",
+   "link": "https://github.com/new",
+   "mins": 2
+  }
+ ],
+ "approvals": [],
+ "alerts": [
+  {
+   "text": "Round Two data (26 h): CTR 6.8%, AVD 8:41 of 27:14, search 1%. Rulebook v1 fixes this: money by 4:00, search phrase first.",
+   "since": "2026-11-06"
+  }
+ ],
+ "pipeline": {
+  "live": [
+   "INV-002 round-two",
+   "INV-003 pickaxe-mountain",
+   "INV-005 ww3-family-cost"
+  ],
+  "in_production": [
+   "INV-004 siege-economy (script v1)"
+  ],
+  "ready_queue_target": 4
+ }
+}

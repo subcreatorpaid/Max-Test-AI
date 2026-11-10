@@ -1,0 +1,12 @@
+{
+  "updated": "2026-11-10",
+  "mix_every_2_weeks": "about 3 news-pegged, 2 history ('the last time this happened'), 2 human-loss stories",
+  "scans": "Monday and Thursday, plus same day on a big breaking event",
+  "calendar": [
+    {"id": "INV-002", "slug": "round-two", "status": "live", "date": "2026-11-05", "youtube_id": "92UOoCdAnPo"},
+    {"id": "INV-003", "slug": "pickaxe-mountain", "status": "live", "date": "2026-11-07", "youtube_id": "dpFYG6PzvGI"},
+    {"id": "INV-005", "slug": "ww3-family-cost", "status": "live", "date": "2026-11-09", "youtube_id": "zKotNu_auzM"},
+    {"id": "INV-004", "slug": "siege-economy", "status": "script v1", "date": null},
+    {"id": "INV-006", "slug": null, "status": "pick from brain/ideas.json after a fresh scan", "date": null}
+  ]
+}
