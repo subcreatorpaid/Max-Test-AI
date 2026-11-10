@@ -10,7 +10,7 @@
  "approvals": [
   {
    "gate": 2,
-   "ask": "OK INV-006 script v3 (videos/INV-006-winter-bill/INV-006-winter-bill-script-v3.docx, 18 min)",
+   "ask": "INV-006 script v3 is ready. ON HOLD: Hammad said 'don't start any video yet' (2026-11-10). No voice, storyboard or render until he says go.",
    "since": "2026-11-10"
   }
  ],
@@ -31,7 +31,7 @@
    "INV-005 ww3-family-cost"
   ],
   "in_production": [
-   "INV-006 winter-bill (script v3, Gate 2)",
+   "INV-006 winter-bill (script v3, ON HOLD by Hammad)",
    "INV-004 siege-economy (script v1)"
   ],
   "ready_queue_target": 4
