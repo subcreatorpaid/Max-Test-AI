@@ -17,10 +17,13 @@ THEMES=[("ship",r"ship|tanker|cargo|strait|sea\b|port|sail|auction|atlantic|horm
  ("home",r"home|heating|boiler|radiator|kitchen|stove|famil|household|warm"),("gas",r"\bgas\b|plant|pipeline|storage|tank|rough|north sea|field|laffan|production|lng|liquefied"),
  ("money",r"bill|pound|price|cap\b|debt|money|pay|cost|vat|tax|wholesale|ofgem|forecast|market"),("power",r"electric|power|lights"),
  ("land",r"fertili|urea|factory|harvest|industr|farm"),("city",r"britain|london|europe|leeds|lyon|germany|tokyo|asia|america|countr")]
+BL=set(l.strip() for l in open(HERE/'blacklist.txt') if l.strip() and not l.startswith('#'))
+def bad(f): b=os.path.basename(f); return b in BL or b.rsplit('.',1)[0] in BL
 def clips(): 
     out={}
     for d in CLIPDIRS:
         for f in sorted(glob.glob(str(d/"*.mp4"))):
+            if bad(f): continue
             name=os.path.basename(f); m=re.match(r"([a-z]+)\d+-pixabay",name)
             out.setdefault(m.group(1) if m else name.split("-pixabay")[0], []).append(f)
     return out
@@ -29,6 +32,7 @@ def photos():
     out={}
     for d in CLIPDIRS:
         for f in sorted(glob.glob(str(d/'*.jpg'))):
+            if bad(f): continue
             m=re.match(r'([a-z]+)\d+\.jpg',os.path.basename(f))
             if m: out.setdefault(m.group(1),[]).append(f)
     return out
@@ -85,7 +89,7 @@ def gfx_frame(code,t,dur):
     z=1.0+0.05*min(1,t/max(dur,1))
     cw,ch=PW/z,PH/z; x0=(PW-cw)/2; y0=(PH-ch)/2
     return im.resize((PW,PH),Image.BILINEAR,box=(x0,y0,x0+cw,y0+ch))
-def overlay_png(code, text, small, path):
+def overlay_png(code, text, small, path, label='ILLUSTRATIVE FOOTAGE'):
     A6.T=10; im=Image.new("RGBA",(PW,PH),(0,0,0,0))
     sh=Image.new("L",(PW,PH),0); ImageDraw.Draw(sh).rectangle([0,PH-260*1.5,PW*0.75,PH],fill=150 if (text or small) else 90); sh=sh.filter(ImageFilter.GaussianBlur(90))
     im.putalpha(sh); d=A6.D(im)
@@ -93,7 +97,7 @@ def overlay_png(code, text, small, path):
         for i,l in enumerate(A6.wrap(d,text,A6.f(46),A6.W*0.62)[:2]): d.text((50,A6.H-200+i*56),l,font=A6.f(46),fill=A6.PAPER+(255,))
     elif small:
         d.rectangle([40,A6.H-150,46,A6.H-104],fill=A6.ORANGE+(255,)); d.text((60,A6.H-148),small[:70],font=A6.f(30),fill=A6.PAPER+(255,))
-    d.text((A6.W-300,30),"ILLUSTRATIVE FOOTAGE",font=A6.f(20),fill=A6.GREY+(220,))
+    d.text((A6.W-300,30),label,font=A6.f(20),fill=A6.GREY+(220,))
     tag=ROW[code][5]
     if tag: d.text((40,A6.H-46),tag.upper()[:90],font=A6.f(20,"reg"),fill=A6.GREY+(255,))
     im.save(path)
@@ -109,7 +113,7 @@ def render(k):
         subprocess.run(["ffmpeg","-nostdin","-loglevel","error","-y","-stream_loop","-1","-i",info["clip"],"-loop","1","-i",str(png),"-filter_complex",vf,"-frames:v",str(n),"-an"]+ENC+[str(out)],check=True)
         return str(out)
     if kind=="photo":
-        png=TMP/f"{k:03d}.png"; overlay_png(code, info.get("text",""), info.get("small",""), png)
+        png=TMP/f"{k:03d}.png"; overlay_png(code, info.get("text",""), info.get("small",""), png, "ILLUSTRATIVE IMAGE")
         N=n; dr=info["dir"]
         zexpr={0:f"1.0+0.10*on/{N}",1:f"1.10-0.10*on/{N}",2:"1.08",3:"1.08"}[dr]
         xexpr={0:"iw/2-(iw/zoom/2)",1:"iw/2-(iw/zoom/2)",2:f"(iw-iw/zoom)*on/{N}",3:f"(iw-iw/zoom)*(1-on/{N})"}[dr]
