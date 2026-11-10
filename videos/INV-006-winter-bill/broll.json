@@ -1,17 +1,78 @@
 [
- {"code": "CO-02", "query": "world map night lights europe", "min_seconds": 6},
- {"code": "P1-02", "query": "oil tanker strait sea aerial", "min_seconds": 8},
- {"code": "P1-07", "query": "lng tanker terminal", "min_seconds": 8},
- {"code": "P2-02", "query": "gas pipeline valves industrial", "min_seconds": 8},
- {"code": "P2-05", "query": "lng carrier ship sea", "min_seconds": 8},
- {"code": "P2-11", "query": "north sea offshore platform", "min_seconds": 8},
- {"code": "P3-02", "query": "cargo ship ocean aerial", "min_seconds": 8},
- {"code": "P3-06", "query": "factory interior empty", "min_seconds": 6},
- {"code": "P3-11b", "query": "gas stove blue flame", "min_seconds": 6},
- {"code": "P4-02", "query": "stock market screen trading", "min_seconds": 6},
- {"code": "P5-02", "query": "apartment building dusk winter", "min_seconds": 8},
- {"code": "P5-04", "query": "frost window winter", "min_seconds": 6},
- {"code": "P5-05", "query": "thermostat heating radiator", "min_seconds": 6},
- {"code": "RC-04", "query": "gas meter reading", "min_seconds": 5, "type": "image"},
- {"code": "RC-08", "query": "tanker ship sunset ocean", "min_seconds": 8}
+ {
+  "code": "CO-02",
+  "query": "world map night lights europe",
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-02",
+  "query": "oil tanker strait sea aerial",
+  "min_seconds": 8
+ },
+ {
+  "code": "P1-07",
+  "query": "lng tanker terminal",
+  "min_seconds": 8
+ },
+ {
+  "code": "P2-02",
+  "query": "gas pipeline valves industrial",
+  "min_seconds": 8
+ },
+ {
+  "code": "P2-05",
+  "query": "lng carrier ship sea",
+  "min_seconds": 8
+ },
+ {
+  "code": "P2-11",
+  "query": "north sea offshore platform",
+  "min_seconds": 8
+ },
+ {
+  "code": "P3-02",
+  "query": "cargo ship ocean aerial",
+  "min_seconds": 8
+ },
+ {
+  "code": "P3-06",
+  "query": "factory interior empty",
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-11b",
+  "query": "gas stove blue flame",
+  "min_seconds": 6
+ },
+ {
+  "code": "P4-02",
+  "query": "stock market screen trading",
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-02",
+  "query": "apartment building dusk winter",
+  "min_seconds": 8
+ },
+ {
+  "code": "P5-04",
+  "query": "frost window winter",
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-05",
+  "query": "thermostat heating radiator",
+  "min_seconds": 6
+ },
+ {
+  "code": "RC-04",
+  "query": "gas meter reading",
+  "min_seconds": 5,
+  "type": "image"
+ },
+ {
+  "code": "RC-08",
+  "query": "tanker ship sunset ocean",
+  "min_seconds": 8
+ }
 ]

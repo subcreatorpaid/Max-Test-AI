@@ -1,25 +1,36 @@
 name: B-roll fetch (Pixabay)
 # Manual only. Reads the key from the PIXABAY_API_KEY repository secret; the key never appears in logs or files.
 on:
+  # Runs when a video's broll.json changes on the backup branch (the Run button only works on a default branch)
+  push:
+    branches: [history-invoice-brain, main]
+    paths: ["videos/**/broll.json"]
   workflow_dispatch:
     inputs:
       video:
         description: "Video folder, e.g. videos/INV-006-winter-bill"
-        required: true
+        required: false
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Fetch clips
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-        run: python scripts/pixabay_fetch.py "${{ inputs.video }}"
+        run: |
+          if [ -n "${{ inputs.video }}" ]; then dirs="${{ inputs.video }}"; else
+            dirs=$(git diff --name-only HEAD~1 HEAD -- 'videos/**/broll.json' | xargs -r -n1 dirname | sort -u); fi
+          [ -z "$dirs" ] && dirs=$(dirname $(ls videos/*/broll.json | tail -1))
+          mkdir -p out
+          for d in $dirs; do python scripts/pixabay_fetch.py "$d"; cp -r "$d/broll" "out/$(basename $d)"; done
       - uses: actions/upload-artifact@v4
         with:
           name: broll
-          path: ${{ inputs.video }}/broll/
+          path: out/
           retention-days: 7
