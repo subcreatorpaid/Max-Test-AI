@@ -1,0 +1,95 @@
+{
+ "part": "P3",
+ "dur": 137.32,
+ "vo_dur": 137.327,
+ "shots": [
+  {
+   "code": "P3-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 6.36,
+   "visual": "P part card PART 3 \u00b7 WHY 2027",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P3-02",
+   "kind": "photo",
+   "t": 6.36,
+   "dur": 17.4,
+   "visual": "Timeline ruler (kit2 one-off): 2021 to 2027 shaded as a wind",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-03",
+   "kind": "gfx",
+   "t": 23.76,
+   "dur": 14.44,
+   "visual": "T typed card: 'READY BY 2027' types in; red pen underlines R",
+   "sfx": "typewriter + pen"
+  },
+  {
+   "code": "P3-04",
+   "kind": "gfx",
+   "t": 38.2,
+   "dur": 13.4,
+   "visual": "Quote card (leaders' quote style), Adm. Aquilino, no photo.",
+   "sfx": "soft hit"
+  },
+  {
+   "code": "P3-05",
+   "kind": "gfx",
+   "t": 51.6,
+   "dur": 18.84,
+   "visual": "D document: ODNI 2026 report page; the line highlighted, red",
+   "sfx": "pen scratch"
+  },
+  {
+   "code": "P3-05b",
+   "kind": "gfx",
+   "t": 70.44,
+   "dur": 12.8,
+   "visual": "Timeline ruler extends past 2027 to 2049; 2049 glows.",
+   "sfx": "low pulse"
+  },
+  {
+   "code": "P3-06",
+   "kind": "gfx",
+   "t": 83.24,
+   "dur": 13.2,
+   "visual": "Two quote cards side by side: MAR 2026 'DO NOT CURRENTLY PLA",
+   "sfx": "two hits"
+  },
+  {
+   "code": "P3-07",
+   "kind": "gfx",
+   "t": 96.44,
+   "dur": 14.64,
+   "visual": "Scale graphic (kit2 one-off): CAN on one pan, WILL on the ot",
+   "sfx": "low pulse"
+  },
+  {
+   "code": "P3-08",
+   "kind": "gfx",
+   "t": 111.08,
+   "dur": 6.76,
+   "visual": "Typed card: '\u2026WHETHER OR NOT THE U.S. WILL MILITARILY INTERV",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P3-09",
+   "kind": "gfx",
+   "t": 117.84,
+   "dur": 12.88,
+   "visual": "Folder + index cards: 'INSURE \u00b7 STOCKPILE \u00b7 SECOND FACTORY' ",
+   "sfx": "card slides x3"
+  },
+  {
+   "code": "P3-10",
+   "kind": "gfx",
+   "t": 130.72,
+   "dur": 6.6,
+   "visual": "Map pulls back to the western Pacific; ship dots begin to mo",
+   "sfx": "riser"
+  }
+ ]
+}
