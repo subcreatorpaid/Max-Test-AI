@@ -1,0 +1,79 @@
+{
+ "part": "CO",
+ "dur": 59.28,
+ "vo_dur": 59.26416666666667,
+ "shots": [
+  {
+   "code": "CO-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 11.36,
+   "visual": "AI-STILL: Ras Laffan LNG trains at dusk, flares out, slow pu",
+   "sfx": "low drone in, sub hit on 'quiet'"
+  },
+  {
+   "code": "CO-02",
+   "kind": "gfx",
+   "t": 11.36,
+   "dur": 5.08,
+   "visual": "MAP-3D: camera pulls from Qatar to Europe, a thin orange lin",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "CO-02",
+   "kind": "photo",
+   "t": 16.44,
+   "dur": 5.12,
+   "visual": "MAP-3D: camera pulls from Qatar to Europe, a thin orange lin",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "CO-03",
+   "kind": "gfx",
+   "t": 21.56,
+   "dur": 5.72,
+   "visual": "CARD-NUMBER: +\u00a323 to +\u00a339 / month. 2 s flash of the final RE",
+   "sfx": "counter roll, receipt printer"
+  },
+  {
+   "code": "CO-03",
+   "kind": "clip",
+   "t": 27.28,
+   "dur": 5.72,
+   "visual": "CARD-NUMBER: +\u00a323 to +\u00a339 / month. 2 s flash of the final RE",
+   "sfx": "counter roll, receipt printer"
+  },
+  {
+   "code": "CO-04",
+   "kind": "gfx",
+   "t": 33.0,
+   "dur": 5.92,
+   "visual": "CARD-LADDER: Cornwall \u00a31,999 vs EDF \u00a32,189.",
+   "sfx": "tick"
+  },
+  {
+   "code": "CO-04",
+   "kind": "photo",
+   "t": 38.92,
+   "dur": 5.92,
+   "visual": "CARD-LADDER: Cornwall \u00a31,999 vs EDF \u00a32,189.",
+   "sfx": "tick"
+  },
+  {
+   "code": "CO-05",
+   "kind": "gfx",
+   "t": 44.84,
+   "dur": 7.2,
+   "visual": "Roadmap: five icons light in a row (plant, strait, tank, gav",
+   "sfx": "riser"
+  },
+  {
+   "code": "CO-05",
+   "kind": "clip",
+   "t": 52.04,
+   "dur": 7.24,
+   "visual": "Roadmap: five icons light in a row (plant, strait, tank, gav",
+   "sfx": "riser"
+  }
+ ]
+}
