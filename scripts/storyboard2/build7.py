@@ -61,7 +61,7 @@ for k in range(0,len(rows),per):
         pg.paste(Image.open(OUT/"panels"/f"{c}.jpg").resize((400,225)),(x,y))
         kn,kc=KN[kind]; d.rectangle([x,y+232,x+120,y+262],fill=kc); d.text((x+10,y+236),kn,font=F(18,"b"),fill=(255,255,255))
         d.text((x+132,y+234),c,font=F(24,"b"),fill=INK)
-        for j,l in enumerate(textwrap.wrap(r[1],48)[:5]): d.text((x+412,y+4+j*28),l,font=F(19,"r"),fill=(40,34,28))
+        for j,l in enumerate(textwrap.wrap(r[1],50)[:9]): d.text((x+412,y+2+j*25),l,font=F(17,"r"),fill=(40,34,28))
         for j,l in enumerate(textwrap.wrap(desc,70)[:3]): d.text((x,y+272+j*24),l,font=F(16,"m"),fill=(110,100,88))
     pages.append(pg)
 pages[0].save(OUT/"INV-007-prisoners-of-hormuz-storyboard-v1.pdf",save_all=True,append_images=pages[1:],resolution=150)

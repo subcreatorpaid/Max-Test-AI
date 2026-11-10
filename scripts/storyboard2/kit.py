@@ -246,7 +246,7 @@ def receipt(lines, title="THE INVOICE", st=None, stcol=RED, sub="INV-007 · PER 
         y=124+i*78; pd.text((34,y),a.upper(),font=F(26,"mono"),fill=(40,34,28))
         pd.text((686-pd.textlength(b,font=F(28,"mono")),y+32),b,font=F(28,"mono"),fill=RED)
     im=drop(im,p,(280,88),0,10)
-    if st: s=stamp(st,stcol,60); im.paste(s,(640,88+ph-s.height+10),s)
+    if st: s=stamp(st,stcol,60); im.paste(s,(300,88+ph-s.height+30),s)
     return im.convert("RGB")
 # ---------- W: mini-chart tiles (reference 5:52) ----------
 def tiles(items, header="", t="", src=""):
@@ -265,12 +265,12 @@ def tiles(items, header="", t="", src=""):
 def folder(cards, label="INV-007", photo=None):
     im=dark().convert("RGBA")
     f=paper_rect((620,440),(170,122,72),False,4); fd=ImageDraw.Draw(f); fd.text((30,24),label,font=F(26,"mono"),fill=(60,40,20)); im=drop(im,f,(120,170),-4)
-    m=Image.new("RGB",(520,330),NAVY)
+    m=map_((46,21,61,31),lanes=[([(54,26.2),(56.2,26.75),(57.2,25.9),(58.6,25.2)],ORANGE)]).resize((520,330))
     if photo and pathlib.Path(photo).exists(): m=tone(Image.open(photo)).resize((520,330))
     m=m.convert("RGBA"); im=drop(im,m,(330,140),3)
     for i,(a,b) in enumerate(cards):
         c=paper_rect((480,160),PAPER,False,30+i); cd=ImageDraw.Draw(c); cd.text((28,26),a.upper(),font=F(28,"xb"),fill=(30,26,22)); cd.text((28,64),"not financial advice" if i==0 and "DO" in a.upper() else "",font=F(16,"m"),fill=GREY)
-        cd.text((28,100),b,font=F(28,"m"),fill=(40,34,28)); im=drop(im,c,(640+i*30,330+i*40),[-3,2,-1,3][i%4],10)
+        cd.text((28,100) if a else (28,40),b,font=F(30,"m"),fill=(40,34,28)); im=drop(im,c,(600+i*40,250+i*150),[-3,2,-1,3][i%4],10)
     return im.convert("RGB")
 # ---------- E: particle logo end card (reference 8:51) ----------
 def endcard(txt="THE HISTORY INVOICE", sub="Every crisis sends a bill. History keeps the receipts."):
