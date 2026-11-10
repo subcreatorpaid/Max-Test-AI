@@ -1,0 +1,63 @@
+{
+ "part": "CO",
+ "dur": 76.76,
+ "vo_dur": 76.76041666666667,
+ "shots": [
+  {
+   "code": "CO-01",
+   "kind": "photo",
+   "t": 0.0,
+   "dur": 11.92,
+   "visual": "STILL (Illustration): tanker at night on dark water, slow pu",
+   "sfx": "low drone in, sub hit on 'home'"
+  },
+  {
+   "code": "CO-02",
+   "kind": "gfx",
+   "t": 11.92,
+   "dur": 12.64,
+   "visual": "CARD-NUMBER: 25, counter rolls 1\u219225; under it 'SEAFARERS KIL",
+   "sfx": "counter tick, sub on 25"
+  },
+  {
+   "code": "CO-03",
+   "kind": "clip",
+   "t": 24.56,
+   "dur": 6.44,
+   "visual": "CARD-NUMBER '+25\u00a2 / GALLON'; 2 s flash of the final RECEIPT.",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "CO-03",
+   "kind": "photo",
+   "t": 31.0,
+   "dur": 4.28,
+   "visual": "CARD-NUMBER '+25\u00a2 / GALLON'; 2 s flash of the final RECEIPT.",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "CO-04",
+   "kind": "clip",
+   "t": 35.28,
+   "dur": 11.68,
+   "visual": "MAP-3D: dark Gulf, ~400 small amber ship dots appear and hol",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "CO-05",
+   "kind": "gfx",
+   "t": 46.96,
+   "dur": 14.28,
+   "visual": "Two tag cards side by side: IMO 20,000 (MAR 2026) vs DP Worl",
+   "sfx": "tick"
+  },
+  {
+   "code": "CO-06",
+   "kind": "gfx",
+   "t": 61.24,
+   "dur": 15.52,
+   "visual": "Roadmap: six icons light in a row (ship, contract, tally, cl",
+   "sfx": "riser"
+  }
+ ]
+}
