@@ -1,0 +1,87 @@
+{
+ "part": "P2",
+ "dur": 101.36,
+ "vo_dur": 101.37416666666667,
+ "shots": [
+  {
+   "code": "P2-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.44,
+   "visual": "P part card PART 2 \u00b7 THE STRAIT",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P2-02",
+   "kind": "gfx",
+   "t": 4.44,
+   "dur": 14.96,
+   "visual": "M map: shipping lanes draw through the strait as orange thre",
+   "sfx": "whoosh + counter"
+  },
+  {
+   "code": "P2-03",
+   "kind": "photo",
+   "t": 19.4,
+   "dur": 7.16,
+   "visual": "L footage [COLOUR]: container ship from above, stacked boxes",
+   "sfx": "low swell"
+  },
+  {
+   "code": "P2-04",
+   "kind": "gfx",
+   "t": 26.56,
+   "dur": 13.12,
+   "visual": "M map: five port pins drop on the west coast; Kaohsiung pin ",
+   "sfx": "pin drops x5"
+  },
+  {
+   "code": "P2-05",
+   "kind": "photo",
+   "t": 39.68,
+   "dur": 8.64,
+   "visual": "L footage [CALM]: LNG tanker at a terminal, gas domes; paper",
+   "sfx": "soft hit"
+  },
+  {
+   "code": "P2-06",
+   "kind": "photo",
+   "t": 48.32,
+   "dur": 10.96,
+   "visual": "Countdown dial (kit2 one-off): 11 DAYS winter, then the hand",
+   "sfx": "clock ticks"
+  },
+  {
+   "code": "P2-07",
+   "kind": "gfx",
+   "t": 59.28,
+   "dur": 12.32,
+   "visual": "M map: line from Qatar to Taiwan through Hormuz cuts; new li",
+   "sfx": "cut sound + whoosh"
+  },
+  {
+   "code": "P2-07b",
+   "kind": "photo",
+   "t": 71.6,
+   "dur": 14.2,
+   "visual": "Two tanks side by side (kit2 one-off: gauge tanks): OIL \u2248 14",
+   "sfx": "liquid slosh (soft)"
+  },
+  {
+   "code": "P2-08",
+   "kind": "photo",
+   "t": 85.8,
+   "dur": 10.88,
+   "visual": "Slow push on the Taiwan outline; Gulf behind it dims.",
+   "sfx": "low pulse"
+  },
+  {
+   "code": "P2-09",
+   "kind": "photo",
+   "t": 96.68,
+   "dur": 4.68,
+   "visual": "Split-flap begins to flip toward 2027 and freezes on 202_.",
+   "sfx": "riser"
+  }
+ ]
+}
