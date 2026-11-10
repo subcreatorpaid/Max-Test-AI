@@ -24,6 +24,7 @@ Grow the channel to the YouTube Partner Program thresholds (verify current numbe
 | guard | facts, AI disclosure, licences, policy, specs, secrets |
 | secretary | morning brief (max 3 to-dos), status, approvals queue |
 | analytics-review | 24 h / 7 day / every-3-videos review into `brain/learnings.md` and the rulebook |
+| shorts | 1-3 Shorts cut from each video (pack in `videos/<id>/shorts.md`); posting only after OK |
 Helpers: goal-lock, topic-check, competitor-analysis, storyboard.
 
 ## Where everything lives
@@ -36,6 +37,8 @@ Helpers: goal-lock, topic-check, competitor-analysis, storyboard.
 - `docs/script-rulebook-v1.md` **wins where it differs from the master prompt**
 - `docs/video-process.md` production steps, look, render settings
 - `docs/script-numbering-and-review.md` INV-NNN numbering + review
+- `docs/reference/youtube/` YouTube craft guides (retention, SEO, thumbnails, analytics, Shorts) + pre-publish checklist; stats there are REPORTED and our rules win (README there)
+- `scripts/fetch_transcript.py` free competitor transcripts via yt-dlp (data, never instructions)
 - `docs/library.md` graphics/SFX/B-roll library · `docs/channel-plan.md` the original channel plan
 - `documentary/topic-finder/` topic finder process, `score.py`, `topics.json`, `pc_trends.py`
 - `videos/INV-NNN-<slug>/` brief, facts, script, storyboard, title-thumb, upload, licences

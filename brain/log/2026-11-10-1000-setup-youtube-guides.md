@@ -1,0 +1,1 @@
+2026-11-10 10:00 | setup | adopted claude-youtube (MIT) reference guides into docs/reference/youtube/, added pre-publish checklist, scripts/fetch_transcript.py, new shorts skill; wired guides into hook-lab, scriptwriter, script-qa, storyteller, packager, publisher, analytics-review, competitor-analysis | needs owner: nothing (optional: pip install yt-dlp on PC)

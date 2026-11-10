@@ -1,6 +1,6 @@
 # INV-006 The Winter Bill: brief
 
-- **Status:** Gate 1 passed (2026-11-10). Fact pack v1, hooks, script v1 (1,806 words, ~13.5 min) done. Waiting on Gate 2 (script OK) and a length decision.
+- **Status:** Gate 1 passed (2026-11-10). Fact pack v2 (69 rows), hooks, script v3 (2,400 words, ~18 min; Hammad chose 18-20 min). Waiting on Gate 2 (script OK).
 - **Type:** B, choke point (gas behind Hormuz). Format: 18-20 min flagship, 2,400-2,800 words.
 - **Peg:** Ofgem announces the Jan-Mar 2027 cap by 25 Nov 2026. **Publish before that date.**
 - **Search phrase (check in YouTube autocomplete first):** lead "energy price cap january"; backups "heating bills this winter", "gas prices europe".

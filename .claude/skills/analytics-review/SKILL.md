@@ -9,3 +9,5 @@ Start: `git pull`, read `CLAUDE.md`, `brain/rules.md`, `brain/status.json`. End:
 
 ## Job
 Pull vidIQ `video_stats` / `channel_analytics` (CTR, AVD, retention, traffic sources, subs per view). Compare with targets in `brain/goals.json`. Add one dated line per video to `brain/learnings.md`; propose rulebook changes (new version, never overwrite) when a pattern repeats in 3 videos. Update `brain/goals.json -> latest`.
+
+Diagnose with `docs/reference/youtube/analytics-guide.md` (impressions funnel diagnostic matrix, traffic-source health) and the retention graph shapes in `docs/reference/youtube/retention-scripting-guide.md` (early cliff, mid-video valley, sawtooth, suspension bridge). Write which shape each video has in its learnings line. Benchmarks there are REPORTED; our own `brain/goals.json` targets come first.

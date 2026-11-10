@@ -80,6 +80,25 @@ Built 2026-11-10 with web research. Tags: VERIFIED (official data or 2 reliable 
 | F53 | By Sept 2022 European governments had committed nearly €500bn to shield households and firms (EU-27 €314bn, UK €178bn). | Bloomberg citing Bruegel | Sept 2022 | VERIFIED | the bill came back as public debt |
 | F54 | March 2026: TTF nearly doubled after the Qatar attack, then passed €60/MWh by mid-March. | Wikipedia fuel-crisis page | Mar 2026 | REPORTED | |
 
+## G. Added for v3 (2026-11-10, length extension)
+| # | Fact | Source | Date | Tag | Note |
+|---|---|---|---|---|---|
+| F55 | Norway supplied 69% of UK gas imports in 2025 (76% in 2024), 40% of gross supply and 98% of pipeline imports. | DESNZ, DUKES 2026 ch. 4 | 2026 | VERIFIED | |
+| F56 | The US supplied 76% of UK LNG imports in 2025, 13% of gross supply and 23% of all imports; US LNG to the UK rose 38%. | DUKES 2026 ch. 4 | 2026 | VERIFIED | |
+| F57 | Qatar supplied 6.0% of UK LNG imports and 1.8% of total UK gas imports in 2025. | DUKES 2026 ch. 4 | 2026 | VERIFIED | the reveal: UK barely buys Qatari gas, yet pays the Qatar price |
+| F58 | UK gas production fell 3.4% in 2025 and remains at its lowest level since 1973. | DUKES 2026 ch. 4 | 2026 | VERIFIED | history link |
+| F59 | Households (domestic) were 37% of UK gas demand in 2025, the largest sector. | DUKES 2026 ch. 4 | 2026 | VERIFIED | |
+| F60 | NESO scenarios: imports could cover more than 90% of UK demand in peak winter periods. | NESO via Aberdeen Business News | 28 Nov 2025 | REPORTED | |
+| F61 | The price cap limits unit rates and the daily standing charge, not the total bill; it is set every three months from costs including wholesale energy, using forward prices observed in roughly the three months before it is announced. | Institute for Government explainer | 2025-26 | VERIFIED | so the January cap carries the late-October spike |
+| F62 | In October 2026, US LNG exports to Europe were 6.89 million tonnes (up 1 mt on September) and to Asia 2.73 mt; it was the second-highest month in history and Europe is now the biggest buyer of US LNG. | OilPrice.com | 3 Nov 2026 | REPORTED | |
+| F63 | TTF rose above €100/MWh in late October 2026 for the first time in four years. | OilPrice.com; S&P Platts (F35) | Oct-Nov 2026 | VERIFIED | |
+| F64 | Imported LNG provides over 40% of Bangladesh's electricity; Qatar once supplied about 95% of those imports. | Reuters via Al-Monitor | 17 Sep 2026 | REPORTED | |
+| F65 | Asian spot LNG was near $30/MMBtu in September 2026, up from about $10 before the war. | Reuters via Al-Monitor | 17 Sep 2026 | REPORTED | |
+| F66 | A Dhaka resident said intermittent gas sometimes means waiting until midnight to cook dinner; 55% of surveyed knitwear factories reported buyer cancellations or cuts. | Reuters via Al-Monitor | 17 Sep 2026 | REPORTED | human line |
+| F67 | Pakistan's domestic gas consumers get supply in three windows a day: 6-9am, 12-3pm and 6-9pm. | The News (Pakistan) | 27 Sep 2026 | REPORTED | re-check for December |
+| F68 | Pakistan needs nine LNG cargoes in December 2026; Qatargas declared force majeure on 4 Mar 2026 and had not formally lifted it. | The News (Pakistan) | 27 Sep 2026 | REPORTED | |
+| F69 | Pakistan's minimum wage is roughly $145 a month; petrol about 380 rupees ($1.37) a litre. | Reuters via Al-Monitor | 17 Sep 2026 | REPORTED | scale for the South Asia column |
+
 ## Household maths (ESTIMATE; show formulas on screen)
 - **UK, Jan-Mar 2027:** cap forecast £1,999 to £2,189 minus current £1,723 = **+£276 to +£466 a year**, i.e. **+£23 to +£39 a month** at the annualised rate (F41, F43). Winter months use more energy than the annual average, so a real January bill rises by more than the monthly average; say so.
 - **EU gas-heated home:** €600 to €715 extra over Nov-Mar (F46) ÷ 5 months = **about €120 to €143 a month**.

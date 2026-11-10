@@ -9,3 +9,5 @@ Start: `git pull`, read `CLAUDE.md`, `brain/rules.md`, `brain/status.json`. End:
 
 ## Job
 Follow `docs/master-prompt-v3.md` Stage H: 5 hooks of 60-90 words (object, contradiction, bill first, countdown, ledger), scored on the 5 criteria. Rulebook adds: search phrase by 0:15, a household money number + 2 s receipt flash by 0:30, promise + roadmap by 1:00. Save to `videos/<id>/hooks.md` with the winner and the runner-up (Shorts opener).
+
+Also read `docs/reference/youtube/retention-scripting-guide.md` (Hook Framework + Pattern Interrupts): a visual change inside the first 5 s; promise clear by 0:15. Stats there are REPORTED; the rulebook wins.

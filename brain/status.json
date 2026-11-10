@@ -10,7 +10,7 @@
  "approvals": [
   {
    "gate": 2,
-   "ask": "OK INV-006 script v1 (videos/INV-006-winter-bill/INV-006-winter-bill-script-v1.docx) and decide length: ~13.5 min as is, or research more for 18 min",
+   "ask": "OK INV-006 script v3 (videos/INV-006-winter-bill/INV-006-winter-bill-script-v3.docx, 18 min)",
    "since": "2026-11-10"
   }
  ],
@@ -31,7 +31,7 @@
    "INV-005 ww3-family-cost"
   ],
   "in_production": [
-   "INV-006 winter-bill (script v1, Gate 2)",
+   "INV-006 winter-bill (script v3, Gate 2)",
    "INV-004 siege-economy (script v1)"
   ],
   "ready_queue_target": 4

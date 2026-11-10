@@ -9,3 +9,5 @@ Start: `git pull`, read `CLAUDE.md`, `brain/rules.md`, `brain/status.json`. End:
 
 ## Job
 Run `docs/script-rulebook-v1.md` section 6 (16 ticks) and `docs/script-numbering-and-review.md` section 3 (facts, story, makeability). Output: verdict per part PASS/FIX, fixes as `code · problem · fix`. Any facts fail blocks the voice step. Also run on any script Hammad pastes in (number it first).
+
+Extra retention check from `docs/reference/youtube/retention-scripting-guide.md`: flag any stretch over about 45 s with no visual change, any PART with no open loop, and a mid-video sag (40-60% mark) with nothing new. Report as `code · problem · fix`; these are advice, not blockers.
