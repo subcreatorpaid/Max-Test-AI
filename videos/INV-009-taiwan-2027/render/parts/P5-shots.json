@@ -1,0 +1,119 @@
+{
+ "part": "P5",
+ "dur": 169.64,
+ "vo_dur": 169.64225,
+ "shots": [
+  {
+   "code": "P5-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.24,
+   "visual": "P part card PART 5 \u00b7 THE MONEY",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P5-02",
+   "kind": "gfx",
+   "t": 4.24,
+   "dur": 13.6,
+   "visual": "D document: a model sheet with two tabs, BLOCKADE and WAR; r",
+   "sfx": "page turn"
+  },
+  {
+   "code": "P5-03",
+   "kind": "gfx",
+   "t": 17.84,
+   "dur": 9.56,
+   "visual": "W mini-chart tiles: WORLD -5.3% \u00b7 US -3.2% \u00b7 CHINA -8.9% \u00b7 T",
+   "sfx": "tile pops x4"
+  },
+  {
+   "code": "P5-04",
+   "kind": "gfx",
+   "t": 27.4,
+   "dur": 14.0,
+   "visual": "Bar chart grows country by country: WORLD -9.6% \u00b7 US -6.6% \u00b7",
+   "sfx": "chart grow + sub"
+  },
+  {
+   "code": "P5-05",
+   "kind": "clip",
+   "t": 41.4,
+   "dur": 10.92,
+   "visual": "Three bars side by side: COVID 2020 -2.2% \u00b7 BLOCKADE -3.2% \u00b7",
+   "sfx": "soft hit"
+  },
+  {
+   "code": "P5-05b",
+   "kind": "gfx",
+   "t": 52.32,
+   "dur": 11.68,
+   "visual": "Mirror bars (kit2 one-off): CHINA -11% left, TAIWAN -40% rig",
+   "sfx": "two low hits"
+  },
+  {
+   "code": "P5-06",
+   "kind": "gfx",
+   "t": 64.0,
+   "dur": 17.0,
+   "visual": "Ledger maths card (kit2 one-off: long division on ruled pape",
+   "sfx": "pencil scratch"
+  },
+  {
+   "code": "P5-07",
+   "kind": "photo",
+   "t": 81.0,
+   "dur": 17.08,
+   "visual": "Three coin stacks: $4,950 COVID \u00b7 $7,200 BLOCKADE \u00b7 $14,900 ",
+   "sfx": "coin drop x3"
+  },
+  {
+   "code": "P5-08",
+   "kind": "gfx",
+   "t": 98.08,
+   "dur": 11.84,
+   "visual": "Typed card: '$2 TRILLION+' with stamp 'FLOOR, NOT CEILING'.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P5-09",
+   "kind": "photo",
+   "t": 109.92,
+   "dur": 11.2,
+   "visual": "Cut-paper figures (K): five product cut-outs on a conveyor; ",
+   "sfx": "tag clicks x5"
+  },
+  {
+   "code": "P5-09b",
+   "kind": "clip",
+   "t": 121.12,
+   "dur": 13.84,
+   "visual": "Container stack graphic: boxes labelled SERVERS \u00b7 CHIPS \u00b7 PA",
+   "sfx": "gate slam"
+  },
+  {
+   "code": "P5-10",
+   "kind": "clip",
+   "t": 134.96,
+   "dur": 17.12,
+   "visual": "L footage [CALM]: construction site with cranes in a desert ",
+   "sfx": "low swell"
+  },
+  {
+   "code": "P5-11",
+   "kind": "gfx",
+   "t": 152.08,
+   "dur": 11.08,
+   "visual": "Return to the 2021 used-car card, then it scales up to fill ",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P5-12",
+   "kind": "photo",
+   "t": 163.16,
+   "dur": 6.48,
+   "visual": "Push to two chairs at a table (cut-paper).",
+   "sfx": "riser"
+  }
+ ]
+}
