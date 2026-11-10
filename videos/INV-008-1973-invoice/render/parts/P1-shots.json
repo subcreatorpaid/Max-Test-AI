@@ -1,0 +1,111 @@
+{
+ "part": "P1",
+ "dur": 150.64,
+ "vo_dur": 150.65033333333332,
+ "shots": [
+  {
+   "code": "P1-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.84,
+   "visual": "s_part PART 1 \u00b7 THE WEEK IT STARTED",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P1-02",
+   "kind": "gfx",
+   "t": 4.84,
+   "dur": 11.52,
+   "visual": "MAP-3D: Riyadh glows orange, a line to Cairo.",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P1-03",
+   "kind": "gfx",
+   "t": 16.36,
+   "dur": 10.24,
+   "visual": "Timeline card: 6 OCT war \u00b7 ~12-14 OCT US airlift; map arrows",
+   "sfx": "low pulse"
+  },
+  {
+   "code": "P1-04",
+   "kind": "gfx",
+   "t": 26.6,
+   "dur": 9.16,
+   "visual": "CARD-NUMBER: +70% stamped over a 1973 price board.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-05",
+   "kind": "gfx",
+   "t": 35.76,
+   "dur": 10.48,
+   "visual": "Clock graphic: a barrel shrinks 5% per tick.",
+   "sfx": "clock tick"
+  },
+  {
+   "code": "P1-06",
+   "kind": "gfx",
+   "t": 46.24,
+   "dur": 15.0,
+   "visual": "CARD-HEADLINE style timeline: 19 OCT $2.2bn aid \u00b7 LIBYA EMBA",
+   "sfx": "card land x3"
+  },
+  {
+   "code": "P1-07",
+   "kind": "gfx",
+   "t": 61.24,
+   "dur": 11.64,
+   "visual": "World map: US and Netherlands turn red, then three more.",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P1-08",
+   "kind": "photo",
+   "t": 72.88,
+   "dur": 13.64,
+   "visual": "Gauge graphic: spare capacity needle at 1%.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P1-09",
+   "kind": "gfx",
+   "t": 86.52,
+   "dur": 15.32,
+   "visual": "Line chart: $2.90 \u2192 $11.65, Oct 73-Jan 74.",
+   "sfx": "chart grow + sub"
+  },
+  {
+   "code": "P1-10",
+   "kind": "gfx",
+   "t": 101.84,
+   "dur": 9.8,
+   "visual": "CARD-NUMBER: $22 \u2192 $80 (2026 dollars), faded original number",
+   "sfx": "soft hit"
+  },
+  {
+   "code": "P1-11",
+   "kind": "photo",
+   "t": 111.64,
+   "dur": 16.88,
+   "visual": "STOCK/ARCHIVE: old pump dial rolling; CARD 38.5\u00a2 \u2192 55.1\u00a2.",
+   "sfx": "counter"
+  },
+  {
+   "code": "P1-12",
+   "kind": "gfx",
+   "t": 128.52,
+   "dur": 14.48,
+   "visual": "RECEIPT corner line 1 prints: FUEL +$68/MONTH (2026 $). Labe",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "P1-13",
+   "kind": "clip",
+   "t": 143.0,
+   "dur": 7.64,
+   "visual": "Clock hand sweeping over a queue of car silhouettes.",
+   "sfx": "riser"
+  }
+ ]
+}
