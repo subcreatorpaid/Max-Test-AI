@@ -1,0 +1,383 @@
+{
+ "part": "P2",
+ "dur": 362.88,
+ "vo_dur": 362.87829166666666,
+ "shots": [
+  {
+   "code": "P2-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.36,
+   "visual": "s_part: PART 2, THE TANK.",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P2-02",
+   "kind": "clip",
+   "t": 4.36,
+   "dur": 9.6,
+   "visual": "AI-STILL: storage site, pipes and valves in frost, slow pan.",
+   "sfx": "drone"
+  },
+  {
+   "code": "P2-03",
+   "kind": "gfx",
+   "t": 13.96,
+   "dur": 5.4,
+   "visual": "Tank gauge graphic fills to 74%, a ghost line at 86%.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P2-03",
+   "kind": "photo",
+   "t": 19.36,
+   "dur": 5.36,
+   "visual": "Tank gauge graphic fills to 74%, a ghost line at 86%.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P2-04",
+   "kind": "gfx",
+   "t": 24.72,
+   "dur": 7.88,
+   "visual": "Three gauges side by side: 2023, 2025, 2026.",
+   "sfx": "tick x3"
+  },
+  {
+   "code": "P2-04",
+   "kind": "clip",
+   "t": 32.6,
+   "dur": 7.88,
+   "visual": "Three gauges side by side: 2023, 2025, 2026.",
+   "sfx": "tick x3"
+  },
+  {
+   "code": "P2-05",
+   "kind": "photo",
+   "t": 40.48,
+   "dur": 9.24,
+   "visual": "Footage STOCK: tanker at a terminal, graded.",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P2-06",
+   "kind": "gfx",
+   "t": 49.72,
+   "dur": 8.4,
+   "visual": "Line chart: three paths falling to end-March 2027.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P2-06",
+   "kind": "clip",
+   "t": 58.12,
+   "dur": 8.36,
+   "visual": "Line chart: three paths falling to end-March 2027.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P2-06b",
+   "kind": "gfx",
+   "t": 66.48,
+   "dur": 4.08,
+   "visual": "Fourth path added to the chart.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P2-06b",
+   "kind": "clip",
+   "t": 70.56,
+   "dur": 4.04,
+   "visual": "Fourth path added to the chart.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P2-07",
+   "kind": "gfx",
+   "t": 74.6,
+   "dur": 4.36,
+   "visual": "Hold on chart, labels tag SCENARIO.",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P2-07",
+   "kind": "photo",
+   "t": 78.96,
+   "dur": 4.4,
+   "visual": "Hold on chart, labels tag SCENARIO.",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P2-07b",
+   "kind": "gfx",
+   "t": 83.36,
+   "dur": 5.52,
+   "visual": "Tank gauge with a torn insurance-policy edge.",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P2-07b",
+   "kind": "clip",
+   "t": 88.88,
+   "dur": 5.52,
+   "visual": "Tank gauge with a torn insurance-policy edge.",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P2-08",
+   "kind": "gfx",
+   "t": 94.4,
+   "dur": 6.96,
+   "visual": "2.5D: cross-section of a storage cavern, flow arrows thinnin",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P2-08",
+   "kind": "photo",
+   "t": 101.36,
+   "dur": 7.0,
+   "visual": "2.5D: cross-section of a storage cavern, flow arrows thinnin",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P2-09",
+   "kind": "gfx",
+   "t": 108.36,
+   "dur": 5.2,
+   "visual": "Two bars: UK 5% vs EU 29%.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P2-09",
+   "kind": "clip",
+   "t": 113.56,
+   "dur": 5.24,
+   "visual": "Two bars: UK 5% vs EU 29%.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P2-10",
+   "kind": "gfx",
+   "t": 118.8,
+   "dur": 4.8,
+   "visual": "Bars: UK 48, Portugal 94, Poland 99.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P2-10",
+   "kind": "clip",
+   "t": 123.6,
+   "dur": 4.76,
+   "visual": "Bars: UK 48, Portugal 94, Poland 99.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P2-11a",
+   "kind": "gfx",
+   "t": 128.36,
+   "dur": 10.4,
+   "visual": "Pie/bars: Norway 69% \u00b7 US 23% \u00b7 Qatar 1.8%, Qatar slice tiny",
+   "sfx": "card land"
+  },
+  {
+   "code": "P2-11a",
+   "kind": "photo",
+   "t": 138.76,
+   "dur": 10.36,
+   "visual": "Pie/bars: Norway 69% \u00b7 US 23% \u00b7 Qatar 1.8%, Qatar slice tiny",
+   "sfx": "card land"
+  },
+  {
+   "code": "P2-11b",
+   "kind": "gfx",
+   "t": 149.12,
+   "dur": 19.52,
+   "visual": "2.5D: a pipeline from Norway, price tag flips from cheap to ",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P2-11c",
+   "kind": "gfx",
+   "t": 168.64,
+   "dur": 9.6,
+   "visual": "Line chart: UK production falling to the 1973 marker; 90% la",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P2-11c",
+   "kind": "clip",
+   "t": 178.24,
+   "dur": 9.6,
+   "visual": "Line chart: UK production falling to the 1973 marker; 90% la",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P2-11",
+   "kind": "gfx",
+   "t": 187.84,
+   "dur": 7.36,
+   "visual": "MAP-3D: North Sea, Rough glows orange.",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P2-11",
+   "kind": "photo",
+   "t": 195.2,
+   "dur": 7.36,
+   "visual": "MAP-3D: North Sea, Rough glows orange.",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P2-11d",
+   "kind": "gfx",
+   "t": 202.56,
+   "dur": 7.12,
+   "visual": "MAP: North Sea, Rough glows, a tank icon fills to 70%.",
+   "sfx": ""
+  },
+  {
+   "code": "P2-11d",
+   "kind": "clip",
+   "t": 209.68,
+   "dur": 7.12,
+   "visual": "MAP: North Sea, Rough glows, a tank icon fills to 70%.",
+   "sfx": ""
+  },
+  {
+   "code": "P2-11e",
+   "kind": "gfx",
+   "t": 216.8,
+   "dur": 6.4,
+   "visual": "Stamp CLOSED lands on the Rough tank, June 2017.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P2-11e",
+   "kind": "clip",
+   "t": 223.2,
+   "dur": 6.36,
+   "visual": "Stamp CLOSED lands on the Rough tank, June 2017.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P2-11f",
+   "kind": "clip",
+   "t": 229.56,
+   "dur": 21.44,
+   "visual": "Footage: snow storm; then CARD-NUMBER 300p/therm.",
+   "sfx": "wind + sub hit"
+  },
+  {
+   "code": "P2-11g",
+   "kind": "gfx",
+   "t": 251.0,
+   "dur": 5.24,
+   "visual": "Gauge: a 45 mcm/day bar drawn as an empty outline.",
+   "sfx": ""
+  },
+  {
+   "code": "P2-11g",
+   "kind": "photo",
+   "t": 256.24,
+   "dur": 5.28,
+   "visual": "Gauge: a 45 mcm/day bar drawn as an empty outline.",
+   "sfx": ""
+  },
+  {
+   "code": "P2-11h",
+   "kind": "gfx",
+   "t": 261.52,
+   "dur": 10.84,
+   "visual": "Timeline: 2017 closed, 2022 reopened 20%, 2027 at risk.",
+   "sfx": "riser"
+  },
+  {
+   "code": "P2-11h",
+   "kind": "clip",
+   "t": 272.36,
+   "dur": 10.84,
+   "visual": "Timeline: 2017 closed, 2022 reopened 20%, 2027 at risk.",
+   "sfx": "riser"
+  },
+  {
+   "code": "P2-12",
+   "kind": "gfx",
+   "t": 283.2,
+   "dur": 6.2,
+   "visual": "Map: a second door icon on the Baltic swings shut.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P2-12",
+   "kind": "photo",
+   "t": 289.4,
+   "dur": 6.24,
+   "visual": "Map: a second door icon on the Baltic swings shut.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P2-12b",
+   "kind": "gfx",
+   "t": 295.64,
+   "dur": 8.16,
+   "visual": "MAP: Baltic, two lines from Russia to Germany break with red",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P2-12b",
+   "kind": "clip",
+   "t": 303.8,
+   "dur": 8.12,
+   "visual": "MAP: Baltic, two lines from Russia to Germany break with red",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P2-12c",
+   "kind": "gfx",
+   "t": 311.92,
+   "dur": 8.04,
+   "visual": "Map: the Baltic goes dark; ship icons appear on the Atlantic",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P2-12c",
+   "kind": "clip",
+   "t": 319.96,
+   "dur": 8.0,
+   "visual": "Map: the Baltic goes dark; ship icons appear on the Atlantic",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P2-13",
+   "kind": "gfx",
+   "t": 327.96,
+   "dur": 13.92,
+   "visual": "HALF-RECEIPT: UK and EU columns print.",
+   "sfx": "printer"
+  },
+  {
+   "code": "P2-13",
+   "kind": "photo",
+   "t": 341.88,
+   "dur": 13.92,
+   "visual": "HALF-RECEIPT: UK and EU columns print.",
+   "sfx": "printer"
+  },
+  {
+   "code": "P2-14",
+   "kind": "gfx",
+   "t": 355.8,
+   "dur": 4.0,
+   "visual": "Hold on half-receipt, a ship icon with a question mark.",
+   "sfx": "riser"
+  },
+  {
+   "code": "P2-14",
+   "kind": "clip",
+   "t": 359.8,
+   "dur": 3.08,
+   "visual": "Hold on half-receipt, a ship icon with a question mark.",
+   "sfx": "riser"
+  }
+ ]
+}
