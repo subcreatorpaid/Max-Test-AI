@@ -1,0 +1,47 @@
+{
+ "part": "CO",
+ "dur": 65.76,
+ "vo_dur": 65.77595833333334,
+ "shots": [
+  {
+   "code": "CO-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 14.76,
+   "visual": "M navy map: Taiwan outlined, two orange ship clusters bloom ",
+   "sfx": "low drone in, sonar ping"
+  },
+  {
+   "code": "CO-02",
+   "kind": "clip",
+   "t": 14.76,
+   "dur": 7.88,
+   "visual": "L footage [CALM]: container ship in a strait at dusk, slow p",
+   "sfx": "soft hit"
+  },
+  {
+   "code": "CO-03",
+   "kind": "gfx",
+   "t": 22.64,
+   "dur": 13.68,
+   "visual": "N ledger number: $10.6 TRILLION types in, then $15,000 PER H",
+   "sfx": "receipt printer burst"
+  },
+  {
+   "code": "CO-04",
+   "kind": "gfx",
+   "t": 36.32,
+   "dur": 14.32,
+   "visual": "T typed card: three tags stamp down in turn: SCENARIO \u00b7 CLAI",
+   "sfx": "stamp x3"
+  },
+  {
+   "code": "CO-05",
+   "kind": "gfx",
+   "t": 50.64,
+   "dur": 15.12,
+   "visual": "Roadmap: six icons light in a row (chip, strait, calendar, s",
+   "sfx": "riser"
+  }
+ ]
+}
