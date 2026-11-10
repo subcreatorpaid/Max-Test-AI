@@ -1,0 +1,247 @@
+{
+ "part": "P4",
+ "dur": 229.24,
+ "vo_dur": 229.224625,
+ "shots": [
+  {
+   "code": "P4-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.68,
+   "visual": "s_part: PART 4, THE LAST TIME.",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P4-01b",
+   "kind": "gfx",
+   "t": 4.68,
+   "dur": 7.28,
+   "visual": "Line chart: UK production, 1973 marker glowing, line returni",
+   "sfx": "typewriter"
+  },
+  {
+   "code": "P4-01b",
+   "kind": "photo",
+   "t": 11.96,
+   "dur": 7.28,
+   "visual": "Line chart: UK production, 1973 marker glowing, line returni",
+   "sfx": "typewriter"
+  },
+  {
+   "code": "P4-01c",
+   "kind": "gfx",
+   "t": 19.24,
+   "dur": 7.64,
+   "visual": "Typewriter dates on dark: 16 OCT 1973 \u00b7 17 OCT 1973.",
+   "sfx": "typewriter"
+  },
+  {
+   "code": "P4-01c",
+   "kind": "clip",
+   "t": 26.88,
+   "dur": 7.68,
+   "visual": "Typewriter dates on dark: 16 OCT 1973 \u00b7 17 OCT 1973.",
+   "sfx": "typewriter"
+  },
+  {
+   "code": "P4-01d",
+   "kind": "gfx",
+   "t": 34.56,
+   "dur": 6.76,
+   "visual": "CARD-NUMBER: $3 \u2192 $12 a barrel.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P4-01d",
+   "kind": "photo",
+   "t": 41.32,
+   "dur": 6.72,
+   "visual": "CARD-NUMBER: $3 \u2192 $12 a barrel.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P4-01e",
+   "kind": "gfx",
+   "t": 48.04,
+   "dur": 11.08,
+   "visual": "Footage: offshore platform, then UK production line returns ",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P4-01e",
+   "kind": "clip",
+   "t": 59.12,
+   "dur": 11.04,
+   "visual": "Footage: offshore platform, then UK production line returns ",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P4-02",
+   "kind": "gfx",
+   "t": 70.16,
+   "dur": 6.8,
+   "visual": "Line chart 2022 spike vs 2026, our line far below the 2022 p",
+   "sfx": "chart grow + sub hit"
+  },
+  {
+   "code": "P4-02",
+   "kind": "clip",
+   "t": 76.96,
+   "dur": 6.8,
+   "visual": "Line chart 2022 spike vs 2026, our line far below the 2022 p",
+   "sfx": "chart grow + sub hit"
+  },
+  {
+   "code": "P4-03",
+   "kind": "gfx",
+   "t": 83.76,
+   "dur": 8.0,
+   "visual": "CARD-NUMBER: \u00a33,549 crossed out \u2192 \u00a32,500.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P4-03",
+   "kind": "photo",
+   "t": 91.76,
+   "dur": 8.0,
+   "visual": "CARD-NUMBER: \u00a33,549 crossed out \u2192 \u00a32,500.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P4-04",
+   "kind": "gfx",
+   "t": 99.76,
+   "dur": 6.2,
+   "visual": "Stacked bar: EU-27 \u20ac314bn + UK \u20ac178bn.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P4-04",
+   "kind": "clip",
+   "t": 105.96,
+   "dur": 6.2,
+   "visual": "Stacked bar: EU-27 \u20ac314bn + UK \u20ac178bn.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P4-05",
+   "kind": "gfx",
+   "t": 112.16,
+   "dur": 5.04,
+   "visual": "RECEIPT line: '2022 BAILOUT: STILL ON THE BILL'.",
+   "sfx": "printer"
+  },
+  {
+   "code": "P4-05",
+   "kind": "photo",
+   "t": 117.2,
+   "dur": 5.04,
+   "visual": "RECEIPT line: '2022 BAILOUT: STILL ON THE BILL'.",
+   "sfx": "printer"
+  },
+  {
+   "code": "P4-05b",
+   "kind": "clip",
+   "t": 122.24,
+   "dur": 19.32,
+   "visual": "Footage: office lights switching off; then a grid of supplie",
+   "sfx": "power down"
+  },
+  {
+   "code": "P4-05c",
+   "kind": "gfx",
+   "t": 141.56,
+   "dur": 5.68,
+   "visual": "Grid of 28 blocks greys out one by one.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P4-05c",
+   "kind": "clip",
+   "t": 147.24,
+   "dur": 5.68,
+   "visual": "Grid of 28 blocks greys out one by one.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P4-05d",
+   "kind": "gfx",
+   "t": 152.92,
+   "dur": 5.92,
+   "visual": "CARD-NUMBER: Bulb 1.6M customers \u00b7 \u00a30.9bn + \u00a31.0bn.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P4-05d",
+   "kind": "clip",
+   "t": 158.84,
+   "dur": 5.88,
+   "visual": "CARD-NUMBER: Bulb 1.6M customers \u00b7 \u00a30.9bn + \u00a31.0bn.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P4-05e",
+   "kind": "gfx",
+   "t": 164.72,
+   "dur": 8.16,
+   "visual": "RECEIPT line prints: SUPPLIER FAILURES \u2248 \u00a394.",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "P4-05e",
+   "kind": "photo",
+   "t": 172.88,
+   "dur": 8.2,
+   "visual": "RECEIPT line prints: SUPPLIER FAILURES \u2248 \u00a394.",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "P4-06",
+   "kind": "gfx",
+   "t": 181.08,
+   "dur": 7.68,
+   "visual": "Line chart 2026: rise to 104.90, dip to 89.59.",
+   "sfx": "counter"
+  },
+  {
+   "code": "P4-06",
+   "kind": "clip",
+   "t": 188.76,
+   "dur": 7.68,
+   "visual": "Line chart 2026: rise to 104.90, dip to 89.59.",
+   "sfx": "counter"
+  },
+  {
+   "code": "P4-07",
+   "kind": "gfx",
+   "t": 196.44,
+   "dur": 8.44,
+   "visual": "Card: 0% VAT ON ELECTRICITY \u2192 JULY 2027.",
+   "sfx": "riser"
+  },
+  {
+   "code": "P4-07",
+   "kind": "photo",
+   "t": 204.88,
+   "dur": 8.48,
+   "visual": "Card: 0% VAT ON ELECTRICITY \u2192 JULY 2027.",
+   "sfx": "riser"
+  },
+  {
+   "code": "P4-07b",
+   "kind": "gfx",
+   "t": 213.36,
+   "dur": 7.92,
+   "visual": "Receipt: two lines, HELP ARRIVES FAST \u00b7 YOU PAY IT BACK.",
+   "sfx": ""
+  },
+  {
+   "code": "P4-07b",
+   "kind": "clip",
+   "t": 221.28,
+   "dur": 7.96,
+   "visual": "Receipt: two lines, HELP ARRIVES FAST \u00b7 YOU PAY IT BACK.",
+   "sfx": ""
+  }
+ ]
+}
