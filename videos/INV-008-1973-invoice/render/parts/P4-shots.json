@@ -1,0 +1,111 @@
+{
+ "part": "P4",
+ "dur": 155.88,
+ "vo_dur": 155.864,
+ "shots": [
+  {
+   "code": "P4-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.64,
+   "visual": "s_part PART 4 \u00b7 THE LONG BILL",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P4-02",
+   "kind": "gfx",
+   "t": 4.64,
+   "dur": 13.96,
+   "visual": "Line chart continues past MAR 1974 flat-high to $15.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P4-03",
+   "kind": "clip",
+   "t": 18.6,
+   "dur": 12.44,
+   "visual": "Chain graphic: barrel \u2192 lorry \u2192 packet \u2192 factory \u2192 shelf.",
+   "sfx": "whoosh x4"
+  },
+  {
+   "code": "P4-04",
+   "kind": "gfx",
+   "t": 31.04,
+   "dur": 9.4,
+   "visual": "Bar chart US CPI: 6.2% \u2192 11.0%.",
+   "sfx": "chart grow + sub"
+  },
+  {
+   "code": "P4-05",
+   "kind": "photo",
+   "t": 40.44,
+   "dur": 12.64,
+   "visual": "RECEIPT corner line 4 prints: PRICES +$330/MONTH (on $3,000)",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "P4-06",
+   "kind": "gfx",
+   "t": 53.08,
+   "dur": 13.28,
+   "visual": "CARD-NUMBER 26.1%; coin graphic \u00a31.00 \u2192 \u00a31.26.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P4-07",
+   "kind": "clip",
+   "t": 66.36,
+   "dur": 12.64,
+   "visual": "Timeline bar NOV 73 \u2192 MAR 75; job icons fall away.",
+   "sfx": "low pulse"
+  },
+  {
+   "code": "P4-08",
+   "kind": "gfx",
+   "t": 79.0,
+   "dur": 14.4,
+   "visual": "Line chart unemployment \u2192 9% peak, slow fall.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P4-09",
+   "kind": "gfx",
+   "t": 93.4,
+   "dur": 6.88,
+   "visual": "Bar: UK GDP -3.9%; '14 QUARTERS'.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P4-10",
+   "kind": "gfx",
+   "t": 100.28,
+   "dur": 18.92,
+   "visual": "CARD-QUOTE style note: 'already rising above 10%' \u00b7 Fed. Res",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P4-11",
+   "kind": "clip",
+   "t": 119.2,
+   "dur": 10.96,
+   "visual": "MAP: Gulf glowing, lines out to US, Europe, Japan tighten.",
+   "sfx": "low drone"
+  },
+  {
+   "code": "P4-12",
+   "kind": "gfx",
+   "t": 130.16,
+   "dur": 19.0,
+   "visual": "HALF-RECEIPT: four lines + running total, prints and holds.",
+   "sfx": "receipt print, pause"
+  },
+  {
+   "code": "P4-13",
+   "kind": "gfx",
+   "t": 149.16,
+   "dur": 6.72,
+   "visual": "Shield icon outline draws in.",
+   "sfx": "riser"
+  }
+ ]
+}
