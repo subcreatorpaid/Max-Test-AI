@@ -1,0 +1,103 @@
+{
+ "part": "RC",
+ "dur": 115.44,
+ "vo_dur": 109.44454166666667,
+ "shots": [
+  {
+   "code": "RC-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 2.4,
+   "visual": "s_part THE RECEIPT",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "RC-02",
+   "kind": "gfx",
+   "t": 2.4,
+   "dur": 11.08,
+   "visual": "RECEIPT line 1.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-03",
+   "kind": "gfx",
+   "t": 13.48,
+   "dur": 9.72,
+   "visual": "RECEIPT line 2.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-04",
+   "kind": "gfx",
+   "t": 23.2,
+   "dur": 11.96,
+   "visual": "RECEIPT line 3, printed in crimson.",
+   "sfx": "receipt print, no music"
+  },
+  {
+   "code": "RC-05",
+   "kind": "photo",
+   "t": 35.16,
+   "dur": 10.64,
+   "visual": "RECEIPT line 4.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-06",
+   "kind": "gfx",
+   "t": 45.8,
+   "dur": 8.48,
+   "visual": "RECEIPT line 5; total line reads 'NOT PAID BY YOU ALONE'.",
+   "sfx": "receipt print + stamp"
+  },
+  {
+   "code": "RC-07",
+   "kind": "gfx",
+   "t": 54.28,
+   "dur": 14.64,
+   "visual": "Focus cards: BUFFER 3-6 MONTHS \u00b7 +20% STRESS TEST.",
+   "sfx": "tick x2"
+  },
+  {
+   "code": "RC-08",
+   "kind": "gfx",
+   "t": 68.92,
+   "dur": 14.0,
+   "visual": "Focus cards: DON'T TRADE HEADLINES \u00b7 ASK WHO GOT OUT.",
+   "sfx": "tick x2"
+  },
+  {
+   "code": "RC-09",
+   "kind": "gfx",
+   "t": 82.92,
+   "dur": 9.72,
+   "visual": "Card: ITF \u00b7 Mission to Seafarers (names only, no logos).",
+   "sfx": "soft"
+  },
+  {
+   "code": "RC-10",
+   "kind": "gfx",
+   "t": 92.64,
+   "dur": 9.0,
+   "visual": "Comment prompt card; end screen to The Hunger Bill.",
+   "sfx": "riser air"
+  },
+  {
+   "code": "RC-11",
+   "kind": "photo",
+   "t": 101.64,
+   "dur": 7.8,
+   "visual": "Return to CO-01 tanker still; slow fade to black.",
+   "sfx": "silence, then one low note"
+  },
+  {
+   "code": "RC-11",
+   "kind": "end",
+   "t": 109.44,
+   "dur": 6.0,
+   "visual": "Return to CO-01 tanker still; slow fade to black.",
+   "sfx": ""
+  }
+ ]
+}
