@@ -121,6 +121,7 @@ def road6(stops, title):
         for j,l in enumerate(wrap(d,lab,F(26,"b"),180)): d.text((x-d.textlength(l,font=F(26,"b"))/2,y+50+j*32),l,font=F(26,"b"),fill=PAPER)
     return im
 def inset(base, panel, scale_=0.42):
+    if isinstance(base, dict): base['inset']=panel; return base   # render: overlay_png pastes it
     p=panel.resize((int(W*scale_),int(H*scale_))); b=base.convert("RGBA"); x,y=W-p.width-40,60
     ImageDraw.Draw(b).rectangle([x-6,y-6,x+p.width+6,y+p.height+6],fill=PAPER); b.paste(p,(x,y)); return b.convert("RGB")
 def ships_map(extra_pins=(), title="100+ ships", sub="two clusters · Nov 2026", t="CLAIM", src="TAIWAN NSC / AEI-ISW"):

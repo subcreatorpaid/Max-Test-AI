@@ -1,0 +1,70 @@
+name: Video render v9 (INV-009, storyboard kit, matched clips, parallel parts)
+# Trigger: push videos/<ID>/render/go9.json  {"parts":["CO","P1",...], "script":"tools/inv009/script_v1.py"}
+# Each part = one runner: Kokoro voice for that part, then render_part7.py. Parts land in videos/<ID>/render/parts/.
+on:
+  push:
+    branches: [history-invoice-brain]
+    paths: ["videos/*/render/go9.json"]
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs: { cfg: "${{ steps.p.outputs.cfg }}", parts: "${{ steps.p.outputs.parts }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: p
+        run: |
+          f=$(git diff --name-only HEAD~1 HEAD -- 'videos/*/render/go9.json' | head -1)
+          echo "cfg=$f" >> $GITHUB_OUTPUT
+          echo "parts=$(python3 -c "import json;print(json.dumps(json.load(open('$f'))['parts']))")" >> $GITHUB_OUTPUT
+  part:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: { part: "${{ fromJSON(needs.plan.outputs.parts) }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg fonts-inter fonts-liberation >/dev/null
+          pip -q install kokoro-onnx soundfile pyloudnorm pyshp pillow numpy
+      - uses: actions/cache@v4
+        with: { path: ~/kok, key: kokoro-v1.0 }
+      - name: Voice models
+        run: |
+          mkdir -p ~/kok; cd ~/kok
+          for f in kokoro-v1.0.onnx voices-v1.0.bin; do [ -s $f ] || curl -sSL -o $f https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f; done
+      - name: Matched clips (picked by eye, cached for this render only)
+        run: |
+          CFG=${{ needs.plan.outputs.cfg }}; V=$(dirname $(dirname $CFG)); mkdir -p clips
+          python3 - "$V/clips/picks.json" <<'PY'
+          import json,sys,urllib.request
+          for code,p in json.load(open(sys.argv[1])).items():
+              req=urllib.request.Request(p["url"],headers={"User-Agent":"history-invoice-broll/1.0"})
+              try: open(f"clips/{code}.mp4","wb").write(urllib.request.urlopen(req,timeout=120).read()); print(code,"ok")
+              except Exception as e: print(code,"FAILED",type(e).__name__)
+          PY
+      - name: Voice + render
+        env: { KOKMODELS: /home/runner/kok, WORKERS: "4" }
+        run: |
+          CFG=${{ needs.plan.outputs.cfg }}; P=${{ matrix.part }}; V=$(dirname $(dirname $CFG))
+          SCRIPT=$(python3 -c "import json;print(json.load(open('$CFG'))['script'])")
+          mkdir -p vo out
+          python tools/inv009/vo9.py $SCRIPT vo $P
+          python tools/inv009/render_part9.py $P vo out $V/storyboard/picks clips
+      - name: Commit part
+        run: |
+          CFG=${{ needs.plan.outputs.cfg }}; P=${{ matrix.part }}; D=$(dirname $CFG)/parts; mkdir -p $D
+          rm -f $D/$P-*.mp4
+          ffmpeg -nostdin -loglevel error -i out/$P.mp4 -c copy -f segment -segment_time 40 -reset_timestamps 1 $D/$P-%02d.mp4
+          cp vo/*-$P.wav $D/$P.wav; cp out/$P-shots.json $D/; cp vo/segs9.json $D/$P-segs.json
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f $D/$P-*.mp4 $D/$P.wav $D/$P-shots.json $D/$P-segs.json
+          git commit -qm "render9: part $P [skip ci]"
+          for i in 1 2 3 4 5 6 7 8; do git pull --rebase -q origin ${{ github.ref_name }} && git push -q && break; sleep $((RANDOM % 10 + 3)); done
