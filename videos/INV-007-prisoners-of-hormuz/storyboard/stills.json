@@ -1,170 +1,112 @@
 [
  {
-  "code": "CO-01",
-  "query": "oil tanker night sea"
- },
- {
   "code": "CO-04",
-  "query": "ships anchored aerial bay"
+  "query": "oil tankers anchored",
+  "n": 4
  },
  {
   "code": "P1-03",
-  "query": "oil tanker anchored calm sea"
- },
- {
-  "code": "P1-03b",
-  "query": "tugboat sea"
- },
- {
-  "code": "P1-05",
-  "query": "tankers waiting anchorage"
+  "query": "oil tanker anchored",
+  "n": 4
  },
  {
   "code": "P1-06",
-  "query": "ship galley interior"
- },
- {
-  "code": "P1-07",
-  "query": "ship provisions crates"
+  "query": "ship galley",
+  "n": 4
  },
  {
   "code": "P1-08c",
-  "query": "navy warship sea distant"
- },
- {
-  "code": "P1-11",
-  "query": "oil tanker hull close"
+  "query": "warship frigate",
+  "n": 4
  },
  {
   "code": "P1-13",
-  "query": "petrol pump display numbers"
- },
- {
-  "code": "P2-02",
-  "query": "container ship sea aerial"
- },
- {
-  "code": "P2-04b",
-  "query": "calendar on wall"
- },
- {
-  "code": "P2-06",
-  "query": "pilot boat tanker"
- },
- {
-  "code": "P2-09",
-  "query": "law book pages"
+  "query": "gas station pump",
+  "n": 4
  },
  {
   "code": "P2-10b",
-  "query": "conference hall empty seats"
+  "query": "empty conference room chairs",
+  "n": 4
  },
  {
   "code": "P2-13",
-  "query": "sailor silhouette ship deck sunset"
+  "query": "sailor silhouette",
+  "n": 4
  },
  {
   "code": "P2-14",
-  "query": "ship deck night"
+  "query": "ship deck night",
+  "n": 4
  },
  {
   "code": "P3-05b",
-  "query": "ship smoke sea distance"
- },
- {
-  "code": "P3-05c",
-  "query": "ship ladder hull"
+  "query": "ship smoke sea",
+  "n": 4
  },
  {
   "code": "P3-07",
-  "query": "wooden dhow boat"
- },
- {
-  "code": "P3-11",
-  "query": "ship night lights sea"
- },
- {
-  "code": "P3-12",
-  "query": "rusty cargo ship anchored"
+  "query": "dhow",
+  "n": 4
  },
  {
   "code": "P4-02",
-  "query": "old oil tanker"
+  "query": "oil tanker ship",
+  "n": 4
  },
  {
   "code": "P4-05",
-  "query": "warship escort tanker"
- },
- {
-  "code": "P4-06",
-  "query": "empty airport terminal"
- },
- {
-  "code": "P4-08",
-  "query": "container port cranes"
- },
- {
-  "code": "P5-02",
-  "query": "oil refinery flare"
- },
- {
-  "code": "P5-03",
-  "query": "oil storage tanks"
- },
- {
-  "code": "P5-06",
-  "query": "container ship port"
+  "query": "navy warship",
+  "n": 4
  },
  {
   "code": "P5-07",
-  "query": "ship bunkering fuel hose"
- },
- {
-  "code": "P5-09b",
-  "query": "white house washington"
- },
- {
-  "code": "P5-09e",
-  "query": "ships anchored sunset"
- },
- {
-  "code": "P6-02",
-  "query": "gas pump car refuel"
+  "query": "ship engine room",
+  "n": 4
  },
  {
   "code": "P6-04",
-  "query": "petrol station uk pump"
+  "query": "fuel nozzle petrol",
+  "n": 4
  },
  {
   "code": "P6-05",
-  "query": "electronics store shelves"
+  "query": "electronics store",
+  "n": 4
  },
  {
   "code": "P6-06",
-  "query": "manila bay harbor"
- },
- {
-  "code": "P6-07b",
-  "query": "mumbai port ships"
- },
- {
-  "code": "P6-08",
-  "query": "harbour dusk boats"
- },
- {
-  "code": "P6-09",
-  "query": "warehouse shelves stock"
+  "query": "manila bay",
+  "n": 4
  },
  {
   "code": "RC-05",
-  "query": "ships anchored wide"
+  "query": "cargo ships horizon",
+  "n": 4
  },
  {
   "code": "RC-09",
-  "query": "port seamen center building"
+  "query": "harbor building",
+  "n": 4
  },
  {
-  "code": "RC-11",
-  "query": "oil tanker night sea"
+  "code": "P1-06b",
+  "query": "ship corridor interior",
+  "n": 4
+ },
+ {
+  "code": "P2-13b",
+  "query": "seaman ship deck",
+  "n": 4
+ },
+ {
+  "code": "P4-02b",
+  "query": "supertanker",
+  "n": 4
+ },
+ {
+  "code": "P3-05b2",
+  "query": "burning ship",
+  "n": 4
  }
 ]
