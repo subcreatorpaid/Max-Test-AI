@@ -1,0 +1,164 @@
+[
+ {
+  "code": "CO-03",
+  "query": "petrol pump nozzle refuel",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "CO-04",
+  "query": "ships anchored aerial bay",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-03",
+  "query": "oil tanker anchored calm sea",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-03b",
+  "query": "tugboat sea",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-05",
+  "query": "tankers waiting anchorage",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-05b",
+  "query": "ships anchored offshore waiting",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-06",
+  "query": "ship galley interior",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-08c",
+  "query": "navy warship sea distant",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-13",
+  "query": "petrol pump display numbers",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-02",
+  "query": "container ship sea aerial",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-06",
+  "query": "pilot boat tanker",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-10b",
+  "query": "conference hall empty seats",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P3-11",
+  "query": "ship night lights sea",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P3-12",
+  "query": "rusty cargo ship anchored",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P4-06",
+  "query": "empty airport terminal",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P4-08",
+  "query": "container port cranes",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-02",
+  "query": "oil refinery flare",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-03",
+  "query": "oil storage tanks",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-05b",
+  "query": "oil tanker sailing sea",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-06",
+  "query": "container ship port",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-07",
+  "query": "ship bunkering fuel hose",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-09d2",
+  "query": "aircraft carrier",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-09e",
+  "query": "ships anchored sunset",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-02",
+  "query": "gas pump car refuel",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-03",
+  "query": "gas station fuel price",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-08",
+  "query": "harbour dusk boats",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-09",
+  "query": "warehouse shelves stock",
+  "n": 3,
+  "min_seconds": 7
+ }
+]

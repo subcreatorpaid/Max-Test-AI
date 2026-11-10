@@ -1,0 +1,25 @@
+name: Clip candidates (Pixabay video, pick by eye)
+on:
+  push:
+    branches: [history-invoice-brain]
+    paths: ["videos/**/clips.json"]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
+      - name: Fetch candidates
+        env: { PIXABAY_API_KEY: "${{ secrets.PIXABAY_API_KEY }}" }
+        run: |
+          for d in $(git diff --name-only HEAD~1 HEAD -- 'videos/**/clips.json' | xargs -r -n1 dirname | sort -u); do python scripts/pixabay_candidates.py "$d"; done
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f videos/*/clips/cand/*.jpg videos/*/clips/candidates.json 2>/dev/null || true
+          git diff --cached --quiet || { git commit -qm "clips: candidates [skip ci]"; for i in 1 2 3 4 5; do git pull --rebase -q origin ${{ github.ref_name }} && git push -q && break; sleep 5; done; }

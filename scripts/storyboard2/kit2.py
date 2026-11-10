@@ -397,3 +397,63 @@ def comment(prompt, hint, t="", src=""):
     pd.rounded_rectangle([830,120,1010,172],10,fill=INKT); pd.text((862,130),"COMMENT",font=F(24,"b"),fill=PAPER)
     im=drop(im,p,(120,360),0,10)
     return tag(im.convert("RGB"),t,src)
+
+# 32 crew manifest
+def manifest(rows, title="CREW LIST", t="", src="", foot=""):
+    im=ledger().convert("RGBA"); w,h=900,520; p=paper_rect((w,h),PAPER,False,32); pd=ImageDraw.Draw(p)
+    pd.text((40,30),title,font=F(34,"mono"),fill=INKT); pd.line([40,80,w-40,80],fill=INKT,width=3)
+    pd.text((40,96),"RANK",font=F(20,"mono"),fill=(90,80,68)); pd.text((w-260,96),"NUMBER",font=F(20,"mono"),fill=(90,80,68))
+    for i,(a,b,sub) in enumerate(rows):
+        y=150+i*130; pd.text((40,y),a,font=F(44,"b"),fill=INKT); pd.text((40,y+56),sub,font=F(26,"s"),fill=(90,80,68))
+        pd.text((w-40-pd.textlength(b,font=F(52,"mono")),y),b,font=F(52,"mono"),fill=RED if i==len(rows)-1 else INKT)
+        pd.line([40,y+108,w-40,y+108],fill=(170,160,144),width=2)
+    if foot: pd.text((40,h-56),foot,font=F(24,"m"),fill=ORANGE)
+    im=drop(im,p,(190,110),-1)
+    return tag(im.convert("RGB"),t,src)
+
+# 33 pay slip
+def payslip(lines, title="PAY SLIP", t="", src="", st=""):
+    im=ledger().convert("RGBA"); w,h=640,560; p=paper_rect((w,h),(214,204,186),False,33); pd=ImageDraw.Draw(p)
+    pd.rectangle([0,0,w,70],fill=(60,54,48)); pd.text((30,18),title,font=F(30,"mono"),fill=PAPER)
+    for k in range(0,w,24): pd.line([k,h-30,k+12,h-30],fill=(120,110,96),width=2)
+    for i,(a,b) in enumerate(lines):
+        y=110+i*90; pd.text((30,y),a,font=F(28,"m"),fill=INKT); pd.text((w-30-pd.textlength(b,font=F(40,"mono")),y-6),b,font=F(40,"mono"),fill=RED if "×" in b else INKT)
+        pd.line([30,y+60,w-30,y+60],fill=(170,160,144),width=2)
+    im=drop(im,p,(320,90),2)
+    if st: s=stamp(st,RED,44,-10); im.paste(s,(760,470),s)
+    return tag(im.convert("RGB"),t,src)
+
+# 34 ledger book (accounts)
+def ledgerbook(entries, title="", t="", src=""):
+    im=ledger().convert("RGBA"); w,h=1040,520; p=paper_rect((w,h),PAPER,False,34); pd=ImageDraw.Draw(p)
+    pd.line([w//2,0,w//2,h],fill=(150,140,124),width=4)
+    for y in range(90,h,44): pd.line([0,y,w,y],fill=(176,190,200),width=1)
+    for x in (w//2-140,w-140): pd.line([x,60,x,h],fill=(200,110,100),width=2)
+    if title: pd.text((40,24),title,font=F(30,"s"),fill=INKT)
+    for i,(a,b) in enumerate(entries):
+        col=i%2; row=i//2; x=40+col*(w//2); y=98+row*88
+        pd.text((x,y),a,font=F(30,"s"),fill=(30,40,90)); pd.text((x+w//2-170,y),b,font=F(32,"b"),fill=RED)
+    im=drop(im,p,(120,130),-1)
+    return tag(im.convert("RGB"),t,src)
+
+# 35 donut share
+def donut(pct, label, sub="", title="", t="", src=""):
+    im=ledger(); d=ImageDraw.Draw(im); _title(d,title); cx,cy,r=430,400,210
+    d.ellipse([cx-r,cy-r,cx+r,cy+r],fill=(60,55,50)); d.pieslice([cx-r,cy-r,cx+r,cy+r],-90,-90+360*pct/100,fill=ORANGE)
+    d.ellipse([cx-r*0.58,cy-r*0.58,cx+r*0.58,cy+r*0.58],fill=INK)
+    s=f"{pct}%"; d.text((cx-d.textlength(s,font=F(84,"b"))/2,cy-52),s,font=F(84,"b"),fill=PAPER)
+    for j,l in enumerate(wrap(d,label,F(44,"b"),520)[:3]): d.text((720,280+j*56),l,font=F(44,"b"),fill=PAPER)
+    if sub: d.text((720,470),sub,font=F(32,"s"),fill=ORANGE)
+    return tag(im,t,src)
+
+# 36 two halves
+def halves(a, b, foot=""):
+    im=ledger().convert("RGBA")
+    for i,(head,lines,col) in enumerate((a,b)):
+        p=paper_rect((520,420),PAPER,False,36+i); pd=ImageDraw.Draw(p); pd.rectangle([0,0,520,86],fill=col)
+        pd.text((30,20),head,font=F(40,"xb"),fill=PAPER)
+        for j,l in enumerate(lines): pd.text((30,120+j*70),l,font=F(38,"s"),fill=INKT)
+        im=drop(im,p,(90+i*590,110),[-2,2][i],10)
+    d=ImageDraw.Draw(im)
+    if foot: d.text((W/2-d.textlength(foot,font=F(32,"s"))/2,610),foot,font=F(32,"s"),fill=ORANGE)
+    return im.convert("RGB")

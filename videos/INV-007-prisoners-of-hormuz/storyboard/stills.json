@@ -1,112 +1,27 @@
 [
  {
-  "code": "CO-04",
-  "query": "oil tankers anchored",
+  "code": "P1-07b",
+  "query": "ship cargo hold supplies",
   "n": 4
  },
  {
-  "code": "P1-03",
-  "query": "oil tanker anchored",
-  "n": 4
- },
- {
-  "code": "P1-06",
-  "query": "ship galley",
-  "n": 4
- },
- {
-  "code": "P1-08c",
-  "query": "warship frigate",
-  "n": 4
- },
- {
-  "code": "P1-13",
-  "query": "gas station pump",
-  "n": 4
- },
- {
-  "code": "P2-10b",
-  "query": "empty conference room chairs",
-  "n": 4
- },
- {
-  "code": "P2-13",
-  "query": "sailor silhouette",
-  "n": 4
- },
- {
-  "code": "P2-14",
+  "code": "P3-11b",
   "query": "ship deck night",
   "n": 4
  },
  {
-  "code": "P3-05b",
-  "query": "ship smoke sea",
+  "code": "P1-05b",
+  "query": "ships anchored offshore",
   "n": 4
  },
  {
-  "code": "P3-07",
-  "query": "dhow",
+  "code": "P5-05b",
+  "query": "oil tanker sailing",
   "n": 4
  },
  {
-  "code": "P4-02",
-  "query": "oil tanker ship",
-  "n": 4
- },
- {
-  "code": "P4-05",
-  "query": "navy warship",
-  "n": 4
- },
- {
-  "code": "P5-07",
-  "query": "ship engine room",
-  "n": 4
- },
- {
-  "code": "P6-04",
-  "query": "fuel nozzle petrol",
-  "n": 4
- },
- {
-  "code": "P6-05",
-  "query": "electronics store",
-  "n": 4
- },
- {
-  "code": "P6-06",
-  "query": "manila bay",
-  "n": 4
- },
- {
-  "code": "RC-05",
-  "query": "cargo ships horizon",
-  "n": 4
- },
- {
-  "code": "RC-09",
-  "query": "harbor building",
-  "n": 4
- },
- {
-  "code": "P1-06b",
-  "query": "ship corridor interior",
-  "n": 4
- },
- {
-  "code": "P2-13b",
-  "query": "seaman ship deck",
-  "n": 4
- },
- {
-  "code": "P4-02b",
-  "query": "supertanker",
-  "n": 4
- },
- {
-  "code": "P3-05b2",
-  "query": "burning ship",
+  "code": "P5-09d2",
+  "query": "aircraft carrier",
   "n": 4
  }
 ]

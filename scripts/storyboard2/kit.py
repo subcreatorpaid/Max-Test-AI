@@ -78,9 +78,9 @@ def number(big, sub="", kicker="", t="", src="", faded=""):
     return tag(im,t,src)
 # ---------- footage / still frame, toned, orange glow, paper lower-third (reference 0:17, 2:52, 5:37) ----------
 # Hammad 2026-11-10: about 30% of footage in shadow, the rest coloured by scene intensity
-SHADOW="CO-01 RC-11 P1-03b P1-13 P3-07 P3-11 P3-12 P3-13 P4-06 P5-09e P6-08 P6-09".split()
-HIGH="CO-03 CO-04 P1-05 P1-06 P1-08c P1-11 P2-10b P3-05c P3-06 P5-02 P5-06 P5-07 P6-02".split()
-LOW="P1-03 P1-08b P2-02 P2-04b P2-06 P4-08 P4-09 P5-03 P5-09b P6-03 P6-07b RC-05".split()
+SHADOW="CO-01 RC-11 P1-03b P1-13 P3-07 P3-11 P3-11b P3-12 P3-13 P4-06 P5-09e P6-08 P6-09".split()
+HIGH="P5-09d2 CO-03 CO-04 P1-05 P1-06 P1-08c P1-11 P2-10b P3-05c P3-06 P5-02 P5-06 P5-07 P6-02".split()
+LOW="P1-05b P1-07b P5-05b P1-03 P1-08b P2-02 P2-04b P2-06 P4-08 P4-09 P5-03 P5-09b P6-03 P6-07b RC-05".split()
 GRADE={**{c:"shadow" for c in SHADOW},**{c:"high" for c in HIGH},**{c:"low" for c in LOW}}
 CUR=[""]
 def tone(img, glow=None, mode="warm"):

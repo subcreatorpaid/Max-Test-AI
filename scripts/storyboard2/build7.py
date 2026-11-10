@@ -4,7 +4,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import kit, spec7
 from kit import *
 ROOT=kit.ROOT; sys.path.insert(0,str(ROOT/"tools/inv007"))
-import script_v1 as S, visuals_v2 as V
+import script_v2 as S, visuals_v2 as V
 spec7.ST=sys.argv[1]; REF=sys.argv[2]; OUT=pathlib.Path(sys.argv[3]); (OUT/"panels").mkdir(parents=True,exist_ok=True)
 for r in S.R:
     c=r[0]; kit.CUR[0]=c; im=spec7.SPEC[c](); im.save(OUT/"panels"/f"{c}.jpg",quality=88)
