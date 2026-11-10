@@ -1,0 +1,23 @@
+{
+ "part": "BR",
+ "dur": 10.4,
+ "vo_dur": 10.387625,
+ "shots": [
+  {
+   "code": "BR-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.2,
+   "visual": "G24 bridge card, next-video thumbnail.",
+   "sfx": "riser air"
+  },
+  {
+   "code": "BR-01",
+   "kind": "photo",
+   "t": 5.2,
+   "dur": 5.2,
+   "visual": "G24 bridge card, next-video thumbnail.",
+   "sfx": "riser air"
+  }
+ ]
+}
