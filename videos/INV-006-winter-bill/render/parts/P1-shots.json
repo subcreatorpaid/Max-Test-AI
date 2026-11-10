@@ -1,7 +1,7 @@
 {
  "part": "P1",
  "dur": 290.64,
- "vo_dur": 290.64758333333333,
+ "vo_dur": 290.64666666666665,
  "shots": [
   {
    "code": "P1-01",
@@ -247,15 +247,15 @@
    "code": "P1-10g",
    "kind": "clip",
    "t": 220.32,
-   "dur": 7.24,
+   "dur": 7.2,
    "visual": "Timeline card: 2019 cap begins, 2022 crisis, 2026 war.",
    "sfx": ""
   },
   {
    "code": "P1-10c",
    "kind": "gfx",
-   "t": 227.56,
-   "dur": 5.36,
+   "t": 227.52,
+   "dur": 5.4,
    "visual": "Price line Aug-Nov 2026, the window glowing over the late-Oc",
    "sfx": "sub hit"
   },
