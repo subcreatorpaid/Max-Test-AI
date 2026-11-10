@@ -7,11 +7,21 @@
    "mins": 2
   }
  ],
- "approvals": [],
+ "approvals": [
+  {
+   "gate": 1,
+   "ask": "Pick the next video. Recommended: T07 The Winter Bill (heating bills / energy price cap). Full scan: brain/research/2026-11-10-scan.md",
+   "since": "2026-11-10"
+  }
+ ],
  "alerts": [
   {
    "text": "Round Two data (26 h): CTR 6.8%, AVD 8:41 of 27:14, search 1%. Rulebook v1 fixes this: money by 4:00, search phrase first.",
    "since": "2026-11-06"
+  },
+  {
+   "text": "vidIQ has 0 credits until 30 Nov 2026: no outlier, keyword or title/thumbnail scoring until then.",
+   "since": "2026-11-10"
   }
  ],
  "pipeline": {

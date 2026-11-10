@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-10",
- "source": "documentary/topic-finder/topics.json (scan 2026-11-06; pegs are stale, re-scan before picking)",
+ "source": "documentary/topic-finder/topics.json (scan 2026-11-06; pegs are stale, re-scan before picking); re-scored 2026-11-10 in brain/research/2026-11-10-scan.md",
  "note": "T03 WW3 family cost is now live as INV-005",
  "ideas": [
   {
@@ -11,7 +11,8 @@
     "money",
     "time"
    ],
-   "peg": "Brent Jan closed $103.60 on 3 Nov 2026 after a draft-peace report (REPORTED, unconfirmed); ~490 ships still waiting outside Hormuz."
+   "peg": "Brent Jan closed $103.60 on 3 Nov 2026 after a draft-peace report (REPORTED, unconfirmed); ~490 ships still waiting outside Hormuz.",
+   "score_2026_11_10": 35
   },
   {
    "id": "T02",
@@ -22,7 +23,8 @@
     "money",
     "lives"
    ],
-   "peg": "S&P Global food-crisis warning, 19 Oct 2026."
+   "peg": "S&P Global food-crisis warning, 19 Oct 2026.",
+   "score_2026_11_10": 41
   },
   {
    "id": "T03",
@@ -34,7 +36,8 @@
     "rights",
     "food"
    ],
-   "peg": "Weak direct peg; rides a standing fear spike during the Iran war."
+   "peg": "Weak direct peg; rides a standing fear spike during the Iran war.",
+   "status": "live as INV-005"
   },
   {
    "id": "T04",
@@ -45,7 +48,8 @@
     "time",
     "rights"
    ],
-   "peg": "UKMTO: 4 hits in Hormuz 30 Oct-2 Nov 2026 incl. LNG tanker (REPORTED); IMO said ~1,500 ships / 20,000 crew trapped (May 2026, re-verify)."
+   "peg": "UKMTO: 4 hits in Hormuz 30 Oct-2 Nov 2026 incl. LNG tanker (REPORTED); IMO said ~1,500 ships / 20,000 crew trapped (May 2026, re-verify).",
+   "score_2026_11_10": 36
   },
   {
    "id": "T05",
@@ -56,7 +60,8 @@
     "money",
     "safety"
    ],
-   "peg": "Hard date: suspension expires 10 Nov 2026 (InvestorNews; re-verify outcome)."
+   "peg": "Hard date: suspension expires 10 Nov 2026 (InvestorNews; re-verify outcome).",
+   "status": "parked until 10 Jan 2027 (pause extended)"
   },
   {
    "id": "T06",
@@ -78,7 +83,8 @@
     "money",
     "lives"
    ],
-   "peg": "Season + LNG tanker hit 30 Oct 2026 (REPORTED)."
+   "peg": "Season + LNG tanker hit 30 Oct 2026 (REPORTED).",
+   "score_2026_11_10": 45
   },
   {
    "id": "T08",
@@ -90,7 +96,8 @@
     "time",
     "trust"
    ],
-   "peg": "Soft: the 1970s comparison is everywhere this autumn."
+   "peg": "Soft: the 1970s comparison is everywhere this autumn.",
+   "score_2026_11_10": 35
   },
   {
    "id": "T09",
