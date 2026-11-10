@@ -1,0 +1,127 @@
+{
+ "part": "P4",
+ "dur": 171.24,
+ "vo_dur": 171.22929166666665,
+ "shots": [
+  {
+   "code": "P4-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.64,
+   "visual": "P part card PART 4 \u00b7 THE REHEARSAL",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P4-02",
+   "kind": "gfx",
+   "t": 4.64,
+   "dur": 16.64,
+   "visual": "M map: median line draws; 130 aircraft ticks, 90 cross it an",
+   "sfx": "jet pass (low) + ticks"
+  },
+  {
+   "code": "P4-03",
+   "kind": "gfx",
+   "t": 21.28,
+   "dur": 6.08,
+   "visual": "Calendar strip: 29 \u00b7 30 \u00b7 31 DEC with a red stamp DONE on 31",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P4-04",
+   "kind": "gfx",
+   "t": 27.36,
+   "dur": 15.04,
+   "visual": "M map: Liaoning and Fujian icons move out of Sanya and past ",
+   "sfx": "sonar ping + whoosh"
+  },
+  {
+   "code": "P4-04b",
+   "kind": "gfx",
+   "t": 42.4,
+   "dur": 12.36,
+   "visual": "M map zoom south of Taiwan: 49 small aircraft ticks, 36 clus",
+   "sfx": "ticks"
+  },
+  {
+   "code": "P4-05",
+   "kind": "gfx",
+   "t": 54.76,
+   "dur": 15.48,
+   "visual": "Three typed cards with stamps: AEI/ISW 'ASSESSMENT' \u00b7 TAIWAN",
+   "sfx": "stamp x3"
+  },
+  {
+   "code": "P4-05b",
+   "kind": "photo",
+   "t": 70.24,
+   "dur": 13.6,
+   "visual": "Ticker counter (kit2 one-off: odometer) rolling to 2.63M / D",
+   "sfx": "fast digital ticks (soft)"
+  },
+  {
+   "code": "P4-06",
+   "kind": "gfx",
+   "t": 83.84,
+   "dur": 9.16,
+   "visual": "Typed card: QUARANTINE types in; stamp SCENARIO.",
+   "sfx": "typewriter + stamp"
+  },
+  {
+   "code": "P4-07",
+   "kind": "photo",
+   "t": 93.0,
+   "dur": 15.6,
+   "visual": "Side-by-side cut-paper figures (K): grey warship vs white co",
+   "sfx": "paper slide"
+  },
+  {
+   "code": "P4-08",
+   "kind": "gfx",
+   "t": 108.6,
+   "dur": 7.56,
+   "visual": "Icon grid: 150 cutters vs 10, filling the frame.",
+   "sfx": "tick cascade"
+  },
+  {
+   "code": "P4-09",
+   "kind": "gfx",
+   "t": 116.16,
+   "dur": 11.64,
+   "visual": "Stopwatch to 48:00 (kit2 one-off), then 4 ship icons, 3 turn",
+   "sfx": "clock + soft hits"
+  },
+  {
+   "code": "P4-10",
+   "kind": "clip",
+   "t": 127.8,
+   "dur": 12.64,
+   "visual": "Return to the countdown dial: 11 \u2192 9 DAYS; a city skyline si",
+   "sfx": "low drone"
+  },
+  {
+   "code": "P4-11",
+   "kind": "gfx",
+   "t": 140.44,
+   "dur": 10.8,
+   "visual": "Bar: 13% US experts \u00b7 9% Taiwan experts 'COMPLETELY CONFIDEN",
+   "sfx": "soft hit"
+  },
+  {
+   "code": "P4-12",
+   "kind": "gfx",
+   "t": 151.24,
+   "dur": 16.16,
+   "visual": "R receipt printer: HALF-RECEIPT, three lines print.",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "P4-13",
+   "kind": "photo",
+   "t": 167.4,
+   "dur": 3.84,
+   "visual": "Receipt tears off; push to black.",
+   "sfx": "riser"
+  }
+ ]
+}
