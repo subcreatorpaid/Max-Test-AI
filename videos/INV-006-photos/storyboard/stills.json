@@ -1,0 +1,178 @@
+[
+ {
+  "code": "ship01",
+  "query": "lng tanker ship"
+ },
+ {
+  "code": "ship02",
+  "query": "oil tanker at sea"
+ },
+ {
+  "code": "ship03",
+  "query": "container ship port"
+ },
+ {
+  "code": "ship04",
+  "query": "ship in storm sea"
+ },
+ {
+  "code": "ship05",
+  "query": "harbour cranes dusk"
+ },
+ {
+  "code": "gas01",
+  "query": "gas pipeline"
+ },
+ {
+  "code": "gas02",
+  "query": "refinery at night"
+ },
+ {
+  "code": "gas03",
+  "query": "industrial plant chimney"
+ },
+ {
+  "code": "gas04",
+  "query": "gas storage tanks"
+ },
+ {
+  "code": "gas05",
+  "query": "offshore platform"
+ },
+ {
+  "code": "gas06",
+  "query": "gas pressure gauge"
+ },
+ {
+  "code": "winter01",
+  "query": "snowy street night"
+ },
+ {
+  "code": "winter02",
+  "query": "frost window"
+ },
+ {
+  "code": "winter03",
+  "query": "winter city fog"
+ },
+ {
+  "code": "winter04",
+  "query": "frozen landscape"
+ },
+ {
+  "code": "winter05",
+  "query": "snow covered houses"
+ },
+ {
+  "code": "winter06",
+  "query": "icicles"
+ },
+ {
+  "code": "home01",
+  "query": "radiator"
+ },
+ {
+  "code": "home02",
+  "query": "thermostat"
+ },
+ {
+  "code": "home03",
+  "query": "gas stove flame"
+ },
+ {
+  "code": "home04",
+  "query": "cosy living room winter"
+ },
+ {
+  "code": "home05",
+  "query": "boiler"
+ },
+ {
+  "code": "home06",
+  "query": "kitchen table bills"
+ },
+ {
+  "code": "money01",
+  "query": "energy bill paper"
+ },
+ {
+  "code": "money02",
+  "query": "coins and banknotes"
+ },
+ {
+  "code": "money03",
+  "query": "calculator and bills"
+ },
+ {
+  "code": "money04",
+  "query": "electricity meter"
+ },
+ {
+  "code": "money05",
+  "query": "pound coins"
+ },
+ {
+  "code": "money06",
+  "query": "empty wallet"
+ },
+ {
+  "code": "city01",
+  "query": "london skyline dusk"
+ },
+ {
+  "code": "city02",
+  "query": "european city winter night"
+ },
+ {
+  "code": "city03",
+  "query": "tokyo night skyline"
+ },
+ {
+  "code": "city04",
+  "query": "new york snow"
+ },
+ {
+  "code": "city05",
+  "query": "berlin street night"
+ },
+ {
+  "code": "power01",
+  "query": "power lines winter"
+ },
+ {
+  "code": "power02",
+  "query": "electricity pylon sunset"
+ },
+ {
+  "code": "power03",
+  "query": "light bulb dark"
+ },
+ {
+  "code": "land01",
+  "query": "wheat field"
+ },
+ {
+  "code": "land02",
+  "query": "fertilizer factory"
+ },
+ {
+  "code": "land03",
+  "query": "empty factory hall"
+ },
+ {
+  "code": "misc01",
+  "query": "old newspaper"
+ },
+ {
+  "code": "misc02",
+  "query": "vintage calendar"
+ },
+ {
+  "code": "misc03",
+  "query": "world map old"
+ },
+ {
+  "code": "misc04",
+  "query": "storm clouds"
+ }
+]
