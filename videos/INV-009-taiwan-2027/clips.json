@@ -1,0 +1,128 @@
+[
+ {
+  "code": "CO-02",
+  "query": "container ship sea sunset",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-02",
+  "query": "taipei skyline",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-03",
+  "query": "silicon wafer semiconductor",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-05",
+  "query": "smartphone circuit board",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-07",
+  "query": "container port night cranes",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-09",
+  "query": "parked cars rows lot",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-03",
+  "query": "container ship aerial",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-05",
+  "query": "lng tanker",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-08",
+  "query": "tanker ship night sea",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P3-02",
+  "query": "united states capitol",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P4-07",
+  "query": "coast guard ship sea",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P4-10",
+  "query": "city skyline night",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-05",
+  "query": "empty street city",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-09",
+  "query": "electronics production line",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-09b",
+  "query": "crane container ship loading",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-10",
+  "query": "construction site cranes",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-04",
+  "query": "shenzhen skyline",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-05",
+  "query": "supermarket shelves",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-06",
+  "query": "oil tanker sailing",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-07",
+  "query": "naval ship harbor dusk",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "RC-10",
+  "query": "ocean horizon dusk",
+  "n": 3,
+  "min_seconds": 7
+ }
+]
