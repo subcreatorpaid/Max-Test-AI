@@ -1,0 +1,175 @@
+{
+ "part": "P5",
+ "dur": 278.56,
+ "vo_dur": 278.57075,
+ "shots": [
+  {
+   "code": "P5-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.24,
+   "visual": "s_part PART 5 \u00b7 THE MONEY",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P5-02",
+   "kind": "clip",
+   "t": 4.24,
+   "dur": 16.4,
+   "visual": "Line chart Feb-Mar 2026, marks at $100, $126; Dubai $166 gho",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P5-03",
+   "kind": "photo",
+   "t": 20.64,
+   "dur": 11.04,
+   "visual": "CARD-NUMBER 400,000,000 BARRELS.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P5-04",
+   "kind": "photo",
+   "t": 31.68,
+   "dur": 11.6,
+   "visual": "Line chart continues to Nov: falls to $89.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P5-05",
+   "kind": "gfx",
+   "t": 43.28,
+   "dur": 20.64,
+   "visual": "Split screen: 'CLOSE TO PRE-WAR' vs '1 SHIP \u00b7 1 NOV'; then o",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P5-05b",
+   "kind": "clip",
+   "t": 63.92,
+   "dur": 11.56,
+   "visual": "VIDEO: tanker under way",
+   "sfx": ""
+  },
+  {
+   "code": "P5-05b",
+   "kind": "photo",
+   "t": 75.48,
+   "dur": 7.72,
+   "visual": "VIDEO: tanker under way",
+   "sfx": ""
+  },
+  {
+   "code": "P5-06",
+   "kind": "clip",
+   "t": 83.2,
+   "dur": 17.96,
+   "visual": "STOCK: container ship at port (generic); bars +129% US WC \u00b7 ",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P5-07",
+   "kind": "photo",
+   "t": 101.16,
+   "dur": 16.68,
+   "visual": "Two number cards: $500M / MONTH \u00b7 \u20ac50-60M / WEEK.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P5-07b",
+   "kind": "gfx",
+   "t": 117.84,
+   "dur": 18.04,
+   "visual": "GRAPHIC: ledger book entries",
+   "sfx": ""
+  },
+  {
+   "code": "P5-08",
+   "kind": "gfx",
+   "t": 135.88,
+   "dur": 14.16,
+   "visual": "Bar: Bahri Q3 profit \u00d710; small line under it '2 crew killed",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P5-09",
+   "kind": "gfx",
+   "t": 150.04,
+   "dur": 8.08,
+   "visual": "CARD-QUOTE: Ahmed Ali Al Subaey, Bahri CEO \u00b7 10 Nov 2026.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P5-09b",
+   "kind": "photo",
+   "t": 158.12,
+   "dur": 14.0,
+   "visual": "STOCK: White House exterior (generic, public); Qatar \u2192 Washi",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P5-09c",
+   "kind": "gfx",
+   "t": 172.12,
+   "dur": 20.36,
+   "visual": "Two-day card: DAY 1 US MEASURES \u2192 DAY 2 STRAIT REOPENS; dema",
+   "sfx": "tick x4"
+  },
+  {
+   "code": "P5-09d",
+   "kind": "gfx",
+   "t": 192.48,
+   "dur": 23.04,
+   "visual": "Two CARD-QUOTEs side by side (Rubio \u00b7 Trump), then map with ",
+   "sfx": "card land x2"
+  },
+  {
+   "code": "P5-09d2",
+   "kind": "photo",
+   "t": 215.52,
+   "dur": 13.92,
+   "visual": "VIDEO: aircraft carrier at sea",
+   "sfx": ""
+  },
+  {
+   "code": "P5-09e",
+   "kind": "clip",
+   "t": 229.44,
+   "dur": 6.76,
+   "visual": "Hold on ship dots; one dot pulses.",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P5-09e",
+   "kind": "photo",
+   "t": 236.2,
+   "dur": 4.52,
+   "visual": "Hold on ship dots; one dot pulses.",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P5-10",
+   "kind": "gfx",
+   "t": 240.72,
+   "dur": 13.4,
+   "visual": "Wallet chain: ship \u2192 importer \u2192 shop \u2192 wallet, coins drip al",
+   "sfx": "coin ticks"
+  },
+  {
+   "code": "P5-11",
+   "kind": "gfx",
+   "t": 254.12,
+   "dur": 18.4,
+   "visual": "RECEIPT line 2 prints: FREIGHT ON GOODS +$5-12 per $1,000.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "P5-12",
+   "kind": "gfx",
+   "t": 272.52,
+   "dur": 6.04,
+   "visual": "Hold on receipt in corner.",
+   "sfx": "riser"
+  }
+ ]
+}
