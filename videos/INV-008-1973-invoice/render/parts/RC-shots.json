@@ -1,0 +1,95 @@
+{
+ "part": "RC",
+ "dur": 136.52,
+ "vo_dur": 130.50429166666666,
+ "shots": [
+  {
+   "code": "RC-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 15.24,
+   "visual": "RECEIPT with two columns prints in.",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "RC-02",
+   "kind": "gfx",
+   "t": 15.24,
+   "dur": 10.88,
+   "visual": "RECEIPT line 1.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-03",
+   "kind": "gfx",
+   "t": 26.12,
+   "dur": 12.72,
+   "visual": "RECEIPT line 2.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-04",
+   "kind": "gfx",
+   "t": 38.84,
+   "dur": 11.36,
+   "visual": "RECEIPT line 3.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-05",
+   "kind": "gfx",
+   "t": 50.2,
+   "dur": 11.16,
+   "visual": "RECEIPT line 4; 2026 cell reads 'NOT YET'.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-06",
+   "kind": "gfx",
+   "t": 61.36,
+   "dur": 14.4,
+   "visual": "RECEIPT line 5.",
+   "sfx": "receipt print + stamp"
+  },
+  {
+   "code": "RC-07",
+   "kind": "photo",
+   "t": 75.76,
+   "dur": 14.6,
+   "visual": "Focus cards: BUFFER 3-6 MONTHS \u00b7 +20% STRESS TEST.",
+   "sfx": "tick x2"
+  },
+  {
+   "code": "RC-08",
+   "kind": "photo",
+   "t": 90.36,
+   "dur": 17.12,
+   "visual": "Focus cards: WHAT DOES IT BURN? \u00b7 DON'T TRADE HEADLINES.",
+   "sfx": "tick x2"
+  },
+  {
+   "code": "RC-09",
+   "kind": "gfx",
+   "t": 107.48,
+   "dur": 10.76,
+   "visual": "Comment prompt card; end screen to The Hunger Bill.",
+   "sfx": "riser air"
+  },
+  {
+   "code": "RC-10",
+   "kind": "photo",
+   "t": 118.24,
+   "dur": 12.28,
+   "visual": "Return to CO-01 pump still, flag gone; slow fade to black; t",
+   "sfx": "silence, then one low note"
+  },
+  {
+   "code": "RC-10",
+   "kind": "end",
+   "t": 130.52,
+   "dur": 6.0,
+   "visual": "Return to CO-01 pump still, flag gone; slow fade to black; t",
+   "sfx": ""
+  }
+ ]
+}
