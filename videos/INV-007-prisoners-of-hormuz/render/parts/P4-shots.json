@@ -1,0 +1,87 @@
+{
+ "part": "P4",
+ "dur": 144.36,
+ "vo_dur": 144.35366666666667,
+ "shots": [
+  {
+   "code": "P4-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.68,
+   "visual": "s_part PART 4 \u00b7 THE LAST TIME",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P4-02",
+   "kind": "gfx",
+   "t": 4.68,
+   "dur": 16.84,
+   "visual": "Timeline 1981-1988; two bars 283 vs 168.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P4-03",
+   "kind": "gfx",
+   "t": 21.52,
+   "dur": 12.16,
+   "visual": "ARCHIVE-PD: US Navy photo of USS Stark (public domain); no c",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P4-04",
+   "kind": "gfx",
+   "t": 33.68,
+   "dur": 14.28,
+   "visual": "Map: convoy line Kuwait \u2192 Hormuz, US flag icons on tankers.",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P4-04b",
+   "kind": "gfx",
+   "t": 47.96,
+   "dur": 22.2,
+   "visual": "GRAPHIC: map, escort dates",
+   "sfx": ""
+  },
+  {
+   "code": "P4-05",
+   "kind": "gfx",
+   "t": 70.16,
+   "dur": 16.96,
+   "visual": "Split: 1987 convoy map | 2026 strait map with one escorted l",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P4-06",
+   "kind": "clip",
+   "t": 87.12,
+   "dur": 16.88,
+   "visual": "Two number cards: 400,000 STUCK \u00b7 400,000 CAN'T JOIN (2020).",
+   "sfx": "card land"
+  },
+  {
+   "code": "P4-07",
+   "kind": "gfx",
+   "t": 104.0,
+   "dur": 14.96,
+   "visual": "Calendar pages flip 1-17, red line at 11. Then CARD-QUOTE Ki",
+   "sfx": "calendar flips"
+  },
+  {
+   "code": "P4-08",
+   "kind": "clip",
+   "t": 118.96,
+   "dur": 18.36,
+   "visual": "Bars: import prices +11% \u00b7 consumer prices +1.5% \u00b7 electroni",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P4-09",
+   "kind": "photo",
+   "t": 137.32,
+   "dur": 7.04,
+   "visual": "Hold on bars; push into the 2026 column (empty, '?').",
+   "sfx": "riser"
+  }
+ ]
+}
