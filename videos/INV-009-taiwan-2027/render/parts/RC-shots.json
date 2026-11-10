@@ -1,0 +1,95 @@
+{
+ "part": "RC",
+ "dur": 122.36,
+ "vo_dur": 116.348,
+ "shots": [
+  {
+   "code": "RC-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 10.4,
+   "visual": "R receipt prints: header THE RECEIPT \u00b7 WHAT HAPPENS IF CHINA",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "RC-02",
+   "kind": "photo",
+   "t": 10.4,
+   "dur": 12.36,
+   "visual": "R line 1.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-03",
+   "kind": "photo",
+   "t": 22.76,
+   "dur": 12.44,
+   "visual": "R line 2; price cell reads 'NOT MODELLED'.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-04",
+   "kind": "gfx",
+   "t": 35.2,
+   "dur": 12.08,
+   "visual": "R line 3.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-05",
+   "kind": "photo",
+   "t": 47.28,
+   "dur": 11.6,
+   "visual": "R line 4.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-06",
+   "kind": "gfx",
+   "t": 58.88,
+   "dur": 10.2,
+   "visual": "R line 5 with three dates; stamp WATCH.",
+   "sfx": "receipt print + stamp"
+  },
+  {
+   "code": "RC-07",
+   "kind": "photo",
+   "t": 69.08,
+   "dur": 17.0,
+   "visual": "X folder + index cards: BUY WHAT YOU NEED, NOT IN A PANIC \u00b7 ",
+   "sfx": "card slides x2"
+  },
+  {
+   "code": "RC-08",
+   "kind": "gfx",
+   "t": 86.08,
+   "dur": 11.08,
+   "visual": "Index cards: +20% STRESS TEST \u00b7 DON'T TRADE HEADLINES.",
+   "sfx": "card slides x2"
+  },
+  {
+   "code": "RC-09",
+   "kind": "gfx",
+   "t": 97.16,
+   "dur": 7.92,
+   "visual": "Comment prompt card; end screen to INV-008 The 1973 Invoice.",
+   "sfx": "riser air"
+  },
+  {
+   "code": "RC-10",
+   "kind": "clip",
+   "t": 105.08,
+   "dur": 11.28,
+   "visual": "Return to CO-01 map: ship dots fade one by one; slow fade to",
+   "sfx": "silence, then one low note"
+  },
+  {
+   "code": "RC-10",
+   "kind": "end",
+   "t": 116.36,
+   "dur": 6.0,
+   "visual": "Return to CO-01 map: ship dots fade one by one; slow fade to",
+   "sfx": ""
+  }
+ ]
+}
