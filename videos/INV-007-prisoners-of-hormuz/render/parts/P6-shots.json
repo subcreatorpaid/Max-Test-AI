@@ -1,0 +1,135 @@
+{
+ "part": "P6",
+ "dur": 192.56,
+ "vo_dur": 192.56716666666668,
+ "shots": [
+  {
+   "code": "P6-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.6,
+   "visual": "s_part PART 6 \u00b7 YOUR TABLE",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P6-01b",
+   "kind": "gfx",
+   "t": 4.6,
+   "dur": 15.76,
+   "visual": "GRAPHIC: roadmap, US \u00b7 UK \u00b7 South Asia",
+   "sfx": ""
+  },
+  {
+   "code": "P6-02",
+   "kind": "photo",
+   "t": 20.36,
+   "dur": 11.72,
+   "visual": "STOCK: petrol pump nozzle, generic; number card +$3.80 / TAN",
+   "sfx": "card land"
+  },
+  {
+   "code": "P6-03",
+   "kind": "photo",
+   "t": 32.08,
+   "dur": 14.6,
+   "visual": "Line falling under $4; a thin orange layer inside it labelle",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P6-03b",
+   "kind": "gfx",
+   "t": 46.68,
+   "dur": 12.8,
+   "visual": "Split: $21M cargo \u2194 grid of 2,536 small figures filling in.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P6-04",
+   "kind": "gfx",
+   "t": 59.48,
+   "dur": 10.8,
+   "visual": "Number card +\u00a33.30 / TANK (UK).",
+   "sfx": "card land"
+  },
+  {
+   "code": "P6-05",
+   "kind": "gfx",
+   "t": 70.28,
+   "dur": 11.24,
+   "visual": "STOCK: shop shelf of electronics (generic, no brands).",
+   "sfx": "tick"
+  },
+  {
+   "code": "P6-06",
+   "kind": "gfx",
+   "t": 81.52,
+   "dur": 20.04,
+   "visual": "Map: Philippines glows; money arcs from the sea to homes.",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P6-06b",
+   "kind": "gfx",
+   "t": 101.56,
+   "dur": 18.68,
+   "visual": "GRAPHIC: donut 18%",
+   "sfx": ""
+  },
+  {
+   "code": "P6-07",
+   "kind": "gfx",
+   "t": 120.24,
+   "dur": 12.96,
+   "visual": "Monthly drip of $595M, a gate closes on the Gulf arc.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P6-07b",
+   "kind": "photo",
+   "t": 133.2,
+   "dur": 11.12,
+   "visual": "Map: India glows; arrow up.",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P6-08",
+   "kind": "photo",
+   "t": 144.32,
+   "dur": 10.56,
+   "visual": "Slow STOCK: harbour at dusk, small boats, no faces.",
+   "sfx": "drone only"
+  },
+  {
+   "code": "P6-09",
+   "kind": "clip",
+   "t": 154.88,
+   "dur": 7.52,
+   "visual": "Kinetic serif line: 'THE COST OF NOT TRUSTING THE SEA'.",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P6-09",
+   "kind": "photo",
+   "t": 162.4,
+   "dur": 6.04,
+   "visual": "Kinetic serif line: 'THE COST OF NOT TRUSTING THE SEA'.",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P6-09b",
+   "kind": "gfx",
+   "t": 168.44,
+   "dur": 21.16,
+   "visual": "GRAPHIC: two halves",
+   "sfx": ""
+  },
+  {
+   "code": "P6-10",
+   "kind": "gfx",
+   "t": 189.6,
+   "dur": 2.96,
+   "visual": "Receipt slides to centre.",
+   "sfx": "printer warm-up"
+  }
+ ]
+}
