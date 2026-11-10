@@ -28,7 +28,7 @@ def cover():
            "Every video clip and photo matches the line being spoken. If no match is found, the shot becomes a graphic.",
            "No 'Illustration' label on screen (YouTube's synthetic-content box is still ticked at upload).",
            "Photos and clips in this storyboard are first picks from Pixabay; final clips are fetched per line before render.",
-           "Then every paragraph in order. Grade label under each photo/clip: SHADOW, COLOUR · CALM, COLOUR, COLOUR · INTENSE."]
+           "Then every paragraph in order, with a grade label under each photo or clip."]
     for i,l in enumerate(lines): d.text((90,300+i*60),"• "+l,font=F(28,"m"),fill=(40,34,28))
     tiles_=["CO-01","CO-02","P2-06","P3-05","P6-04","RC-06"]
     for i,c in enumerate(tiles_):
