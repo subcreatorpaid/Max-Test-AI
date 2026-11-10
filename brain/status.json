@@ -7,7 +7,13 @@
    "mins": 2
   }
  ],
- "approvals": [],
+ "approvals": [
+  {
+   "gate": 2,
+   "ask": "OK INV-006 script v1 (videos/INV-006-winter-bill/INV-006-winter-bill-script-v1.docx) and decide length: ~13.5 min as is, or research more for 18 min",
+   "since": "2026-11-10"
+  }
+ ],
  "alerts": [
   {
    "text": "Round Two data (26 h): CTR 6.8%, AVD 8:41 of 27:14, search 1%. Rulebook v1 fixes this: money by 4:00, search phrase first.",
@@ -25,7 +31,7 @@
    "INV-005 ww3-family-cost"
   ],
   "in_production": [
-   "INV-006 winter-bill (fact pack v1)",
+   "INV-006 winter-bill (script v1, Gate 2)",
    "INV-004 siege-economy (script v1)"
   ],
   "ready_queue_target": 4
