@@ -1,10 +1,10 @@
-name: B-roll fetch (Pixabay)
-# Manual only. Reads the key from the PIXABAY_API_KEY repository secret; the key never appears in logs or files.
+name: B-roll fetch (Pixabay + Coverr)
+# Reads keys only from the PIXABAY_API_KEY and COVERR_API_KEY repository secrets; keys never appear in logs or files.
 on:
   # Runs when a video's broll.json changes on the backup branch (the Run button only works on a default branch)
   push:
     branches: [history-invoice-brain, main]
-    paths: ["videos/**/broll.json"]
+    paths: ["videos/**/broll.json", "videos/**/music.json"]
   workflow_dispatch:
     inputs:
       video:
@@ -23,12 +23,18 @@ jobs:
       - name: Fetch clips
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          COVERR_API_KEY: ${{ secrets.COVERR_API_KEY }}
         run: |
           if [ -n "${{ inputs.video }}" ]; then dirs="${{ inputs.video }}"; else
-            dirs=$(git diff --name-only HEAD~1 HEAD -- 'videos/**/broll.json' | xargs -r -n1 dirname | sort -u); fi
+            dirs=$(git diff --name-only HEAD~1 HEAD -- 'videos/**/broll.json' 'videos/**/music.json' | xargs -r -n1 dirname | sort -u); fi
           [ -z "$dirs" ] && dirs=$(dirname $(ls videos/*/broll.json | tail -1))
           mkdir -p out
-          for d in $dirs; do python scripts/pixabay_fetch.py "$d"; cp -r "$d/broll" "out/$(basename $d)"; done
+          for d in $dirs; do
+            mkdir -p "$d/broll"
+            if [ -n "$PIXABAY_API_KEY" ]; then python scripts/pixabay_fetch.py "$d" || echo "pixabay step failed"; fi
+            if [ -n "$COVERR_API_KEY" ]; then python scripts/coverr_fetch.py "$d" || echo "coverr step failed"; fi
+            mkdir -p "out/$(basename $d)"; cp -r "$d/broll" "out/$(basename $d)/"; [ -d "$d/music" ] && cp -r "$d/music" "out/$(basename $d)/" || true
+          done
       - uses: actions/upload-artifact@v4
         with:
           name: broll
