@@ -1,0 +1,32 @@
+name: Storyboard stills (Pixabay)
+# Downloads reference stills for storyboard panels and commits them back. Key from the PIXABAY_API_KEY secret only.
+on:
+  push:
+    branches: [history-invoice-brain, main]
+    paths: ["videos/**/storyboard/stills.json"]
+permissions:
+  contents: write
+jobs:
+  stills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch stills
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          for f in $(git diff --name-only HEAD~1 HEAD -- 'videos/**/storyboard/stills.json'); do
+            python scripts/pixabay_stills.py "$(dirname $(dirname $f))"
+          done
+      - name: Commit stills
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add videos/*/storyboard/stills videos/*/storyboard/stills-credits.md
+          git commit -m "stills: storyboard reference images [skip ci]" || echo "nothing to commit"
+          git push

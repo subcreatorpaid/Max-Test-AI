@@ -1,0 +1,11 @@
+[
+ {"code": "CO-01", "query": "lng plant night industrial"},
+ {"code": "P2-02", "query": "gas pipeline valves winter"},
+ {"code": "P2-05", "query": "lng tanker ship port"},
+ {"code": "P2-11b", "query": "gas pipeline landscape"},
+ {"code": "P3-06", "query": "empty factory interior"},
+ {"code": "P3-11b", "query": "gas stove blue flame"},
+ {"code": "P5-02", "query": "apartment building dusk"},
+ {"code": "P5-04", "query": "frost window winter"},
+ {"code": "RC-08", "query": "tanker ship sunset ocean"}
+]
