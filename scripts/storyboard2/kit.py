@@ -80,13 +80,15 @@ def number(big, sub="", kicker="", t="", src="", faded=""):
 def tone(img, glow=None, mode="warm"):
     src=img.convert("RGB"); r=max(W/src.width,H/src.height); src=src.resize((int(src.width*r)+1,int(src.height*r)+1))
     l=(src.width-W)//2; t=(src.height-H)//2; im=src.crop((l,t,l+W,t+H))
-    g=ImageOps.grayscale(im); g=ImageEnhance.Contrast(g).enhance(1.15)
-    if mode=="poster": g=ImageOps.posterize(g.convert("RGB"),3).convert("L")
-    im=ImageOps.colorize(g,(18,16,14),(232,224,210)); im=ImageEnhance.Brightness(im).enhance(0.86)
+    if mode=="mono":
+        g=ImageEnhance.Contrast(ImageOps.grayscale(im)).enhance(1.15); im=ImageOps.colorize(g,(18,16,14),(232,224,210))
+    else:  # colour, like INV-006: slightly desaturated, a touch cool and dark
+        im=ImageEnhance.Color(im).enhance(0.85); im=ImageEnhance.Contrast(im).enhance(1.05); im=ImageEnhance.Brightness(im).enhance(0.9)
+        im=Image.blend(im,Image.new("RGB",(W,H),(10,20,35)),0.08)
     if glow:
         m=Image.new("L",(W,H),0); d=ImageDraw.Draw(m); x,y=glow; d.ellipse([x-70,y-55,x+70,y+55],fill=200); m=m.filter(ImageFilter.GaussianBlur(40))
-        im=Image.composite(Image.new("RGB",(W,H),ORANGE),im,m.point(lambda v:int(v*0.75)))
-    return vignette(grain(im,16),0.5)
+        im=Image.composite(Image.new("RGB",(W,H),ORANGE),im,m.point(lambda v:int(v*0.35)))
+    return vignette(grain(im,8),0.35)
 def lower(im, title, sub=""):
     d=ImageDraw.Draw(im); ft=F(28,"xb"); fs=F(22,"s")
     w=int(max(d.textlength(title.upper(),font=ft), d.textlength(sub,font=fs) if sub else 0))+44; h=88 if sub else 58

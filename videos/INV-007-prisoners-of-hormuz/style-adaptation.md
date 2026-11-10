@@ -26,6 +26,7 @@ What we do NOT copy: the reference holds one frame for 20-40 seconds (e.g. 0:00-
 N ledger number · L toned footage + glow + paper label · D document + magnifier · T typed card + stamp (the stamp IS the confidence tag) · B split-flap · K cut-paper figures · M navy globe/map · P part card · R receipt printer · W mini-chart tiles · X folder + index cards · E particle end card. Kept from our brand: ink/paper/orange, Inter + Caladea, confidence tags on every number, the Receipt, running half-receipt.
 
 ## Picture rules for INV-007
+0. Footage and photos stay in COLOUR like INV-006 (Hammad, 2026-11-10), lightly graded; the paper labels and stamps carry the reference look.
 1. Every clip/photo is chosen for its line (query per paragraph in `visuals_v2.py`), never by theme word. If no good match, the shot becomes a graphic.
 2. Candidates (4 per shot) are fetched and picked by eye before render; the storyboard shows the pick.
 3. No faces of identifiable people; no brands in focus; no explosions on people.
