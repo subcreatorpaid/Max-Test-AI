@@ -426,13 +426,11 @@ def payslip(lines, title="PAY SLIP", t="", src="", st=""):
 # 34 ledger book (accounts)
 def ledgerbook(entries, title="", t="", src=""):
     im=ledger().convert("RGBA"); w,h=1040,520; p=paper_rect((w,h),PAPER,False,34); pd=ImageDraw.Draw(p)
-    pd.line([w//2,0,w//2,h],fill=(150,140,124),width=4)
     for y in range(90,h,44): pd.line([0,y,w,y],fill=(176,190,200),width=1)
-    for x in (w//2-140,w-140): pd.line([x,60,x,h],fill=(200,110,100),width=2)
+    pd.line([w-300,60,w-300,h],fill=(200,110,100),width=2)
     if title: pd.text((40,24),title,font=F(30,"s"),fill=INKT)
     for i,(a,b) in enumerate(entries):
-        col=i%2; row=i//2; x=40+col*(w//2); y=98+row*88
-        pd.text((x,y),a,font=F(30,"s"),fill=(30,40,90)); pd.text((x+w//2-170,y),b,font=F(32,"b"),fill=RED)
+        y=98+i*88; pd.text((40,y),a,font=F(32,"s"),fill=(30,40,90)); pd.text((w-40-pd.textlength(b,font=F(34,"b")),y),b,font=F(34,"b"),fill=RED)
     im=drop(im,p,(120,130),-1)
     return tag(im.convert("RGB"),t,src)
 

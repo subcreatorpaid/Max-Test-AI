@@ -1,1 +1,1 @@
-{"parts":["CO","P1","BR","P2","P3","P4","P5","P6","RC"],"script":"tools/inv007/script_v2.py"}
+{"parts":["P5"],"script":"tools/inv007/script_v2.py","note":"re-render P5: ledger book layout fix"}
