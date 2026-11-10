@@ -77,18 +77,27 @@ def number(big, sub="", kicker="", t="", src="", faded=""):
         for i,l in enumerate(wrap(d,sub,F(42,"s"),W-200)[:2]): d.text((92,350+i*52),l,font=F(42,"s"),fill=ORANGE)
     return tag(im,t,src)
 # ---------- footage / still frame, toned, orange glow, paper lower-third (reference 0:17, 2:52, 5:37) ----------
+# Hammad 2026-11-10: about 30% of footage in shadow, the rest coloured by scene intensity
+SHADOW="CO-01 RC-11 P1-03b P1-13 P3-07 P3-11 P3-12 P3-13 P4-06 P5-09e P6-08 P6-09".split()
+HIGH="CO-03 CO-04 P1-05 P1-06 P1-08c P1-11 P2-10b P3-05c P3-06 P5-02 P5-06 P5-07 P6-02".split()
+LOW="P1-03 P1-08b P2-02 P2-04b P2-06 P4-08 P4-09 P5-03 P5-09b P6-03 P6-07b RC-05".split()
+GRADE={**{c:"shadow" for c in SHADOW},**{c:"high" for c in HIGH},**{c:"low" for c in LOW}}
+CUR=[""]
 def tone(img, glow=None, mode="warm"):
     src=img.convert("RGB"); r=max(W/src.width,H/src.height); src=src.resize((int(src.width*r)+1,int(src.height*r)+1))
     l=(src.width-W)//2; t=(src.height-H)//2; im=src.crop((l,t,l+W,t+H))
-    if mode=="mono":
-        g=ImageEnhance.Contrast(ImageOps.grayscale(im)).enhance(1.15); im=ImageOps.colorize(g,(18,16,14),(232,224,210))
-    else:  # colour, like INV-006: slightly desaturated, a touch cool and dark
-        im=ImageEnhance.Color(im).enhance(0.85); im=ImageEnhance.Contrast(im).enhance(1.05); im=ImageEnhance.Brightness(im).enhance(0.9)
-        im=Image.blend(im,Image.new("RGB",(W,H),(10,20,35)),0.08)
+    g=GRADE.get(CUR[0],"mid") if mode!="mono" else "mono"
+    if g in("mono","shadow"):  # shadow: dark, almost colourless, cold, heavy vignette
+        x=ImageEnhance.Color(im).enhance(0.12); x=ImageEnhance.Contrast(x).enhance(1.2); im=ImageEnhance.Brightness(x).enhance(0.68)
+        im=Image.blend(im,Image.new("RGB",(W,H),(8,14,26)),0.15)
+    else:  # colour by scene intensity: low = calm/cool, mid = INV-006 look, high = punchy/warm
+        c,k,b,tint,a={"low":(0.8,1.0,0.95,(10,20,35),0.10),"mid":(0.9,1.05,0.92,(10,20,35),0.07),"high":(1.15,1.12,0.95,(60,30,10),0.06)}[g]
+        im=ImageEnhance.Color(im).enhance(c); im=ImageEnhance.Contrast(im).enhance(k); im=ImageEnhance.Brightness(im).enhance(b)
+        im=Image.blend(im,Image.new("RGB",(W,H),tint),a)
     if glow:
         m=Image.new("L",(W,H),0); d=ImageDraw.Draw(m); x,y=glow; d.ellipse([x-70,y-55,x+70,y+55],fill=200); m=m.filter(ImageFilter.GaussianBlur(40))
         im=Image.composite(Image.new("RGB",(W,H),ORANGE),im,m.point(lambda v:int(v*0.35)))
-    return vignette(grain(im,8),0.35)
+    return vignette(grain(im,8),0.55 if g in('mono','shadow') else 0.35)
 def lower(im, title, sub=""):
     d=ImageDraw.Draw(im); ft=F(28,"xb"); fs=F(22,"s")
     w=int(max(d.textlength(title.upper(),font=ft), d.textlength(sub,font=fs) if sub else 0))+44; h=88 if sub else 58
