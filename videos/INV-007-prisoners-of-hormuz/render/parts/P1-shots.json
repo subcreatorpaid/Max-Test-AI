@@ -1,0 +1,191 @@
+{
+ "part": "P1",
+ "dur": 296.64,
+ "vo_dur": 296.64325,
+ "shots": [
+  {
+   "code": "P1-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.24,
+   "visual": "s_part PART 1 \u00b7 THE SHIP",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P1-02",
+   "kind": "gfx",
+   "t": 4.24,
+   "dur": 11.08,
+   "visual": "Strait map, two glowing lanes, a ship counter at 85/day.",
+   "sfx": "whoosh-deep + scan"
+  },
+  {
+   "code": "P1-03",
+   "kind": "clip",
+   "t": 15.32,
+   "dur": 9.68,
+   "visual": "STOCK: tanker at anchor, graded cool; text slides in 'OPEN O",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P1-03",
+   "kind": "photo",
+   "t": 25.0,
+   "dur": 6.44,
+   "visual": "STOCK: tanker at anchor, graded cool; text slides in 'OPEN O",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P1-03b",
+   "kind": "clip",
+   "t": 31.44,
+   "dur": 13.92,
+   "visual": "Timeline card 1 MAR \u00b7 6 MAR; tug silhouette on the map sinks",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-03c",
+   "kind": "gfx",
+   "t": 45.36,
+   "dur": 11.96,
+   "visual": "CARD-QUOTE: 'unacceptable and unsustainable' \u00b7 Arsenio Domin",
+   "sfx": "card land"
+  },
+  {
+   "code": "P1-04",
+   "kind": "gfx",
+   "t": 57.32,
+   "dur": 16.96,
+   "visual": "Strait map, 100+ small red dots scatter over the lanes.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-05",
+   "kind": "clip",
+   "t": 74.28,
+   "dur": 10.48,
+   "visual": "Bar pair: 230 (APR) \u2192 600+ inside / 240 outside (MAY).",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-05",
+   "kind": "photo",
+   "t": 84.76,
+   "dur": 7.0,
+   "visual": "Bar pair: 230 (APR) \u2192 600+ inside / 240 outside (MAY).",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-05b",
+   "kind": "clip",
+   "t": 91.76,
+   "dur": 21.92,
+   "visual": "VIDEO: ships waiting at anchor offshore",
+   "sfx": ""
+  },
+  {
+   "code": "P1-06",
+   "kind": "photo",
+   "t": 113.68,
+   "dur": 14.2,
+   "visual": "STOCK: ship galley / corridor, warm light, slow pan; no face",
+   "sfx": "room tone"
+  },
+  {
+   "code": "P1-07",
+   "kind": "clip",
+   "t": 127.88,
+   "dur": 13.64,
+   "visual": "Three gauges drain: WATER \u00b7 FOOD \u00b7 FUEL.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P1-07b",
+   "kind": "gfx",
+   "t": 141.52,
+   "dur": 25.48,
+   "visual": "STILL: ship stores, crates, hold",
+   "sfx": ""
+  },
+  {
+   "code": "P1-08",
+   "kind": "gfx",
+   "t": 167.0,
+   "dur": 12.44,
+   "visual": "Timeline: APR ceasefire \u00b7 JUN memorandum \u00b7 8 JUL collapse, e",
+   "sfx": "strike-through x3"
+  },
+  {
+   "code": "P1-08b",
+   "kind": "photo",
+   "t": 179.44,
+   "dur": 12.24,
+   "visual": "Bars: 85 (pre-war) \u00b7 16 \u00b7 10 (Jul 2026).",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-08c",
+   "kind": "photo",
+   "t": 191.68,
+   "dur": 15.56,
+   "visual": "Map: blockade line off Iran's coast, one ship icon stops.",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P1-09",
+   "kind": "gfx",
+   "t": 207.24,
+   "dur": 14.44,
+   "visual": "Strait map: a narrow northern channel glows; toll gate icon,",
+   "sfx": "coin + card"
+  },
+  {
+   "code": "P1-10",
+   "kind": "gfx",
+   "t": 221.68,
+   "dur": 15.56,
+   "visual": "Rate scale: 0.125% \u2192 7.5-10%, needle swings.",
+   "sfx": "whip + counter"
+  },
+  {
+   "code": "P1-11",
+   "kind": "photo",
+   "t": 237.24,
+   "dur": 11.4,
+   "visual": "CARD-NUMBER $21,000,000, faded comparison 'normal \u2248 $5M'.",
+   "sfx": "sub_808"
+  },
+  {
+   "code": "P1-11b",
+   "kind": "gfx",
+   "t": 248.64,
+   "dur": 16.08,
+   "visual": "Three bars: Red Sea 0.1% \u00b7 Bab al-Mandeb 0.5% \u00b7 Hormuz 7.5-1",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-12",
+   "kind": "gfx",
+   "t": 264.72,
+   "dur": 17.4,
+   "visual": "RECEIPT starts in the corner; line 1 prints: WAR INSURANCE +",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "P1-13",
+   "kind": "clip",
+   "t": 282.12,
+   "dur": 7.44,
+   "visual": "Hold on receipt; slow push to the ship dots on the map.",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P1-13",
+   "kind": "photo",
+   "t": 289.56,
+   "dur": 7.08,
+   "visual": "Hold on receipt; slow push to the ship dots on the map.",
+   "sfx": "silence beat"
+  }
+ ]
+}
