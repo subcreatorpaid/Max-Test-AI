@@ -1,39 +1,45 @@
 {
- "updated": "2026-11-10",
- "today": [
-  {
-   "task": "Create an empty GitHub repo for the channel (suggested name: the-history-invoice) so the brain can be pushed",
-   "link": "https://github.com/new",
-   "mins": 2
-  }
- ],
- "approvals": [
-  {
-   "gate": 2,
-   "ask": "INV-006 script v3 is ready. ON HOLD: Hammad said 'don't start any video yet' (2026-11-10). No voice, storyboard or render until he says go.",
-   "since": "2026-11-10"
-  }
- ],
- "alerts": [
-  {
-   "text": "Round Two data (26 h): CTR 6.8%, AVD 8:41 of 27:14, search 1%. Rulebook v1 fixes this: money by 4:00, search phrase first.",
-   "since": "2026-11-06"
-  },
-  {
-   "text": "vidIQ has 0 credits until 30 Nov 2026: no outlier, keyword or title/thumbnail scoring until then.",
-   "since": "2026-11-10"
-  }
- ],
- "pipeline": {
-  "live": [
-   "INV-002 round-two",
-   "INV-003 pickaxe-mountain",
-   "INV-005 ww3-family-cost"
+  "updated": "2026-11-10",
+  "today": [
+    {
+      "task": "Create an empty GitHub repo for the channel (suggested name: the-history-invoice) so the brain can be pushed",
+      "link": "https://github.com/new",
+      "mins": 2
+    }
   ],
-  "in_production": [
-   "INV-006 winter-bill (script v3, ON HOLD by Hammad)",
-   "INV-004 siege-economy (script v1)"
+  "approvals": [
+    {
+      "gate": 2,
+      "ask": "INV-006 script v3 is ready. ON HOLD: Hammad said 'don't start any video yet' (2026-11-10). No voice, storyboard or render until he says go.",
+      "since": "2026-11-10"
+    },
+    {
+      "gate": 4,
+      "ask": "INV-009 Taiwan 2027 v1 1080p (17:45) is on the PC in Documentry\\INV-009-taiwan-2027 (run transfer\\join-video.bat). Watch and OK before upload; publish before 18 Nov (APEC).",
+      "since": "2026-11-10"
+    }
   ],
-  "ready_queue_target": 4
- }
+  "alerts": [
+    {
+      "text": "Round Two data (26 h): CTR 6.8%, AVD 8:41 of 27:14, search 1%. Rulebook v1 fixes this: money by 4:00, search phrase first.",
+      "since": "2026-11-06"
+    },
+    {
+      "text": "vidIQ has 0 credits until 30 Nov 2026: no outlier, keyword or title/thumbnail scoring until then.",
+      "since": "2026-11-10"
+    }
+  ],
+  "pipeline": {
+    "live": [
+      "INV-002 round-two",
+      "INV-003 pickaxe-mountain",
+      "INV-005 ww3-family-cost"
+    ],
+    "in_production": [
+      "INV-006 winter-bill (script v3, ON HOLD by Hammad)",
+      "INV-004 siege-economy (script v1)",
+      "INV-009 taiwan-2027 (v1 1080p rendered 2026-11-10, waiting on Hammad's watch + OK)"
+    ],
+    "ready_queue_target": 4
+  }
 }
