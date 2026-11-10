@@ -1,0 +1,159 @@
+{
+ "part": "P2",
+ "dur": 279.84,
+ "vo_dur": 279.8226666666667,
+ "shots": [
+  {
+   "code": "P2-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.64,
+   "visual": "s_part PART 2 \u00b7 THE CONTRACT",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P2-02",
+   "kind": "clip",
+   "t": 4.64,
+   "dur": 13.12,
+   "visual": "Globe with trade arcs; counter 1,892,720.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P2-02b",
+   "kind": "gfx",
+   "t": 17.76,
+   "dur": 23.32,
+   "visual": "GRAPHIC: crew manifest",
+   "sfx": ""
+  },
+  {
+   "code": "P2-03",
+   "kind": "gfx",
+   "t": 41.08,
+   "dur": 13.52,
+   "visual": "Bar ranking of 5 supplier countries; Philippines lit.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P2-04",
+   "kind": "gfx",
+   "t": 54.6,
+   "dur": 14.6,
+   "visual": "CARD-NUMBER $690 / MONTH \u2192 $23 / DAY.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P2-04c",
+   "kind": "gfx",
+   "t": 69.2,
+   "dur": 20.28,
+   "visual": "GRAPHIC: scale, $23 vs a tank / a shop",
+   "sfx": ""
+  },
+  {
+   "code": "P2-04b",
+   "kind": "photo",
+   "t": 89.48,
+   "dur": 14.52,
+   "visual": "Calendar: 11 pages, the 12th greyed; text 'RIGHT TO GO HOME'",
+   "sfx": "calendar flips"
+  },
+  {
+   "code": "P2-05",
+   "kind": "gfx",
+   "t": 104.0,
+   "dur": 10.36,
+   "visual": "Split callout: $21,000,000 vs $23.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P2-06",
+   "kind": "clip",
+   "t": 114.36,
+   "dur": 16.16,
+   "visual": "STOCK: launch boat at sea, distant tanker; graded.",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P2-07",
+   "kind": "gfx",
+   "t": 130.52,
+   "dur": 22.08,
+   "visual": "Contract card, three clauses tick in: REFUSE \u00b7 REPATRIATION ",
+   "sfx": "tick x3"
+  },
+  {
+   "code": "P2-07b",
+   "kind": "gfx",
+   "t": 152.6,
+   "dur": 21.52,
+   "visual": "GRAPHIC: pay slip, danger pay, compensation x2",
+   "sfx": ""
+  },
+  {
+   "code": "P2-08",
+   "kind": "gfx",
+   "t": 174.12,
+   "dur": 10.8,
+   "visual": "Same contract card; a red 'NOT EVERYONE' bar crosses it.",
+   "sfx": "stamp thud"
+  },
+  {
+   "code": "P2-09",
+   "kind": "photo",
+   "t": 184.92,
+   "dur": 15.76,
+   "visual": "CARD-QUOTE: 'its enforcement is the weak link' \u00b7 Abdul Khali",
+   "sfx": "card land"
+  },
+  {
+   "code": "P2-10",
+   "kind": "gfx",
+   "t": 200.68,
+   "dur": 18.88,
+   "visual": "Two CARD-QUOTEs: Iran delegation \u00b7 China delegation \u00b7 IMO Co",
+   "sfx": "tick"
+  },
+  {
+   "code": "P2-10b",
+   "kind": "clip",
+   "t": 219.56,
+   "dur": 9.96,
+   "visual": "CARD-QUOTE: 'collateral victims' \u00b7 Arsenio Dominguez \u00b7 IMO C",
+   "sfx": "card land"
+  },
+  {
+   "code": "P2-11",
+   "kind": "gfx",
+   "t": 229.52,
+   "dur": 14.04,
+   "visual": "Strait map: the traffic lanes glow green as an escape route;",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P2-12",
+   "kind": "gfx",
+   "t": 243.56,
+   "dur": 10.36,
+   "visual": "Same map; green lane flickers out to grey.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P2-13",
+   "kind": "gfx",
+   "t": 253.92,
+   "dur": 12.88,
+   "visual": "CARD-QUOTE: 'invisible, that they are not valued' \u00b7 Arsenio ",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P2-14",
+   "kind": "gfx",
+   "t": 266.8,
+   "dur": 13.04,
+   "visual": "Hold on quote card; fade to ship dots.",
+   "sfx": "riser"
+  }
+ ]
+}
