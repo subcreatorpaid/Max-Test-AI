@@ -1,37 +1,12 @@
 [
  {
-  "code": "CO-01",
-  "query": "vintage gas pump old station",
-  "n": 4
- },
- {
   "code": "CO-04",
   "query": "gas pump display price",
   "n": 4
  },
  {
-  "code": "P1-08",
-  "query": "oil pumpjack working",
-  "n": 4
- },
- {
-  "code": "P1-11",
-  "query": "old gas pump dial vintage",
-  "n": 4
- },
- {
   "code": "P1-13",
   "query": "cars queue traffic jam",
-  "n": 4
- },
- {
-  "code": "P2-03",
-  "query": "vintage television living room",
-  "n": 4
- },
- {
-  "code": "P2-04",
-  "query": "thermostat hand",
   "n": 4
  },
  {
@@ -55,46 +30,6 @@
   "n": 4
  },
  {
-  "code": "P2-10",
-  "query": "highway traffic aerial",
-  "n": 4
- },
- {
-  "code": "P2-11",
-  "query": "classic american car 1970s",
-  "n": 4
- },
- {
-  "code": "P3-03",
-  "query": "rainy road england",
-  "n": 4
- },
- {
-  "code": "P3-06",
-  "query": "candle dark room table",
-  "n": 4
- },
- {
-  "code": "P3-08",
-  "query": "coal mine headframe",
-  "n": 4
- },
- {
-  "code": "P3-10",
-  "query": "empty highway cyclists",
-  "n": 4
- },
- {
-  "code": "P3-12",
-  "query": "empty supermarket shelf toilet paper",
-  "n": 4
- },
- {
-  "code": "P4-03",
-  "query": "truck highway delivery",
-  "n": 4
- },
- {
   "code": "P4-05",
   "query": "grocery checkout shopping cart",
   "n": 4
@@ -102,11 +37,6 @@
  {
   "code": "P4-07",
   "query": "empty factory closed",
-  "n": 4
- },
- {
-  "code": "P4-11",
-  "query": "oil tanker sea",
   "n": 4
  },
  {
@@ -120,11 +50,6 @@
   "n": 4
  },
  {
-  "code": "P6-02",
-  "query": "oil tanker ship sailing",
-  "n": 4
- },
- {
   "code": "P6-05",
   "query": "gas station price sign",
   "n": 4
@@ -132,16 +57,6 @@
  {
   "code": "P6-06",
   "query": "refueling car gas pump hand",
-  "n": 4
- },
- {
-  "code": "P6-09",
-  "query": "supermarket price tags shelf",
-  "n": 4
- },
- {
-  "code": "P6-11",
-  "query": "oil refinery pipes tanks",
   "n": 4
  },
  {
@@ -155,13 +70,28 @@
   "n": 4
  },
  {
-  "code": "RC-08",
-  "query": "car fuel gauge dashboard",
+  "code": "CO-01",
+  "query": "vintage gas pump old station",
   "n": 4
  },
  {
-  "code": "RC-10",
-  "query": "vintage gas pump old station",
+  "code": "P3-03",
+  "query": "rainy road england",
+  "n": 4
+ },
+ {
+  "code": "P3-08",
+  "query": "coal mine headframe",
+  "n": 4
+ },
+ {
+  "code": "P4-11",
+  "query": "oil tanker sea",
+  "n": 4
+ },
+ {
+  "code": "P6-11",
+  "query": "oil refinery pipes tanks",
   "n": 4
  }
 ]

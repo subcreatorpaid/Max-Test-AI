@@ -19,13 +19,20 @@ for it in json.loads((sd / "stills.json").read_text()):
     n = int(it.get("n", 1))  # n>1: save candidates <code>_1..n for a human/Claude pick
     for k, h in enumerate(hits[:n], 1):
         name = it["code"] if n == 1 else f"{it['code']}_{k}"
-        url = h.get("largeImageURL") or h["webformatURL"]
-        req = urllib.request.Request(url, headers={"User-Agent": "history-invoice-storyboard/1.0"})
-        try:
-            with urllib.request.urlopen(req, timeout=120) as r:
-                (out / f"{name}.jpg").write_bytes(r.read())
-        except Exception as e:
-            print("download failed", name, e); rows.append(f"| {name} | {it['query']} | DL ERROR | | |"); continue
+        ok = False
+        for url in [u for u in (h.get("largeImageURL"), h.get("webformatURL")) if u]:  # fall back to the smaller file
+            for attempt in range(3):
+                try:
+                    req = urllib.request.Request(url, headers={"User-Agent": "history-invoice-storyboard/1.0"})
+                    with urllib.request.urlopen(req, timeout=120) as r:
+                        (out / f"{name}.jpg").write_bytes(r.read())
+                    ok = True; break
+                except Exception as e:
+                    print("download retry", name, attempt, e); time.sleep(2 + 3 * attempt)
+            if ok: break
+        if not ok:
+            rows.append(f"| {name} | {it['query']} | DL ERROR | | |"); continue
+        time.sleep(0.5)
         rows.append(f"| {name} | {it['query']} | {h['id']} | {h.get('user','')} | {h.get('pageURL','')} |")
     time.sleep(1)
 cf = sd / "stills-credits.md"; prev = cf.read_text().split("\n")[4:] if cf.exists() else []
