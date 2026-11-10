@@ -1,0 +1,785 @@
+{
+ "CO-03": [
+  {
+   "k": 1,
+   "id": 43629,
+   "duration": 10,
+   "url": "https://cdn.pixabay.com/video/2020/07/02/43629-436237628_large.mp4",
+   "user": "GreenCardShow",
+   "page": "https://pixabay.com/videos/id-43629/",
+   "tags": "valve, oil, gauge, technology, metal, pipes, diesel, equipment, valves, industry, engineering, pump, transport, liquid, gasoline"
+  },
+  {
+   "k": 2,
+   "id": 29415,
+   "duration": 11,
+   "url": "https://cdn.pixabay.com/video/2019/11/24/29415-375445419_large.mp4",
+   "user": "izimedium",
+   "page": "https://pixabay.com/videos/id-29415/",
+   "tags": "petrol, liquid, water, blue"
+  },
+  {
+   "k": 3,
+   "id": 41826,
+   "duration": 16,
+   "url": "https://cdn.pixabay.com/video/2020/06/12/41826-431406547_large.mp4",
+   "user": "LadislavBur",
+   "page": "https://pixabay.com/videos/id-41826/",
+   "tags": "construction, crane, truck, building, concrete pump, basements"
+  }
+ ],
+ "CO-04": [
+  {
+   "k": 1,
+   "id": 2849,
+   "duration": 76,
+   "url": "https://cdn.pixabay.com/video/2016/04/18/2849-163375551_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-2849/",
+   "tags": "hong kong, cruise, harbour, transport, aerial video, ocean, ship"
+  },
+  {
+   "k": 2,
+   "id": 374656,
+   "duration": 11,
+   "url": "https://cdn.pixabay.com/video/2026/09/06/374656_large.mp4",
+   "user": "Kanenori",
+   "page": "https://pixabay.com/videos/id-374656/",
+   "tags": "ship, sailing ship, anchored, port, sky, cloud, nippon maru, training ship, japan"
+  },
+  {
+   "k": 3,
+   "id": 237249,
+   "duration": 18,
+   "url": "https://cdn.pixabay.com/video/2024/10/20/237249_large.mp4",
+   "user": "Valentin_Aleksandrov",
+   "page": "https://pixabay.com/videos/id-237249/",
+   "tags": "ship, vessel, sea, boat, ocean, water, port, transport, sunset, calm, silence, evening, bay, calmness, nature, landscape"
+  }
+ ],
+ "P1-03": [
+  {
+   "k": 1,
+   "id": 21175,
+   "duration": 13,
+   "url": "https://cdn.pixabay.com/video/2019/02/05/21175-315405446_large.mp4",
+   "user": "ChristianBodhi",
+   "page": "https://pixabay.com/videos/id-21175/",
+   "tags": "ocean, horizon, yellow clouds, waves, sunset, sea, calm"
+  },
+  {
+   "k": 2,
+   "id": 306155,
+   "duration": 12,
+   "url": "https://cdn.pixabay.com/video/2025/09/24/306155_large.mp4",
+   "user": "Mario_Krimer",
+   "page": "https://pixabay.com/videos/id-306155/",
+   "tags": "sun, seascape, water, sunset, sea, horizon, red, ocean, reflection, calm, tranquil scene, peaceful, calmness, calming, peace"
+  },
+  {
+   "k": 3,
+   "id": 217850,
+   "duration": 40,
+   "url": "https://cdn.pixabay.com/video/2024/06/23/217850_large.mp4",
+   "user": "Mario_Krimer",
+   "page": "https://pixabay.com/videos/id-217850/",
+   "tags": "rock, stone, sunset, water, calm, summer, sea, silhouette, ocean, coast, pebble, calmness, coastline, sunrise, coastal, shore, reflection, tranquility"
+  }
+ ],
+ "P1-03b": [
+  {
+   "k": 1,
+   "id": 252918,
+   "duration": 49,
+   "url": "https://cdn.pixabay.com/video/2025/01/16/252918_large.mp4",
+   "user": "TonyDias7",
+   "page": "https://pixabay.com/videos/id-252918/",
+   "tags": "boat, tug, tugboat, ship, port, sea, harbor, water, transport, transportation, maine, shipping, sailboat"
+  },
+  {
+   "k": 2,
+   "id": 204565,
+   "duration": 33,
+   "url": "https://cdn.pixabay.com/video/2024/03/18/204565-924698132_large.mp4",
+   "user": "MustaKor",
+   "page": "https://pixabay.com/videos/id-204565/",
+   "tags": "ocean, sea, beach, sunset, sand, nature"
+  },
+  {
+   "k": 3,
+   "id": 112722,
+   "duration": 30,
+   "url": "https://cdn.pixabay.com/video/2022/04/02/112722-695433093_large.mp4",
+   "user": "kerrikmcc",
+   "page": "https://pixabay.com/videos/id-112722/",
+   "tags": "live wallpaper, sea, water, waves, ocean"
+  }
+ ],
+ "P1-05": [
+  {
+   "k": 1,
+   "id": 1383,
+   "duration": 7,
+   "url": "https://cdn.pixabay.com/video/2015/11/26/1383-147055496_large.mp4",
+   "user": "Activedia",
+   "page": "https://pixabay.com/videos/id-1383/",
+   "tags": "airport, slide, slider, passengers, plane, gate, waiting, sitting, glass, reflection, walking, people, route, journey, trip, vacation, i waiting area"
+  },
+  {
+   "k": 2,
+   "id": 3608,
+   "duration": 9,
+   "url": "https://cdn.pixabay.com/video/2016/06/27/3608-172488324_large.mp4",
+   "user": "Coverr-Free-Footage",
+   "page": "https://pixabay.com/videos/id-3608/",
+   "tags": "reading, comics, subway, subway station, train, passenger, waiting, asian, man, male, standing, urban, terminal, commuter, transportation, public transport"
+  },
+  {
+   "k": 3,
+   "id": 7338,
+   "duration": 17,
+   "url": "https://cdn.pixabay.com/video/2017/01/14/7338-199627477_large.mp4",
+   "user": "wastedgeneration",
+   "page": "https://pixabay.com/videos/id-7338/",
+   "tags": "ship, freight ship, tanker, river, ocean, istanbul, bosphorus, sea, nature, vessel, boat"
+  }
+ ],
+ "P1-05b": [
+  {
+   "k": 1,
+   "id": 182082,
+   "duration": 12,
+   "url": "https://cdn.pixabay.com/video/2023/09/24/182082-867762198_large.mp4",
+   "user": "HieuNghiaMini",
+   "page": "https://pixabay.com/videos/id-182082/",
+   "tags": "fishing boat, sea, offshore, blue, panoramic, aerial, drone, nature"
+  },
+  {
+   "k": 2,
+   "id": 10715,
+   "duration": 58,
+   "url": "https://cdn.pixabay.com/video/2017/07/17/10715-226624864_large.mp4",
+   "user": "Pauline_17",
+   "page": "https://pixabay.com/videos/id-10715/",
+   "tags": "ship, lake, clouds, heaven, shipping, cloud formation"
+  },
+  {
+   "k": 3,
+   "id": 3713,
+   "duration": 20,
+   "url": "https://cdn.pixabay.com/video/2016/07/05/3713-173505175_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-3713/",
+   "tags": "cruise ship, cruises, harbour, ship, sea, port, transport, coast, boat, vessel"
+  }
+ ],
+ "P1-06": [
+  {
+   "k": 1,
+   "id": 23544,
+   "duration": 32,
+   "url": "https://cdn.pixabay.com/video/2019/05/12/23544-335833111_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-23544/",
+   "tags": "bridge, terminal, architecture, traffic, cargo, lights, city, container, evening, port, shipping, ship, sea, aeral"
+  },
+  {
+   "k": 2,
+   "id": 33014,
+   "duration": 18,
+   "url": "https://cdn.pixabay.com/video/2020/02/28/33014-395456435_large.mp4",
+   "user": "Airvideopl",
+   "page": "https://pixabay.com/videos/id-33014/",
+   "tags": "port, yachts, water, sea, boat, marina, ship, regatta, sailboat, reflection, ships, sailing, summer, travel, drone, with drone, from above"
+  },
+  {
+   "k": 3,
+   "id": 236893,
+   "duration": 23,
+   "url": "https://cdn.pixabay.com/video/2024/10/18/236893_large.mp4",
+   "user": "Cristian-Manieri",
+   "page": "https://pixabay.com/videos/id-236893/",
+   "tags": "drone, landscape, green, greenland, iceberg, sea, arctic, ice, fjord, ship, polar, winter, cold, change, environment, earth"
+  }
+ ],
+ "P1-08c": [
+  {
+   "k": 1,
+   "id": 30850,
+   "duration": 33,
+   "url": "https://cdn.pixabay.com/video/2020/01/03/30850-382770814_large.mp4",
+   "user": "adege",
+   "page": "https://pixabay.com/videos/id-30850/",
+   "tags": "sunrise, fog, landscape, nature, alps, distant vision, dusk, mood, belchen, belchenflue, sea of fog, fogging, time lapse, timelapse"
+  },
+  {
+   "k": 2,
+   "id": 322480,
+   "duration": 21,
+   "url": "https://cdn.pixabay.com/video/2025/12/17/322480_large.mp4",
+   "user": "adege",
+   "page": "https://pixabay.com/videos/id-322480/",
+   "tags": "sea of fog, alps, distant vision, clouds, morning hour, morning light, light, mood, sunlight, sunbeams"
+  },
+  {
+   "k": 3,
+   "id": 13622,
+   "duration": 36,
+   "url": "https://cdn.pixabay.com/video/2017/12/30/13622-249252876_large.mp4",
+   "user": "KaiMiano",
+   "page": "https://pixabay.com/videos/id-13622/",
+   "tags": "aerial view, beach, sea, summer, landscape, distant vision, sand dunes, waves, horizon, freedom"
+  }
+ ],
+ "P1-13": [
+  {
+   "k": 1,
+   "id": 5269,
+   "duration": 133,
+   "url": "https://cdn.pixabay.com/video/2016/09/14/5269-182817482_large.mp4",
+   "user": "Alessandro89",
+   "page": "https://pixabay.com/videos/id-5269/",
+   "tags": "fireworks, fireworks display, party"
+  },
+  {
+   "k": 2,
+   "id": 41828,
+   "duration": 42,
+   "url": "https://cdn.pixabay.com/video/2020/06/12/41828-431406550_large.mp4",
+   "user": "LadislavBur",
+   "page": "https://pixabay.com/videos/id-41828/",
+   "tags": "construction, city, crane, building, concrete pump, basements, truck"
+  },
+  {
+   "k": 3,
+   "id": 217668,
+   "duration": 7,
+   "url": "https://cdn.pixabay.com/video/2024/06/21/217668_large.mp4",
+   "user": "Kaffees\u00fcchtig",
+   "page": "https://pixabay.com/videos/id-217668/",
+   "tags": "dragonfly, insect, nature, wood, wing, beautiful, 4k, pumps"
+  }
+ ],
+ "P2-02": [
+  {
+   "k": 1,
+   "id": 24255,
+   "duration": 18,
+   "url": "https://cdn.pixabay.com/video/2019/06/07/24255-341474048_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-24255/",
+   "tags": "container terminal, container ship, cargo, shipping, port, logistics, export, loading, hong kong, hyperlapse, night, lighting, busy, metropolis, harbor, buildings, aerial, transportation, dock"
+  },
+  {
+   "k": 2,
+   "id": 1890,
+   "duration": 34,
+   "url": "https://cdn.pixabay.com/video/2016/01/08/1890-151167947_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-1890/",
+   "tags": "cliff, island, aerial view, nature, landscape, ocean, sea, waves"
+  },
+  {
+   "k": 3,
+   "id": 198982,
+   "duration": 56,
+   "url": "https://cdn.pixabay.com/video/2024/02/02/198982-909251580_large.mp4",
+   "user": "D-GM",
+   "page": "https://pixabay.com/videos/id-198982/",
+   "tags": "river, buildings, container ship, container, ship, boat, city, aerial, drone, urban, sunshine, water, shanghai, pudong, cargo, freight, logistics, china"
+  }
+ ],
+ "P2-06": [
+  {
+   "k": 1,
+   "id": 95241,
+   "duration": 61,
+   "url": "https://cdn.pixabay.com/video/2021/11/09/95241-645704327_large.mp4",
+   "user": "Matthias_Groeneveld",
+   "page": "https://pixabay.com/videos/id-95241/",
+   "tags": "abandoned, boat, tanker, shore, sea, beach, daylight, wreck, rust, ship, industry, gone, drifting, floating, shipwrecked, rocks"
+  },
+  {
+   "k": 2,
+   "id": 181376,
+   "duration": 15,
+   "url": "https://cdn.pixabay.com/video/2023/09/20/181376-866506956_large.mp4",
+   "user": "NickyPe",
+   "page": "https://pixabay.com/videos/id-181376/",
+   "tags": "boat, man, fishing boat, wooden boat, water, lake, mountains, landscape, zille, hallst\u00e4ttersee, hallstatt, austria"
+  },
+  {
+   "k": 3,
+   "id": 95240,
+   "duration": 62,
+   "url": "https://cdn.pixabay.com/video/2021/11/09/95240-645704326_large.mp4",
+   "user": "Matthias_Groeneveld",
+   "page": "https://pixabay.com/videos/id-95240/",
+   "tags": "abandoned, boat, tanker, shore, sea, beach, daylight, wreck, rust, ship, industry, gone, drifting, floating, shipwrecked, rocks"
+  }
+ ],
+ "P2-10b": [
+  {
+   "k": 1,
+   "id": 1191,
+   "duration": 17,
+   "url": "https://cdn.pixabay.com/video/2015/10/27/1191-143842658_large.mp4",
+   "user": "Vimeo-Free-Videos",
+   "page": "https://pixabay.com/videos/id-1191/",
+   "tags": "conference room, furniture, modern, equipment, conference, business, chair, table, interior, boardroom, workplace, board, contemporary, elegant, meetings, place, room, empty, 133411649"
+  },
+  {
+   "k": 2,
+   "id": 11292,
+   "duration": 9,
+   "url": "https://cdn.pixabay.com/video/2017/08/10/11292-229221029_large.mp4",
+   "user": "GreenCardShow",
+   "page": "https://pixabay.com/videos/id-11292/",
+   "tags": "chromakey, sofa, old, ruined, used, couch, broken, decay, vintage, grunge, empty, aged, seat, trash, red, books, junk, furniture, abandoned, garbage, retro, worn, weathered, classic"
+  },
+  {
+   "k": 3,
+   "id": 23353,
+   "duration": 16,
+   "url": "https://cdn.pixabay.com/video/2019/05/06/23353-335511588_large.mp4",
+   "user": "Motionwell",
+   "page": "https://pixabay.com/videos/id-23353/",
+   "tags": "spring, park, swinging bench, seat, relax, romantic, nature, bloom, flowers, blossom"
+  }
+ ],
+ "P3-11": [
+  {
+   "k": 1,
+   "id": 132932,
+   "duration": 17,
+   "url": "https://cdn.pixabay.com/video/2022/09/29/132932-755272963_large.mp4",
+   "user": "u_zwlh4zbli2",
+   "page": "https://pixabay.com/videos/id-132932/",
+   "tags": "sunset, sea, boat, sun, evening, nature, night"
+  },
+  {
+   "k": 2,
+   "id": 11722,
+   "duration": 33,
+   "url": "https://cdn.pixabay.com/video/2017/08/30/11722-231759069_large.mp4",
+   "user": "Iconikmg",
+   "page": "https://pixabay.com/videos/id-11722/",
+   "tags": "rain, water, window, wet, drops, dripping, rainy, night, light, sad"
+  },
+  {
+   "k": 3,
+   "id": 331030,
+   "duration": 22,
+   "url": "https://cdn.pixabay.com/video/2026/01/28/331030_large.mp4",
+   "user": "adege",
+   "page": "https://pixabay.com/videos/id-331030/",
+   "tags": "landscape, clouds, sea of fog, sunlight, tree, nature, light"
+  }
+ ],
+ "P3-12": [
+  {
+   "k": 1,
+   "id": 1103,
+   "duration": 54,
+   "url": "https://cdn.pixabay.com/video/2015/10/19/1103-143052501_medium.mp4",
+   "user": "Vimeo-Free-Videos",
+   "page": "https://pixabay.com/videos/id-1103/",
+   "tags": "buoy, harbor, port, water, ocean, nautical, float, marine, sailing, maritime, safety, navigation, equipment, marker, ship, yacht, sea, boat, logistics, cargo, vessel, 132543586"
+  },
+  {
+   "k": 2,
+   "id": 141045,
+   "duration": 59,
+   "url": "https://cdn.pixabay.com/video/2022/11/30/141045-776768272_large.mp4",
+   "user": "MLTD",
+   "page": "https://pixabay.com/videos/id-141045/",
+   "tags": "container, ship, cargo, logistics"
+  },
+  {
+   "k": 3,
+   "id": 23215,
+   "duration": 15,
+   "url": "https://cdn.pixabay.com/video/2019/05/01/23215-334239340_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-23215/",
+   "tags": "container ship, transport, logistics, cargo, container, shipping, export, ship, trade, port, import, industry, transportation, logistic, terminal"
+  }
+ ],
+ "P4-06": [
+  {
+   "k": 1,
+   "id": 3593,
+   "duration": 20,
+   "url": "https://cdn.pixabay.com/video/2016/06/27/3593-172488287_large.mp4",
+   "user": "Life-Of-Vids",
+   "page": "https://pixabay.com/videos/id-3593/",
+   "tags": "escalator, airport, terminal, moving, transport, technology, modern, walkway, perspective"
+  },
+  {
+   "k": 2,
+   "id": 141044,
+   "duration": 20,
+   "url": "https://cdn.pixabay.com/video/2022/11/30/141044-776768266_large.mp4",
+   "user": "MLTD",
+   "page": "https://pixabay.com/videos/id-141044/",
+   "tags": "container, terminal, airport, ship, ocean, drone"
+  },
+  {
+   "k": 3,
+   "id": 29804,
+   "duration": 14,
+   "url": "https://cdn.pixabay.com/video/2019/12/04/29804-377520739_large.mp4",
+   "user": "Expatsiam",
+   "page": "https://pixabay.com/videos/id-29804/",
+   "tags": "bangkok, thailand, airport, aircraft, asia, aviation, terminal, travel"
+  }
+ ],
+ "P4-08": [
+  {
+   "k": 1,
+   "id": 129250,
+   "duration": 59,
+   "url": "https://cdn.pixabay.com/video/2022/08/27/129250-744370398_large.mp4",
+   "user": "Engin_Akyurt",
+   "page": "https://pixabay.com/videos/id-129250/",
+   "tags": "crane, container, port, ship, transport, cargo, freight, boat, work, morning, evening, dock, trade, transfer"
+  },
+  {
+   "k": 2,
+   "id": 129249,
+   "duration": 54,
+   "url": "https://cdn.pixabay.com/video/2022/08/27/129249-744370394_large.mp4",
+   "user": "Engin_Akyurt",
+   "page": "https://pixabay.com/videos/id-129249/",
+   "tags": "crane, container, port, ship, transport, cargo, freight, boat, work, morning, nature, evening, dock, trade, transfer"
+  },
+  {
+   "k": 3,
+   "id": 129181,
+   "duration": 59,
+   "url": "https://cdn.pixabay.com/video/2022/08/26/129181-744370386_large.mp4",
+   "user": "Engin_Akyurt",
+   "page": "https://pixabay.com/videos/id-129181/",
+   "tags": "ship, sunset, sunrise, sea, ocean, container, port, transport, cargo, freight, boat, work, morning, nature, evening, crane, dock, trade, transfer, sky, light"
+  }
+ ],
+ "P5-02": [
+  {
+   "k": 1,
+   "id": 13100,
+   "duration": 53,
+   "url": "https://cdn.pixabay.com/video/2017/11/28/13100-245530611_large.mp4",
+   "user": "StefWithAnF",
+   "page": "https://pixabay.com/videos/id-13100/",
+   "tags": "universe, jar, colourful, experiment, close-up, particles, oil, ink, water, abstract, galaxy, pouring"
+  },
+  {
+   "k": 2,
+   "id": 3136,
+   "duration": 25,
+   "url": "https://cdn.pixabay.com/video/2016/05/12/3136-166335909_large.mp4",
+   "user": "Life-Of-Vids",
+   "page": "https://pixabay.com/videos/id-3136/",
+   "tags": "sunset, dusk, twilight, sun flare, flare, summer, landscape, nature, sun, vacation, scenery"
+  },
+  {
+   "k": 3,
+   "id": 274936,
+   "duration": 19,
+   "url": "https://cdn.pixabay.com/video/2025/04/27/274936_large.mp4",
+   "user": "BlenderTimer",
+   "page": "https://pixabay.com/videos/id-274936/",
+   "tags": "branches, tree, nature, sunlight, sunshine, flare, pan"
+  }
+ ],
+ "P5-03": [
+  {
+   "k": 1,
+   "id": 10480,
+   "duration": 112,
+   "url": "https://cdn.pixabay.com/video/2017/07/04/10480-224857514_large.mp4",
+   "user": "lucdecleir",
+   "page": "https://pixabay.com/videos/id-10480/",
+   "tags": "jellyfish, tank, water, life, marine, blue, aquarium, sea, transparent, underwater, nature, swimming, animal, wildlife, sting, exotic, jelly, glowing, tentacles"
+  },
+  {
+   "k": 2,
+   "id": 133871,
+   "duration": 20,
+   "url": "https://cdn.pixabay.com/video/2022/10/07/133871-758336534_large.mp4",
+   "user": "30037275",
+   "page": "https://pixabay.com/videos/id-133871/",
+   "tags": "fish, blue, animal, shrimp, aquarium, fish tank, tank"
+  },
+  {
+   "k": 3,
+   "id": 133870,
+   "duration": 29,
+   "url": "https://cdn.pixabay.com/video/2022/10/07/133870-758336530_large.mp4",
+   "user": "30037275",
+   "page": "https://pixabay.com/videos/id-133870/",
+   "tags": "fish, fish tank, green, blue, shrimp, aquarium, tank, life, animal"
+  }
+ ],
+ "P5-05b": [
+  {
+   "k": 1,
+   "id": 21528,
+   "duration": 30,
+   "url": "https://cdn.pixabay.com/video/2019/02/19/21528-318978038_large.mp4",
+   "user": "LAWJR",
+   "page": "https://pixabay.com/videos/id-21528/",
+   "tags": "ocean, sailing, blue, waves, horizon, water, sea"
+  },
+  {
+   "k": 2,
+   "id": 175876,
+   "duration": 28,
+   "url": "https://cdn.pixabay.com/video/2023/08/13/175876-854230219_large.mp4",
+   "user": "NickyPe",
+   "page": "https://pixabay.com/videos/id-175876/",
+   "tags": "sailboats, water, castle, sea castle, lake, traunsee, austria, sailing regatta, castle venue, nature"
+  },
+  {
+   "k": 3,
+   "id": 6415,
+   "duration": 30,
+   "url": "https://cdn.pixabay.com/video/2016/11/15/6415-191719623_large.mp4",
+   "user": "Life-Of-Vids",
+   "page": "https://pixabay.com/videos/id-6415/",
+   "tags": "sailing boat, sailing, ocean, sea, wind, sports, boat, sail, water, yacht, sail boat, sailboat, summer, yachting, vessel, regatta, nautical, nature"
+  }
+ ],
+ "P5-06": [
+  {
+   "k": 1,
+   "id": 23008,
+   "duration": 20,
+   "url": "https://cdn.pixabay.com/video/2019/04/23/23008-332257750_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-23008/",
+   "tags": "container terminal, harbor, container, cargo, port, export, shipping, terminal, industry, logistics, ship, transport, harbour, warehouse"
+  },
+  {
+   "k": 2,
+   "id": 23759,
+   "duration": 19,
+   "url": "https://cdn.pixabay.com/video/2019/05/17/23759-337232393_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-23759/",
+   "tags": "container, terminal, night, cargo, port, logistics, shipping, trade, export, ship, water, loading, industry, transport, delivery"
+  },
+  {
+   "k": 3,
+   "id": 216619,
+   "duration": 36,
+   "url": "https://cdn.pixabay.com/video/2024/06/13/216619_large.mp4",
+   "user": "Afzaal0001",
+   "page": "https://pixabay.com/videos/id-216619/",
+   "tags": "shipping, import, export, port, container, trade, industry, transport"
+  }
+ ],
+ "P5-07": [
+  {
+   "k": 1,
+   "id": 11006,
+   "duration": 14,
+   "url": "https://cdn.pixabay.com/video/2017/07/28/11006-227463758_large.mp4",
+   "user": "klimkin",
+   "page": "https://pixabay.com/videos/id-11006/",
+   "tags": "gardener, pour, heat, garden, young woman, water, hose, flowers, summer, the park"
+  },
+  {
+   "k": 2,
+   "id": 145,
+   "duration": 11,
+   "url": "https://cdn.pixabay.com/video/2015/08/08/145-135737266_large.mp4",
+   "user": "Coverr-Free-Footage",
+   "page": "https://pixabay.com/videos/id-145/",
+   "tags": "hosing, watering, gardening, garden, water, sprinkler, hose, liquid, plants, growing, gardener"
+  },
+  {
+   "k": 3,
+   "id": 235,
+   "duration": 63,
+   "url": "https://cdn.pixabay.com/video/2015/08/10/235-135862236_large.mp4",
+   "user": "NASA-Imagery",
+   "page": "https://pixabay.com/videos/id-235/",
+   "tags": "rocket, thrusters, nasa, space shuttle, endeavor, atlantis, discovery, space ship, rocket launch, space travel, power, space, explore, science, technology, boosters, usa, lift-off, gravitation, gravity, speed, accelerate, acceleration, fuel, altitude, astronautics, space exploration, propulsion, jets, fire, flame, heat"
+  }
+ ],
+ "P5-09d2": [
+  {
+   "k": 1,
+   "id": 10690,
+   "duration": 19,
+   "url": "https://cdn.pixabay.com/video/2017/07/16/10690-226624853_large.mp4",
+   "user": "AS_Photography",
+   "page": "https://pixabay.com/videos/id-10690/",
+   "tags": "landing, lufthansa, airport, the airline, germany, the plane, travel, german, aircraft, passengers, transport, air, sky, technology, holiday, wing, cargo, welcome, tourism, carrier, flight, earth, check, arrival"
+  },
+  {
+   "k": 2,
+   "id": 37379,
+   "duration": 59,
+   "url": "https://cdn.pixabay.com/video/2020/04/27/37379-413555939_large.mp4",
+   "user": "antoinedes",
+   "page": "https://pixabay.com/videos/id-37379/",
+   "tags": "trucks, transport, road, highway, carrier, trucking, displacement, freight, traffic, vehicle, shipping, tractor, van, the industry, aircraft, automobile, logistics, trailer, machine, business, engine, heavy, firefighter, machines"
+  },
+  {
+   "k": 3,
+   "id": 314643,
+   "duration": 8,
+   "url": "https://cdn.pixabay.com/video/2025/11/07/314643_large.mp4",
+   "user": "TonyDias7",
+   "page": "https://pixabay.com/videos/id-314643/",
+   "tags": "drone, nature, beach, landscape, camera, technology, tech, aircraft, uav, travel, sea, summer"
+  }
+ ],
+ "P5-09e": [
+  {
+   "k": 1,
+   "id": 267894,
+   "duration": 9,
+   "url": "https://cdn.pixabay.com/video/2025/03/26/267894_large.mp4",
+   "user": "TatianaTz",
+   "page": "https://pixabay.com/videos/id-267894/",
+   "tags": "sailboat, mooring, sea, boat, maritime, port, anchor, marin, nautical, rope, veil, ocean, ship, shore, sky, dusk, landscape, flag, pirate, tricolor, light breeze, ripple, mast, float"
+  },
+  {
+   "k": 2,
+   "id": 325108,
+   "duration": 45,
+   "url": "https://cdn.pixabay.com/video/2025/12/30/325108_large.mp4",
+   "user": "TonyDias7",
+   "page": "https://pixabay.com/videos/id-325108/",
+   "tags": "sunset, nature, landscape, sun, harbour, harbor, water, boat, skyline, travel, anchor, boats, port, sea, ship"
+  },
+  {
+   "k": 3,
+   "id": 6815,
+   "duration": 13,
+   "url": "https://cdn.pixabay.com/video/2016/12/18/6815-196282555_large.mp4",
+   "user": "ReinhardSinger",
+   "page": "https://pixabay.com/videos/id-6815/",
+   "tags": "flow, ship, eve, romantic, ferries, warnem\u00fcnde, sunset, clouds, heaven, evening sky, sun, evening atmosphere, setting sun, afterglow, sea, time lapse"
+  }
+ ],
+ "P6-02": [
+  {
+   "k": 1,
+   "id": 2165,
+   "duration": 60,
+   "url": "https://cdn.pixabay.com/video/2016/02/14/2165-155327596_large.mp4",
+   "user": "VariousPhotography",
+   "page": "https://pixabay.com/videos/id-2165/",
+   "tags": "car, road, transportation, vehicle, driving, car on road, transport, drive, highway, speed, car driving, traffic, auto, car road, automobile, journey, blurred, motor, motion, modern, driving car, wheel, street, time lapse, time, lapse"
+  },
+  {
+   "k": 2,
+   "id": 184734,
+   "duration": 10,
+   "url": "https://cdn.pixabay.com/video/2023/10/12/184734-873923034_large.mp4",
+   "user": "santosjesus90",
+   "page": "https://pixabay.com/videos/id-184734/",
+   "tags": "car, desert, driving, drone, sand, arial, tajikistan"
+  },
+  {
+   "k": 3,
+   "id": 336253,
+   "duration": 19,
+   "url": "https://cdn.pixabay.com/video/2026/02/23/336253_large.mp4",
+   "user": "slava_film",
+   "page": "https://pixabay.com/videos/id-336253/",
+   "tags": "traffic, city, stop, road, car, bridge, river, urban"
+  }
+ ],
+ "P6-03": [
+  {
+   "k": 1,
+   "id": 9005,
+   "duration": 17,
+   "url": "https://cdn.pixabay.com/video/2017/05/06/9005-216332135_large.mp4",
+   "user": "tiburi",
+   "page": "https://pixabay.com/videos/id-9005/",
+   "tags": "tube, metro, subway, underground, transport, transportation, urban, city, train, public, travel, railway, station, railroad, tunnel, traffic, speed, fast, rail"
+  },
+  {
+   "k": 2,
+   "id": 1003,
+   "duration": 14,
+   "url": "https://cdn.pixabay.com/video/2015/10/16/1003-142621162_large.mp4",
+   "user": "Coverr-Free-Footage",
+   "page": "https://pixabay.com/videos/id-1003/",
+   "tags": "subway, metro, train, urban, city, public transport, new york, underground, transportation, station, transport, travel, railway, transit, railroad, technology, platform, motion"
+  },
+  {
+   "k": 3,
+   "id": 44968,
+   "duration": 12,
+   "url": "https://cdn.pixabay.com/video/2020/07/18/44968-441206533_large.mp4",
+   "user": "kissuquick",
+   "page": "https://pixabay.com/videos/id-44968/",
+   "tags": "waterloo station, london, people, busy, station, fast"
+  }
+ ],
+ "P6-08": [
+  {
+   "k": 1,
+   "id": 52231,
+   "duration": 21,
+   "url": "https://cdn.pixabay.com/video/2020/10/13/52231-468410279_large.mp4",
+   "user": "daniloriba",
+   "page": "https://pixabay.com/videos/id-52231/",
+   "tags": "boats, harbour, marina, sunset, water, lighthouse"
+  },
+  {
+   "k": 2,
+   "id": 135,
+   "duration": 12,
+   "url": "https://cdn.pixabay.com/video/2015/08/08/135-135737004_large.mp4",
+   "user": "Coverr-Free-Footage",
+   "page": "https://pixabay.com/videos/id-135/",
+   "tags": "sailing boats, harbor, evening, calm, windless, boats, port, sea, ocean, lake, shore, coast, dusk, dawn, setting sun"
+  },
+  {
+   "k": 3,
+   "id": 167925,
+   "duration": 15,
+   "url": "https://cdn.pixabay.com/video/2023/06/19/167925-838126148_large.mp4",
+   "user": "Gylfi",
+   "page": "https://pixabay.com/videos/id-167925/",
+   "tags": "sunset, mountains, ocean, solstice, midsummer, harbor, ship, boat, fjord, nature, iceland"
+  }
+ ],
+ "P6-09": [
+  {
+   "k": 1,
+   "id": 73535,
+   "duration": 8,
+   "url": "https://cdn.pixabay.com/video/2021/05/08/73535-548642358_large.mp4",
+   "user": "Elf-Moondance",
+   "page": "https://pixabay.com/videos/id-73535/",
+   "tags": "man, board, craftsman, wood, work, person, handwork, environment, shelves"
+  },
+  {
+   "k": 2,
+   "id": 91523,
+   "duration": 8,
+   "url": "https://cdn.pixabay.com/video/2021/10/10/91523-629213811_large.mp4",
+   "user": "Lecuoc78",
+   "page": "https://pixabay.com/videos/id-91523/",
+   "tags": "temple, pagoda, warehouse, saigon, vietnam, buddhism"
+  },
+  {
+   "k": 3,
+   "id": 208160,
+   "duration": 8,
+   "url": "https://cdn.pixabay.com/video/2024/04/16/208160_large.mp4",
+   "user": "fokus_media",
+   "page": "https://pixabay.com/videos/id-208160/",
+   "tags": "stock room, warehouse, storage, logistics"
+  }
+ ]
+}
