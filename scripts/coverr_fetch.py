@@ -62,9 +62,18 @@ def main(video_dir, music_only=False):
     if (vd / "music.json").exists():
         mo = vd / "music"; mo.mkdir(exist_ok=True)
         for it in json.loads((vd / "music.json").read_text()):
-            hits = call("/audios", key, {"query": it["query"][:100], "page_size": 5}).get("hits", [])
-            hit = next((h for h in hits if not h.get("isPremium") and h.get("urls", {}).get("masterDownload")), None)
+            hits = call("/audios", key, {"query": it["query"][:100], "page_size": 10}).get("hits", [])
+            print(f"{it['code']}: {len(hits)} music hits for '{it['query']}'")
+            hit = None
+            for h in hits:
+                if h.get("isPremium"):
+                    continue
+                if not (h.get("urls") or {}).get("masterDownload"):
+                    h = call(f"/audios/{h['id']}", key) or {}  # list results may omit urls
+                if (h.get("urls") or {}).get("masterDownload"):
+                    hit = h; break
             if not hit:
+                print(f"{it['code']}: no free track with a download url")
                 credits.append(f"| {it['code']} | {it['query']} | NOT FOUND (music) | | |"); continue
             fn = f"{it['code']}-coverr{hit['id']}.mp3"
             download(hit["urls"]["masterDownload"], mo / fn)
