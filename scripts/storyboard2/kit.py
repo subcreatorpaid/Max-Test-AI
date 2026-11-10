@@ -27,8 +27,8 @@ def ledger():
     im=Image.new("RGB",(W,H),INK); d=ImageDraw.Draw(im)
     for y in range(40,H,26): d.line([0,y,W,y],fill=(27,24,21),width=1)
     return vignette(grain(im,14),0.6)
-def dark():
-    return vignette(grain(Image.new("RGB",(W,H),(24,20,17)),18),0.7)
+def dark():  # Hammad 2026-11-10: every graphic uses the part-card background
+    return ledger()
 def tag(im, t, src=""):
     if not t: return im
     d=ImageDraw.Draw(im); s=(t+(" · "+src if src else "")).upper()[:70]
@@ -190,7 +190,7 @@ def figures(n=5, tags=(), t="", src="", hi=None, grid=False):
         p=paper_rect((340,120),PAPER,True,i+20); d=ImageDraw.Draw(p); d.text((20,14),a.upper(),font=F(26,"b"),fill=(40,34,28)); d.text((20,52),b,font=F(48,"xb"),fill=RED)
         im=drop(im,p,(110+i*380,500),[-2,1.5,-1][i%3],8)
     return tag(im.convert("RGB"),t,src)
-# ---------- M: navy map / globe with orange arcs and pins (reference 2:29, 8:10) ----------
+# ---------- M: dark map / globe with orange arcs and pins (reference 2:29, 8:10) ----------
 _S=None
 def shapes():
     global _S
@@ -199,10 +199,10 @@ def shapes():
         _S=[(dict(zip(fl,s.record)), s.shape) for s in r.shapeRecords()]
     return _S
 def map_(bbox, hi=(), pins=(), arcs=(), lanes=(), dots=(), title="", sub="", t="", src="", dotcol=ORANGE, globe=None):
-    im=Image.new("RGB",(W,H),NAVY); d=ImageDraw.Draw(im)
+    im=ledger(); d=ImageDraw.Draw(im)
     if globe:
         lon0,lat0=globe; R0=330; cx,cy=W*0.62,H*0.52
-        d.ellipse([cx-R0-14,cy-R0-14,cx+R0+14,cy+R0+14],fill=(30,60,100)); d.ellipse([cx-R0,cy-R0,cx+R0,cy+R0],fill=(26,52,90))
+        d.ellipse([cx-R0-14,cy-R0-14,cx+R0+14,cy+R0+14],fill=(44,40,36)); d.ellipse([cx-R0,cy-R0,cx+R0,cy+R0],fill=(30,27,24))
         def P(lo,la):
             lo,la,l0,p0=map(math.radians,(lo,la,lon0,lat0))
             c=math.sin(p0)*math.sin(la)+math.cos(p0)*math.cos(la)*math.cos(lo-l0)
@@ -235,7 +235,7 @@ def map_(bbox, hi=(), pins=(), arcs=(), lanes=(), dots=(), title="", sub="", t="
         d.ellipse([q[0]-8,q[1]-8,q[0]+8,q[1]+8],fill=RED,outline=PAPER,width=2)
         if txt:
             f=F(18,"b"); w=d.textlength(txt,font=f); d.rectangle([q[0]+14,q[1]-34,q[0]+34+w,q[1]-6],fill=PAPER,outline=RED,width=2); d.text((q[0]+24,q[1]-31),txt,font=f,fill=(30,26,22))
-    im=vignette(grain(im,10),0.45); d=ImageDraw.Draw(im)
+    d=ImageDraw.Draw(im)
     if title: d.text((70,90),title,font=F(56,"b"),fill=PAPER)
     if sub: d.text((72,160),sub,font=F(44,"s"),fill=ORANGE)
     return tag(im,t,src)
@@ -283,15 +283,10 @@ def folder(cards, label="INV-007", photo=None):
         c=paper_rect((480,160),PAPER,False,30+i); cd=ImageDraw.Draw(c); cd.text((28,26),a.upper(),font=F(28,"xb"),fill=(30,26,22)); cd.text((28,64),"not financial advice" if i==0 and "DO" in a.upper() else "",font=F(16,"m"),fill=GREY)
         cd.text((28,100) if a else (28,40),b,font=F(30,"m"),fill=(40,34,28)); im=drop(im,c,(600+i*40,250+i*150),[-3,2,-1,3][i%4],10)
     return im.convert("RGB")
-# ---------- E: particle logo end card (reference 8:51) ----------
+# ---------- E: plain logo end card (no particles) (reference 8:51) ----------
 def endcard(txt="THE HISTORY INVOICE", sub="Every crisis sends a bill. History keeps the receipts."):
-    im=Image.new("RGB",(W,H),INK); d=ImageDraw.Draw(im); f=F(96,"xb"); w=d.textlength(txt,font=f)
-    m=Image.new("L",(W,H),0); ImageDraw.Draw(m).text(((W-w)/2,270),txt,font=f,fill=255)
-    r=random.Random(3)
-    for _ in range(9000):
-        x=r.randrange(W); y=r.randrange(200,420)
-        if m.getpixel((x,y))>128: d.rectangle([x,y,x+5,y+4],fill=ORANGE if r.random()<0.18 else PAPER)
-    for _ in range(300):
-        x=r.randrange(W); y=r.randrange(H); d.rectangle([x,y,x+5,y+4],fill=(60,56,50))
+    # no particle assemble (Hammad 2026-11-10): plain title, fades in
+    im=ledger(); d=ImageDraw.Draw(im); f=F(96,"xb"); w=d.textlength(txt,font=f)
+    d.text(((W-w)/2,270),txt,font=f,fill=PAPER); d.line([W/2-60,400,W/2+60,400],fill=ORANGE,width=4)
     sw=d.textlength(sub,font=F(32,"s")); d.text(((W-sw)/2,430),sub,font=F(32,"s"),fill=ORANGE)
-    return vignette(grain(im,10),0.5)
+    return im

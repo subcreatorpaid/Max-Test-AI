@@ -37,9 +37,9 @@ pages.append(cover())
 PLAY=[("N  Ledger number card","0:00",("CO-02",)),("L  Toned footage + orange glow + paper label","0:17",("CO-04",)),
       ("D  Document, key line circled","0:39",("P1-10",)),("T  Typed paper card + rubber stamp","0:58",("CO-05",)),
       ("B  Split-flap board","1:22",("P3-02",)),("K  Cut-paper figures + paper tags","1:38",("P5-08",)),
-      ("M  Navy globe / map, orange arcs, pins","2:29",("P2-03",)),("P  Part card, giant faded number","3:15",("P1-01",)),
+      ("M  Dark map / globe, orange arcs, pins","2:29",("P2-03",)),("P  Part card, giant faded number","3:15",("P1-01",)),
       ("R  Receipt printer + stamps","4:48",("RC-06",)),("W  Mini-chart tiles","5:52",("P3-04",)),
-      ("X  Folder + index cards","6:46",("RC-07",)),("E  Particle logo end card","8:53",(None,))]
+      ("X  Folder + index cards","6:46",("RC-07",)),("E  Plain logo end card (no particles)","8:53",(None,))]
 def ts(t):
     m,s=t.split(":"); return int(m)*60+float(s)
 for half in (PLAY[:6],PLAY[6:]):
@@ -51,13 +51,13 @@ for half in (PLAY[:6],PLAY[6:]):
             if p.exists(): pg.paste(Image.open(p).resize((310,174)),(620,y))
         im=Image.open(OUT/"panels"/f"{code}.jpg") if code else endcard(); pg.paste(im.resize((310,174)),(1000,y))
         d.text((945,y+70),"→",font=F(44,"b"),fill=ORANGE)
-        rules={"N":"Hold max 6 s, then cut","L":"Only clips that match the line","D":"Use for reports, rates, contracts","T":"Stamp = the confidence tag","B":"Flips in, digits roll","K":"Faceless; never real people","M":"Arcs draw on; pins drop","P":"Fade through black + riser","R":"Prints line by line","W":"Lines draw left to right","X":"Cards slide in one by one","E":"Particles assemble"}[name[0]]
+        rules={"N":"Hold max 6 s, then cut","L":"Only clips that match the line","D":"Use for reports, rates, contracts","T":"Stamp = the confidence tag","B":"Flips in, digits roll","K":"Faceless; never real people","M":"Arcs draw on; pins drop","P":"Fade through black + riser","R":"Prints line by line","W":"Lines draw left to right","X":"Cards slide in one by one","E":"Title fades in, no particles"}[name[0]]
         d.text((1330,y+70),rules,font=F(22,"s"),fill=(60,52,44))
     pages.append(pg)
 for k in range(0,len(rows),per):
     pg=Image.new("RGB",(PW,PH),(244,238,226)); d=ImageDraw.Draw(pg); page_header(d,"INV-007 storyboard v1",len(pages)+1)
     for i,r in enumerate(rows[k:k+per]):
-        x=40+(i%2)*860; y=100+(i//2)*375; c=r[0]; kind,desc,q=V.V[c]
+        x=40+(i%2)*860; y=100+(i//2)*375; c=r[0]; kind,desc,q=V.V[c]; desc=spec7.DESC.get(c,desc)
         pg.paste(Image.open(OUT/"panels"/f"{c}.jpg").resize((400,225)),(x,y))
         kn,kc=KN[kind]; d.rectangle([x,y+232,x+120,y+262],fill=kc); d.text((x+10,y+236),kn,font=F(18,"b"),fill=(255,255,255))
         d.text((x+132,y+234),c,font=F(24,"b"),fill=INK)
