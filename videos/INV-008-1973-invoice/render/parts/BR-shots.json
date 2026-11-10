@@ -1,0 +1,15 @@
+{
+ "part": "BR",
+ "dur": 10.76,
+ "vo_dur": 10.751416666666668,
+ "shots": [
+  {
+   "code": "BR-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 10.76,
+   "visual": "Simple card, subscribe button animation; next-video teaser f",
+   "sfx": "soft whoosh"
+  }
+ ]
+}
