@@ -18,7 +18,10 @@ THEMES=[("ship",r"ship|tanker|cargo|strait|sea\b|port|sail|auction|atlantic|horm
  ("money",r"bill|pound|price|cap\b|debt|money|pay|cost|vat|tax|wholesale|ofgem|forecast|market"),("power",r"electric|power|lights"),
  ("land",r"fertili|urea|factory|harvest|industr|farm"),("city",r"britain|london|europe|leeds|lyon|germany|tokyo|asia|america|countr")]
 BL=set(l.strip() for l in open(HERE/'blacklist.txt') if l.strip() and not l.startswith('#'))
-def bad(f): b=os.path.basename(f); return b in BL or b.rsplit('.',1)[0] in BL
+def bad(f):
+    b=os.path.basename(f)
+    if b.endswith('.jpg'): return b in BL
+    return b.split('-pixabay')[0] in BL
 def clips(): 
     out={}
     for d in CLIPDIRS:
@@ -39,7 +42,7 @@ def photos():
 PHO=photos()
 _pu={}
 def pick_photo(theme):
-    pool=PHO.get(theme) or [c for v in PHO.values() for c in v]
+    pool=PHO.get(theme) if len(PHO.get(theme,[]))>=3 else [c for v in PHO.values() for c in v]
     if not pool: return None
     k=_pu.get(theme, int(hashlib.md5((PART+'p').encode()).hexdigest(),16)%len(pool)); _pu[theme]=k+1
     return pool[k%len(pool)]
