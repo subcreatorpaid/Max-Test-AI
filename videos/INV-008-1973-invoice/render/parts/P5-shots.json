@@ -1,0 +1,63 @@
+{
+ "part": "P5",
+ "dur": 102.44,
+ "vo_dur": 102.44254166666667,
+ "shots": [
+  {
+   "code": "P5-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.36,
+   "visual": "s_part PART 5 \u00b7 THE FIX",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P5-02",
+   "kind": "gfx",
+   "t": 4.36,
+   "dur": 13.2,
+   "visual": "Tank graphic fills to '90 DAYS'.",
+   "sfx": "fill sound"
+  },
+  {
+   "code": "P5-03",
+   "kind": "photo",
+   "t": 17.56,
+   "dur": 14.0,
+   "visual": "Cross-section graphic: salt cavern filling; CARD 'SPR \u00b7 CAFE",
+   "sfx": "low rumble"
+  },
+  {
+   "code": "P5-04",
+   "kind": "gfx",
+   "t": 31.56,
+   "dur": 14.72,
+   "visual": "Barrel graphic shrinks to 0.43; line chart 1973 \u2192 2019.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P5-05",
+   "kind": "photo",
+   "t": 46.28,
+   "dur": 24.68,
+   "visual": "Flow arrows reverse direction on a US map; CARD 'NET EXPORTE",
+   "sfx": "whoosh reverse"
+  },
+  {
+   "code": "P5-06",
+   "kind": "gfx",
+   "t": 70.96,
+   "dur": 16.56,
+   "visual": "Ladder card: 1991 \u00b7 2005 \u00b7 2011 \u00b7 2022 \u00b7 2022 \u00b7 2026 (larges",
+   "sfx": "tick x6"
+  },
+  {
+   "code": "P5-07",
+   "kind": "gfx",
+   "t": 87.52,
+   "dur": 14.92,
+   "visual": "Back to the CO-03 bars, now with a question mark.",
+   "sfx": "riser"
+  }
+ ]
+}
