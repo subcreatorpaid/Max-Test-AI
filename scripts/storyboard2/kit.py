@@ -5,7 +5,7 @@ import math, random, pathlib
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageOps, ImageChops
 import shapefile
 W, H = 1280, 720
-INK=(20,17,15); PAPER=(236,228,214); PAPER2=(226,214,192); ORANGE=(232,89,12); RED=(196,36,40); GREEN=(46,125,70)
+INK=(20,17,15); PAPER=(214,204,186); PAPER2=(226,214,192); ORANGE=(232,89,12); RED=(196,36,40); GREEN=(46,125,70)
 GREY=(140,132,120); DIM=(70,64,58); NAVY=(20,38,66); LANDC=(92,84,72); CRIMSON=(193,18,31)
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 ASSETS=ROOT/"tools/inv006/assets"
