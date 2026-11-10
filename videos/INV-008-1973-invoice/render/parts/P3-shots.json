@@ -1,0 +1,111 @@
+{
+ "part": "P3",
+ "dur": 150.8,
+ "vo_dur": 150.788375,
+ "shots": [
+  {
+   "code": "P3-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.44,
+   "visual": "s_part PART 3 \u00b7 THE DARK",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P3-02",
+   "kind": "gfx",
+   "t": 4.44,
+   "dur": 13.0,
+   "visual": "MAP-3D: UK in orange; two icons, oil drop + coal lump, meet.",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P3-03",
+   "kind": "photo",
+   "t": 17.44,
+   "dur": 10.68,
+   "visual": "Road sign 50 on a wet British road (STOCK).",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-04",
+   "kind": "gfx",
+   "t": 28.12,
+   "dur": 13.96,
+   "visual": "STILL: ration-book style card (recreated, no real crest), sl",
+   "sfx": "paper rustle, stamp"
+  },
+  {
+   "code": "P3-05",
+   "kind": "gfx",
+   "t": 42.08,
+   "dur": 13.64,
+   "visual": "Calendar graphic: 7 days, 4 go dark. CARD 'THREE-DAY WEEK'.",
+   "sfx": "light switch off x4"
+  },
+  {
+   "code": "P3-06",
+   "kind": "photo",
+   "t": 55.72,
+   "dur": 11.08,
+   "visual": "STOCK: candle on a kitchen table; TV screen fading to a dot ",
+   "sfx": "TV power-down, candle"
+  },
+  {
+   "code": "P3-07",
+   "kind": "gfx",
+   "t": 66.8,
+   "dur": 12.52,
+   "visual": "CARD-NUMBER: 36p \u2192 72p, \u00d72.",
+   "sfx": "counter + sub"
+  },
+  {
+   "code": "P3-08",
+   "kind": "photo",
+   "t": 79.32,
+   "dur": 10.2,
+   "visual": "Ballot graphic 81% YES.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-09",
+   "kind": "gfx",
+   "t": 89.52,
+   "dur": 13.96,
+   "visual": "Parliament silhouette; seat bar flips from blue majority to ",
+   "sfx": "low hit"
+  },
+  {
+   "code": "P3-10",
+   "kind": "photo",
+   "t": 103.48,
+   "dur": 13.6,
+   "visual": "STOCK/ARCHIVE: empty motorway, cyclists; map NL in red.",
+   "sfx": "wind, bicycle bell"
+  },
+  {
+   "code": "P3-11",
+   "kind": "gfx",
+   "t": 117.08,
+   "dur": 6.56,
+   "visual": "Map: several countries tick on with a SUNDAY icon.",
+   "sfx": "tick x4"
+  },
+  {
+   "code": "P3-12",
+   "kind": "gfx",
+   "t": 123.64,
+   "dur": 14.36,
+   "visual": "MAP: Japan glowing; STOCK: empty supermarket paper shelf.",
+   "sfx": "crowd murmur low"
+  },
+  {
+   "code": "P3-13",
+   "kind": "gfx",
+   "t": 138.0,
+   "dur": 12.8,
+   "visual": "RECEIPT corner line 3 prints: POWER \u00b7 3-DAY WEEK \u00b7 PETROL \u00d72",
+   "sfx": "receipt print + riser"
+  }
+ ]
+}
