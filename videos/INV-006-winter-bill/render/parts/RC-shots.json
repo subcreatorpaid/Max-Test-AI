@@ -1,0 +1,223 @@
+{
+ "part": "RC",
+ "dur": 237.6,
+ "vo_dur": 237.61283333333333,
+ "shots": [
+  {
+   "code": "RC-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 2.8,
+   "visual": "RECEIPT full screen, prints line by line.",
+   "sfx": "printer"
+  },
+  {
+   "code": "RC-02",
+   "kind": "gfx",
+   "t": 2.8,
+   "dur": 8.96,
+   "visual": "RECEIPT lines 1-2.",
+   "sfx": "printer"
+  },
+  {
+   "code": "RC-02",
+   "kind": "photo",
+   "t": 11.76,
+   "dur": 8.92,
+   "visual": "RECEIPT lines 1-2.",
+   "sfx": "printer"
+  },
+  {
+   "code": "RC-02b",
+   "kind": "gfx",
+   "t": 20.68,
+   "dur": 12.32,
+   "visual": "RECEIPT gets two more columns: USA \u00b7 SOUTH ASIA.",
+   "sfx": "printer"
+  },
+  {
+   "code": "RC-02b",
+   "kind": "clip",
+   "t": 33.0,
+   "dur": 12.28,
+   "visual": "RECEIPT gets two more columns: USA \u00b7 SOUTH ASIA.",
+   "sfx": "printer"
+  },
+  {
+   "code": "RC-03",
+   "kind": "gfx",
+   "t": 45.28,
+   "dur": 6.68,
+   "visual": "RECEIPT lines 3-5, last line in crimson.",
+   "sfx": "printer, final line silent"
+  },
+  {
+   "code": "RC-03",
+   "kind": "photo",
+   "t": 51.96,
+   "dur": 6.68,
+   "visual": "RECEIPT lines 3-5, last line in crimson.",
+   "sfx": "printer, final line silent"
+  },
+  {
+   "code": "RC-04",
+   "kind": "gfx",
+   "t": 58.64,
+   "dur": 7.36,
+   "visual": "Steps list, 1-2.",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-04",
+   "kind": "clip",
+   "t": 66.0,
+   "dur": 7.32,
+   "visual": "Steps list, 1-2.",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-04b",
+   "kind": "gfx",
+   "t": 73.32,
+   "dur": 12.56,
+   "visual": "Footage: boiler / radiator; card 80\u00b0C \u2192 60\u00b0C.",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-04b",
+   "kind": "clip",
+   "t": 85.88,
+   "dur": 12.56,
+   "visual": "Footage: boiler / radiator; card 80\u00b0C \u2192 60\u00b0C.",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-04c",
+   "kind": "gfx",
+   "t": 98.44,
+   "dur": 7.52,
+   "visual": "Card: COMBI ONLY \u00b7 WARMTH FIRST.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-04c",
+   "kind": "photo",
+   "t": 105.96,
+   "dur": 7.56,
+   "visual": "Card: COMBI ONLY \u00b7 WARMTH FIRST.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-05",
+   "kind": "gfx",
+   "t": 113.52,
+   "dur": 12.44,
+   "visual": "Steps 3-5.",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-05",
+   "kind": "clip",
+   "t": 125.96,
+   "dur": 12.48,
+   "visual": "Steps 3-5.",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-05b",
+   "kind": "gfx",
+   "t": 138.44,
+   "dur": 8.0,
+   "visual": "Card: \u00a3150 WARM HOME DISCOUNT \u00b7 6M+ HOMES (WINTER 2025/26).",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-05b",
+   "kind": "photo",
+   "t": 146.44,
+   "dur": 8.0,
+   "visual": "Card: \u00a3150 WARM HOME DISCOUNT \u00b7 6M+ HOMES (WINTER 2025/26).",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-05c",
+   "kind": "gfx",
+   "t": 154.44,
+   "dur": 9.52,
+   "visual": "Card: \u00a3200 / \u00a3300 (OVER 80) \u00b7 INCOME \u2264 \u00a335,000 (2025/26 RULE",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-05c",
+   "kind": "clip",
+   "t": 163.96,
+   "dur": 9.52,
+   "visual": "Card: \u00a3200 / \u00a3300 (OVER 80) \u00b7 INCOME \u2264 \u00a335,000 (2025/26 RULE",
+   "sfx": "tick"
+  },
+  {
+   "code": "RC-05d",
+   "kind": "gfx",
+   "t": 173.48,
+   "dur": 8.68,
+   "visual": "Card: PRIORITY SERVICES REGISTER \u00b7 FREE.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-05d",
+   "kind": "clip",
+   "t": 182.16,
+   "dur": 8.64,
+   "visual": "Card: PRIORITY SERVICES REGISTER \u00b7 FREE.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-06",
+   "kind": "gfx",
+   "t": 190.8,
+   "dur": 5.44,
+   "visual": "Small lower-third.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-07",
+   "kind": "gfx",
+   "t": 196.24,
+   "dur": 4.0,
+   "visual": "Comment prompt card.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-07",
+   "kind": "photo",
+   "t": 200.24,
+   "dur": 3.04,
+   "visual": "Comment prompt card.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-07b",
+   "kind": "gfx",
+   "t": 203.28,
+   "dur": 10.72,
+   "visual": "Timeline: 1973 \u00b7 2018 \u00b7 2022 \u00b7 2026, each with its bill.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-07b",
+   "kind": "clip",
+   "t": 214.0,
+   "dur": 10.76,
+   "visual": "Timeline: 1973 \u00b7 2018 \u00b7 2022 \u00b7 2026, each with its bill.",
+   "sfx": ""
+  },
+  {
+   "code": "RC-08",
+   "kind": "clip",
+   "t": 224.76,
+   "dur": 12.84,
+   "visual": "Return to opening still of Ras Laffan, then the Atlantic tan",
+   "sfx": "silence, then soft bed out"
+  }
+ ]
+}
