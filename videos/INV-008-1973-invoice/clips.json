@@ -1,0 +1,92 @@
+[
+ {
+  "code": "CO-04",
+  "query": "gas pump nozzle",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-08",
+  "query": "oil pumpjack",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P1-13",
+  "query": "traffic jam",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-05",
+  "query": "old gas station",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-10",
+  "query": "highway traffic aerial",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P3-10",
+  "query": "cyclist empty road",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P4-03",
+  "query": "truck highway",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P4-07",
+  "query": "abandoned factory",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P4-11",
+  "query": "oil tanker",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-03",
+  "query": "oil storage tanks",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P5-05",
+  "query": "pumpjack oil field",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-02",
+  "query": "tanker ship sea",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-05",
+  "query": "gas station price",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P6-11",
+  "query": "oil refinery",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "RC-07",
+  "query": "calculator budget",
+  "n": 3,
+  "min_seconds": 7
+ }
+]
