@@ -1,0 +1,127 @@
+{
+ "part": "P1",
+ "dur": 148.24,
+ "vo_dur": 148.25208333333333,
+ "shots": [
+  {
+   "code": "P1-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.76,
+   "visual": "P part card PART 1 \u00b7 WHAT TAIWAN MAKES",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P1-02",
+   "kind": "clip",
+   "t": 4.76,
+   "dur": 11.08,
+   "visual": "M map: Taiwan glows, a ruler line draws 130 KM / 81 MILES to",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P1-03",
+   "kind": "clip",
+   "t": 15.84,
+   "dur": 9.64,
+   "visual": "L footage [COLOUR]: cleanroom, wafer under yellow light (no ",
+   "sfx": "tick x9, hit on 9th"
+  },
+  {
+   "code": "P1-04",
+   "kind": "gfx",
+   "t": 25.48,
+   "dur": 11.16,
+   "visual": "Pie that fills to 70%, then a second ring to 90% (kit2 one-o",
+   "sfx": "fill swell"
+  },
+  {
+   "code": "P1-04b",
+   "kind": "photo",
+   "t": 36.64,
+   "dur": 11.72,
+   "visual": "Cut-paper figures (K): fridge, drill, car door on a shelf, e",
+   "sfx": "paper slide x3"
+  },
+  {
+   "code": "P1-05",
+   "kind": "clip",
+   "t": 48.36,
+   "dur": 9.24,
+   "visual": "STILL [CALM] Ken Burns: a phone circuit board macro; then tw",
+   "sfx": "soft hit"
+  },
+  {
+   "code": "P1-05",
+   "kind": "photo",
+   "t": 57.6,
+   "dur": 6.16,
+   "visual": "STILL [CALM] Ken Burns: a phone circuit board macro; then tw",
+   "sfx": "soft hit"
+  },
+  {
+   "code": "P1-06",
+   "kind": "gfx",
+   "t": 63.76,
+   "dur": 12.16,
+   "visual": "L footage [COLOUR]: car assembly line, robot arms; counter 1",
+   "sfx": "counter"
+  },
+  {
+   "code": "P1-07",
+   "kind": "clip",
+   "t": 75.92,
+   "dur": 10.44,
+   "visual": "B split-flap board flips to $640.7 BN \u00b7 30.9% TO THE US.",
+   "sfx": "split-flap clatter"
+  },
+  {
+   "code": "P1-08",
+   "kind": "gfx",
+   "t": 86.36,
+   "dur": 9.2,
+   "visual": "Typed card: 2021 \u00b7 THE DRESS REHEARSAL.",
+   "sfx": "pause, then low pulse"
+  },
+  {
+   "code": "P1-09",
+   "kind": "photo",
+   "t": 95.56,
+   "dur": 12.0,
+   "visual": "L footage [SHADOW]: empty car factory floor / half-built car",
+   "sfx": "low drone"
+  },
+  {
+   "code": "P1-10",
+   "kind": "gfx",
+   "t": 107.56,
+   "dur": 13.68,
+   "visual": "D document: BLS CPI release page; the used-cars row highligh",
+   "sfx": "pen scratch"
+  },
+  {
+   "code": "P1-10b",
+   "kind": "gfx",
+   "t": 121.24,
+   "dur": 11.08,
+   "visual": "N ledger number: \u2248 $240 BN \u00b7 \u2248 1% OF US GDP.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-11",
+   "kind": "gfx",
+   "t": 132.32,
+   "dur": 10.44,
+   "visual": "N ledger number: $25,000 \u2192 $36,300; small line 'TAIWAN: OPEN",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-12",
+   "kind": "gfx",
+   "t": 142.76,
+   "dur": 5.48,
+   "visual": "Push in on the strait on the map.",
+   "sfx": "riser"
+  }
+ ]
+}
