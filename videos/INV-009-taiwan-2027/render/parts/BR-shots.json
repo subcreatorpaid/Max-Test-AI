@@ -1,0 +1,15 @@
+{
+ "part": "BR",
+ "dur": 11.8,
+ "vo_dur": 11.789625,
+ "shots": [
+  {
+   "code": "BR-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 11.8,
+   "visual": "Paper card with the channel's running invoice; end-screen ti",
+   "sfx": "soft tick"
+  }
+ ]
+}
