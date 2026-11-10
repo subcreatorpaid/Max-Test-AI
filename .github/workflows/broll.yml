@@ -52,7 +52,7 @@ jobs:
         run: |
           sudo apt-get -qq install -y ffmpeg >/dev/null 2>&1 || true
           for f in videos/*/broll/*.mp4; do [ -f "$f" ] || continue
-            ffmpeg -nostdin -loglevel error -y -i "$f" -t 25 -an -vf "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30" -c:v libx264 -crf 23 -preset veryfast -pix_fmt yuv420p "$f.tmp.mp4" && mv "$f.tmp.mp4" "$f"; done
+            ffmpeg -nostdin -loglevel error -y -i "$f" -t 15 -an -vf "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30" -c:v libx264 -crf 26 -preset veryfast -pix_fmt yuv420p "$f.tmp.mp4" && mv "$f.tmp.mp4" "$f"; done
           ls -la videos/*/broll/
           find videos -path '*/broll/*' -size +95M -print -delete || true
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

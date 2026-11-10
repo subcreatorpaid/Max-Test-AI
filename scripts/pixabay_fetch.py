@@ -21,18 +21,20 @@ def get(url):
         return r.read()
 
 def search(key, kind, query, n=5):
-    params = {"key": key, "q": query[:100], "per_page": max(3, n), "safesearch": "true"}
+    params = {"key": key, "q": query[:100], "per_page": max(10, n), "safesearch": "true"}
     if kind == "image":
         params.update({"image_type": "photo", "orientation": "horizontal", "min_width": 1920})
     return json.loads(get(API[kind] + "?" + urllib.parse.urlencode(params))).get("hits", [])
 
+SEEN=set()
 def pick_video(hits, min_s):
     for h in hits:
+        if h['id'] in SEEN: continue
         if h.get("duration", 0) >= min_s:
             v = h["videos"]
             for size in ("large", "medium"):
                 if v.get(size, {}).get("url") and v[size].get("width", 0) >= 1920:
-                    return h, v[size]["url"]
+                    SEEN.add(h['id']); return h, v[size]["url"]
     return None, None
 
 def main(video_dir):

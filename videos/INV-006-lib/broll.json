@@ -1,0 +1,392 @@
+[
+ {
+  "code": "ship01",
+  "query": "lng tanker sea",
+  "min_seconds": 8
+ },
+ {
+  "code": "ship02",
+  "query": "oil tanker ocean aerial",
+  "min_seconds": 8
+ },
+ {
+  "code": "ship03",
+  "query": "cargo ship sunset",
+  "min_seconds": 8
+ },
+ {
+  "code": "ship04",
+  "query": "tanker ship port night",
+  "min_seconds": 8
+ },
+ {
+  "code": "ship05",
+  "query": "ship bow waves ocean",
+  "min_seconds": 8
+ },
+ {
+  "code": "ship06",
+  "query": "container port cranes night",
+  "min_seconds": 8
+ },
+ {
+  "code": "ship07",
+  "query": "ship deck sea storm",
+  "min_seconds": 8
+ },
+ {
+  "code": "ship08",
+  "query": "tugboat harbour",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas01",
+  "query": "gas pipeline",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas02",
+  "query": "refinery night lights",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas03",
+  "query": "gas flare industrial",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas04",
+  "query": "industrial plant smoke chimney",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas05",
+  "query": "gas valve pressure gauge",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas06",
+  "query": "offshore oil platform",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas07",
+  "query": "pipeline snow",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas08",
+  "query": "power plant cooling towers",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas09",
+  "query": "natural gas burner flame",
+  "min_seconds": 8
+ },
+ {
+  "code": "gas10",
+  "query": "storage tanks industrial",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter01",
+  "query": "snow falling city night",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter02",
+  "query": "frost on window",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter03",
+  "query": "winter street lamps snow",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter04",
+  "query": "frozen lake winter",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter05",
+  "query": "icicles roof",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter06",
+  "query": "snowy rooftops town",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter07",
+  "query": "cold breath winter",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter08",
+  "query": "winter fog trees",
+  "min_seconds": 8
+ },
+ {
+  "code": "winter09",
+  "query": "snow storm road",
+  "min_seconds": 8
+ },
+ {
+  "code": "home01",
+  "query": "radiator heating",
+  "min_seconds": 8
+ },
+ {
+  "code": "home02",
+  "query": "thermostat dial",
+  "min_seconds": 8
+ },
+ {
+  "code": "home03",
+  "query": "gas stove flame",
+  "min_seconds": 8
+ },
+ {
+  "code": "home04",
+  "query": "kettle boiling kitchen",
+  "min_seconds": 8
+ },
+ {
+  "code": "home05",
+  "query": "candle dark room",
+  "min_seconds": 8
+ },
+ {
+  "code": "home06",
+  "query": "house lights evening",
+  "min_seconds": 8
+ },
+ {
+  "code": "home07",
+  "query": "blanket sofa cosy",
+  "min_seconds": 8
+ },
+ {
+  "code": "home08",
+  "query": "boiler heating pipes",
+  "min_seconds": 8
+ },
+ {
+  "code": "home09",
+  "query": "window lights apartment night",
+  "min_seconds": 8
+ },
+ {
+  "code": "home10",
+  "query": "fireplace fire",
+  "min_seconds": 8
+ },
+ {
+  "code": "money01",
+  "query": "coins counting",
+  "min_seconds": 8
+ },
+ {
+  "code": "money02",
+  "query": "pound coins",
+  "min_seconds": 8
+ },
+ {
+  "code": "money03",
+  "query": "calculator bills",
+  "min_seconds": 8
+ },
+ {
+  "code": "money04",
+  "query": "electricity meter",
+  "min_seconds": 8
+ },
+ {
+  "code": "money05",
+  "query": "paying bills desk",
+  "min_seconds": 8
+ },
+ {
+  "code": "money06",
+  "query": "wallet money",
+  "min_seconds": 8
+ },
+ {
+  "code": "money07",
+  "query": "receipt printing",
+  "min_seconds": 8
+ },
+ {
+  "code": "money08",
+  "query": "banknotes euro",
+  "min_seconds": 8
+ },
+ {
+  "code": "money09",
+  "query": "piggy bank coins",
+  "min_seconds": 8
+ },
+ {
+  "code": "money10",
+  "query": "stock market chart screen",
+  "min_seconds": 8
+ },
+ {
+  "code": "money11",
+  "query": "trading screen numbers",
+  "min_seconds": 8
+ },
+ {
+  "code": "city01",
+  "query": "london skyline night",
+  "min_seconds": 8
+ },
+ {
+  "code": "city02",
+  "query": "london street rain",
+  "min_seconds": 8
+ },
+ {
+  "code": "city03",
+  "query": "european city winter",
+  "min_seconds": 8
+ },
+ {
+  "code": "city04",
+  "query": "paris winter",
+  "min_seconds": 8
+ },
+ {
+  "code": "city05",
+  "query": "berlin night traffic",
+  "min_seconds": 8
+ },
+ {
+  "code": "city06",
+  "query": "tokyo night city",
+  "min_seconds": 8
+ },
+ {
+  "code": "city07",
+  "query": "new york winter",
+  "min_seconds": 8
+ },
+ {
+  "code": "city08",
+  "query": "city timelapse night",
+  "min_seconds": 8
+ },
+ {
+  "code": "city09",
+  "query": "traffic lights rain night",
+  "min_seconds": 8
+ },
+ {
+  "code": "city10",
+  "query": "city power lines",
+  "min_seconds": 8
+ },
+ {
+  "code": "power01",
+  "query": "electricity pylons sunset",
+  "min_seconds": 8
+ },
+ {
+  "code": "power02",
+  "query": "power lines snow",
+  "min_seconds": 8
+ },
+ {
+  "code": "power03",
+  "query": "wind turbines winter",
+  "min_seconds": 8
+ },
+ {
+  "code": "power04",
+  "query": "electric substation",
+  "min_seconds": 8
+ },
+ {
+  "code": "power05",
+  "query": "light bulb switch off",
+  "min_seconds": 8
+ },
+ {
+  "code": "power06",
+  "query": "blackout city",
+  "min_seconds": 8
+ },
+ {
+  "code": "land01",
+  "query": "wheat field",
+  "min_seconds": 8
+ },
+ {
+  "code": "land02",
+  "query": "farm tractor field",
+  "min_seconds": 8
+ },
+ {
+  "code": "land03",
+  "query": "fertilizer field spraying",
+  "min_seconds": 8
+ },
+ {
+  "code": "land04",
+  "query": "factory production line",
+  "min_seconds": 8
+ },
+ {
+  "code": "land05",
+  "query": "empty warehouse",
+  "min_seconds": 8
+ },
+ {
+  "code": "land06",
+  "query": "industrial zone aerial",
+  "min_seconds": 8
+ },
+ {
+  "code": "misc01",
+  "query": "clock ticking",
+  "min_seconds": 8
+ },
+ {
+  "code": "misc02",
+  "query": "calendar pages",
+  "min_seconds": 8
+ },
+ {
+  "code": "misc03",
+  "query": "newspaper printing press",
+  "min_seconds": 8
+ },
+ {
+  "code": "misc04",
+  "query": "world globe rotating",
+  "min_seconds": 8
+ },
+ {
+  "code": "misc05",
+  "query": "map pins",
+  "min_seconds": 8
+ },
+ {
+  "code": "misc06",
+  "query": "ocean waves aerial",
+  "min_seconds": 8
+ },
+ {
+  "code": "misc07",
+  "query": "storm clouds timelapse",
+  "min_seconds": 8
+ },
+ {
+  "code": "misc08",
+  "query": "sunrise over sea",
+  "min_seconds": 8
+ }
+]
