@@ -1,0 +1,15 @@
+{
+ "part": "BR",
+ "dur": 10.08,
+ "vo_dur": 10.086458333333333,
+ "shots": [
+  {
+   "code": "BR-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 10.08,
+   "visual": "Bridge card with next-video thumbnail.",
+   "sfx": "riser air"
+  }
+ ]
+}
