@@ -5,6 +5,8 @@ This file keeps the original Round Two system and adds the Motion Graphics MAX q
 Set 2026-11-04 by Hammad: "make it the best process, a rule into the brain to use it next videos".
 The code in this folder is the working renderer from "Round Two". Copy it, change the shot list and the facts, then render.
 
+- Look: see `docs/look-rules.md` (Hammad's picture notes, wins over this file where they differ).
+
 ## The steps, in order
 1. **Script.** Start from a sourced fact pack, then write a Word (.docx) script. Every number needs a source and a tag (VERIFIED / REPORTED / ESTIMATE / ILLUSTRATION).
 2. **Voice.** Free local Kokoro, blend `am_onyx:0.5,am_michael:0.5`, speed 0.92, -16 LUFS, one MP3 per chapter (`kok/render.py`, `kok/full.py`). Never use vidIQ or ElevenLabs.

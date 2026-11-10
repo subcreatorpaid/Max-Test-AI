@@ -6,3 +6,4 @@
 - 2026-11-04 (reference analysis): package = stakes, payoff = money. "What happens if" + a live question in 24-72 h wins; old crowded topics, money-first and off-niche videos flop.
 - INV-002 production: burned-in text over footage with an orange serif line looks premium. Number cards must keep moving after they build. crf 23 + maxrate 12M, never crf 20 with grain.
 - AI drafts invent specifics: every number in a merged script goes back to a fact pack row or gets cut.
+- 2026-11-10 (INV-007 storyboard notes from Hammad): matching footage only, 30% shadow / rest colour by intensity, colour 20% darker, beige paper not white, no magnifier, no particles, one background for all graphics, a different graphic type each time. Full list: `docs/look-rules.md` (keep it updated with every new note).
