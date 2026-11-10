@@ -1,0 +1,55 @@
+{
+ "part": "CO",
+ "dur": 86.84,
+ "vo_dur": 86.85741666666667,
+ "shots": [
+  {
+   "code": "CO-01",
+   "kind": "photo",
+   "t": 0.0,
+   "dur": 14.24,
+   "visual": "ARCHIVE-PD still (NARA DOCUMERICA, Oregon station / queue), ",
+   "sfx": "low drone in, three soft ticks on the colours"
+  },
+  {
+   "code": "CO-02",
+   "kind": "gfx",
+   "t": 14.24,
+   "dur": 15.64,
+   "visual": "CARD-NUMBER $2.90 \u2192 $11.65 counter; then 5 pump icons, 1 goe",
+   "sfx": "counter, sub hit on 11.65"
+  },
+  {
+   "code": "CO-03",
+   "kind": "gfx",
+   "t": 29.88,
+   "dur": 17.92,
+   "visual": "Two bars grow side by side: 4.5 (1973) vs 14+ (2026); 2026 b",
+   "sfx": "chart grow, silence after 'never came'"
+  },
+  {
+   "code": "CO-04",
+   "kind": "photo",
+   "t": 47.8,
+   "dur": 12.64,
+   "visual": "CARD-NUMBER +$1 / GALLON (2026) under +43% (1974); 2 s flash",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "CO-05",
+   "kind": "gfx",
+   "t": 60.44,
+   "dur": 9.96,
+   "visual": "Tag cards fan out: VERIFIED \u00b7 REPORTED \u00b7 ESTIMATE.",
+   "sfx": "tick"
+  },
+  {
+   "code": "CO-06",
+   "kind": "gfx",
+   "t": 70.4,
+   "dur": 16.44,
+   "visual": "Roadmap: six icons light in a row (calendar, pump, candle, c",
+   "sfx": "riser"
+  }
+ ]
+}
