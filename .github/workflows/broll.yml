@@ -1,0 +1,25 @@
+name: B-roll fetch (Pixabay)
+# Manual only. Reads the key from the PIXABAY_API_KEY repository secret; the key never appears in logs or files.
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: "Video folder, e.g. videos/INV-006-winter-bill"
+        required: true
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch clips
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: python scripts/pixabay_fetch.py "${{ inputs.video }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: broll
+          path: ${{ inputs.video }}/broll/
+          retention-days: 7
