@@ -114,7 +114,7 @@ V = {
 # rows added in script v2 (30-minute cut)
 V.update({
 "P1-05b":("F","Ships waiting at anchor offshore","ships anchored offshore waiting"),
-"P1-07b":("S","Ship stores / supplies","ship supplies crates provisions"),
+"P1-07b":("G","Gauges: water, food, fuel running low",""),
 "P2-02b":("G","Crew manifest",""),"P2-04c":("G","Balance scale (same comparison)",""),"P2-07b":("G","Pay slip",""),
 "P3-01b":("G","Typed cards, how we count",""),"P3-03b":("G","Chalk tally (same count)",""),
 "P3-11b":("S","Empty ship deck at night, shadow","ship deck night"),
@@ -123,3 +123,4 @@ V.update({
 "P6-01b":("G","Roadmap by country",""),"P6-06b":("G","Donut 18%",""),"P6-09b":("G","Two halves",""),
 })
 V["RC-11"]=("S","Return to the CO-01 tanker still at night; fade to black; plain logo end card","oil tanker night sea")
+V["P1-07"]=("F","Ships waiting at anchor offshore (clip), stores line","ships anchored")

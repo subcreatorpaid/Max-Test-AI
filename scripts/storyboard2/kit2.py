@@ -457,3 +457,15 @@ def halves(a, b, foot=""):
     d=ImageDraw.Draw(im)
     if foot: d.text((W/2-d.textlength(foot,font=F(32,"s"))/2,610),foot,font=F(32,"s"),fill=ORANGE)
     return im.convert("RGB")
+
+# 37 supply gauges running down
+def gauges(items, title="", sub="", t="", src=""):
+    im=ledger(); d=ImageDraw.Draw(im); _title(d,title,sub); n=len(items); gw=300; x0=(W-n*gw-(n-1)*60)//2
+    for i,(lab,frac) in enumerate(items):
+        x=x0+i*(gw+60); cx,cy,r=x+gw//2,470,130
+        d.arc([cx-r,cy-r,cx+r,cy+r],180,360,fill=(70,64,58),width=26)
+        d.arc([cx-r,cy-r,cx+r,cy+r],180,180+int(180*frac),fill=RED if frac<0.3 else ORANGE,width=26)
+        a=math.radians(180+180*frac); d.line([cx,cy,cx+math.cos(a)*(r-30),cy+math.sin(a)*(r-30)],fill=PAPER,width=6); d.ellipse([cx-12,cy-12,cx+12,cy+12],fill=PAPER)
+        d.text((cx-d.textlength(lab.upper(),font=F(34,"b"))/2,cy+30),lab.upper(),font=F(34,"b"),fill=PAPER)
+        d.text((cx-r,cy+6),"E",font=F(22,"b"),fill=RED); d.text((cx+r-14,cy+6),"F",font=F(22,"b"),fill=GREY)
+    return tag(im,t,src)
