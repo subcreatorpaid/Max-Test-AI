@@ -1,0 +1,319 @@
+{
+ "part": "P1",
+ "dur": 290.64,
+ "vo_dur": 290.64758333333333,
+ "shots": [
+  {
+   "code": "P1-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.24,
+   "visual": "s_part: PART 1, THE DOOR.",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P1-02",
+   "kind": "gfx",
+   "t": 4.24,
+   "dur": 4.44,
+   "visual": "G16 strait map: two glowing lanes, measure line.",
+   "sfx": "whoosh-deep + scan"
+  },
+  {
+   "code": "P1-02",
+   "kind": "photo",
+   "t": 8.68,
+   "dur": 4.4,
+   "visual": "G16 strait map: two glowing lanes, measure line.",
+   "sfx": "whoosh-deep + scan"
+  },
+  {
+   "code": "P1-03",
+   "kind": "gfx",
+   "t": 13.08,
+   "dur": 6.04,
+   "visual": "CARD-NUMBER: 9.3 Bcf/d, faded 0.7 for the UAE.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P1-03",
+   "kind": "clip",
+   "t": 19.12,
+   "dur": 6.04,
+   "visual": "CARD-NUMBER: 9.3 Bcf/d, faded 0.7 for the UAE.",
+   "sfx": "card land"
+  },
+  {
+   "code": "P1-04",
+   "kind": "gfx",
+   "t": 25.16,
+   "dur": 5.56,
+   "visual": "G13 globe: arcs from Hormuz, 83% thick to Asia, thin to Euro",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-04",
+   "kind": "photo",
+   "t": 30.72,
+   "dur": 5.6,
+   "visual": "G13 globe: arcs from Hormuz, 83% thick to Asia, thin to Euro",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-05",
+   "kind": "gfx",
+   "t": 36.32,
+   "dur": 4.52,
+   "visual": "Hold on globe, Asia arcs turn and point at Europe.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-05",
+   "kind": "clip",
+   "t": 40.84,
+   "dur": 4.56,
+   "visual": "Hold on globe, Asia arcs turn and point at Europe.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-06",
+   "kind": "gfx",
+   "t": 45.4,
+   "dur": 7.6,
+   "visual": "CARD-HEADLINE: recreated Bloomberg headline, 2 Mar 2026. The",
+   "sfx": "stamp thud"
+  },
+  {
+   "code": "P1-06",
+   "kind": "clip",
+   "t": 53.0,
+   "dur": 7.56,
+   "visual": "CARD-HEADLINE: recreated Bloomberg headline, 2 Mar 2026. The",
+   "sfx": "stamp thud"
+  },
+  {
+   "code": "P1-07",
+   "kind": "gfx",
+   "t": 60.56,
+   "dur": 6.72,
+   "visual": "MAP-3D close on Ras Laffan, a red segment burns out of a rin",
+   "sfx": "sub_808"
+  },
+  {
+   "code": "P1-07",
+   "kind": "photo",
+   "t": 67.28,
+   "dur": 6.76,
+   "visual": "MAP-3D close on Ras Laffan, a red segment burns out of a rin",
+   "sfx": "sub_808"
+  },
+  {
+   "code": "P1-07b",
+   "kind": "gfx",
+   "t": 74.04,
+   "dur": 6.44,
+   "visual": "Line chart Jan-Mar 2026, the jump marked on 2 Mar.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-07b",
+   "kind": "clip",
+   "t": 80.48,
+   "dur": 6.44,
+   "visual": "Line chart Jan-Mar 2026, the jump marked on 2 Mar.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-08",
+   "kind": "gfx",
+   "t": 86.92,
+   "dur": 6.8,
+   "visual": "G18-style bars: 85 vs 1, the 1 flickers.",
+   "sfx": "whip + card + counter"
+  },
+  {
+   "code": "P1-08",
+   "kind": "photo",
+   "t": 93.72,
+   "dur": 6.8,
+   "visual": "G18-style bars: 85 vs 1, the 1 flickers.",
+   "sfx": "whip + card + counter"
+  },
+  {
+   "code": "P1-09",
+   "kind": "gfx",
+   "t": 100.52,
+   "dur": 5.64,
+   "visual": "Calendar card: May to Dec greyed out.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P1-09",
+   "kind": "clip",
+   "t": 106.16,
+   "dur": 5.68,
+   "visual": "Calendar card: May to Dec greyed out.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P1-10",
+   "kind": "gfx",
+   "t": 111.84,
+   "dur": 6.56,
+   "visual": "RECEIPT starts printing in the corner. Line 1: WHOLESALE GAS",
+   "sfx": "printer"
+  },
+  {
+   "code": "P1-10",
+   "kind": "clip",
+   "t": 118.4,
+   "dur": 6.56,
+   "visual": "RECEIPT starts printing in the corner. Line 1: WHOLESALE GAS",
+   "sfx": "printer"
+  },
+  {
+   "code": "P1-10b",
+   "kind": "gfx",
+   "t": 124.96,
+   "dur": 9.2,
+   "visual": "Explainer card: a meter dial, unit price and standing charge",
+   "sfx": "tick"
+  },
+  {
+   "code": "P1-10b",
+   "kind": "photo",
+   "t": 134.16,
+   "dur": 9.2,
+   "visual": "Explainer card: a meter dial, unit price and standing charge",
+   "sfx": "tick"
+  },
+  {
+   "code": "P1-10d",
+   "kind": "gfx",
+   "t": 143.36,
+   "dur": 11.4,
+   "visual": "Stacked bar builds: wholesale 47%, networks 24%, operating 1",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-10d",
+   "kind": "clip",
+   "t": 154.76,
+   "dur": 11.36,
+   "visual": "Stacked bar builds: wholesale 47%, networks 24%, operating 1",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P1-10e",
+   "kind": "gfx",
+   "t": 166.12,
+   "dur": 12.4,
+   "visual": "Same bar: the VAT slice for electricity empties, gas stays a",
+   "sfx": "tick"
+  },
+  {
+   "code": "P1-10e",
+   "kind": "photo",
+   "t": 178.52,
+   "dur": 12.4,
+   "visual": "Same bar: the VAT slice for electricity empties, gas stays a",
+   "sfx": "tick"
+  },
+  {
+   "code": "P1-10f",
+   "kind": "gfx",
+   "t": 190.92,
+   "dur": 11.08,
+   "visual": "Wholesale slice grows from 37% to 47% and pulses orange; the",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-10f",
+   "kind": "clip",
+   "t": 202.0,
+   "dur": 11.12,
+   "visual": "Wholesale slice grows from 37% to 47% and pulses orange; the",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-10g",
+   "kind": "gfx",
+   "t": 213.12,
+   "dur": 7.2,
+   "visual": "Timeline card: 2019 cap begins, 2022 crisis, 2026 war.",
+   "sfx": ""
+  },
+  {
+   "code": "P1-10g",
+   "kind": "clip",
+   "t": 220.32,
+   "dur": 7.24,
+   "visual": "Timeline card: 2019 cap begins, 2022 crisis, 2026 war.",
+   "sfx": ""
+  },
+  {
+   "code": "P1-10c",
+   "kind": "gfx",
+   "t": 227.56,
+   "dur": 5.36,
+   "visual": "Price line Aug-Nov 2026, the window glowing over the late-Oc",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-10c",
+   "kind": "photo",
+   "t": 232.92,
+   "dur": 5.4,
+   "visual": "Price line Aug-Nov 2026, the window glowing over the late-Oc",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-11",
+   "kind": "gfx",
+   "t": 238.32,
+   "dur": 9.68,
+   "visual": "Number count-up: \u00a31,723 \u2192 \u00a31,999 \u2192 \u00a32,189.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P1-11",
+   "kind": "clip",
+   "t": 248.0,
+   "dur": 9.68,
+   "visual": "Number count-up: \u00a31,723 \u2192 \u00a31,999 \u2192 \u00a32,189.",
+   "sfx": "counter roll"
+  },
+  {
+   "code": "P1-12",
+   "kind": "gfx",
+   "t": 257.68,
+   "dur": 6.24,
+   "visual": "RECEIPT line 1 prints: +\u00a323-39/mo.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "P1-12",
+   "kind": "photo",
+   "t": 263.92,
+   "dur": 6.28,
+   "visual": "RECEIPT line 1 prints: +\u00a323-39/mo.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "P1-12b",
+   "kind": "gfx",
+   "t": 270.2,
+   "dur": 10.2,
+   "visual": "RECEIPT corner: line 1 printed; camera pushes to a storage t",
+   "sfx": ""
+  },
+  {
+   "code": "P1-12b",
+   "kind": "clip",
+   "t": 280.4,
+   "dur": 10.24,
+   "visual": "RECEIPT corner: line 1 printed; camera pushes to a storage t",
+   "sfx": ""
+  }
+ ]
+}
