@@ -1,164 +1,142 @@
 [
  {
-  "code": "CO-03",
-  "query": "petrol pump nozzle refuel",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "CO-04",
-  "query": "ships anchored aerial bay",
-  "n": 3,
-  "min_seconds": 7
- },
- {
   "code": "P1-03",
-  "query": "oil tanker anchored calm sea",
+  "query": "tanker ship",
   "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P1-03b",
-  "query": "tugboat sea",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P1-05",
-  "query": "tankers waiting anchorage",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P1-05b",
-  "query": "ships anchored offshore waiting",
-  "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P1-06",
-  "query": "ship galley interior",
+  "query": "sailor ship",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P1-08c",
-  "query": "navy warship sea distant",
+  "query": "warship",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P1-13",
-  "query": "petrol pump display numbers",
+  "query": "gas station",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
-  "code": "P2-02",
-  "query": "container ship sea aerial",
+  "code": "CO-03",
+  "query": "refueling",
   "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P2-06",
-  "query": "pilot boat tanker",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P2-10b",
-  "query": "conference hall empty seats",
-  "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P3-11",
-  "query": "ship night lights sea",
+  "query": "ship night",
   "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P3-12",
-  "query": "rusty cargo ship anchored",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P4-06",
-  "query": "empty airport terminal",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P4-08",
-  "query": "container port cranes",
-  "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P5-02",
-  "query": "oil refinery flare",
+  "query": "oil refinery",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P5-03",
-  "query": "oil storage tanks",
+  "query": "oil storage tank",
   "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P5-05b",
-  "query": "oil tanker sailing sea",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P5-06",
-  "query": "container ship port",
-  "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P5-07",
-  "query": "ship bunkering fuel hose",
+  "query": "ship engine room",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P5-09d2",
-  "query": "aircraft carrier",
+  "query": "navy ship",
   "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P5-09e",
-  "query": "ships anchored sunset",
-  "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P6-02",
-  "query": "gas pump car refuel",
+  "query": "refueling car",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
   "code": "P6-03",
-  "query": "gas station fuel price",
+  "query": "gas station price",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
-  "code": "P6-08",
-  "query": "harbour dusk boats",
+  "code": "P1-05b",
+  "query": "cargo ships anchored",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
  },
  {
-  "code": "P6-09",
-  "query": "warehouse shelves stock",
+  "code": "P5-05b",
+  "query": "tanker",
   "n": 3,
-  "min_seconds": 7
+  "min_seconds": 7,
+  "refresh": true
+ },
+ {
+  "code": "P5-09e",
+  "query": "ship sunset",
+  "n": 3,
+  "min_seconds": 7,
+  "refresh": true
+ },
+ {
+  "code": "P2-06",
+  "query": "pilot boat",
+  "n": 3,
+  "min_seconds": 7,
+  "refresh": true
+ },
+ {
+  "code": "P1-07",
+  "query": "cargo hold",
+  "n": 3,
+  "min_seconds": 7,
+  "refresh": true
+ },
+ {
+  "code": "P3-05c",
+  "query": "ship hull",
+  "n": 3,
+  "min_seconds": 7,
+  "refresh": true
+ },
+ {
+  "code": "P3-07",
+  "query": "dhow",
+  "n": 3,
+  "min_seconds": 7,
+  "refresh": true
+ },
+ {
+  "code": "RC-05",
+  "query": "anchored ships",
+  "n": 3,
+  "min_seconds": 7,
+  "refresh": true
  }
 ]
