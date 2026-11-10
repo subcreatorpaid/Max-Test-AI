@@ -1,0 +1,247 @@
+{
+ "part": "P3",
+ "dur": 217.0,
+ "vo_dur": 216.99208333333334,
+ "shots": [
+  {
+   "code": "P3-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.52,
+   "visual": "s_part: PART 3, THE AUCTION.",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P3-02",
+   "kind": "photo",
+   "t": 4.52,
+   "dur": 12.56,
+   "visual": "MAP-3D: Atlantic, one tanker, two glowing routes.",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P3-03",
+   "kind": "gfx",
+   "t": 17.08,
+   "dur": 4.0,
+   "visual": "Two lines: JKM above TTF.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P3-03",
+   "kind": "clip",
+   "t": 21.08,
+   "dur": 3.56,
+   "visual": "Two lines: JKM above TTF.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P3-04",
+   "kind": "gfx",
+   "t": 24.64,
+   "dur": 6.24,
+   "visual": "CARD-NUMBER: $33.91.",
+   "sfx": "counter"
+  },
+  {
+   "code": "P3-04",
+   "kind": "photo",
+   "t": 30.88,
+   "dur": 6.24,
+   "visual": "CARD-NUMBER: $33.91.",
+   "sfx": "counter"
+  },
+  {
+   "code": "P3-05",
+   "kind": "gfx",
+   "t": 37.12,
+   "dur": 6.0,
+   "visual": "Globe again: Asia arcs go dark.",
+   "sfx": "sub_808"
+  },
+  {
+   "code": "P3-05",
+   "kind": "clip",
+   "t": 43.12,
+   "dur": 5.96,
+   "visual": "Globe again: Asia arcs go dark.",
+   "sfx": "sub_808"
+  },
+  {
+   "code": "P3-06",
+   "kind": "clip",
+   "t": 49.08,
+   "dur": 11.84,
+   "visual": "STOCK: generic factory, quiet, graded. Label Illustration if",
+   "sfx": "drone dip"
+  },
+  {
+   "code": "P3-07",
+   "kind": "gfx",
+   "t": 60.92,
+   "dur": 4.0,
+   "visual": "Typewriter text on dark.",
+   "sfx": "type keys"
+  },
+  {
+   "code": "P3-07",
+   "kind": "clip",
+   "t": 64.92,
+   "dur": 3.4,
+   "visual": "Typewriter text on dark.",
+   "sfx": "type keys"
+  },
+  {
+   "code": "P3-08",
+   "kind": "gfx",
+   "t": 68.32,
+   "dur": 5.52,
+   "visual": "Bars growing: non-Gulf LNG +14%; US flag icon (no faces).",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P3-08",
+   "kind": "photo",
+   "t": 73.84,
+   "dur": 5.52,
+   "visual": "Bars growing: non-Gulf LNG +14%; US flag icon (no faces).",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P3-09",
+   "kind": "gfx",
+   "t": 79.36,
+   "dur": 4.44,
+   "visual": "CARD-HEADLINE: recreated Reuters line.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P3-09",
+   "kind": "clip",
+   "t": 83.8,
+   "dur": 4.44,
+   "visual": "CARD-HEADLINE: recreated Reuters line.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P3-10a",
+   "kind": "gfx",
+   "t": 88.24,
+   "dur": 8.04,
+   "visual": "Bars: US LNG Oct 2026, Europe 6.89 mt vs Asia 2.73 mt.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P3-10a",
+   "kind": "photo",
+   "t": 96.28,
+   "dur": 8.0,
+   "visual": "Bars: US LNG Oct 2026, Europe 6.89 mt vs Asia 2.73 mt.",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P3-10",
+   "kind": "gfx",
+   "t": 104.28,
+   "dur": 7.28,
+   "visual": "US map split by heating fuel.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-10",
+   "kind": "clip",
+   "t": 111.56,
+   "dur": 7.28,
+   "visual": "US map split by heating fuel.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-11",
+   "kind": "gfx",
+   "t": 118.84,
+   "dur": 6.72,
+   "visual": "Map: Northeast glows red.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P3-11",
+   "kind": "clip",
+   "t": 125.56,
+   "dur": 6.68,
+   "visual": "Map: Northeast glows red.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P3-11a",
+   "kind": "gfx",
+   "t": 132.24,
+   "dur": 6.84,
+   "visual": "MAP-3D: South Asia, Bangladesh and Pakistan glow orange; Qat",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P3-11a",
+   "kind": "photo",
+   "t": 139.08,
+   "dur": 6.84,
+   "visual": "MAP-3D: South Asia, Bangladesh and Pakistan glow orange; Qat",
+   "sfx": "whoosh-deep"
+  },
+  {
+   "code": "P3-11b",
+   "kind": "clip",
+   "t": 145.92,
+   "dur": 17.6,
+   "visual": "STOCK: generic kitchen stove at night, blue flame flickering",
+   "sfx": "drone dip"
+  },
+  {
+   "code": "P3-11c",
+   "kind": "gfx",
+   "t": 163.52,
+   "dur": 7.76,
+   "visual": "Clock graphic with three lit windows, the rest dark.",
+   "sfx": "clock tick"
+  },
+  {
+   "code": "P3-11c",
+   "kind": "clip",
+   "t": 171.28,
+   "dur": 7.76,
+   "visual": "Clock graphic with three lit windows, the rest dark.",
+   "sfx": "clock tick"
+  },
+  {
+   "code": "P3-12",
+   "kind": "gfx",
+   "t": 179.04,
+   "dur": 8.88,
+   "visual": "Three-column receipt sketch: ASIA \u00b7 EUROPE \u00b7 USA.",
+   "sfx": "riser"
+  },
+  {
+   "code": "P3-12",
+   "kind": "photo",
+   "t": 187.92,
+   "dur": 8.88,
+   "visual": "Three-column receipt sketch: ASIA \u00b7 EUROPE \u00b7 USA.",
+   "sfx": "riser"
+  },
+  {
+   "code": "P3-12b",
+   "kind": "gfx",
+   "t": 196.8,
+   "dur": 10.08,
+   "visual": "Receipt columns: EUROPE column gets a WON stamp, then a pric",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P3-12b",
+   "kind": "clip",
+   "t": 206.88,
+   "dur": 10.12,
+   "visual": "Receipt columns: EUROPE column gets a WON stamp, then a pric",
+   "sfx": "stamp"
+  }
+ ]
+}
