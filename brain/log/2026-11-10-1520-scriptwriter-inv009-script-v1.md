@@ -1,0 +1,1 @@
+2026-11-10 15:20 | researcher+scriptwriter | INV-009 Taiwan 2027: fact pack v1 (52 + 7 maths rows), hooks, script v1 2,416 words | needs owner: Gate 2 OK, autocomplete check 'what happens if China invades Taiwan'
