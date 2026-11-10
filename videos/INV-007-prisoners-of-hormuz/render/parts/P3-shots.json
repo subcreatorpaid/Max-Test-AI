@@ -1,0 +1,175 @@
+{
+ "part": "P3",
+ "dur": 274.48,
+ "vo_dur": 274.48220833333335,
+ "shots": [
+  {
+   "code": "P3-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.44,
+   "visual": "s_part PART 3 \u00b7 THE COUNT",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P3-01b",
+   "kind": "gfx",
+   "t": 4.44,
+   "dur": 16.2,
+   "visual": "GRAPHIC: typed cards, how we count",
+   "sfx": ""
+  },
+  {
+   "code": "P3-02",
+   "kind": "gfx",
+   "t": 20.64,
+   "dur": 13.28,
+   "visual": "Tally board: MAR 20,000 \u00b7 APR 20,000 / 1,600 ships.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-03",
+   "kind": "gfx",
+   "t": 33.92,
+   "dur": 10.24,
+   "visual": "Tally board adds JUN: 46 attacks \u00b7 14 dead \u00b7 100+ days.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-03b",
+   "kind": "gfx",
+   "t": 44.16,
+   "dur": 18.24,
+   "visual": "GRAPHIC: tally, Apr vs Jun",
+   "sfx": ""
+  },
+  {
+   "code": "P3-04",
+   "kind": "gfx",
+   "t": 62.4,
+   "dur": 8.24,
+   "visual": "Line chart of the death count: 10 (APR) \u00b7 14 (JUN) \u00b7 22 (SEP",
+   "sfx": "chart grow"
+  },
+  {
+   "code": "P3-05",
+   "kind": "gfx",
+   "t": 70.64,
+   "dur": 11.72,
+   "visual": "Calendar grid Mar-Nov, October glows red with 31.",
+   "sfx": "whip + card + counter"
+  },
+  {
+   "code": "P3-05b",
+   "kind": "gfx",
+   "t": 82.36,
+   "dur": 15.24,
+   "visual": "Map: six small fire icons in the strait; then 'ON PEACE \u00b7 12",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P3-05c",
+   "kind": "photo",
+   "t": 97.6,
+   "dur": 14.68,
+   "visual": "Number card 17, small skull-free icon of a boarding ladder.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-06",
+   "kind": "photo",
+   "t": 112.28,
+   "dur": 9.92,
+   "visual": "Map: India glows orange; '16' card.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P3-07",
+   "kind": "photo",
+   "t": 122.2,
+   "dur": 12.72,
+   "visual": "STILL (Illustration): a wooden cargo dhow on calm water at d",
+   "sfx": "silence beat"
+  },
+  {
+   "code": "P3-08",
+   "kind": "gfx",
+   "t": 134.92,
+   "dur": 11.24,
+   "visual": "Map: Philippines glows; BAN stamp on Gulf high-risk zone.",
+   "sfx": "stamp thud"
+  },
+  {
+   "code": "P3-09",
+   "kind": "gfx",
+   "t": 146.16,
+   "dur": 12.84,
+   "visual": "CARD-HEADLINE (recreated, credit Al Jazeera): 'Indian sailor",
+   "sfx": "card land"
+  },
+  {
+   "code": "P3-10",
+   "kind": "gfx",
+   "t": 159.0,
+   "dur": 11.68,
+   "visual": "Tag card CLAIM: 44+ Iranian seafarers (MAY 2026), set apart ",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-11",
+   "kind": "clip",
+   "t": 170.68,
+   "dur": 11.84,
+   "visual": "Slow gauge 7.18 \u2192 6.81; quiet STOCK of a ship's deck at nigh",
+   "sfx": "drone only"
+  },
+  {
+   "code": "P3-11",
+   "kind": "photo",
+   "t": 182.52,
+   "dur": 7.88,
+   "visual": "Slow gauge 7.18 \u2192 6.81; quiet STOCK of a ship's deck at nigh",
+   "sfx": "drone only"
+  },
+  {
+   "code": "P3-11b",
+   "kind": "photo",
+   "t": 190.4,
+   "dur": 24.56,
+   "visual": "STILL (shadow): empty deck at night",
+   "sfx": ""
+  },
+  {
+   "code": "P3-12",
+   "kind": "clip",
+   "t": 214.96,
+   "dur": 13.08,
+   "visual": "Map: 8 grey ship icons off the UAE coast.",
+   "sfx": "tick"
+  },
+  {
+   "code": "P3-13",
+   "kind": "photo",
+   "t": 228.04,
+   "dur": 20.0,
+   "visual": "Three number cards in a row: 410 \u00b7 6,223 \u00b7 $25.8M.",
+   "sfx": "card land x3"
+  },
+  {
+   "code": "P3-14",
+   "kind": "gfx",
+   "t": 248.04,
+   "dur": 17.4,
+   "visual": "HALF-RECEIPT: lines 1-3 print, subtotal line.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "P3-15",
+   "kind": "gfx",
+   "t": 265.44,
+   "dur": 9.04,
+   "visual": "Archive-style transition: map warms to 1980s palette.",
+   "sfx": "riser"
+  }
+ ]
+}
