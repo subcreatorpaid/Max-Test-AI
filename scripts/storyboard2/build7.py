@@ -35,7 +35,7 @@ def cover():
     return pg
 pages.append(cover())
 PLAY=[("N  Ledger number card","0:00",("CO-02",)),("L  Toned footage + orange glow + paper label","0:17",("CO-04",)),
-      ("D  Document under magnifier","0:39",("P1-10",)),("T  Typed paper card + rubber stamp","0:58",("CO-05",)),
+      ("D  Document, key line circled","0:39",("P1-10",)),("T  Typed paper card + rubber stamp","0:58",("CO-05",)),
       ("B  Split-flap board","1:22",("P3-02",)),("K  Cut-paper figures + paper tags","1:38",("P5-08",)),
       ("M  Navy globe / map, orange arcs, pins","2:29",("P2-03",)),("P  Part card, giant faded number","3:15",("P1-01",)),
       ("R  Receipt printer + stamps","4:48",("RC-06",)),("W  Mini-chart tiles","5:52",("P3-04",)),

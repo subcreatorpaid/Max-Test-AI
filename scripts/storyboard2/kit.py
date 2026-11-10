@@ -1,6 +1,6 @@
 """History Invoice graphics kit v2 ("ledger" look), adapted from the Round Two draft part 3 (studied 2026-11-10).
 Mixes our brand (ink/paper/orange, Inter + Caladea, confidence tags, the Receipt) with the reference's
-paper cards, rubber stamps, magnifier documents, split-flap boards, cut-paper figures, navy globe and receipt printer."""
+paper cards, rubber stamps, documents with a circled line, split-flap boards, cut-paper figures, navy globe and receipt printer."""
 import math, random, pathlib
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageOps, ImageChops
 import shapefile
@@ -115,7 +115,7 @@ def corner_number(im, txt):
     d=ImageDraw.Draw(im); f=F(84,"b"); w=d.textlength(txt,font=f)
     sh=Image.new("L",(W,H),0); ImageDraw.Draw(sh).rectangle([W-w-140,60,W,260],fill=150); sh=sh.filter(ImageFilter.GaussianBlur(50))
     im=Image.composite(Image.new("RGB",(W,H),(0,0,0)),im,sh); d=ImageDraw.Draw(im); d.text((W-w-70,110),txt,font=f,fill=PAPER); return im
-# ---------- D: document under magnifier (reference 0:39) ----------
+# ---------- D: document, key line circled (no magnifier) (reference 0:39) ----------
 def document(title, rows, hi=0, t="", src="", lens_text=None):
     im=dark().convert("RGBA"); pw,ph=880,500; p=paper_rect((pw,ph),(214,204,186),False,3); d=ImageDraw.Draw(p)
     d.text((40,34),title,font=F(34,"s"),fill=(40,34,28)); d.line([40,86,pw-40,86],fill=(150,140,124),width=2)
@@ -124,15 +124,15 @@ def document(title, rows, hi=0, t="", src="", lens_text=None):
         if i==hi: d.rectangle([30,y-10,pw-30,y+42],fill=(236,170,120))
         d.text((44,y),a,font=F(28,"m"),fill=(50,44,38)); d.text((pw-44-d.textlength(b,font=F(28,"b")),y),b,font=F(28,"b"),fill=(50,44,38))
     im=drop(im,p,(200,110),-2)
-    y=110+120+hi*62+16; cx,cy,rr=820,y,110
-    lens=Image.new("RGBA",(W,H),(0,0,0,0)); ld=ImageDraw.Draw(lens)
-    ld.line([cx+75,cy+75,cx+170,cy+170],fill=(30,26,22,255),width=26)
-    im=Image.alpha_composite(im,lens)
-    m=Image.new("L",(W,H),0); ImageDraw.Draw(m).ellipse([cx-rr,cy-rr,cx+rr,cy+rr],fill=255)
-    zoom=im.crop((cx-rr//1.6,cy-rr//1.6,cx+rr//1.6,cy+rr//1.6)).resize((2*rr,2*rr),Image.BICUBIC)
-    z=Image.new("RGBA",(W,H),(0,0,0,0)); z.paste(zoom,(cx-rr,cy-rr)); im=Image.composite(z,im,m)
-    ImageDraw.Draw(im).ellipse([cx-rr,cy-rr,cx+rr,cy+rr],outline=(40,36,32),width=10)
-    if lens_text: ImageDraw.Draw(im).text((cx-rr+30,cy-22),lens_text,font=F(40,"xb"),fill=(30,26,22))
+    # no magnifier (Hammad 2026-11-10): a red pen ring around the key value instead
+    y=110+120+hi*62+16; vw=ImageDraw.Draw(p).textlength(rows[hi][1],font=F(28,"b")) if rows else 120
+    cx=200+880-52-vw/2; cy=y+20; rx,ry=vw/2+34,40
+    pen=Image.new("RGBA",(W,H),(0,0,0,0)); pd=ImageDraw.Draw(pen)
+    for k in range(3): pd.ellipse([cx-rx-k*3,cy-ry+k*2,cx+rx+k*2,cy+ry-k],outline=(196,40,32,230),width=4)
+    im=Image.alpha_composite(im,pen)
+    if lens_text:
+        n=paper_rect((int(ImageDraw.Draw(im).textlength(lens_text,font=F(40,"xb")))+50,74),PAPER,True,7)
+        ImageDraw.Draw(n).text((25,12),lens_text,font=F(40,"xb"),fill=(196,40,32)); im=drop(im,n,(int(cx-40),int(cy+60)),3)
     return tag(im.convert("RGB"),t,src)
 # ---------- T: typed paper cards + rubber stamp (reference 0:58, 4:48) ----------
 def typed(cards, stamps=(), t="", src=""):

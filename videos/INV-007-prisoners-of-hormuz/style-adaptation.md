@@ -7,7 +7,7 @@ Studied 2026-11-10 at 3 frames a second: `round-two-full-v1-draft-360p-part3.mp4
 |---|---|---|
 | 0:00 | Ledger number card | dark ruled paper, small kicker with orange dash, big white number, orange serif italic line, tiny tag top-right |
 | 0:17, 5:36 | Toned footage | warm grey, slightly posterised, one soft orange glow on the subject, torn-paper wipe in, paper lower-third (bold caps + orange italic) |
-| 0:39 | Document under magnifier | report page on dark desk, lens slides along, one row highlighted orange |
+| 0:39 | Document under magnifier (NOT used: Hammad said no magnifier) | report page on dark desk, lens slides along, one row highlighted orange |
 | 0:58, 4:48 | Typed card + rubber stamp | paper card, serif italic types in, red stamp (ESTIMATE / SCENARIO / PAID / UNPAID) slams on |
 | 1:22 | Split-flap board | orange letters flip into place |
 | 1:38 | Cut-paper figures | faceless paper people with paper result tags |
@@ -23,7 +23,7 @@ Studied 2026-11-10 at 3 frames a second: `round-two-full-v1-draft-360p-part3.mp4
 What we do NOT copy: the reference holds one frame for 20-40 seconds (e.g. 0:00-0:16, 1:38-2:05, 3:18-4:47). Our rulebook says nothing longer than ~90 s in one visual system and a change every 4-8 s, so each element animates and we cut more often.
 
 ## Our kit v2 (code in `scripts/storyboard2/kit.py`)
-N ledger number · L toned footage + glow + paper label · D document + magnifier · T typed card + stamp (the stamp IS the confidence tag) · B split-flap · K cut-paper figures · M navy globe/map · P part card · R receipt printer · W mini-chart tiles · X folder + index cards · E particle end card. Kept from our brand: ink/paper/orange, Inter + Caladea, confidence tags on every number, the Receipt, running half-receipt.
+N ledger number · L toned footage + glow + paper label · D document, key line highlighted and circled in red pen (no magnifier) · T typed card + stamp (the stamp IS the confidence tag) · B split-flap · K cut-paper figures · M navy globe/map · P part card · R receipt printer · W mini-chart tiles · X folder + index cards · E particle end card. Kept from our brand: ink/paper/orange, Inter + Caladea, confidence tags on every number, the Receipt, running half-receipt.
 
 ## Picture rules for INV-007
 0. Footage and photos stay in COLOUR like INV-006 (Hammad, 2026-11-10), lightly graded; the paper labels and stamps carry the reference look.
