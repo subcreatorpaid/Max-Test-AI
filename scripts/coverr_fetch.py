@@ -31,7 +31,7 @@ def download(url, dest):
     with urllib.request.urlopen(req, timeout=180) as r:
         dest.write_bytes(r.read())
 
-def main(video_dir):
+def main(video_dir, music_only=False):
     key = os.environ.get("COVERR_API_KEY")
     if not key:
         sys.exit("COVERR_API_KEY is not set (add it as a GitHub Secret or a local env var).")
@@ -39,7 +39,7 @@ def main(video_dir):
     out = vd / "broll"; out.mkdir(exist_ok=True)
     credits = ["# Coverr credits (check coverr.co/license; credit Coverr in the description)\n",
                "| Code | Query | Coverr id | Title | File |", "|---|---|---|---|---|"]
-    items = json.loads((vd / "broll.json").read_text()) if (vd / "broll.json").exists() else []
+    items = [] if music_only else (json.loads((vd / "broll.json").read_text()) if (vd / "broll.json").exists() else [])
     named = any("source" in i for i in items)
     for it in items:
         if named and it.get("source") != "coverr":
@@ -74,4 +74,7 @@ def main(video_dir):
     print(f"done -> {out}")
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else sys.exit("usage: coverr_fetch.py videos/<id>"))
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if not args:
+        sys.exit("usage: coverr_fetch.py videos/<id> [--music-only]")
+    main(args[0], music_only="--music-only" in sys.argv)

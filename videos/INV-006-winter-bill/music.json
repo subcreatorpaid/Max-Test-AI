@@ -1,4 +1,10 @@
 [
- {"code": "BED-01", "query": "dark ambient documentary tension"},
- {"code": "BED-02", "query": "cinematic cold winter ambient"}
+ {
+  "code": "BED-01",
+  "query": "dark ambient documentary tension"
+ },
+ {
+  "code": "BED-02",
+  "query": "cinematic cold winter ambient"
+ }
 ]

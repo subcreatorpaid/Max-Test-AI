@@ -31,8 +31,13 @@ jobs:
           mkdir -p out
           for d in $dirs; do
             mkdir -p "$d/broll"
-            if [ -n "$PIXABAY_API_KEY" ]; then python scripts/pixabay_fetch.py "$d" || echo "pixabay step failed"; fi
-            if [ -n "$COVERR_API_KEY" ]; then python scripts/coverr_fetch.py "$d" || echo "coverr step failed"; fi
+            changed=$(git diff --name-only HEAD~1 HEAD -- "$d")
+            if echo "$changed" | grep -q broll.json || [ -n "${{ inputs.video }}" ]; then
+              if [ -n "$PIXABAY_API_KEY" ]; then python scripts/pixabay_fetch.py "$d" || echo "pixabay step failed"; fi
+              if [ -n "$COVERR_API_KEY" ]; then python scripts/coverr_fetch.py "$d" || echo "coverr step failed"; fi
+            elif [ -n "$COVERR_API_KEY" ]; then
+              python scripts/coverr_fetch.py "$d" --music-only || echo "coverr step failed"
+            fi
             mkdir -p "out/$(basename $d)"; cp -r "$d/broll" "out/$(basename $d)/"; [ -d "$d/music" ] && cp -r "$d/music" "out/$(basename $d)/" || true
           done
       - uses: actions/upload-artifact@v4
