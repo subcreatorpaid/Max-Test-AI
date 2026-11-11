@@ -1,0 +1,95 @@
+{
+ "part": "P4",
+ "dur": 140.88,
+ "vo_dur": 140.88754166666666,
+ "shots": [
+  {
+   "code": "P4-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.28,
+   "visual": "P part card PART 4 \u00b7 THE BOXES IN MALAYSIA",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P4-02",
+   "kind": "clip",
+   "t": 5.28,
+   "dur": 9.8,
+   "visual": "L footage [COLOUR]: server racks with blinking lights in a d",
+   "sfx": "server hum"
+  },
+  {
+   "code": "P4-03",
+   "kind": "photo",
+   "t": 15.08,
+   "dur": 15.84,
+   "visual": "N ledger number: H20 \u2192 H200 = \u00d76; then '25% TO WASHINGTON' o",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P4-03b",
+   "kind": "gfx",
+   "t": 30.92,
+   "dur": 20.44,
+   "visual": "W mini-chart tiles: DATA CENTRE $89BN tile; a thin sliver la",
+   "sfx": "tick"
+  },
+  {
+   "code": "P4-04",
+   "kind": "gfx",
+   "t": 51.36,
+   "dur": 8.12,
+   "visual": "M navy map: Singapore and Malaysia glow; a dotted line hints",
+   "sfx": "whoosh"
+  },
+  {
+   "code": "P4-05",
+   "kind": "clip",
+   "t": 59.48,
+   "dur": 14.0,
+   "visual": "L footage [SHADOW]: warehouse aisle of sealed boxes, low lig",
+   "sfx": "low drone"
+  },
+  {
+   "code": "P4-06",
+   "kind": "clip",
+   "t": 73.48,
+   "dur": 15.76,
+   "visual": "B split-flap board flips to $4.8 BN \u00b7 JUN 2024 - FEB 2026.",
+   "sfx": "split-flap clatter"
+  },
+  {
+   "code": "P4-07",
+   "kind": "gfx",
+   "t": 89.24,
+   "dur": 17.4,
+   "visual": "Flow diagram (kit2 one-off: three linked crates): INSPUR US ",
+   "sfx": "string twang x2"
+  },
+  {
+   "code": "P4-08",
+   "kind": "photo",
+   "t": 106.64,
+   "dur": 14.84,
+   "visual": "Two typed cards: MEGASPEED \u00b7 'NO SMUGGLING' / NVIDIA \u00b7 'LIKE",
+   "sfx": "stamp x2"
+  },
+  {
+   "code": "P4-09",
+   "kind": "gfx",
+   "t": 121.48,
+   "dur": 15.08,
+   "visual": "R half-receipt prints three lines.",
+   "sfx": "receipt print x3"
+  },
+  {
+   "code": "P4-10",
+   "kind": "photo",
+   "t": 136.56,
+   "dur": 4.32,
+   "visual": "A file closing on its own (cut-paper).",
+   "sfx": "file thud"
+  }
+ ]
+}
