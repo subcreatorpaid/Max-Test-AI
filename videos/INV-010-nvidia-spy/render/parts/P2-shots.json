@@ -1,0 +1,111 @@
+{
+ "part": "P2",
+ "dur": 140.4,
+ "vo_dur": 140.38254166666667,
+ "shots": [
+  {
+   "code": "P2-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.2,
+   "visual": "P part card PART 2 \u00b7 THE DINNER IN TAIPEI",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P2-02",
+   "kind": "gfx",
+   "t": 5.2,
+   "dur": 12.08,
+   "visual": "T typed card (dossier, no photo): NAME \u00b7 HUANG LE ('ALICE') ",
+   "sfx": "typewriter"
+  },
+  {
+   "code": "P2-03",
+   "kind": "gfx",
+   "t": 17.28,
+   "dur": 15.6,
+   "visual": "D document: recreated Singapore filing card; '7ROAD \u2192 MEGASP",
+   "sfx": "pen scratch"
+  },
+  {
+   "code": "P2-04",
+   "kind": "clip",
+   "t": 32.88,
+   "dur": 12.8,
+   "visual": "STILL [COLOUR] Ken Burns: Taipei skyline with Taipei 101 at ",
+   "sfx": "city air"
+  },
+  {
+   "code": "P2-05",
+   "kind": "gfx",
+   "t": 45.68,
+   "dur": 9.88,
+   "visual": "Calendar card (kit2 one-off: menu card): 22 MAY 2025 \u00b7 DINNE",
+   "sfx": "glass clink (soft)"
+  },
+  {
+   "code": "P2-05b",
+   "kind": "clip",
+   "t": 55.56,
+   "dur": 13.28,
+   "visual": "Cut-paper figures: a long table with many empty chairs, name",
+   "sfx": "glass clink (soft)"
+  },
+  {
+   "code": "P2-05c",
+   "kind": "gfx",
+   "t": 68.84,
+   "dur": 10.92,
+   "visual": "Lights dim on the table; a single orange spotlight falls on ",
+   "sfx": "low pulse"
+  },
+  {
+   "code": "P2-06",
+   "kind": "photo",
+   "t": 79.76,
+   "dur": 13.84,
+   "visual": "D document: recreated headline card credited 'The New York T",
+   "sfx": "paper slide"
+  },
+  {
+   "code": "P2-07",
+   "kind": "gfx",
+   "t": 93.6,
+   "dur": 14.2,
+   "visual": "M navy map: line from Beijing to Taipei to Santa Clara draws",
+   "sfx": "string twang"
+  },
+  {
+   "code": "P2-08",
+   "kind": "gfx",
+   "t": 107.8,
+   "dur": 12.6,
+   "visual": "X folder: three index cards stamped UNKNOWN: WHAT SHE LEARNE",
+   "sfx": "stamp x3"
+  },
+  {
+   "code": "P2-09",
+   "kind": "clip",
+   "t": 120.4,
+   "dur": 7.84,
+   "visual": "Two typed cards side by side: SINGAPORE \u00b7 'NO SUCH INVESTIGA",
+   "sfx": "stamp x2"
+  },
+  {
+   "code": "P2-09",
+   "kind": "photo",
+   "t": 128.24,
+   "dur": 5.2,
+   "visual": "Two typed cards side by side: SINGAPORE \u00b7 'NO SUCH INVESTIGA",
+   "sfx": "stamp x2"
+  },
+  {
+   "code": "P2-10",
+   "kind": "gfx",
+   "t": 133.44,
+   "dur": 6.96,
+   "visual": "Lights-out beat: frame dims for 1 s.",
+   "sfx": "pause, low note"
+  }
+ ]
+}
