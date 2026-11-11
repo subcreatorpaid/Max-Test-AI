@@ -6,7 +6,7 @@
 3. Did China Honeypot Nvidia's CEO? Who Pays (42)
 
 ## Thumbnail: Hammad picked A, with Jensen Huang's photo on the left (11 Nov 11:56)
-- **A-v2** `INV-010-thumb-A-v2.jpg` ← FINAL. Photo: "Jensen Huang Stanford 2026-04-30 010 (cropped)" by Anderseidesvik, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg (cropped, colour graded, composited). Credit line is in the description.
+- **A-v3** `INV-010-thumb-A-v3.jpg` ← FINAL (12:05: US flag behind his head, photo smaller, background removed with rembg). A-v2 superseded. Photo: "Jensen Huang Stanford 2026-04-30 010 (cropped)" by Anderseidesvik, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg (cropped, colour graded, composited). Credit line is in the description.
 
 Earlier options:
 - **A** `INV-010-thumb-A.jpg`: server corridor + glowing China/Taiwan map · **$400B** · gold bar **ONE DINNER?** ← recommended with title 1

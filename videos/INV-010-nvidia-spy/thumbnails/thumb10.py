@@ -80,7 +80,7 @@ fade=Image.linear_gradient('L').rotate(90).resize((900,560)); fade=ImageOps.inve
 wm=ImageChops.multiply(wm,fade.point(lambda v:min(255,int(v*1.6))))
 wv=ImageEnhance.Color(wv).enhance(1.3)
 import os
-if not os.environ.get('PERSON'): p.paste(wv,(-140,-120),wm)
+if not os.environ.get('PERSON','').endswith('.jpg'): p.paste(wv,(-140,-120),wm)
 
 # blend photo into map with soft diagonal edge
 mask=Image.new('L',(W,H),0); dm=ImageDraw.Draw(mask)
@@ -90,7 +90,14 @@ canvas=m.copy(); canvas.paste(p,(0,0),mask.crop((0,0,p.size[0],H)))
 v=Image.new('L',(W,H),0); ImageDraw.Draw(v).ellipse([-350,-300,W+350,H+300],fill=255); v=v.filter(ImageFilter.GaussianBlur(200))
 canvas=Image.composite(canvas,Image.new('RGB',(W,H),(0,0,0)),v.point(lambda x:150+int(x*0.41)))
 
-if os.environ.get('PERSON'):
+if os.environ.get('PERSON','').endswith('.png'):
+    pr=Image.open(os.environ['PERSON']).convert('RGBA'); ph=int(os.environ.get('PH','900')); k=ph/pr.height; pr=pr.resize((int(pr.width*k),ph),Image.LANCZOS)
+    a=pr.split()[3]; rgb=pr.convert('RGB'); rgb=ImageEnhance.Contrast(rgb).enhance(1.12); rgb=Image.blend(rgb,Image.new('RGB',rgb.size,(30,60,100)),0.08)
+    fade=Image.linear_gradient('L').resize(pr.size).point(lambda v:255 if v<200 else int(255-(v-200)*3.5)); a=ImageChops.multiply(a,fade)
+    ox=int(os.environ.get('PX','40')); oy=H-ph+40
+    glow=Image.new('L',(W,H),0); glow.paste(a.filter(ImageFilter.MaxFilter(15)),(ox,oy)); canvas.paste((0,0,0),(0,0),glow.filter(ImageFilter.GaussianBlur(30)).point(lambda v:int(v*0.7)))
+    canvas.paste(rgb,(ox,oy),a)
+if os.environ.get('PERSON','').endswith('.jpg'):
     pr=Image.open(os.environ['PERSON']).convert('RGB'); k=1180/pr.height; pr=pr.resize((int(pr.width*k),1180),Image.LANCZOS)
     pr=ImageEnhance.Contrast(pr).enhance(1.15); pr=Image.blend(pr,Image.new('RGB',pr.size,(30,60,100)),0.12)
     pm=Image.new('L',pr.size,0); ImageDraw.Draw(pm).ellipse([-pr.width*0.25,pr.height*0.02,pr.width*0.95,pr.height*1.6],fill=255); pm=pm.filter(ImageFilter.GaussianBlur(70))
