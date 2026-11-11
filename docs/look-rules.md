@@ -25,3 +25,5 @@ note it in `brain/learnings.md`. His notes win over the reference analysis and o
 
 ## Process
 - Storyboard in picture form (PDF) goes to Hammad for OK before any render. Version up (v1b, v1c...) with each round of notes.
+
+- Thumbnails: a real person's face is OK when Hammad asks (INV-010: Jensen Huang, 11 Nov 2026). Use only CC BY / CC BY-SA / CC0 photos (scripts/commons_photos.py via commons.yml), credit in the description, keep the text a question, never imply guilt.

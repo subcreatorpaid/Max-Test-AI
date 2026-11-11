@@ -5,7 +5,10 @@
 2. Nvidia's $400 Billion Spy Scandal: Here's Your Bill (51)
 3. Did China Honeypot Nvidia's CEO? Who Pays (42)
 
-## Thumbnail (pick one, files in thumbnails/)
+## Thumbnail: Hammad picked A, with Jensen Huang's photo on the left (11 Nov 11:56)
+- **A-v2** `INV-010-thumb-A-v2.jpg` ← FINAL. Photo: "Jensen Huang Stanford 2026-04-30 010 (cropped)" by Anderseidesvik, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg (cropped, colour graded, composited). Credit line is in the description.
+
+Earlier options:
 - **A** `INV-010-thumb-A.jpg`: server corridor + glowing China/Taiwan map · **$400B** · gold bar **ONE DINNER?** ← recommended with title 1
 - B `INV-010-thumb-B.jpg`: Taipei 101 at night + map · **HONEYPOT?** · **WHO PAYS?** (best with title 1 or 2, not 3)
 - C `INV-010-thumb-C.jpg`: green circuit board + map · **7¢** · **OF YOUR 401(K)**
@@ -36,6 +39,7 @@ Allegations in this video are reported claims by officials and media. No charges
 
 This video is for education. It is not financial advice.
 Narration is an AI voice. Graphics are made by The History Invoice; footage from Pixabay (licence details on request).
+Thumbnail photo of Jensen Huang: Anderseidesvik, CC BY-SA 4.0, via Wikimedia Commons (cropped and edited; the edited thumbnail is shared under CC BY-SA 4.0).
 
 Every crisis sends a bill. History keeps the receipts.
 Next invoice: Taiwan 2027.

@@ -50,3 +50,6 @@
 | P4-06 | 129249 | Engin_Akyurt | https://pixabay.com/videos/id-129249/ |
 
 Music: in-house bed made in code. SFX: Motion Graphics MAX kit (licence: use in videos, never redistribute; files stay on Hammad's PC).
+
+## Thumbnail
+- Jensen Huang photo: Wikimedia Commons, "Jensen Huang Stanford 2026-04-30 010 (cropped)", Anderseidesvik, CC BY-SA 4.0. Attribution in description. Edited thumbnail released CC BY-SA 4.0 (ShareAlike). Candidates + credits: commons/credits.md.

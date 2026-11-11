@@ -78,7 +78,9 @@ for x in range(900):
 wv=wv.rotate(4,resample=Image.BICUBIC); wm=wm.rotate(4,resample=Image.BICUBIC)
 fade=Image.linear_gradient('L').rotate(90).resize((900,560)); fade=ImageOps.invert(fade)
 wm=ImageChops.multiply(wm,fade.point(lambda v:min(255,int(v*1.6))))
-wv=ImageEnhance.Color(wv).enhance(1.3); p.paste(wv,(-140,-120),wm)
+wv=ImageEnhance.Color(wv).enhance(1.3)
+import os
+if not os.environ.get('PERSON'): p.paste(wv,(-140,-120),wm)
 
 # blend photo into map with soft diagonal edge
 mask=Image.new('L',(W,H),0); dm=ImageDraw.Draw(mask)
@@ -88,6 +90,11 @@ canvas=m.copy(); canvas.paste(p,(0,0),mask.crop((0,0,p.size[0],H)))
 v=Image.new('L',(W,H),0); ImageDraw.Draw(v).ellipse([-350,-300,W+350,H+300],fill=255); v=v.filter(ImageFilter.GaussianBlur(200))
 canvas=Image.composite(canvas,Image.new('RGB',(W,H),(0,0,0)),v.point(lambda x:150+int(x*0.41)))
 
+if os.environ.get('PERSON'):
+    pr=Image.open(os.environ['PERSON']).convert('RGB'); k=1180/pr.height; pr=pr.resize((int(pr.width*k),1180),Image.LANCZOS)
+    pr=ImageEnhance.Contrast(pr).enhance(1.15); pr=Image.blend(pr,Image.new('RGB',pr.size,(30,60,100)),0.12)
+    pm=Image.new('L',pr.size,0); ImageDraw.Draw(pm).ellipse([-pr.width*0.25,pr.height*0.02,pr.width*0.95,pr.height*1.6],fill=255); pm=pm.filter(ImageFilter.GaussianBlur(70))
+    ox=int(os.environ.get('PX','-60')); canvas.paste(pr,(ox,H-1180+60),pm)
 gl=Image.new('L',(W,H),0); ImageDraw.Draw(gl).ellipse([W*0.45,H*0.85,W*1.1,H*1.25],fill=200); canvas.paste((220,50,10),(0,0),gl.filter(ImageFilter.GaussianBlur(90)))
 # --- text, bottom right: big white word + yellow slanted bar
 d=ImageDraw.Draw(canvas)
