@@ -1,0 +1,119 @@
+{
+ "part": "P1",
+ "dur": 185.08,
+ "vo_dur": 185.06633333333335,
+ "shots": [
+  {
+   "code": "P1-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.84,
+   "visual": "P part card PART 1 \u00b7 THE $400 BILLION MORNING",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P1-02",
+   "kind": "photo",
+   "t": 5.84,
+   "dur": 15.76,
+   "visual": "STILL [CALM] Ken Burns: Nvidia headquarters exterior in Sant",
+   "sfx": "low drone"
+  },
+  {
+   "code": "P1-02b",
+   "kind": "gfx",
+   "t": 21.6,
+   "dur": 16.24,
+   "visual": "Timeline strip: 1993 FOUNDED \u2192 GAMING CARDS \u2192 AI DATA CENTRE",
+   "sfx": "tick x4"
+  },
+  {
+   "code": "P1-03",
+   "kind": "photo",
+   "t": 37.84,
+   "dur": 12.48,
+   "visual": "X folder: an index card types INDEPENDENT REVIEW \u00b7 FOREIGN I",
+   "sfx": "typewriter"
+  },
+  {
+   "code": "P1-04",
+   "kind": "gfx",
+   "t": 50.32,
+   "dur": 10.2,
+   "visual": "D document: board statement page; 'no reason to believe' hig",
+   "sfx": "pen scratch"
+  },
+  {
+   "code": "P1-05",
+   "kind": "photo",
+   "t": 60.52,
+   "dur": 16.16,
+   "visual": "W mini-chart tiles: S&P 500 tile green +1.5%, NVDA tile red ",
+   "sfx": "tick, then sub hit"
+  },
+  {
+   "code": "P1-06",
+   "kind": "photo",
+   "t": 76.68,
+   "dur": 11.88,
+   "visual": "L footage [SHADOW]: trading screens, red numbers, no faces.",
+   "sfx": "low pulse"
+  },
+  {
+   "code": "P1-07",
+   "kind": "gfx",
+   "t": 88.56,
+   "dur": 13.52,
+   "visual": "Stock line chart (kit2 one-off: falling stair line) from $5.",
+   "sfx": "slide down"
+  },
+  {
+   "code": "P1-07b",
+   "kind": "gfx",
+   "t": 102.08,
+   "dur": 17.24,
+   "visual": "B split-flap: REVENUE $215.9BN \u00b7 PROFIT \u2248 $120BN \u00b7 FY2026.",
+   "sfx": "split-flap clatter"
+  },
+  {
+   "code": "P1-08",
+   "kind": "gfx",
+   "t": 119.32,
+   "dur": 13.04,
+   "visual": "Pie of the S&P 500: Nvidia slice 6.93% lifts out; next to it",
+   "sfx": "fill swell"
+  },
+  {
+   "code": "P1-09",
+   "kind": "photo",
+   "t": 132.36,
+   "dur": 14.64,
+   "visual": "K cut-paper figures: a row of houses, 54% light up; arrow fr",
+   "sfx": "paper slide x3"
+  },
+  {
+   "code": "P1-10",
+   "kind": "gfx",
+   "t": 147.0,
+   "dur": 18.36,
+   "visual": "N ledger number: $144,400 \u2192 $10,000 slice \u2192 -$880 in red.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P1-11",
+   "kind": "photo",
+   "t": 165.36,
+   "dur": 12.76,
+   "visual": "M navy map: world, dots light on UK, Canada, Australia; each",
+   "sfx": "pin drops x3"
+  },
+  {
+   "code": "P1-12",
+   "kind": "gfx",
+   "t": 178.12,
+   "dur": 6.96,
+   "visual": "Push in on an empty chair at a dinner table (cut-paper).",
+   "sfx": "riser"
+  }
+ ]
+}
