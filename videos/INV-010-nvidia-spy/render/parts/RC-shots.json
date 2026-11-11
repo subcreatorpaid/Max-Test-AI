@@ -1,0 +1,95 @@
+{
+ "part": "RC",
+ "dur": 122.84,
+ "vo_dur": 116.857625,
+ "shots": [
+  {
+   "code": "RC-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 10.8,
+   "visual": "R receipt prints: header THE RECEIPT \u00b7 THE NVIDIA SPY SCANDA",
+   "sfx": "receipt printer"
+  },
+  {
+   "code": "RC-02",
+   "kind": "photo",
+   "t": 10.8,
+   "dur": 12.88,
+   "visual": "R line 1.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-03",
+   "kind": "gfx",
+   "t": 23.68,
+   "dur": 9.4,
+   "visual": "R line 2.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-04",
+   "kind": "gfx",
+   "t": 33.08,
+   "dur": 9.92,
+   "visual": "R line 3; cost cell reads 'NOT KNOWN'.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-04b",
+   "kind": "photo",
+   "t": 43.0,
+   "dur": 14.56,
+   "visual": "R line; price cell 'NOT PRICED'.",
+   "sfx": "receipt print"
+  },
+  {
+   "code": "RC-05",
+   "kind": "gfx",
+   "t": 57.56,
+   "dur": 9.24,
+   "visual": "R line 4 with two dates; stamp WATCH.",
+   "sfx": "receipt print + stamp"
+  },
+  {
+   "code": "RC-06",
+   "kind": "photo",
+   "t": 66.8,
+   "dur": 14.96,
+   "visual": "X folder + index cards: CHECK YOUR TOP 10 HOLDINGS.",
+   "sfx": "card slide"
+  },
+  {
+   "code": "RC-07",
+   "kind": "gfx",
+   "t": 81.76,
+   "dur": 13.68,
+   "visual": "Index cards: ASK YOUR PROVIDER \u00b7 DON'T TRADE HEADLINES.",
+   "sfx": "card slides x2"
+  },
+  {
+   "code": "RC-08",
+   "kind": "gfx",
+   "t": 95.44,
+   "dur": 8.52,
+   "visual": "Comment prompt card; end screen to INV-009 Taiwan 2027.",
+   "sfx": "riser air"
+  },
+  {
+   "code": "RC-09",
+   "kind": "photo",
+   "t": 103.96,
+   "dur": 12.88,
+   "visual": "Return to the empty dinner chair; slow fade to black; taglin",
+   "sfx": "silence, then one low note"
+  },
+  {
+   "code": "RC-09",
+   "kind": "end",
+   "t": 116.84,
+   "dur": 6.0,
+   "visual": "Return to the empty dinner chair; slow fade to black; taglin",
+   "sfx": ""
+  }
+ ]
+}
