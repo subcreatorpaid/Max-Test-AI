@@ -1,107 +1,52 @@
 [
  {
-  "code": "CO-02",
-  "query": "stock market screen red",
+  "code": "P1-03",
+  "query": "boardroom table meeting room",
   "n": 4
  },
  {
-  "code": "P1-02",
-  "query": "modern office building glass",
+  "code": "P1-11",
+  "query": "london city financial district",
   "n": 4
  },
  {
-  "code": "P1-05",
-  "query": "stock exchange ticker",
+  "code": "P2-06",
+  "query": "newspaper stack table",
   "n": 4
  },
  {
-  "code": "P1-06",
-  "query": "stock chart falling",
+  "code": "P2-09",
+  "query": "singapore skyline",
   "n": 4
  },
  {
-  "code": "P1-09",
-  "query": "suburban houses street",
+  "code": "P3-09",
+  "query": "wooden crates stacked",
   "n": 4
  },
  {
-  "code": "P2-04",
-  "query": "taipei 101",
+  "code": "P4-03",
+  "query": "computer chip macro processor",
   "n": 4
  },
  {
-  "code": "P2-05b",
-  "query": "restaurant table candles",
+  "code": "P4-06",
+  "query": "container port cranes",
   "n": 4
  },
  {
-  "code": "P3-04",
-  "query": "westminster night",
+  "code": "P4-10",
+  "query": "file folder desk",
   "n": 4
  },
  {
-  "code": "P3-06",
-  "query": "white house washington",
+  "code": "P5-02",
+  "query": "filing cabinet archive",
   "n": 4
  },
  {
-  "code": "P4-02",
-  "query": "server room data center",
-  "n": 4
- },
- {
-  "code": "P4-05",
-  "query": "warehouse boxes",
-  "n": 4
- },
- {
-  "code": "P4-08",
-  "query": "data center corridor",
-  "n": 4
- },
- {
-  "code": "P5-03",
-  "query": "typing laptop keyboard",
-  "n": 4
- },
- {
-  "code": "P5-07",
-  "query": "courthouse columns",
-  "n": 4
- },
- {
-  "code": "P5-08",
-  "query": "capitol building washington",
-  "n": 4
- },
- {
-  "code": "P6-05b",
-  "query": "smartphone scrolling hand",
-  "n": 4
- },
- {
-  "code": "P6-06",
-  "query": "empty boardroom night",
-  "n": 4
- },
- {
-  "code": "RC-02",
-  "query": "coins jar savings",
-  "n": 4
- },
- {
-  "code": "RC-04b",
-  "query": "laptop desk night",
-  "n": 4
- },
- {
-  "code": "RC-06",
-  "query": "documents paperwork desk",
-  "n": 4
- },
- {
-  "code": "RC-09",
-  "query": "empty chair dinner table",
+  "code": "P5-10",
+  "query": "bills calculator kitchen table",
   "n": 4
  }
 ]

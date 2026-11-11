@@ -1,55 +1,31 @@
 [
  {
-  "code": "CO-02",
-  "query": "stock market screen red",
+  "code": "P1-11",
+  "query": "london city financial district",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P2-09",
+  "query": "singapore skyline",
+  "n": 3,
+  "min_seconds": 7
+ },
+ {
+  "code": "P4-06",
+  "query": "container port cranes",
   "n": 3,
   "min_seconds": 7
  },
  {
   "code": "P1-05",
-  "query": "stock exchange ticker",
+  "query": "stock market numbers board",
   "n": 3,
   "min_seconds": 7
  },
  {
-  "code": "P1-06",
-  "query": "stock chart falling",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P2-04",
-  "query": "taipei 101",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P2-05b",
-  "query": "restaurant table candles",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P4-02",
-  "query": "server room data center",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P4-05",
-  "query": "warehouse boxes",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P5-03",
-  "query": "typing laptop keyboard",
-  "n": 3,
-  "min_seconds": 7
- },
- {
-  "code": "P6-05b",
-  "query": "smartphone scrolling hand",
+  "code": "CO-02",
+  "query": "stock market chart red screen",
   "n": 3,
   "min_seconds": 7
  }
