@@ -1,0 +1,1 @@
+2026-11-11 11:35 | animator | INV-010 v1 rendered: 17:21, 1080p, 85 rows, render10.yml 9 parts, mix7 (-16.6 LUFS). Screen time ≈ 62% graphics / 9% video / 29% photos (few honest matches for this story). Delivered as 34 pieces + join-video.bat to PC Documentry\INV-010-nvidia-spy\transfer and project files. | needs owner: watch + OK; then upload pack. Publish before 17 Nov.
