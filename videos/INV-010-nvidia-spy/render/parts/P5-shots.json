@@ -1,0 +1,103 @@
+{
+ "part": "P5",
+ "dur": 117.4,
+ "vo_dur": 117.38866666666667,
+ "shots": [
+  {
+   "code": "P5-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.0,
+   "visual": "P part card PART 5 \u00b7 THE PROBE THAT STOPPED",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P5-02",
+   "kind": "photo",
+   "t": 5.0,
+   "dur": 10.36,
+   "visual": "X folder: CASE FILE \u00b7 MEGASPEED \u00b7 BIS; index cards slide in.",
+   "sfx": "paper slide"
+  },
+  {
+   "code": "P5-03",
+   "kind": "clip",
+   "t": 15.36,
+   "dur": 7.16,
+   "visual": "D document: recreated email card (no real addresses): 'appro",
+   "sfx": "keyboard clicks"
+  },
+  {
+   "code": "P5-03",
+   "kind": "photo",
+   "t": 22.52,
+   "dur": 4.8,
+   "visual": "D document: recreated email card (no real addresses): 'appro",
+   "sfx": "keyboard clicks"
+  },
+  {
+   "code": "P5-04",
+   "kind": "gfx",
+   "t": 27.32,
+   "dur": 14.36,
+   "visual": "Timeline strip (kit2 one-off: relay baton): EMAIL \u2192 REFUSED ",
+   "sfx": "tick x4"
+  },
+  {
+   "code": "P5-05",
+   "kind": "gfx",
+   "t": 41.68,
+   "dur": 10.4,
+   "visual": "Two typed cards: COMMERCE \u00b7 'BY THE BOOK' / NVIDIA \u00b7 'WE ANS",
+   "sfx": "stamp x2"
+  },
+  {
+   "code": "P5-06",
+   "kind": "gfx",
+   "t": 52.08,
+   "dur": 14.36,
+   "visual": "N ledger number: ENTITY LIST ADDITIONS \u00b7 LAST 12 MONTHS: 0.",
+   "sfx": "sub hit, silence"
+  },
+  {
+   "code": "P5-06b",
+   "kind": "gfx",
+   "t": 66.44,
+   "dur": 14.72,
+   "visual": "D document: recreated NYT paragraph; 'stalled' highlighted, ",
+   "sfx": "pen scratch"
+  },
+  {
+   "code": "P5-07",
+   "kind": "photo",
+   "t": 81.16,
+   "dur": 11.84,
+   "visual": "D document: recreated court-filing card 'PROPOSED CLASS ACTI",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P5-08",
+   "kind": "photo",
+   "t": 93.0,
+   "dur": 12.0,
+   "visual": "STILL [CALM] Ken Burns: US Capitol dome, daylight.",
+   "sfx": "low swell"
+  },
+  {
+   "code": "P5-09",
+   "kind": "gfx",
+   "t": 105.0,
+   "dur": 8.88,
+   "visual": "Calendar card: 17 NOV RESULTS \u00b7 18 NOV CONGRESS.",
+   "sfx": "tick x2"
+  },
+  {
+   "code": "P5-10",
+   "kind": "photo",
+   "t": 113.88,
+   "dur": 3.52,
+   "visual": "Push to a pension statement on a kitchen table (cut-paper).",
+   "sfx": "riser"
+  }
+ ]
+}
