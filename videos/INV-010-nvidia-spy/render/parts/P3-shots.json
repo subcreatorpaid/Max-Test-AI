@@ -1,0 +1,87 @@
+{
+ "part": "P3",
+ "dur": 123.96,
+ "vo_dur": 123.97558333333333,
+ "shots": [
+  {
+   "code": "P3-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.36,
+   "visual": "P part card PART 3 \u00b7 THE OLDEST TRICK",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P3-02",
+   "kind": "gfx",
+   "t": 5.36,
+   "dur": 14.2,
+   "visual": "X folder: index card types CULTIVATION; a second card undern",
+   "sfx": "typewriter, pencil"
+  },
+  {
+   "code": "P3-03",
+   "kind": "gfx",
+   "t": 19.56,
+   "dur": 18.4,
+   "visual": "D document: recreated Axios headline card credited 'Axios, D",
+   "sfx": "paper slide"
+  },
+  {
+   "code": "P3-04",
+   "kind": "photo",
+   "t": 37.96,
+   "dur": 14.12,
+   "visual": "STILL [SHADOW] Ken Burns: Palace of Westminster at night (no",
+   "sfx": "Big Ben-style low bell (soft)"
+  },
+  {
+   "code": "P3-05",
+   "kind": "gfx",
+   "t": 52.08,
+   "dur": 13.76,
+   "visual": "Three cut-paper figures in a row: POLITICIAN \u00b7 POLITICIAN \u00b7 ",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P3-06",
+   "kind": "photo",
+   "t": 65.84,
+   "dur": 8.24,
+   "visual": "Split-flap: OCT 2025 \u00b7 PRESIDENT BRIEFED.",
+   "sfx": "split-flap clatter"
+  },
+  {
+   "code": "P3-07",
+   "kind": "gfx",
+   "t": 74.08,
+   "dur": 15.32,
+   "visual": "D document: recreated NYT paragraph; 'chose not to act' high",
+   "sfx": "pen scratch"
+  },
+  {
+   "code": "P3-07b",
+   "kind": "gfx",
+   "t": 89.4,
+   "dur": 15.36,
+   "visual": "Two index cards: THEN \u00b7 'HE DIDN'T KNOW' / NOW \u00b7 'SOME DOUBT",
+   "sfx": "card flip"
+  },
+  {
+   "code": "P3-08",
+   "kind": "gfx",
+   "t": 104.76,
+   "dur": 11.48,
+   "visual": "Typed quote card: 'I HAVEN'T HEARD HE'S DONE ANYTHING WRONG'",
+   "sfx": "typewriter"
+  },
+  {
+   "code": "P3-09",
+   "kind": "photo",
+   "t": 116.24,
+   "dur": 7.72,
+   "visual": "Push to a stack of shipping crates in the dark.",
+   "sfx": "riser"
+  }
+ ]
+}
