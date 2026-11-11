@@ -25,6 +25,16 @@
 | RC-04b | laptop desk night | 2382779 | DanFa | https://pixabay.com/photos/bear-computer-night-lilac-dark-2382779/ |
 | RC-06 | documents paperwork desk | 5710164 | Maximilianovich | https://pixabay.com/photos/man-sign-paper-write-document-5710164/ |
 | RC-09 | empty chair dinner table | 3489377 | Bru-nO | https://pixabay.com/photos/restaurant-gastronomy-table-cover-3489377/ |
+| P1-03 | boardroom table meeting room | 2181916 | Pexels | https://pixabay.com/photos/chairs-empty-office-room-table-2181916/ |
+| P1-11 | london city financial district | 7965770 | IvaIvo | https://pixabay.com/photos/london-city-of-london-landscape-7965770/ |
+| P2-06 | newspaper stack table | 3488857 | congerdesign | https://pixabay.com/photos/newspapers-pile-of-newspapers-press-3488857/ |
+| P2-09 | singapore skyline | 255116 | cegoh | https://pixabay.com/photos/skyline-cityscape-buildings-255116/ |
+| P3-09 | wooden crates stacked | 2719166 | terimakasih0 | https://pixabay.com/photos/boxes-crates-box-container-package-2719166/ |
+| P4-03 | computer chip macro processor | 4393384 | Bru-nO | https://pixabay.com/photos/cpu-processor-chip-intel-core-pc-4393384/ |
+| P4-06 | container port cranes | 6670684 | smartschwarz | https://pixabay.com/photos/port-ship-water-sea-crane-freight-6670684/ |
+| P4-10 | file folder desk | 923523 | StockSnap | https://pixabay.com/photos/file-folders-business-office-desk-923523/ |
+| P5-02 | filing cabinet archive | 3930337 | Angelo_Giordano | https://pixabay.com/photos/collector-documents-office-folder-3930337/ |
+| P5-10 | bills calculator kitchen table | 256312 | jarmoluk | https://pixabay.com/photos/money-bills-calculator-to-save-256312/ |
 
 ## Video clips
 
@@ -36,5 +46,7 @@
 | P4-05 | 197209 | ListosParaRodar | https://pixabay.com/videos/id-197209/ |
 | P5-03 | 3174 | Coverr-Free-Footage | https://pixabay.com/videos/id-3174/ |
 | P6-05b | 44859 | FlorenceCdeM | https://pixabay.com/videos/id-44859/ |
+| P2-09 | 198477 | MagicTV | https://pixabay.com/videos/id-198477/ |
+| P4-06 | 129249 | Engin_Akyurt | https://pixabay.com/videos/id-129249/ |
 
 Music: in-house bed made in code. SFX: Motion Graphics MAX kit (licence: use in videos, never redistribute; files stay on Hammad's PC).

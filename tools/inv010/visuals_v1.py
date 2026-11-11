@@ -19,7 +19,7 @@ V = {
 "P1-08":("G","Donut: Nvidia 6.93% of the S&P 500; Big 7 ≈ 30%",""),
 "P1-09":("S","Row of suburban houses, daylight, no people + label '54% OF US HOUSEHOLDS HAVE A 401(k)'","suburban houses street"),
 "P1-10":("G","Division: $144,400 → $10,000 slice → -$880 at the low",""),
-"P1-11":("F","City of London financial district skyline + label 'NVIDIA ≈ 5% OF THE GLOBAL INDEX'",'london city financial district'),
+"P1-11":("S","City of London financial district skyline + label 'NVIDIA ≈ 5% OF THE GLOBAL INDEX'",'london city financial district'),
 "P1-12":("G","Year/number card: an empty chair at a set table (cut-paper)",""),
 "BR-01":("G","Envelope: next invoice tile (INV-009 Taiwan 2027) + SUBSCRIBE",""),
 "P2-01":("G","Part card 02 'The Dinner in Taipei'",""),
