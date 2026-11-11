@@ -1,0 +1,103 @@
+{
+ "part": "P6",
+ "dur": 135.0,
+ "vo_dur": 134.98708333333335,
+ "shots": [
+  {
+   "code": "P6-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.0,
+   "visual": "P part card PART 6 \u00b7 WHAT HAPPENS NEXT",
+   "sfx": "reverse cymbal + sub drop"
+  },
+  {
+   "code": "P6-02",
+   "kind": "gfx",
+   "t": 5.0,
+   "dur": 14.16,
+   "visual": "Three-door graphic (kit2 one-off): door 1 lights: STAYS.",
+   "sfx": "door creak (soft)"
+  },
+  {
+   "code": "P6-03",
+   "kind": "gfx",
+   "t": 19.16,
+   "dur": 14.68,
+   "visual": "Door 2 lights: LEAVES; the stock line behind it drops.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P6-03b",
+   "kind": "gfx",
+   "t": 33.84,
+   "dur": 14.04,
+   "visual": "Web diagram (kit2 one-off: hub and spokes): centre HUANG; sp",
+   "sfx": "string twang x3"
+  },
+  {
+   "code": "P6-04",
+   "kind": "gfx",
+   "t": 47.88,
+   "dur": 12.16,
+   "visual": "T typed card: SCENARIOS, NOT FORECASTS.",
+   "sfx": "stamp"
+  },
+  {
+   "code": "P6-05",
+   "kind": "gfx",
+   "t": 60.04,
+   "dur": 15.0,
+   "visual": "Door 3 lights: TIGHTER RULES; a toll gate graphic drops acro",
+   "sfx": "gate slam"
+  },
+  {
+   "code": "P6-05b",
+   "kind": "clip",
+   "t": 75.04,
+   "dur": 10.64,
+   "visual": "L footage [COLOUR]: phone on a kitchen table showing a gener",
+   "sfx": "price tag click"
+  },
+  {
+   "code": "P6-05b",
+   "kind": "photo",
+   "t": 85.68,
+   "dur": 7.08,
+   "visual": "L footage [COLOUR]: phone on a kitchen table showing a gener",
+   "sfx": "price tag click"
+  },
+  {
+   "code": "P6-05c",
+   "kind": "gfx",
+   "t": 92.76,
+   "dur": 10.16,
+   "visual": "N ledger number: +15% then a small '+?' tag beside it.",
+   "sfx": "sub hit"
+  },
+  {
+   "code": "P6-06",
+   "kind": "photo",
+   "t": 102.92,
+   "dur": 14.28,
+   "visual": "STILL [SHADOW] Ken Burns: an empty boardroom at night, city ",
+   "sfx": "quiet piano note"
+  },
+  {
+   "code": "P6-07",
+   "kind": "gfx",
+   "t": 117.2,
+   "dur": 13.4,
+   "visual": "X folder: four index cards stamped UNKNOWN, one by one.",
+   "sfx": "stamp x4"
+  },
+  {
+   "code": "P6-08",
+   "kind": "gfx",
+   "t": 130.6,
+   "dur": 4.4,
+   "visual": "Receipt printer warms up.",
+   "sfx": "riser"
+  }
+ ]
+}
