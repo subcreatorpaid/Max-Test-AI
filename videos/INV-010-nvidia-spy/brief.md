@@ -1,0 +1,6 @@
+# INV-010 The Nvidia spy scandal: brief
+- **Status:** 2026-11-11. Hammad asked for a video on the current Nvidia scandal and for hooks modelled on viral videos in the niche. Fact pack (41 rows + 4 maths), hooks, script v1 (2,372 words, ~19-20 min). Gate 1 (title card) and Gate 2 (script) waiting on Hammad. No voice/render before OK. Never upload.
+- **News peg:** NYT 29 Oct 2026 (US officials: Alice Huang a Chinese intelligence asset), Huang's memo 8 Nov, board probe, -8.8% / ~$400bn on 9 Nov, class action 9 Nov, Nvidia results 17 Nov, House briefing 18 Nov. **Publish before 17 Nov** or rewrite P5-08/09 + RC-05.
+- **Search phrase:** "Nvidia spy scandal". **Lead title:** Nvidia's Spy Scandal Just Hit Your Pension.
+- **Rings:** the money ($400bn, 7c of every S&P dollar, ≈$10k of an average 401(k)) → the dinner in Taipei → history of cultivation (Fang Fang, Christine Lee) → the boxes in Malaysia ($4.8bn Megaspeed) → the probe that stopped → what happens next (3 paths, servers +15%) → the Receipt.
+- **Picture rules:** look-rules.md. No photos of Jensen or Alice Huang: dossier cards, buildings, cut-paper. B-roll per line: trading screens (no faces), server racks/data centre, warehouse of sealed boxes, Taipei skyline, Westminster at night, US Capitol, Nvidia HQ exterior (Wikimedia), empty boardroom at night.

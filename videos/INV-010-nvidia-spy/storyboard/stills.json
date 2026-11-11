@@ -1,0 +1,107 @@
+[
+ {
+  "code": "CO-02",
+  "query": "stock market screen red",
+  "n": 4
+ },
+ {
+  "code": "P1-02",
+  "query": "modern office building glass",
+  "n": 4
+ },
+ {
+  "code": "P1-05",
+  "query": "stock exchange ticker",
+  "n": 4
+ },
+ {
+  "code": "P1-06",
+  "query": "stock chart falling",
+  "n": 4
+ },
+ {
+  "code": "P1-09",
+  "query": "suburban houses street",
+  "n": 4
+ },
+ {
+  "code": "P2-04",
+  "query": "taipei 101",
+  "n": 4
+ },
+ {
+  "code": "P2-05b",
+  "query": "restaurant table candles",
+  "n": 4
+ },
+ {
+  "code": "P3-04",
+  "query": "westminster night",
+  "n": 4
+ },
+ {
+  "code": "P3-06",
+  "query": "white house washington",
+  "n": 4
+ },
+ {
+  "code": "P4-02",
+  "query": "server room data center",
+  "n": 4
+ },
+ {
+  "code": "P4-05",
+  "query": "warehouse boxes",
+  "n": 4
+ },
+ {
+  "code": "P4-08",
+  "query": "data center corridor",
+  "n": 4
+ },
+ {
+  "code": "P5-03",
+  "query": "typing laptop keyboard",
+  "n": 4
+ },
+ {
+  "code": "P5-07",
+  "query": "courthouse columns",
+  "n": 4
+ },
+ {
+  "code": "P5-08",
+  "query": "capitol building washington",
+  "n": 4
+ },
+ {
+  "code": "P6-05b",
+  "query": "smartphone scrolling hand",
+  "n": 4
+ },
+ {
+  "code": "P6-06",
+  "query": "empty boardroom night",
+  "n": 4
+ },
+ {
+  "code": "RC-02",
+  "query": "coins jar savings",
+  "n": 4
+ },
+ {
+  "code": "RC-04b",
+  "query": "laptop desk night",
+  "n": 4
+ },
+ {
+  "code": "RC-06",
+  "query": "documents paperwork desk",
+  "n": 4
+ },
+ {
+  "code": "RC-09",
+  "query": "empty chair dinner table",
+  "n": 4
+ }
+]
