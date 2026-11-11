@@ -1,0 +1,47 @@
+{
+ "part": "CO",
+ "dur": 64.72,
+ "vo_dur": 64.72533333333334,
+ "shots": [
+  {
+   "code": "CO-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 11.44,
+   "visual": "D document: a recreated staff-memo page (no logo), the line ",
+   "sfx": "paper slide, pen scratch"
+  },
+  {
+   "code": "CO-02",
+   "kind": "photo",
+   "t": 11.44,
+   "dur": 10.4,
+   "visual": "N ledger number: -$400,000,000,000 counts down fast; stock l",
+   "sfx": "ticker rattle, sub hit"
+  },
+  {
+   "code": "CO-03",
+   "kind": "gfx",
+   "t": 21.84,
+   "dur": 17.28,
+   "visual": "Coin graphic: a dollar splits, 7 cents turn green with NVDA;",
+   "sfx": "receipt printer burst"
+  },
+  {
+   "code": "CO-04",
+   "kind": "gfx",
+   "t": 39.12,
+   "dur": 12.92,
+   "visual": "T typed card: three tags stamp down in turn: CONFIRMED \u00b7 REP",
+   "sfx": "stamp x3"
+  },
+  {
+   "code": "CO-05",
+   "kind": "gfx",
+   "t": 52.04,
+   "dur": 12.68,
+   "visual": "Roadmap: five icons light in a row (coins, dinner table, cra",
+   "sfx": "riser"
+  }
+ ]
+}
