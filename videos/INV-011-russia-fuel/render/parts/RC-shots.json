@@ -1,0 +1,99 @@
+{
+ "part": "RC",
+ "dur": 73.36,
+ "vo_dur": 73.35925,
+ "shots": [
+  {
+   "code": "RC-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 2.8,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "receipt printer start",
+   "tr": ""
+  },
+  {
+   "code": "RC-02",
+   "kind": "gfx",
+   "t": 2.8,
+   "dur": 9.68,
+   "off": 0.0,
+   "cues": [
+    8.096
+   ],
+   "sfx": "printer",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "RC-03",
+   "kind": "gfx",
+   "t": 12.48,
+   "dur": 10.16,
+   "off": 0.0,
+   "cues": [
+    1.932
+   ],
+   "sfx": "printer",
+   "tr": "hblur"
+  },
+  {
+   "code": "RC-04",
+   "kind": "gfx",
+   "t": 22.64,
+   "dur": 7.76,
+   "off": 0.0,
+   "cues": [
+    5.437
+   ],
+   "sfx": "printer",
+   "tr": "circleopen"
+  },
+  {
+   "code": "RC-05",
+   "kind": "gfx",
+   "t": 30.4,
+   "dur": 14.04,
+   "off": 0.0,
+   "cues": [
+    8.863
+   ],
+   "sfx": "printer",
+   "tr": "wiperight"
+  },
+  {
+   "code": "RC-06",
+   "kind": "gfx",
+   "t": 44.44,
+   "dur": 8.32,
+   "off": 0.0,
+   "cues": [
+    6.841
+   ],
+   "sfx": "printer",
+   "tr": "zoomin"
+  },
+  {
+   "code": "RC-07",
+   "kind": "gfx",
+   "t": 52.76,
+   "dur": 9.44,
+   "off": 0.0,
+   "cues": [
+    7.817
+   ],
+   "sfx": "stamp thud",
+   "tr": "slideup"
+  },
+  {
+   "code": "RC-08",
+   "kind": "gfx",
+   "t": 62.2,
+   "dur": 11.16,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "soft tick",
+   "tr": "radial"
+  }
+ ]
+}
