@@ -1,0 +1,314 @@
+[
+ {
+  "code": "CO-01",
+  "query": "bridge night lights water",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "CO-03x",
+  "query": "gas station night",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "CO-04x",
+  "query": "fuel pump nozzle refuel car",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-02x",
+  "query": "long bridge sea aerial",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-02bx",
+  "query": "ferry stormy sea",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-04",
+  "query": "freight train bridge",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-07x",
+  "query": "sea waves night dark",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-08x",
+  "query": "explosion fire night smoke",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-12x",
+  "query": "truck refueling diesel",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-02x",
+  "query": "oil refinery",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-04",
+  "query": "drone flying sky fixed wing",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-04b",
+  "query": "drone assembly workshop",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-05x",
+  "query": "refinery distillation tower",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-07bx",
+  "query": "oil refinery pipes industrial",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-09x",
+  "query": "refinery smoke fire",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-12x",
+  "query": "oil barrels",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-13",
+  "query": "gas station night cars",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-02x",
+  "query": "oil pump jack",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-03x",
+  "query": "oil tanker port",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-04x",
+  "query": "fuel pump gas station",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-07",
+  "query": "gas station empty closed",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-08bx",
+  "query": "car exhaust smoke",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-09bx",
+  "query": "traffic jam cars queue",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-10x",
+  "query": "tank wagons train",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-11x",
+  "query": "oil tanker sea",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-14x",
+  "query": "oil tanker sailing",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-15x",
+  "query": "oil pipeline",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P4-03x",
+  "query": "old airplane propeller black and white",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P4-08x",
+  "query": "globe earth rotating",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P4-09x",
+  "query": "truck highway",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-02x",
+  "query": "tanker ship port loading",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-03x",
+  "query": "oil storage tanks",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-05cx",
+  "query": "farm tractor fuel",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-06",
+  "query": "trucks highway sunset",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-07x",
+  "query": "london traffic",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-09x",
+  "query": "tanker ship ocean",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-11x",
+  "query": "truck stop diesel",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-12x",
+  "query": "refinery night",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "W-02x",
+  "query": "freight train",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "W-03",
+  "query": "tank car train",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "W-04x",
+  "query": "refinery",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "W-07x",
+  "query": "steppe winter",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-02x",
+  "query": "tractor field",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-03x",
+  "query": "semi truck highway",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-04",
+  "query": "warehouse truck loading",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-05",
+  "query": "tractor plowing field",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-07",
+  "query": "india street traffic bus",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-08b",
+  "query": "traffic queue night brake lights",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P7-02x",
+  "query": "airplane refueling airport",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P7-04bx",
+  "query": "welding repair industrial",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P7-07x",
+  "query": "oil pipeline",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P7-08",
+  "query": "gas flare night",
+  "n": 4,
+  "min_seconds": 6
+ }
+]
