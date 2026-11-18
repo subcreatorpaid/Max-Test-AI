@@ -1,0 +1,163 @@
+{
+ "part": "P6",
+ "dur": 195.92,
+ "vo_dur": 195.93141666666668,
+ "shots": [
+  {
+   "code": "P6-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.52,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P6-02",
+   "kind": "gfx",
+   "t": 4.52,
+   "dur": 15.2,
+   "off": 0.0,
+   "cues": [
+    10.61
+   ],
+   "sfx": "tick x5",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P6-03",
+   "kind": "gfx",
+   "t": 19.72,
+   "dur": 17.44,
+   "off": 0.0,
+   "cues": [
+    13.204
+   ],
+   "sfx": "counter roll",
+   "tr": "hblur"
+  },
+  {
+   "code": "P6-04",
+   "kind": "clip",
+   "t": 37.16,
+   "dur": 14.2,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "truck reverse beep (soft)",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P6-04b",
+   "kind": "photo",
+   "t": 51.36,
+   "dur": 17.28,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "rain, traffic",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P6-05",
+   "kind": "clip",
+   "t": 68.64,
+   "dur": 16.8,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "engine",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P6-06",
+   "kind": "photo",
+   "t": 85.44,
+   "dur": 15.04,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "wind",
+   "tr": "slideup"
+  },
+  {
+   "code": "P6-07",
+   "kind": "gfx",
+   "t": 100.48,
+   "dur": 15.6,
+   "off": 0.0,
+   "cues": [
+    3.676,
+    5.52,
+    7.292,
+    13.755
+   ],
+   "sfx": "street air",
+   "tr": "radial"
+  },
+  {
+   "code": "P6-08",
+   "kind": "photo",
+   "t": 116.08,
+   "dur": 14.44,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "low drone",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P6-08b",
+   "kind": "gfx",
+   "t": 130.52,
+   "dur": 12.24,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "engine idle",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P6-08c",
+   "kind": "gfx",
+   "t": 142.76,
+   "dur": 17.8,
+   "off": 0.0,
+   "cues": [
+    7.421,
+    15.298
+   ],
+   "sfx": "receipt printer",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P6-09",
+   "kind": "photo",
+   "t": 160.56,
+   "dur": 13.72,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "low drone",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P6-10",
+   "kind": "gfx",
+   "t": 174.28,
+   "dur": 10.0,
+   "off": 0.0,
+   "cues": [
+    8.22
+   ],
+   "sfx": "printer",
+   "tr": "hblur"
+  },
+  {
+   "code": "P6-11",
+   "kind": "gfx",
+   "t": 184.28,
+   "dur": 11.64,
+   "off": 0.0,
+   "cues": [
+    8.12
+   ],
+   "sfx": "soft tick",
+   "tr": "circleopen"
+  }
+ ]
+}
