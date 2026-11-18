@@ -1,0 +1,141 @@
+{
+ "part": "W",
+ "dur": 153.92,
+ "vo_dur": 153.92979166666666,
+ "shots": [
+  {
+   "code": "W-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.76,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "W-02",
+   "kind": "gfx",
+   "t": 5.76,
+   "dur": 19.56,
+   "off": 0.0,
+   "cues": [
+    14.639
+   ],
+   "sfx": "deep whoosh, sub hit",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "W-03",
+   "kind": "clip",
+   "t": 25.32,
+   "dur": 13.72,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "train rumble",
+   "tr": "hblur"
+  },
+  {
+   "code": "W-04",
+   "kind": "gfx",
+   "t": 39.04,
+   "dur": 14.04,
+   "off": 0.0,
+   "cues": [
+    12.648
+   ],
+   "sfx": "whip",
+   "tr": "circleopen"
+  },
+  {
+   "code": "W-05",
+   "kind": "gfx",
+   "t": 53.08,
+   "dur": 10.48,
+   "off": 0.0,
+   "cues": [
+    8.26
+   ],
+   "sfx": "chart grow",
+   "tr": "wiperight"
+  },
+  {
+   "code": "W-05",
+   "kind": "photo",
+   "t": 63.56,
+   "dur": 9.76,
+   "off": 10.460374999999996,
+   "cues": [],
+   "sfx": "chart grow",
+   "tr": "dissolve"
+  },
+  {
+   "code": "W-06",
+   "kind": "photo",
+   "t": 73.32,
+   "dur": 17.2,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "jet whine far",
+   "tr": "slideup"
+  },
+  {
+   "code": "W-06b",
+   "kind": "gfx",
+   "t": 90.52,
+   "dur": 17.6,
+   "off": 0.0,
+   "cues": [
+    15.402
+   ],
+   "sfx": "chart grow",
+   "tr": "radial"
+  },
+  {
+   "code": "W-06b",
+   "kind": "photo",
+   "t": 108.12,
+   "dur": 8.08,
+   "off": 17.601833333333328,
+   "cues": [],
+   "sfx": "chart grow",
+   "tr": "dissolve"
+  },
+  {
+   "code": "W-07",
+   "kind": "gfx",
+   "t": 116.2,
+   "dur": 10.76,
+   "off": 0.0,
+   "cues": [
+    8.549
+   ],
+   "sfx": "wind",
+   "tr": "dissolve"
+  },
+  {
+   "code": "W-08",
+   "kind": "gfx",
+   "t": 126.96,
+   "dur": 15.32,
+   "off": 0.0,
+   "cues": [
+    12.533
+   ],
+   "sfx": "pen strike, sub hit",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "W-09",
+   "kind": "gfx",
+   "t": 142.28,
+   "dur": 11.64,
+   "off": 0.0,
+   "cues": [
+    10.378
+   ],
+   "sfx": "printer",
+   "tr": "smoothleft"
+  }
+ ]
+}
