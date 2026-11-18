@@ -47,7 +47,8 @@ for i, (code, st) in enumerate(starts):
         k_, p = asset(code, j, s[0])
         if k_: resolved.append((k_, p))
     has_g = shots[0][0] == "G"
-    if has_g and resolved and d > 7.0:
+    late = bool(cues) and cues[-1] + 2.2 > d - 3.0   # the hit lands too late for a cutaway: keep the graphic
+    if has_g and resolved and d > 7.0 and not late:
         last = max(cues + [sents[-1] if sents else 0.0])
         g = min(d - 3.0, max(d * 0.5, (cues[-1] + 2.2) if cues else d * 0.55, 4.0))
         plan.append(("gfx", code, g, {"cues": cues, "sents": sents, "off": 0.0}))
@@ -103,8 +104,8 @@ def overlay_png(code, path, show_text=True):
         d.rect((60, A.H - 150, 60 + min(w, A.W - 140), A.H - 92), fill=A.PAPER + (240,))
         d.rect((60, A.H - 150, 68, A.H - 92), fill=A.ORANGE + (255,))
         d.text((80, A.H - 140), txt[:60], fo, (30, 26, 22, 255))
-    if row[5]:
-        d.rect((40, A.H - 52, 46, A.H - 28), fill=A.ORANGE + (255,)); d.text((56, A.H - 50), row[5].upper()[:110], A.f(18, "reg"), A.GREY + (255,))
+    tg = ((row[5].upper() + " · ") if row[5] else "") + "ILLUSTRATIVE STOCK IMAGE"
+    d.rect((40, A.H - 52, 46, A.H - 28), fill=A.ORANGE + (255,)); d.text((56, A.H - 50), tg[:120], A.f(18, "reg"), A.GREY + (255,))
     lines, _ = corner_lines(code, 0, 0)
     if lines: A.corner(im, lines, None)
     im.save(path)

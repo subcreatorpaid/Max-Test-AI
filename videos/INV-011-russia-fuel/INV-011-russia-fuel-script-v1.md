@@ -1,14 +1,14 @@
 # INV-011 Russia's Fuel Crisis: script v1 (2026-11-18)
 
 Working title: **Russia's Fuel Crisis Is Coming for Your Diesel Bill**
-Words: 3866 (≈ 28.4 min at the narrator's pace)
+Words: 3864 (≈ 28.4 min at the narrator's pace)
 
 Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: facts.md. Not financial advice.
 
 ## Cold open (0:00)
 
 **CO-01** On the sixteenth of November 2026, just after two in the morning, a fireball lit up the longest bridge in Europe.
-> Visual: F night bridge over dark water, slow push; orange glow rises (graded INTENSE)  
+> Visual: G terrain map of the Kerch Strait, explosion pin pulses on 'fireball'; then F night bridge over water (illustrative)  
 > On screen: CRIMEAN BRIDGE · 16 NOV 2026 · Tag: REPORTED · Irish Times, 16 Nov 2026 · Facts: F03 F05 · SFX: low boom, sub hit on 'fireball'
 
 **CO-02** Russia said it had shot down more than thirteen hundred Ukrainian drones that night. The biggest drone attack of the whole war. Most of them weren't aimed at soldiers. They were aimed at fuel.
@@ -223,9 +223,9 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 > Visual: G two bars: JUN 2025 1,000 t (a sliver) vs JUN 2026 141,000 t; arrow Belarus → Russia on map  
 > On screen: 141,000 t vs 1,000 t · Tag: REPORTED · Vedomosti via Meduza · Facts: F19 · SFX: chart grow, sub hit
 
-**P3-10b** But Belarus can only spare so much. One Russian energy expert put its export limit at about a hundred and fifty to a hundred and seventy thousand tonnes a month. Russia burns more than a hundred and ten thousand tonnes of petrol a day in summer.
-> Visual: G two bars: BELARUS ≈ 170,000 t / MONTH vs RUSSIA ≥ 110,000 t / DAY; ratio label  
-> On screen: A MONTH vs A DAY · Tag: REPORTED · Meduza / Vedomosti · Facts: F19 · SFX: chart grow
+**P3-10b** But Belarus is a small country with two big refineries. Its record month, twenty-five days of petrol, is only a little more than one day of Russian demand. Russia burns more than a hundred and ten thousand tonnes of petrol a day in summer.
+> Visual: G two bars: BELARUS 141,000 t IN 25 DAYS vs RUSSIA ≥ 110,000 t IN ONE DAY  
+> On screen: 25 DAYS vs ONE DAY · Tag: REPORTED · Meduza / Vedomosti, Jul 2026 · Facts: F19 F36 · SFX: chart grow
 
 **P3-11** And it went further. Since August, analysts tracked more than six point six million barrels of fuel that Russia bought from India, Morocco and Turkey. The oil giant was importing petrol.
 > Visual: G world map: tanker arcs India → Russia, Morocco → Russia, Turkey → Russia  
@@ -360,8 +360,8 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 > On screen: KIRISHI · OMSK · Tag: REPORTED · IEA via gCaptain · Facts: - · SFX: target clicks
 
 **P5-12b** Russia's deputy prime minister, Alexander Novak, said the attacks would not have a significant effect on exports. Ukraine's drones are testing that claim every week.
-> Visual: G quote strip: 'NOT SIGNIFICANT' · Alexander Novak; a strike counter ticks beside it  
-> On screen: 'NOT SIGNIFICANT' · NOVAK · Tag: CLAIM · Novak via Bloomberg / gCaptain · Facts: F26 · SFX: paper slide, ticks
+> Visual: G card: NO SIGNIFICANT EFFECT ON EXPORTS (Novak, CLAIM stamp)  
+> On screen: NOVAK: NO SIGNIFICANT EFFECT · Tag: CLAIM · Novak via Bloomberg / gCaptain · Facts: F26 · SFX: paper slide, ticks
 
 **P5-13** So here's your half-receipt. A British diesel fill-up around a hundred and ten pounds. An American truck tank around nine hundred dollars. And a world competing for diesel that Russia can't reliably make.
 > Visual: G half-receipt: UK ≈ £110 · US truck ≈ $920 · RUSSIAN DIESEL: ? (stamp UNRELIABLE)  

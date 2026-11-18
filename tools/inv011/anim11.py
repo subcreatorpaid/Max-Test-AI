@@ -70,6 +70,9 @@ class D:
     def ell(s, b, fill=None, outline=None, width=1): s.d.ellipse([b[0]*S, b[1]*S, b[2]*S, b[3]*S], fill=fill, outline=outline, width=max(1, int(width*S)))
     def poly(s, pts, fill=None, outline=None): s.d.polygon([(x*S, y*S) for x, y in pts], fill=fill, outline=outline)
     def arc(s, b, a0, a1, fill, width=1): s.d.arc([b[0]*S, b[1]*S, b[2]*S, b[3]*S], a0, a1, fill=fill, width=max(1, int(width*S)))
+def fit(d, text, sz, maxw, kind="inter"):
+    while sz > 20 and d.tl(text, f(sz, kind)) > maxw: sz -= 2
+    return f(sz, kind)
 def center(d, y, text, font, fill, cx=W/2): d.text((cx - d.tl(text, font)/2, y), text, font, fill)
 def wrap(d, text, font, maxw):
     out, cur = [], ""
@@ -273,7 +276,10 @@ def receipt(lines, title="THE RECEIPT", tag="", show=None, final_stamp=None, cue
 
 def bars(items, title="", unit="", hi=None, tag="", cues=None, fmt="{:,.0f}", log=False):
     im = base(); d = D(im)
-    if title: d.text((180, 60), title.upper(), f(36, "inter"), alpha(PAPER_HI, seg(0, 0.4)))
+    if title:
+        sz = 36
+        while sz > 22 and d.tl(title.upper(), f(sz, "inter")) > 840: sz -= 2
+        d.text((180, 60), title.upper(), f(sz, "inter"), alpha(PAPER_HI, seg(0, 0.4)))
     vals = [v for _, v in items]; mx = max(vals) or 1
     n = len(items); bw = min(220, (W - 340) // n - 40); gap = ((W - 300) - n*bw) // max(1, n)
     for i, (lab, v) in enumerate(items):
@@ -281,7 +287,7 @@ def bars(items, title="", unit="", hi=None, tag="", cues=None, fmt="{:,.0f}", lo
         e = ease_io((T - t0) / 0.9)
         x = 200 + i*(bw+gap) + gap//2
         frac = (math.log10(max(v, 1)) / math.log10(mx)) if log else v / mx
-        h = int(430 * frac * e); y = H - 150 - h
+        h = int(380 * frac * e); y = H - 150 - h
         col = ORANGE if (hi is None or i == hi) else (96, 88, 80)
         if h > 0: d.rect((x, y, x+bw, H-150), fill=col)
         val = fmt.format(v*e) + unit; tw = d.tl(val, f(38, "inter"))
@@ -293,7 +299,7 @@ def bars(items, title="", unit="", hi=None, tag="", cues=None, fmt="{:,.0f}", lo
 def linechart(series, title="", marks=(), tag="", unit="", band=None, hit=None, ylab_fmt="{:g}"):
     """series: {name: [(label, value), ...]}; the line draws up to the hit word; marks: [(text, idx, series_idx)]."""
     im = base(); d = D(im)
-    if title: d.text((180, 52), title.upper(), f(34, "inter"), alpha(PAPER_HI, seg(0, 0.4)))
+    if title: d.text((180, 52), title.upper(), fit(d, title.upper(), 34, 840), alpha(PAPER_HI, seg(0, 0.4)))
     allv = [v for s in series.values() for _, v in s]; mn = min(0, min(allv)); mx = max(allv) * 1.15
     x0, x1, y0, y1 = 220, W - 90, 130, H - 120
     Y = lambda v: y1 - (y1 - y0) * (v - mn) / (mx - mn)
@@ -344,7 +350,7 @@ def gauge(pct, label, sub="", tag="", ring_max=100, stamp_txt=None, outline_pct=
 def tiles(items, title="", tag="", cues=None):
     """option / scenario tiles lighting in turn. items: [(big, small)]"""
     im = base(); d = D(im); n = len(items)
-    if title: center(d, 70, title.upper(), f(34, "inter"), alpha(ORANGE, seg(0, 0.4)))
+    if title: center(d, 70, title.upper(), fit(d, title.upper(), 34, 760), alpha(ORANGE, seg(0, 0.4)))
     tw = (W - 240 - (n-1)*30) / n
     for i, (big, small) in enumerate(items):
         t0 = (c(cues[i]) if cues and i < len(cues) else sn(i)) - 0.3; a = seg(t0, 0.45); lit = seg(t0, 0.2) * (1 - 0.6*seg((c(cues[i+1]) if cues and i+1 < len(cues) else sn(i+1)) - 0.3, 0.4) if i < n-1 else 1)
@@ -357,7 +363,7 @@ def tiles(items, title="", tag="", cues=None):
 def timeline(events, active, title="", tag="", stamp_txt=None):
     """dated nodes; nodes up to `active` light (earlier ones dim to 40%), the active ones on their cue."""
     im = base(); d = D(im); n = len(events)
-    if title: d.text((180, 70), title.upper(), f(34, "inter"), alpha(PAPER_HI, seg(0, 0.4)))
+    if title: d.text((180, 70), title.upper(), fit(d, title.upper(), 34, 840), alpha(PAPER_HI, seg(0, 0.4)))
     x0, x1, y = 230, W - 120, 380
     d.line([(x0, y), (x1, y)], DIM, 4)
     for i, (date, label) in enumerate(events):
@@ -376,10 +382,10 @@ def timeline(events, active, title="", tag="", stamp_txt=None):
 def calendar(months, circles=(), flames_every=None, stamps=(), title="", tag=""):
     """month strip; circles: [(month_idx, label, cue_i)] red pen circles; stamps: [(month_idx, text, cue_i)]; flames_every: n days."""
     im = base(); d = D(im)
-    if title: d.text((180, 56), title.upper(), f(34, "inter"), alpha(PAPER_HI, seg(0, 0.4)))
-    n = len(months); cw = (W - 260) / n
+    if title: d.text((180, 56), title.upper(), fit(d, title.upper(), 34, 840), alpha(PAPER_HI, seg(0, 0.4)))
+    n = len(months); cw = (W - 420) / n; X0 = 160
     for i, m in enumerate(months):
-        x = 200 + i*cw; a = seg(0.05*i, 0.3)
+        x = X0 + i*cw; a = seg(0.05*i, 0.3)
         d.rect((x+6, 140, x+cw-6, H-140), fill=alpha((36, 34, 31), a), outline=alpha(DIM, a), width=2)
         center(d, 152, m, f(34, "bebas"), alpha(PAPER, a), cx=x + cw/2)
         if flames_every:
@@ -391,20 +397,21 @@ def calendar(months, circles=(), flames_every=None, stamps=(), title="", tag="")
                     if T >= t0:
                         d.poly([(gxx+8, gyy+30), (gxx+gx/2, gyy+2), (gxx+gx-8, gyy+30)], fill=alpha(ORANGE, seg(t0, 0.2)))
                 else: d.ell((gxx+gx/2-3, gyy+14, gxx+gx/2+3, gyy+20), fill=(70, 66, 60))
-    for (mi, lab, ci) in circles:
-        x = 200 + mi*cw + cw/2; t0 = lead(c(ci), 0.3); k = seg(t0, 0.5)
+    for j, (mi, lab, ci) in enumerate(circles):
+        x = X0 + mi*cw + cw/2; t0 = lead(c(ci), 0.3); k = seg(t0, 0.5)
         if k > 0:
             d.arc((x - cw*0.46, 230, x + cw*0.46, 440), -90, -90 + 360*k, fill=RED, width=7)
-            center(d, 470, lab, f(30, "inter"), alpha(RED, seg(t0 + 0.4, 0.3)), cx=x)
-    for (mi, txt, ci) in stamps: stamp(im, txt, 200 + mi*cw + cw/2, 360, c(ci), size=58, angle=-12)
+            fo = fit(d, lab, 26, 300); lx = min(max(x, X0 + d.tl(lab, fo)/2), X0 + n*cw - d.tl(lab, fo)/2)
+            center(d, 468 + (j % 2)*40, lab, fo, alpha(RED, seg(t0 + 0.4, 0.3)), cx=lx)
+    for (mi, txt, ci) in stamps: stamp(im, txt, X0 + mi*cw + cw/2, 360, c(ci), size=58, angle=-12)
     tagline(im, tag); return im
 
-def chain(steps, title="", tag="", cues=None):
+def chain(steps, title="", tag="", cues=None, times=None):
     im = base(); d = D(im); n = len(steps)
     if title: center(d, 80, title.upper(), f(32, "inter"), alpha(ORANGE, seg(0, 0.4)))
     gap = (W - 260) / n
     for i, s in enumerate(steps):
-        t0 = (c(cues[i]) if cues and i < len(cues) else sn(i)) - 0.25; a = seg(t0, 0.4)
+        t0 = (times[i] if times else c(cues[i]) if cues and i < len(cues) else sn(i)) - 0.25; a = seg(t0, 0.4)
         x = 160 + i*gap + gap/2; y = 360
         d.ell((x-70, y-70, x+70, y+70), fill=alpha((44, 40, 36), a), outline=alpha(ORANGE, a), width=4)
         center(d, y - 20, s.upper(), f(26 if len(s) > 7 else 32, "inter"), alpha(PAPER_HI, a), cx=x)
@@ -417,7 +424,7 @@ def chain(steps, title="", tag="", cues=None):
 def flow(nodes, arrows, title="", tag="", cues=None):
     """box-and-arrow diagram. nodes: {key: (x, y, label, col)}, arrows: [(a, b, label, cue_i)]"""
     im = base(); d = D(im)
-    if title: d.text((180, 56), title.upper(), f(34, "inter"), alpha(PAPER_HI, seg(0, 0.4)))
+    if title: d.text((180, 56), title.upper(), fit(d, title.upper(), 34, 840), alpha(PAPER_HI, seg(0, 0.4)))
     shown = {}
     for j, (a_, b_, lab, ci) in enumerate(arrows):
         t0 = lead(c(ci), 0.4) if ci is not None else sn(j)
@@ -441,7 +448,7 @@ def flow(nodes, arrows, title="", tag="", cues=None):
 def icongrid(n, groups, title="", tag="", big=None):
     """n icons (refineries); groups: [(count, colour, cue_i, label)] switch state in turn."""
     im = base(); d = D(im)
-    if title: d.text((180, 56), title.upper(), f(34, "inter"), alpha(PAPER_HI, seg(0, 0.4)))
+    if title: d.text((180, 56), title.upper(), fit(d, title.upper(), 34, 840), alpha(PAPER_HI, seg(0, 0.4)))
     cols = 10; sz = 64; x0 = (W - cols*sz*1.25)/2 + 40; y0 = 150
     state = [None]*n; k = 0
     for cnt, col, ci, lab in groups:
@@ -561,12 +568,14 @@ def _tile(z, x, y):
     p = CACHE / f"t{z}_{x}_{y}.png"
     if not p.exists():
         req = urllib.request.Request(f"https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png", headers={"User-Agent": "history-invoice/1.0"})
-        p.write_bytes(urllib.request.urlopen(req, timeout=60).read())
+        tmp = p.with_suffix(".%d.tmp" % os.getpid()); tmp.write_bytes(urllib.request.urlopen(req, timeout=60).read()); os.replace(tmp, p)
     return Image.open(p).convert("RGB")
 def hillshade(bbox, z):
     """returns an RGB hillshade image covering bbox (lon0, lat0, lon1, lat1) at PWxPH in Mercator, cached."""
     key = CACHE / ("hs_%s_%d_%d.png" % ("_".join(f"{v:.2f}" for v in bbox), z, PW))
-    if key.exists(): return Image.open(key).convert("RGB")
+    if key.exists():
+        try: return Image.open(key).convert("RGB")
+        except Exception: pass   # half-written by another worker: rebuild
     lon0, lat0, lon1, lat1 = bbox
     def tx(lon): return (lon + 180) / 360 * 2**z
     def ty(lat): r = math.radians(lat); return (1 - math.log(math.tan(r) + 1/math.cos(r)) / math.pi) / 2 * 2**z
@@ -587,7 +596,7 @@ def hillshade(bbox, z):
     img = Image.fromarray(rgb)
     px0 = (tx(lon0) - X0) * 256; px1 = (tx(lon1) - X0) * 256; py0 = (ty(lat1) - Y0) * 256; py1 = (ty(lat0) - Y0) * 256
     img = img.crop((int(px0), int(py0), int(px1), int(py1))).resize((PW, PH), Image.BICUBIC)
-    img.save(key); return img
+    tmp = key.with_suffix(".%d.tmp.png" % os.getpid()); img.save(tmp); os.replace(tmp, key); return img
 class Map:
     def __init__(s, bbox, z=6, hi=(), hi2=(), dim_others=False, terrain=True):
         s.bbox = bbox; s.hi = list(hi); s.hi2 = list(hi2)
@@ -604,6 +613,11 @@ class Map:
                     if len(ring) < 3: continue
                     if not terrain: ld.polygon(ring, fill=LAND + (255,))
                     ld.line(ring + [ring[0]], fill=(150, 140, 125, 150), width=2)
+                    raw = pts[a_:b_]; cx_ = sum(p[0] for p in raw)/len(raw); cy_ = sum(p[1] for p in raw)/len(raw)
+                    if 32.3 < cx_ < 36.8 and 44.2 < cy_ < 46.3 and len(raw) > 20:
+                        # Crimea: disputed. Never shade it as either country; dashed outline only.
+                        for q in range(0, len(ring) - 1, 2): ld2.line([ring[q], ring[q+1]], fill=(200, 190, 175, 200), width=2)
+                        continue
                     if name in s.hi: ld2.polygon(ring, fill=ORANGE + (95,)); ld2.line(ring + [ring[0]], fill=ORANGE + (255,), width=4)
                     elif name in s.hi2: ld2.polygon(ring, fill=RED + (80,)); ld2.line(ring + [ring[0]], fill=RED + (255,), width=3)
             base_ = Image.alpha_composite(im.convert("RGBA"), lay).convert("RGB")
@@ -669,17 +683,17 @@ def map_scene(bbox, z=6, hi=(), hi2=(), pins=(), lines=(), arcs=(), title="", ta
             for (x, y) in ((xa, ya), (xa + (xb - xa)*k, ya + (yb - ya)*k)): d.line([(x - 8, y - 8), (x + 8, y + 8)], PAPER_HI, 3)
             d.text(((xa + xb)/2 + 20, (ya + yb)/2 - 60), txt, f(40, "bebas"), alpha(PAPER_HI, seg(t0 + 0.5, 0.3)))
     if title:
-        d.rect((0, 0, W, 96), fill=(0, 0, 0, 120)); d.text((60, 30), title.upper(), f(36, "inter"), alpha(PAPER_HI, seg(0.2, 0.4)))
+        d.rect((0, 0, W, 96), fill=(0, 0, 0, 120)); d.text((60, 30), title.upper(), fit(d, title.upper(), 36, 940), alpha(PAPER_HI, seg(0.2, 0.4)))
     tagline(im, tag); return im
 
 # ---------------- corner invoice (running, one line per part) ----------------
 CORNER = []   # list of lines already printed; renderer sets per part
 def corner(im, lines, new_at=None):
     if not lines: return im
-    d = D(im); x0, y0 = W - 300, 20; h = 34 + 24*len(lines)
-    d.rect((x0, y0, W - 20, y0 + h), fill=(214, 204, 186, 215))
-    d.text((x0 + 12, y0 + 6), "YOUR INVOICE", f(16, "inter"), (120, 40, 20))
+    d = D(im); x0, y0 = W - 250, 16; h = 28 + 19*len(lines)
+    d.rect((x0, y0, W - 16, y0 + h), fill=(214, 204, 186, 205))
+    d.text((x0 + 10, y0 + 5), "YOUR INVOICE", f(14, "inter"), (120, 40, 20))
     for i, l in enumerate(lines):
         a = 1.0 if (new_at is None or i < len(lines) - 1) else seg(new_at, 0.3)
-        d.text((x0 + 12, y0 + 28 + i*24), l, f(16, "reg"), alpha(INK, a))
+        d.text((x0 + 10, y0 + 24 + i*19), l, fit(d, l, 14, 214, "reg"), alpha(INK, a))
     return im

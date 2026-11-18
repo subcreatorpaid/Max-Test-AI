@@ -104,7 +104,7 @@ def maths(o, t, lines, result, hit_i=0):
     for i, l in enumerate(lines): typewriter(d, (350, 160 + i*70), l, f(42, "inter"), (30, 26, 22), sn(i) + 0.1 if i < len(_A.SENTS) else 0.4 + i, 30)
     hit = c(hit_i, _A.DUR*0.6); e = ease_io((_A.T - lead(hit, 1.0))/1.0)
     d.line([(350, 160 + len(lines)*70), (W - 350, 160 + len(lines)*70)], (60, 50, 40), 3)
-    d.text((350, 180 + len(lines)*70), countup(result, e), f(64, "inter"), alpha(CRIMSON, min(1, e*4)))
+    d.text((350, 180 + len(lines)*70), countup(result, e), fit(d, result, 64, W - 720), alpha(CRIMSON, min(1, e*4)))
     tagline(im, t); return im
 
 def stacked(o, t):
@@ -249,7 +249,7 @@ SPEC = {
 "P2-07": lambda o, t: linechart({"RUNS": [("2025", 5.4), ("JAN 26", 5.0), ("MAR", 4.6), ("MAY", 4.2), ("JUN 26", 3.8)]}, title="RUSSIAN REFINERY RUNS, MILLION BARRELS A DAY", unit="", marks=[("LOWEST SINCE 2004", 4, 0)], tag=t + " · SHAPE ILLUSTRATIVE BETWEEN POINTS", ylab_fmt="{:.1f}"),
 "P2-07b": lambda o, t: gauge(58, "of capacity in use, June 2026", sub="3.8 of 6.5 million barrels a day", tag=t, outline_pct=100),
 "P2-08": lambda o, t: gauge(55, "of refining knocked out", sub="Zelensky, 15 Nov 2026", tag=t, stamp_txt="CLAIM", valtxt=lambda e: "> " + countup("55", e) + "%"),
-"P2-09": lambda o, t: icongrid(38, [(15, RED, 0, "15 OUT"), (12, ORANGE, 0, "12 REDUCED")], title="RUSSIA'S 38 MAJOR REFINERIES (UKRAINE'S COUNT)", tag=t, big=("> $23.2BN", 0)),
+"P2-09": lambda o, t: icongrid(38, [(15, RED, 0, "15 OUT"), (12, ORANGE, 1, "12 REDUCED")], title="RUSSIA'S 38 MAJOR REFINERIES (UKRAINE'S COUNT)", tag=t, big=("> $23.2BN", 2)),
 "P2-10": lambda o, t: bars([("KYIV CLAIM", 55), ("INDUSTRY ESTIMATE", 45)], title="HOW MUCH REFINING IS OUT?", unit="%", hi=None, tag=t, cues=[None, 0] if False else None),
 "P2-12": scale_card,
 "P2-12b": lambda o, t: typed(["LONG-RANGE SANCTIONS", "NO VOTE NEEDED IN BRUSSELS", "NO VOTE NEEDED IN WASHINGTON"], label="KYIV'S NAME FOR IT", tag=t),
@@ -263,7 +263,7 @@ SPEC = {
 "P3-09": lambda o, t: quote("The authorities have run out of easy solutions.", "Sergey Vakulenko, Carnegie", "June 2026", tag=t),
 "P3-09b": lambda o, t: tiles([("SCRAP THE CAP", "pump prices jump"), ("QR CODES", "ration by app"), ("QUEUES", "first come, first served")], title="THE HARD OPTIONS", tag=t),
 "P3-10": lambda o, t: bars([("JUNE 2025", 1000), ("JUNE 2026", 141000)], title="BELARUS PETROL TO RUSSIA (TONNES, 1-25 JUNE)", unit=" t", tag=t, cues=None),
-"P3-10b": lambda o, t: bars([("BELARUS CAN SPARE / MONTH", 170000), ("RUSSIA BURNS / DAY", 110000)], title="A MONTH OF HELP vs A DAY OF DEMAND", unit=" t", tag=t),
+"P3-10b": lambda o, t: bars([("BELARUS · 25 DAYS OF JUNE", 141000), ("RUSSIA BURNS · ONE DAY", 110000)], title="25 DAYS OF HELP vs ONE DAY OF DEMAND", unit=" t", tag=t, cues=[-1, 0]),
 "P3-11": lambda o, t: map_scene(WORLD, 3, hi=["Russia"], arcs=[((72.8, 19.0), NOVO, ORANGE, 4, 0, False), ((-7.6, 33.6), NOVO, ORANGE, 4, 0, False), ((29.0, 41.0), NOVO, ORANGE, 4, 0, False)],
             pins=[(72.8, 19.0, "INDIA", PAPER_HI, None), (-7.6, 33.6, "MOROCCO", PAPER_HI, None), (29.0, 41.0, "TURKEY", PAPER_HI, None)], title="> 6.6M BARRELS INTO RUSSIA SINCE AUGUST", tag=t),
 "P3-13": lambda o, t: maths(o, t, ["30 litres (the Moscow limit)", "× 77.89 roubles a litre"], "= 2,337 ROUBLES", 0),
@@ -272,7 +272,7 @@ SPEC = {
 "P3-16": lambda o, t: lights_out("Has this happened before?"),
 "P4-01": lambda o, t: part(4, "The last time"),
 "P4-03": lambda o, t: map_scene(GER, 6, hi=["Germany"], pins=[(lo, la, "", RED, None) for lo, la in PLANTS], title="THE OIL PLAN · MAY 1944 · 16 FUEL PLANTS", tag=t),
-"P4-04": lambda o, t: bars([("APR 1944", 175000), ("JUL 1944", 30000), ("SEP 1944", 5000)], title="GERMAN AVIATION FUEL FROM SYNTHETIC PLANTS (TONNES)", unit=" t", hi=2, tag=t),
+"P4-04": lambda o, t: bars([("APR 1944", 175000), ("JUL 1944", 30000), ("SEP 1944", 5000)], title="GERMAN SYNTHETIC AVIATION FUEL (TONNES)", unit=" t", hi=2, tag=t),
 "P4-05": lambda o, t: typed(["PILOT TRAINING: CUT SHORT", "REASON: NO FUEL TO TRAIN WITH", "DEC 1944, ARDENNES: TAKE THEIR FUEL"], label="1944 FILE", tag=t),
 "P4-06": lambda o, t: quote("Catastrophic.", "Albert Speer, armaments minister", "December 1944", tag=t),
 "P4-07": then_now,
@@ -299,16 +299,17 @@ SPEC = {
 "W-01": lambda o, t: part(6, "Who wins, who's left behind"),
 "W-02": lambda o, t: map_scene(BELARUS, 6, hi=["Belarus"], hi2=["Russia"], pins=[(28.6, 55.53, "NAFTAN", ORANGE, None), (29.25, 52.05, "MOZYR", ORANGE, None)],
             lines=[((28.6, 55.53), (37.6, 55.75), WARN, 5, 0, False), ((29.25, 52.05), (36.0, 53.5), WARN, 5, 0, False)], title="BELARUS · JAN-JUL 2026: PETROL TO RUSSIA ×25", tag=t),
-"W-04": lambda o, t: map_scene(WORLD, 3, hi=["Russia"], arcs=[((72.8, 19.0), NOVO, ORANGE, 4, None, False), ((29.0, 41.0), NOVO, ORANGE, 4, None, False), ((-7.6, 33.6), NOVO, ORANGE, 4, None, False)],
-            pins=[(-95.3, 29.7, "US REFINERS", CYAN, 0)], title="THE ARROWS REVERSED", tag=t),
+"W-04": lambda o, t: map_scene(WORLD, 3, hi=["Russia"], arcs=[((72.8, 19.0), NOVO, PAPER_HI, 6, None, False), ((29.0, 41.0), NOVO, PAPER_HI, 6, None, False), ((-7.6, 33.6), NOVO, PAPER_HI, 6, None, False)],
+            pins=[(72.8, 19.0, "INDIA", PAPER_HI, None), (29.0, 41.0, "TURKEY", PAPER_HI, None), (-7.6, 33.6, "MOROCCO", PAPER_HI, None), (-80.5, 30.5, "US REFINERS", CYAN, 0)],
+            title="THE ARROWS REVERSED: FUEL FLOWING INTO RUSSIA", tag=t),
 "W-05": lambda o, t: bars([("KYRGYZSTAN · PETROL", 90), ("TAJIKISTAN · FUEL IMPORTS", 84)], title="SHARE OF FUEL FROM RUSSIA", unit="%", tag=t, fmt="{:.0f}"),
 "W-07": lambda o, t: map_scene(CASIA, 5, hi=["Kazakhstan", "Kyrgyzstan", "Tajikistan", "Uzbekistan", "Turkmenistan"], title="FAR FROM THE FRONT · STILL PAYING", tag=t,
             pins=[(74.6, 42.87, "BISHKEK", PAPER_HI, None), (68.78, 38.56, "DUSHANBE", PAPER_HI, None), (69.24, 41.3, "TASHKENT", PAPER_HI, None)]),
 "W-08": lambda o, t: number("8.9 TRN ₽", "Russia's 2026 oil and gas revenue forecast, cut in September", kicker="MOSCOW'S BUDGET", strike="7.6 TRN ₽", tag=t),
 "W-09": lambda o, t: receipt([("UK DIESEL, FAMILY CAR", "≈ £110"), ("US TRUCK, 150 GAL", "≈ $920"), ("CENTRAL ASIA PUMPS", "+15-25%"), ("YOUR SHARE", "?")], title="RUNNING TOTAL", tag=t, show=2, cues_from=[sn(0) + 1.0, c(0, sn(1) + 1)]),
 "P6-01": lambda o, t: part(7, "Your table"),
-"P6-02": lambda o, t: chain(["Farm", "Truck", "Factory", "Lorry", "Shop"], title="EVERYTHING YOU EAT RODE ON DIESEL", tag=t, cues=None),
-"P6-03": lambda o, t: maths(o, t, ["100,000 miles a year", "÷ 6.5 miles a gallon = 15,385 gallons", "× $2.29 more a gallon"], "≈ +$35,000 A YEAR", 0),
+"P6-02": lambda o, t: chain(["Farm", "Truck", "Factory", "Lorry", "Shop"], title="EVERYTHING YOU EAT RODE ON DIESEL", tag=t, times=[sn(1), sn(2), sn(2) + 1.3, sn(3), c(0, sn(3) + 1.3)]),
+"P6-03": lambda o, t: maths(o, t, ["100,000 miles a year", "÷ 6.5 mpg = 15,385 gallons", "× $2.29 more per gallon"], "≈ +$35,000 A YEAR", 0),
 "P6-10": lambda o, t: receipt([("UK DIESEL, FAMILY CAR", "≈ £110"), ("US TRUCK, 150 GAL", "≈ $920"), ("CENTRAL ASIA PUMPS", "+15-25%"), ("THE GAP RUSSIA LEFT", "IN EVERY DELIVERY")], title="RUNNING TOTAL", tag=t, show=3, cues_from=[c(0, 2.0)]),
 "P6-11": comment_q,
 "P7-01": lambda o, t: part(8, "What happens next"),
@@ -327,7 +328,7 @@ SPEC = {
 "RC-05": lambda o, t: receipt(FULL_RECEIPT[:4], show=3, cues_from=[0.3]),
 "RC-06": lambda o, t: receipt(FULL_RECEIPT[:5], show=4, cues_from=[0.3]),
 "RC-07": lambda o, t: receipt(FULL_RECEIPT, show=5, cues_from=[0.4], final_stamp="PAID BY YOU"),
-"RC-08": lambda o, t: endcard(),
+"RC-08": lambda o, t: endcard(next_title="MORE BILLS"),
 }
 
 def _drone_count(o, t):
@@ -357,7 +358,7 @@ SPEC.update({
 "P2-11b": lambda o, t: _ua_energy(o, t),
 "P5-10b": lambda o, t: map_scene(WORLD, 3, hi=["Russia"], hi2=["United States of America"], arcs=[(PRIM, (-74.0, 40.6), WARN, 4, 0, False)],
             pins=[(-74.0, 40.6, "US EAST COAST", PAPER_HI, None)], title="RUSSIAN FUEL TO THE US · OCT 2026: ≈ 34,000 BARRELS A DAY", tag=t),
-"P5-12b": lambda o, t: quote("Not significant.", "Alexander Novak, Russia's deputy prime minister", "October 2026", tag=t),
+"P5-12b": lambda o, t: card(["NO SIGNIFICANT EFFECT ON EXPORTS"], kicker="RUSSIA'S DEPUTY PM, ALEXANDER NOVAK, SAYS THE ATTACKS WILL HAVE", tag=t, stamp_txt="CLAIM", cues=[-1]),
 "W-06b": lambda o, t: bars([("CHINA'S JET FUEL OFFER", 3000), ("KYRGYZSTAN'S FUEL, ONE MONTH", 125000)], title="HELP vs NEED (TONNES)", unit=" t", tag=t),
 "P7-05b": lambda o, t: chain(["Bans roll over", "Belarus trains", "Winter demand"], title="SCENARIO 1 · WHAT IT LOOKS LIKE", tag=t),
 "P7-06b": lambda o, t: linechart({"PRICE": [("SHOCK", 1.0), ("", 3.0), ("", 2.8), ("", 2.5), ("", 2.2), ("", 1.9), ("", 1.6)]}, title="UP LIKE A ROCKET, DOWN LIKE A FEATHER", tag="SCENARIO · SHAPE ILLUSTRATIVE", ylab_fmt=""),
@@ -399,3 +400,11 @@ SPEC.update({
 "P6-08c": lambda o, t: receipt([("BUS FARE", "UP"), ("DELIVERY CHARGE", "UP"), ("FIELD WATERED", "LESS OFTEN"), ("SIGNED BY YOU", "NEVER")], title="SMALL LINES", tag="ILLUSTRATION", show=0, cues_from=[sn(1) + 0.4, c(0), c(0) + 1.6, c(1)]),
 "P7-08": lambda o, t: tiles([("1", "same pace"), ("2", "ceasefire"), ("3", "strikes widen")], title="SCENARIOS, NOT FORECASTS", tag="SCENARIO", cues=None),
 })
+
+# ---- 360p review round 1 ----
+def _co01(o, t):
+    im = map_scene(KERCH, 10, lines=[(BR[0], BR[1], ORANGE, 6, None, False)],
+                   pins=[(36.585, 45.275, "EXPLOSION REPORTED · ~02:22", RED, 0), (*KER, "CRIMEA", PAPER_HI, None), (*TAMAN, "RUSSIA", PAPER_HI, None)],
+                   title="CRIMEAN BRIDGE · 16 NOV 2026", tag=t)
+    return im
+SPEC["CO-01"] = _co01

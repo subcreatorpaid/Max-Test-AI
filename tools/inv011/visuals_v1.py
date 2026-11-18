@@ -2,7 +2,7 @@
 # A second entry is a cutaway after the graphic's hit (footage must match the words in that half of the line).
 # Asset names: first footage = <code>, second = <code>x. Pixabay queries; pick by eye from candidates.
 V = {
-"CO-01":[("F","bridge night lights water")],
+"CO-01":[("G",),("F","bridge night lights water")],
 "CO-02":[("G",)],
 "CO-03":[("G",),("F","gas station night")],
 "CO-04":[("G",),("F","fuel pump nozzle refuel car")],
