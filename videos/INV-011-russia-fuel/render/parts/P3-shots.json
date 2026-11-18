@@ -1,0 +1,260 @@
+{
+ "part": "P3",
+ "dur": 256.68,
+ "vo_dur": 256.67045833333333,
+ "shots": [
+  {
+   "code": "P3-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.88,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P3-02",
+   "kind": "gfx",
+   "t": 5.88,
+   "dur": 13.44,
+   "off": 0.0,
+   "cues": [
+    11.977
+   ],
+   "sfx": "stamp",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P3-03",
+   "kind": "gfx",
+   "t": 19.32,
+   "dur": 16.2,
+   "off": 0.0,
+   "cues": [
+    7.547,
+    13.884
+   ],
+   "sfx": "stamp x3",
+   "tr": "hblur"
+  },
+  {
+   "code": "P3-04",
+   "kind": "gfx",
+   "t": 35.52,
+   "dur": 16.96,
+   "off": 0.0,
+   "cues": [
+    6.655,
+    12.991
+   ],
+   "sfx": "pin drops x17",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P3-05",
+   "kind": "photo",
+   "t": 52.48,
+   "dur": 10.0,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "city air",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P3-06",
+   "kind": "gfx",
+   "t": 62.48,
+   "dur": 16.0,
+   "off": 0.0,
+   "cues": [
+    9.03
+   ],
+   "sfx": "price tag flip",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P3-07",
+   "kind": "gfx",
+   "t": 78.48,
+   "dur": 11.64,
+   "off": 0.0,
+   "cues": [
+    10.308
+   ],
+   "sfx": "wind",
+   "tr": "slideup"
+  },
+  {
+   "code": "P3-08",
+   "kind": "gfx",
+   "t": 90.12,
+   "dur": 11.0,
+   "off": 0.0,
+   "cues": [
+    5.01
+   ],
+   "sfx": "chart grow",
+   "tr": "radial"
+  },
+  {
+   "code": "P3-08b",
+   "kind": "gfx",
+   "t": 101.12,
+   "dur": 16.36,
+   "off": 0.0,
+   "cues": [
+    14.516
+   ],
+   "sfx": "pen scratch",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P3-09b",
+   "kind": "gfx",
+   "t": 117.48,
+   "dur": 9.32,
+   "off": 0.0,
+   "cues": [
+    7.127
+   ],
+   "sfx": "tick x3",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P3-09b",
+   "kind": "clip",
+   "t": 126.8,
+   "dur": 4.68,
+   "off": 9.327250000000003,
+   "cues": [],
+   "sfx": "tick x3",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P3-09",
+   "kind": "gfx",
+   "t": 131.48,
+   "dur": 7.92,
+   "off": 0.0,
+   "cues": [
+    5.109
+   ],
+   "sfx": "paper slide",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P3-10",
+   "kind": "gfx",
+   "t": 139.4,
+   "dur": 15.88,
+   "off": 0.0,
+   "cues": [
+    5.46
+   ],
+   "sfx": "chart grow, sub hit",
+   "tr": "hblur"
+  },
+  {
+   "code": "P3-10b",
+   "kind": "gfx",
+   "t": 155.28,
+   "dur": 17.8,
+   "off": 0.0,
+   "cues": [
+    12.896
+   ],
+   "sfx": "chart grow",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P3-11",
+   "kind": "gfx",
+   "t": 173.08,
+   "dur": 7.44,
+   "off": 0.0,
+   "cues": [
+    4.535
+   ],
+   "sfx": "deep whoosh x3",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P3-11",
+   "kind": "clip",
+   "t": 180.52,
+   "dur": 7.4,
+   "off": 7.409208333333339,
+   "cues": [],
+   "sfx": "deep whoosh x3",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P3-12",
+   "kind": "photo",
+   "t": 187.92,
+   "dur": 12.6,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "engine idle",
+   "tr": "slideup"
+  },
+  {
+   "code": "P3-13",
+   "kind": "gfx",
+   "t": 200.52,
+   "dur": 13.24,
+   "off": 0.0,
+   "cues": [
+    8.321
+   ],
+   "sfx": "printer",
+   "tr": "radial"
+  },
+  {
+   "code": "P3-14",
+   "kind": "gfx",
+   "t": 213.76,
+   "dur": 9.2,
+   "off": 0.0,
+   "cues": [
+    7.02
+   ],
+   "sfx": "counter roll, sub hit",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P3-14",
+   "kind": "clip",
+   "t": 222.96,
+   "dur": 5.12,
+   "off": 9.21970833333334,
+   "cues": [],
+   "sfx": "counter roll, sub hit",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P3-15",
+   "kind": "gfx",
+   "t": 228.08,
+   "dur": 15.96,
+   "off": 0.0,
+   "cues": [
+    2.659,
+    14.501
+   ],
+   "sfx": "chart grow",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P3-16",
+   "kind": "gfx",
+   "t": 244.04,
+   "dur": 12.64,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "silence, then riser",
+   "tr": "smoothleft"
+  }
+ ]
+}
