@@ -12,7 +12,7 @@ Geopolitics, war, sanctions, a choke point, a power struggle or the history of o
 3. **Rings:** the thing, the line, the region, the money, your table.
 
 ## Voice
-One calm, measured narrator (Kokoro, `am_onyx:0.5,am_michael:0.5`, speed 0.92, about 132 wpm, -16 LUFS). Sober, empathetic, never hype. Clear neutral American English. One idea per sentence, most under 20 words. Evergreen wording: no "today / this week"; every number carries month and year.
+One calm, measured narrator. From INV-011 (2026-11-18, Hammad asked for a better documentary voice): Kokoro `bm_george:0.5,bm_lewis:0.5`, speed 0.9, en-gb, about 125 wpm, -16 LUFS: a deep British documentary voice. (INV-002 to INV-010 used `am_onyx:0.5,am_michael:0.5`, speed 0.92.) Sober, empathetic, never hype. Clear British English. One idea per sentence, most under 20 words. Evergreen wording: no "today / this week"; every number carries month and year.
 
 ## Look (locked in `docs/video-process.md`)
 - Colours: ink black (16,15,14), paper (236,228,214), orange (232,89,12). Weapons red #E63946, water cyan #00B4D8, SPENT crimson #C1121F, warning orange #FF5400.

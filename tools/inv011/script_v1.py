@@ -54,7 +54,7 @@ part("Part 1: The bridge", "~1:30", [
 ])
 
 part("Subscribe bridge", "~5:00", [
-("BR-01", "If you want to see every line of a bill like this before it reaches your account, subscribe. Our last video followed Taiwan to your phone and your pension. This one follows a drone to your diesel.", "",
+("BR-01", "If you want to see every line of a bill like this before it reaches your account, subscribe. Every video on this channel follows one crisis to your bill. This one follows a drone to your diesel.", "",
  "G running-invoice card + SUBSCRIBE button; end-screen tile INV-009", "SUBSCRIBE · EVERY CRISIS SENDS A BILL", "", "soft tick"),
 ])
 

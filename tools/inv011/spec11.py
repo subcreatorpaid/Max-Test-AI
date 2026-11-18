@@ -45,7 +45,7 @@ def subscribe_card(o, t):
     d.rrect((W/2 - 190, 300, W/2 + 190, 390), 14, fill=alpha(CRIMSON, a)); center(d, 320, "SUBSCRIBE", f(44, "inter"), alpha(PAPER_HI, a))
     b = seg(sn(1), 0.5)
     d.rect((W/2 - 260, 440, W/2 + 260, 600), fill=alpha((40, 37, 34), b), outline=alpha(ORANGE, b), width=3)
-    center(d, 462, "LAST TIME ON THE INVOICE", f(22, "inter"), alpha(ORANGE, b)); center(d, 500, "TAIWAN 2027: YOUR BILL", f(40, "inter"), alpha(PAPER_HI, b))
+    center(d, 462, "THIS TIME", f(22, "inter"), alpha(ORANGE, b)); center(d, 500, "A DRONE → YOUR DIESEL", f(40, "inter"), alpha(PAPER_HI, b))
     return im
 
 def refinery_cut(o, t):
