@@ -1,0 +1,88 @@
+{
+ "part": "CO",
+ "dur": 82.24,
+ "vo_dur": 82.25133333333333,
+ "shots": [
+  {
+   "code": "CO-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 10.24,
+   "off": 0.0,
+   "cues": [
+    5.687
+   ],
+   "sfx": "low boom, sub hit on 'fireball'",
+   "tr": ""
+  },
+  {
+   "code": "CO-02",
+   "kind": "gfx",
+   "t": 10.24,
+   "dur": 14.52,
+   "off": 0.0,
+   "cues": [
+    2.503,
+    13.191
+   ],
+   "sfx": "swarm hiss, counter ticks",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "CO-03",
+   "kind": "gfx",
+   "t": 24.76,
+   "dur": 10.84,
+   "off": 0.0,
+   "cues": [
+    8.635
+   ],
+   "sfx": "stamp thud",
+   "tr": "hblur"
+  },
+  {
+   "code": "CO-03",
+   "kind": "clip",
+   "t": 35.6,
+   "dur": 3.56,
+   "off": 10.835083333333333,
+   "cues": [],
+   "sfx": "stamp thud",
+   "tr": "dissolve"
+  },
+  {
+   "code": "CO-04",
+   "kind": "gfx",
+   "t": 39.16,
+   "dur": 19.64,
+   "off": 0.0,
+   "cues": [
+    4.78,
+    12.403,
+    16.405
+   ],
+   "sfx": "ticker roll, sub hit",
+   "tr": "wiperight"
+  },
+  {
+   "code": "CO-05",
+   "kind": "gfx",
+   "t": 58.8,
+   "dur": 12.32,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "receipt printer burst",
+   "tr": "zoomin"
+  },
+  {
+   "code": "CO-06",
+   "kind": "gfx",
+   "t": 71.12,
+   "dur": 11.12,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "riser",
+   "tr": "slideup"
+  }
+ ]
+}
