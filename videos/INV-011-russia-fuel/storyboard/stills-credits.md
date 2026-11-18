@@ -2,6 +2,22 @@
 
 | Code | Query | Pixabay id | Creator | Page |
 |---|---|---|---|---|
+| P6-08_1 | soviet apartment buildings | 4235963 | kostanayneversleeps | https://pixabay.com/photos/ghetto-city-urban-underground-4235963/ |
+| P6-08_2 | soviet apartment buildings | 5452380 | oleg_mit | https://pixabay.com/photos/architecture-building-windows-house-5452380/ |
+| P6-08_3 | soviet apartment buildings | 1335225 | 1139623 | https://pixabay.com/photos/moscow-russia-rooftops-soviet-1335225/ |
+| P6-08_4 | soviet apartment buildings | 1834899 | Pexels | https://pixabay.com/photos/architecture-building-grass-old-1834899/ |
+| W-06bx_1 | oil refinery kazakhstan | 3613522 | SatyaPrem | https://pixabay.com/photos/refinery-oil-industry-silhouette-3613522/ |
+| W-06bx_2 | oil refinery kazakhstan | 3613526 | SatyaPrem | https://pixabay.com/photos/refinery-oil-industry-gas-3613526/ |
+| W-06bx_3 | oil refinery kazakhstan | 2251247 | michaelmep | https://pixabay.com/photos/refinery-oil-refinery-oil-industry-2251247/ |
+| W-06bx_4 | oil refinery kazakhstan | 9448741 | Tho-Ge | https://pixabay.com/photos/nature-industry-sunrise-trees-9448741/ |
+| P1-05bx_1 | sevastopol | 4528720 | Svetlana_Novikova | https://pixabay.com/photos/victory-day-st-george-ribbon-parade-4528720/ |
+| P1-05bx_2 | sevastopol | 2265384 | zelenskayao | https://pixabay.com/photos/victory-day-sevastopol-parade-2265384/ |
+| P1-05bx_3 | sevastopol | 3683495 | tanya_feyfits | https://pixabay.com/photos/chersonesus-sevastopol-crimea-3683495/ |
+| P1-05bx_4 | sevastopol | 3683494 | tanya_feyfits | https://pixabay.com/photos/chersonesus-sevastopol-crimea-3683494/ |
+| P3-08x_1 | russia gas station | 3714297 | Tama66 | https://pixabay.com/photos/railway-station-subway-train-station-3714297/ |
+| P3-08x_2 | russia gas station | 3714290 | Tama66 | https://pixabay.com/photos/metro-station-subway-3714290/ |
+| P3-08x_3 | russia gas station | 1839760 | Pexels | https://pixabay.com/photos/filling-station-gas-gas-station-1839760/ |
+| P3-08x_4 | russia gas station | 1914310 | 652234 | https://pixabay.com/photos/gas-pump-petrol-stations-petrol-gas-1914310/ |
 | P1-03x_1 | bridge construction cranes sea | 2840044 | minjejo01 | https://pixabay.com/photos/sandal-island-bridge-construction-2840044/ |
 | P1-03x_2 | bridge construction cranes sea | 7848348 | Tommmy_ | https://pixabay.com/photos/buildings-high-rise-building-crane-7848348/ |
 | P1-03x_3 | bridge construction cranes sea | 3703469 | analogicus | https://pixabay.com/photos/cranes-construction-load-crane-3703469/ |
