@@ -1,0 +1,171 @@
+{
+ "part": "P7",
+ "dur": 149.84,
+ "vo_dur": 149.83758333333333,
+ "shots": [
+  {
+   "code": "P7-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.92,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P7-02",
+   "kind": "gfx",
+   "t": 4.92,
+   "dur": 6.84,
+   "off": 0.0,
+   "cues": [
+    3.576
+   ],
+   "sfx": "pen scratch",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P7-02",
+   "kind": "clip",
+   "t": 11.76,
+   "dur": 6.88,
+   "off": 6.864729166666668,
+   "cues": [],
+   "sfx": "pen scratch",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P7-03",
+   "kind": "gfx",
+   "t": 18.64,
+   "dur": 11.28,
+   "off": 0.0,
+   "cues": [
+    1.593
+   ],
+   "sfx": "pen scratch",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P7-04",
+   "kind": "gfx",
+   "t": 29.92,
+   "dur": 8.48,
+   "off": 0.0,
+   "cues": [
+    1.174
+   ],
+   "sfx": "pen scratch",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P7-04b",
+   "kind": "gfx",
+   "t": 38.4,
+   "dur": 13.76,
+   "off": 0.0,
+   "cues": [
+    9.431
+   ],
+   "sfx": "whip",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P7-05",
+   "kind": "gfx",
+   "t": 52.16,
+   "dur": 11.56,
+   "off": 0.0,
+   "cues": [
+    9.542
+   ],
+   "sfx": "tick",
+   "tr": "slideup"
+  },
+  {
+   "code": "P7-05b",
+   "kind": "gfx",
+   "t": 63.72,
+   "dur": 12.2,
+   "off": 0.0,
+   "cues": [
+    8.133
+   ],
+   "sfx": "tick x3",
+   "tr": "radial"
+  },
+  {
+   "code": "P7-06",
+   "kind": "gfx",
+   "t": 75.92,
+   "dur": 11.52,
+   "off": 0.0,
+   "cues": [
+    9.592
+   ],
+   "sfx": "tick",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P7-06b",
+   "kind": "gfx",
+   "t": 87.44,
+   "dur": 13.52,
+   "off": 0.0,
+   "cues": [
+    11.96
+   ],
+   "sfx": "whoosh up, soft fall",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P7-07",
+   "kind": "gfx",
+   "t": 100.96,
+   "dur": 12.0,
+   "off": 0.0,
+   "cues": [
+    5.177
+   ],
+   "sfx": "sub hit",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P7-07b",
+   "kind": "gfx",
+   "t": 112.96,
+   "dur": 13.56,
+   "off": 0.0,
+   "cues": [
+    9.811
+   ],
+   "sfx": "sub hit",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P7-08",
+   "kind": "gfx",
+   "t": 126.52,
+   "dur": 12.08,
+   "off": 0.0,
+   "cues": [
+    10.622
+   ],
+   "sfx": "low drone",
+   "tr": "hblur"
+  },
+  {
+   "code": "P7-08b",
+   "kind": "gfx",
+   "t": 138.6,
+   "dur": 11.24,
+   "off": 0.0,
+   "cues": [
+    9.888
+   ],
+   "sfx": "low pulse",
+   "tr": "circleopen"
+  }
+ ]
+}
