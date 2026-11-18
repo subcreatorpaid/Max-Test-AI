@@ -62,3 +62,6 @@ Bridge damage extent (Russia says minor); the 55% figure (Kyiv only); Nov produc
 | F40 | Euro 2/3/4 petrol permitted in Russia through 1 Jul 2027 | VERIFIED | IEA via OGJ 14 Sep 2026 |
 | F41 | Zelensky 15 Nov: strikes incl. "Russia's largest oil refinery" ~2,500 km from Ukraine's border; Samara, Volgograd | CLAIM | Kyiv Independent |
 | F42 | Drone attacks resumed after a two-week pause in Oct, incl. Kirishi and Omsk refineries | REPORTED | IEA via gCaptain 13 Nov 2026 |
+| F43 | Zelensky 15 Nov 2026: Dnipro region 131 Russian strikes on energy infrastructure; 10-11 Nov Russia struck six major power substations in four oblasts | CLAIM / REPORTED | Kyiv Independent 15-16 Nov 2026 |
+| F44 | Russian refined product exports to the US: 33,774 b/d in Oct 2026, up from zero in Sep; US had not imported Russian oil or gas since 2022 | REPORTED | S&P Global 11 Nov 2026; AP 9 Oct 2026 |
+| F45 | China agreed to supply Kyrgyzstan 3,000 t jet fuel (5,000 t diesel possible); Kyrgyz fuel use ~125,000 t/month; Kazakhstan and Uzbekistan expanding refining | REPORTED | bne IntelliNews 7 Aug 2026 |

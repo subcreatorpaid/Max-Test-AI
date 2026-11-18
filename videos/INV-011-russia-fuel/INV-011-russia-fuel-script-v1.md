@@ -1,7 +1,7 @@
 # INV-011 Russia's Fuel Crisis: script v1 (2026-11-18)
 
 Working title: **Russia's Fuel Crisis Is Coming for Your Diesel Bill**
-Words: 3455 (≈ 25.4 min at the narrator's pace)
+Words: 3705 (≈ 27.2 min at the narrator's pace)
 
 Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: facts.md. Not financial advice.
 
@@ -152,6 +152,10 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 **P2-11** Russia fights back. It has moved air defences to refineries, hung nets over the towers and jammed the drones. Its defence ministry says it shoots most of them down. But it only has to miss a few.
 > Visual: S anti-drone netting / steel lattice over industrial plant (COLOUR)  
 > On screen: NETS · JAMMERS · AIR DEFENCE · Tag: - · Facts: - · SFX: metal creak
+
+**P2-11b** And the energy war runs both ways. Zelensky said Ukraine's Dnipro region alone has taken a hundred and thirty-one Russian strikes on its energy system. On the tenth and eleventh of November, Russia hit six major power substations in four regions.
+> Visual: G terrain map of Ukraine: Dnipro region glows red, counter 131; four region pins strike  
+> On screen: DNIPRO: 131 STRIKES ON ENERGY · Tag: CLAIM · Zelensky via Kyiv Independent, 15 Nov 2026 · Facts: F43 · SFX: pin drops, counter
 
 **P2-12** And every refinery that stops doesn't just stop making fuel. It stops making money. Refined fuel sells for more than crude. So this is a war on Russia's wallet, as much as its tanks.
 > Visual: G scale: crude barrel vs fuel can, the can is worth more; arrow labelled WALLET  
@@ -331,6 +335,10 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 > Visual: G two quote strips slide in, then a stamp 'BAN LIFTED · 10 OCT'  
 > On screen: 'WEAK DECISION' · 'DECK CHAIRS' · Tag: REPORTED · AP; S&P Global · Facts: F24 F26 · SFX: paper x2, stamp
 
+**P5-10b** Some of that diesel crossed the Atlantic. In October, Russia shipped about thirty-four thousand barrels a day of fuel to the United States, up from zero the month before. Four years after America stopped buying Russian oil at all.
+> Visual: G world map: one arc Baltic → US East Coast; 33,774 b/d counts up  
+> On screen: ≈ 34,000 BARRELS/DAY TO THE US · Tag: REPORTED · S&P Global, 11 Nov 2026; AP · Facts: F44 · SFX: deep whoosh, counter
+
 **P5-11** Did it work? A little. By the tenth of November, US diesel was down to about six dollars thirteen. Still more than two dollars a gallon above a year earlier.
 > Visual: G line: US diesel Sep peak 6.52 → 6.28 (9 Oct) → 6.13 (10 Nov); faded year-ago 3.84 line  
 > On screen: $6.13 · +$2.29 ON A YEAR · Tag: VERIFIED · EIA via FleetOwner · Facts: F31 · SFX: chart grow
@@ -338,6 +346,10 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 **P5-12** But the drones didn't stop. After a short pause in October, the attacks resumed, on refineries like Kirishi and Omsk. Every new hit means less diesel to send.
 > Visual: G terrain map: Kirishi and Omsk pins pulse red; drone paths draw  
 > On screen: KIRISHI · OMSK · Tag: REPORTED · IEA via gCaptain · Facts: - · SFX: target clicks
+
+**P5-12b** Russia's deputy prime minister, Alexander Novak, said the attacks would not have a significant effect on exports. Ukraine's drones are testing that claim every week.
+> Visual: G quote strip: 'NOT SIGNIFICANT' · Alexander Novak; a strike counter ticks beside it  
+> On screen: 'NOT SIGNIFICANT' · NOVAK · Tag: CLAIM · Novak via Bloomberg / gCaptain · Facts: F26 · SFX: paper slide, ticks
 
 **P5-13** So here's your half-receipt. A British diesel fill-up around a hundred and ten pounds. An American truck tank around nine hundred dollars. And a world competing for diesel that Russia can't reliably make.
 > Visual: G half-receipt: UK ≈ £110 · US truck ≈ $920 · RUSSIAN DIESEL: ? (stamp UNRELIABLE)  
@@ -372,6 +384,10 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 **W-06** When Russia stopped exporting, pump prices across the region rose fifteen to twenty-five percent in a year. Uzbekistan's national airline cut some flights to Russia in June because jet fuel was too scarce and too expensive.
 > Visual: S airport apron with parked airliners at dusk (CALM)  
 > On screen: +15-25% AT THE PUMP · FLIGHTS CUT · Tag: REPORTED · Carnegie via bne IntelliNews · Facts: F37 · SFX: jet whine far
+
+**W-06b** Kazakhstan, the biggest economy in the region, is building up its own refineries. Kyrgyzstan and Tajikistan, with almost none, have turned to China and their neighbours. China agreed to send Kyrgyzstan three thousand tonnes of jet fuel. Kyrgyzstan uses about a hundred and twenty-five thousand tonnes of fuel a month.
+> Visual: G two bars: CHINA'S OFFER 3,000 t vs KYRGYZSTAN'S MONTH 125,000 t  
+> On screen: 3,000 t vs 125,000 t A MONTH · Tag: REPORTED · Carnegie via bne IntelliNews · Facts: F37 · SFX: chart grow
 
 **W-07** These are countries far from the front line, paying for a war they're not fighting. And with winter coming and the harvest in, they need diesel most of all.
 > Visual: G terrain map of Central Asia: five countries dim one by one, snowflake icon  
@@ -465,13 +481,25 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 > Visual: G scenario card 1 (SCENARIO tag): arrow stays high  
 > On screen: SCENARIO 1 · THE SQUEEZE STAYS · Tag: SCENARIO · Facts: - · SFX: tick
 
+**P7-05b** That would mean more export bans rolling over, more fuel trains from Belarus, and diesel staying expensive through the winter, just as demand for heating oil peaks.
+> Visual: G scenario 1 detail: three icons (ban, train, snowflake) light in turn  
+> On screen: BANS · TRAINS · WINTER · Tag: SCENARIO · Facts: - · SFX: tick x3
+
 **P7-06** Scenario two: a ceasefire, or a deal that stops strikes on energy. Refineries get repaired over months, not weeks, and diesel eases slowly.
 > Visual: G scenario card 2: arrow drifts down slowly  
 > On screen: SCENARIO 2 · A SLOW EASE · Tag: SCENARIO · Facts: - · SFX: tick
 
+**P7-06b** Even then, it takes time. Damaged towers need parts, and Western parts are hard to buy under sanctions. Fuel prices tend to rise like a rocket and fall like a feather.
+> Visual: G 'rocket and feather' line: steep rise, slow decline  
+> On screen: UP LIKE A ROCKET · DOWN LIKE A FEATHER · Tag: SCENARIO · shape illustrative · Facts: - · SFX: whoosh up, soft fall
+
 **P7-07** Scenario three: the strikes widen, to ports and pipelines, and Russia's crude exports get hit too. Then it isn't just diesel. It's oil itself.
 > Visual: G scenario card 3: arrow spikes, crimson  
 > On screen: SCENARIO 3 · THE WIDER WAR · Tag: SCENARIO · Facts: - · SFX: sub hit
+
+**P7-07b** Russia is still one of the world's biggest crude exporters. If those barrels were hit, it wouldn't be a diesel squeeze any more. It would be an oil shock, on top of the one from the Gulf.
+> Visual: G two shock waves overlap: GULF + RUSSIA crude  
+> On screen: TWO OIL SHOCKS AT ONCE · Tag: SCENARIO · Facts: F28 · SFX: sub hit
 
 **P7-08** These are scenarios, not forecasts. Nobody knows which one we get. But every one of them starts with the same question: how many refineries are still burning?
 > Visual: F refinery flare at night (INTENSE)  
