@@ -1,0 +1,255 @@
+{
+ "part": "P2",
+ "dur": 267.64,
+ "vo_dur": 267.6410833333333,
+ "shots": [
+  {
+   "code": "P2-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.88,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P2-02",
+   "kind": "gfx",
+   "t": 4.88,
+   "dur": 6.56,
+   "off": 0.0,
+   "cues": [
+    4.338
+   ],
+   "sfx": "liquid pour, tick x3",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P2-02",
+   "kind": "clip",
+   "t": 11.44,
+   "dur": 5.76,
+   "off": 6.537708333333333,
+   "cues": [],
+   "sfx": "liquid pour, tick x3",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-03",
+   "kind": "gfx",
+   "t": 17.2,
+   "dur": 12.8,
+   "off": 0.0,
+   "cues": [
+    1.298
+   ],
+   "sfx": "pin drops",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P2-04",
+   "kind": "gfx",
+   "t": 30.0,
+   "dur": 13.16,
+   "off": 0.0,
+   "cues": [
+    3.259,
+    6.749,
+    8.459
+   ],
+   "sfx": "propeller buzz",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P2-04b",
+   "kind": "gfx",
+   "t": 43.16,
+   "dur": 13.68,
+   "off": 0.0,
+   "cues": [
+    3.268
+   ],
+   "sfx": "workshop tools",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P2-04c",
+   "kind": "gfx",
+   "t": 56.84,
+   "dur": 14.88,
+   "off": 0.0,
+   "cues": [
+    5.162
+   ],
+   "sfx": "deep whoosh",
+   "tr": "slideup"
+  },
+  {
+   "code": "P2-04d",
+   "kind": "gfx",
+   "t": 71.72,
+   "dur": 16.32,
+   "off": 0.0,
+   "cues": [
+    2.878
+   ],
+   "sfx": "swarm hiss under, sub hit on number",
+   "tr": "radial"
+  },
+  {
+   "code": "P2-05",
+   "kind": "gfx",
+   "t": 88.04,
+   "dur": 10.92,
+   "off": 0.0,
+   "cues": [
+    8.709
+   ],
+   "sfx": "target lock",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P2-05",
+   "kind": "photo",
+   "t": 98.96,
+   "dur": 9.72,
+   "off": 10.908875000000005,
+   "cues": [],
+   "sfx": "target lock",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-06",
+   "kind": "gfx",
+   "t": 108.68,
+   "dur": 13.12,
+   "off": 0.0,
+   "cues": [
+    11.174
+   ],
+   "sfx": "stamp ticks",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P2-07",
+   "kind": "gfx",
+   "t": 121.8,
+   "dur": 13.8,
+   "off": 0.0,
+   "cues": [
+    3.546
+   ],
+   "sfx": "chart grow, sub hit",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P2-07b",
+   "kind": "gfx",
+   "t": 135.6,
+   "dur": 14.2,
+   "off": 0.0,
+   "cues": [
+    12.014
+   ],
+   "sfx": "gauge fill",
+   "tr": "hblur"
+  },
+  {
+   "code": "P2-08",
+   "kind": "gfx",
+   "t": 149.8,
+   "dur": 12.88,
+   "off": 0.0,
+   "cues": [
+    7.856
+   ],
+   "sfx": "gauge fill, stamp",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P2-09",
+   "kind": "gfx",
+   "t": 162.68,
+   "dur": 15.16,
+   "off": 0.0,
+   "cues": [
+    2.586,
+    6.818,
+    12.21
+   ],
+   "sfx": "click x27, counter",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P2-10",
+   "kind": "gfx",
+   "t": 177.84,
+   "dur": 17.0,
+   "off": 0.0,
+   "cues": [
+    9.806
+   ],
+   "sfx": "chart grow",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P2-11",
+   "kind": "photo",
+   "t": 194.84,
+   "dur": 15.96,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "metal creak",
+   "tr": "slideup"
+  },
+  {
+   "code": "P2-11b",
+   "kind": "gfx",
+   "t": 210.8,
+   "dur": 19.6,
+   "off": 0.0,
+   "cues": [
+    7.089
+   ],
+   "sfx": "pin drops, counter",
+   "tr": "radial"
+  },
+  {
+   "code": "P2-12",
+   "kind": "gfx",
+   "t": 230.4,
+   "dur": 14.56,
+   "off": 0.0,
+   "cues": [
+    5.641
+   ],
+   "sfx": "coin drop",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P2-12b",
+   "kind": "gfx",
+   "t": 244.96,
+   "dur": 16.12,
+   "off": 0.0,
+   "cues": [
+    9.301
+   ],
+   "sfx": "typewriter, stamp",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-13",
+   "kind": "gfx",
+   "t": 261.08,
+   "dur": 6.56,
+   "off": 0.0,
+   "cues": [
+    5.025
+   ],
+   "sfx": "low pulse",
+   "tr": "fadewhite"
+  }
+ ]
+}
