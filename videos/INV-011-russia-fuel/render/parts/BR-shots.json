@@ -1,0 +1,17 @@
+{
+ "part": "BR",
+ "dur": 14.76,
+ "vo_dur": 14.776375,
+ "shots": [
+  {
+   "code": "BR-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 14.76,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "soft tick",
+   "tr": ""
+  }
+ ]
+}
