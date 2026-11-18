@@ -1,0 +1,133 @@
+{
+ "part": "P4",
+ "dur": 135.76,
+ "vo_dur": 135.74066666666667,
+ "shots": [
+  {
+   "code": "P4-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.76,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P4-02",
+   "kind": "photo",
+   "t": 4.76,
+   "dur": 15.72,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "old film crackle",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P4-03",
+   "kind": "gfx",
+   "t": 20.48,
+   "dur": 9.8,
+   "off": 0.0,
+   "cues": [
+    5.841
+   ],
+   "sfx": "deep whoosh, target clicks",
+   "tr": "hblur"
+  },
+  {
+   "code": "P4-04",
+   "kind": "gfx",
+   "t": 30.28,
+   "dur": 16.56,
+   "off": 0.0,
+   "cues": [
+    10.673
+   ],
+   "sfx": "chart drop, sub hit",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P4-05",
+   "kind": "gfx",
+   "t": 46.84,
+   "dur": 14.56,
+   "off": 0.0,
+   "cues": [
+    12.759
+   ],
+   "sfx": "typewriter",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P4-06",
+   "kind": "gfx",
+   "t": 61.4,
+   "dur": 7.44,
+   "off": 0.0,
+   "cues": [
+    5.452
+   ],
+   "sfx": "paper slide",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P4-07",
+   "kind": "gfx",
+   "t": 68.84,
+   "dur": 20.32,
+   "off": 0.0,
+   "cues": [
+    15.276
+   ],
+   "sfx": "whip",
+   "tr": "slideup"
+  },
+  {
+   "code": "P4-08",
+   "kind": "gfx",
+   "t": 89.16,
+   "dur": 18.16,
+   "off": 0.0,
+   "cues": [
+    15.186
+   ],
+   "sfx": "deep whoosh",
+   "tr": "radial"
+  },
+  {
+   "code": "P4-08b",
+   "kind": "gfx",
+   "t": 107.32,
+   "dur": 20.48,
+   "off": 0.0,
+   "cues": [
+    9.517
+   ],
+   "sfx": "two ticks",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P4-09",
+   "kind": "gfx",
+   "t": 127.8,
+   "dur": 4.88,
+   "off": 0.0,
+   "cues": [
+    2.681
+   ],
+   "sfx": "sub hit",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P4-09",
+   "kind": "clip",
+   "t": 132.68,
+   "dur": 3.08,
+   "off": 4.880999999999998,
+   "cues": [],
+   "sfx": "sub hit",
+   "tr": "dissolve"
+  }
+ ]
+}
