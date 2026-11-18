@@ -310,5 +310,11 @@
   "query": "gas flare night",
   "n": 4,
   "min_seconds": 6
+ },
+ {
+  "code": "P5-10bx",
+  "query": "tanker ship ocean night",
+  "n": 4,
+  "min_seconds": 6
  }
 ]
