@@ -1,7 +1,7 @@
 # INV-011 Russia's Fuel Crisis: script v1 (2026-11-18)
 
 Working title: **Russia's Fuel Crisis Is Coming for Your Diesel Bill**
-Words: 3705 (≈ 27.2 min at the narrator's pace)
+Words: 3866 (≈ 28.4 min at the narrator's pace)
 
 Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: facts.md. Not financial advice.
 
@@ -120,6 +120,10 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 **P2-04c** On the fifteenth of November, Zelensky said one strike reached Russia's largest refinery, about two and a half thousand kilometres from Ukraine's border. That's further than London to Moscow.
 > Visual: G terrain map: range ring 2,500 km from the border; London-Moscow line for scale  
 > On screen: ≈ 2,500 KM · Tag: CLAIM · Zelensky via Kyiv Independent · Facts: F08 · SFX: deep whoosh
+
+**P2-04d** That same night, Moscow's mayor said about six hundred drones flew at the capital region alone. Russia says most were shot down. But a drone only has to get through once. A refinery can take months to fix.
+> Visual: G big number ≈ 600, Moscow region, one night; CLAIM stamp  
+> On screen: ≈ 600 DRONES · MOSCOW REGION · Tag: CLAIM · Mayor Sobyanin via Irish Times, 16 Nov 2026 · Facts: F02 · SFX: swarm hiss under, sub hit on number
 
 **P2-05** One of them costs a tiny fraction of the refinery unit it hits. And the part they aim for is the most delicate bit: the distillation column, the tall tower where the oil is split. Those can take weeks or months to repair, and parts made in the West are hard to buy under sanctions.
 > Visual: G refinery tower diagram: target ring on the column; 'WEEKS-MONTHS TO FIX' card  
@@ -281,6 +285,10 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 > Visual: G globe: Russia dims, fuel arcs that used to leave it fade; other arcs scramble  
 > On screen: WHEN RUSSIA'S FUEL VANISHES… · Tag: - · Facts: - · SFX: deep whoosh
 
+**P4-08b** And that market is already stretched. In mid-November, American crude was trading around eighty-eight dollars a barrel, and Brent just under ninety-six, with the American blockade of Iran still in place. Take Russian fuel out of a market like that, and there's no slack left.
+> Visual: G split card: US CRUDE ≈ $88 | BRENT < $96  
+> On screen: WTI ≈ $88 · BRENT < $96 · MID-NOV 2026 · Tag: REPORTED · EnergyNow / CNBC, 13 Nov 2026 · Facts: F32 · SFX: two ticks
+
 **P4-09** And the fuel it used to sell most of? Diesel. The fuel that moves almost everything you buy.
 > Visual: G big word DIESEL, a truck silhouette drives across underneath  
 > On screen: DIESEL · Tag: - · Facts: F14 · SFX: sub hit
@@ -294,6 +302,10 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 **P5-02** Before the drones, Russia exported about half of all the diesel it made. Ships left Baltic and Black Sea ports for Turkey, Brazil, Africa and Asia.
 > Visual: G globe: diesel tanker arcs leave Primorsk and Novorossiysk to Turkey, Brazil, Africa, Asia  
 > On screen: ≈ HALF OF RUSSIA'S DIESEL WAS EXPORTED · Tag: VERIFIED · IEA via OGJ · Facts: F14 · SFX: deep whoosh
+
+**P5-02b** The International Energy Agency put Russia's diesel output down about thirty percent. That's diesel that used to sail to Turkey, Brazil and Africa, and from there into the one global pool that every country buys from.
+> Visual: G gauge: about 30% less diesel from Russia's refineries  
+> On screen: RUSSIAN DIESEL OUTPUT ≈ -30% · Tag: REPORTED · IEA via AP, Oct 2026 · Facts: F25 · SFX: gauge tick
 
 **P5-03** Europe stopped buying Russian diesel after the invasion of Ukraine. But diesel is a world market. If Russia sells less to Turkey or Brazil, those countries buy from the same places Europe buys from. Everyone competes for the same barrels.
 > Visual: G pool diagram: one tank in the middle, Europe, Turkey, Brazil, Africa pipes all pull from it  
@@ -442,6 +454,10 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 **P6-08b** Their wages buy less as prices rise. And the queues are a daily reminder that the war has come home, even to places a thousand kilometres from the front.
 > Visual: F long queue of cars at dusk, brake lights (SHADOW)  
 > On screen: THE WAR COMES HOME · Tag: - · Facts: - · SFX: engine idle
+
+**P6-08c** And none of this arrives as one big number. It arrives as a bus fare that's a little higher, a delivery charge that creeps up, a farmer who waters the field less often. Small lines, added up, on a bill nobody signed.
+> Visual: G small receipt prints: BUS FARE UP · DELIVERY CHARGE UP · FIELD WATERED LESS; ILLUSTRATION  
+> On screen: SMALL LINES, ONE BILL · Tag: ILLUSTRATION · Facts: - · SFX: receipt printer
 
 **P6-09** In Ukraine, the bill is heavier still. On the same night the bridge was hit, Russian strikes damaged two bridges in Kyiv and the city's metro. The fuel war runs both ways.
 > Visual: S Kyiv bridge over the Dnipro at night (SHADOW)  

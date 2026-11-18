@@ -380,3 +380,22 @@ def _two_shocks(o, t):
         center(d, 340, lab, f(34, "inter"), alpha(PAPER_HI, seg(t0, 0.4)), cx=x)
     if _A.T > hit: center(d, 620, "TWO OIL SHOCKS AT ONCE", f(44, "inter"), alpha(PAPER_HI, seg(hit, 0.4)))
     tagline(im, t); return im
+
+# ---- v1.1: rows whose stock footage didn't match the line -> graphics; +4 rows for length ----
+import random as _rnd
+_rnd.seed(11)
+_WS = [(_rnd.uniform(24.5, 38.5), _rnd.uniform(46.8, 51.6)) for _ in range(26)]
+UKR = (21.5, 44.0, 41.0, 53.0)
+SPEC.update({
+"P2-04": lambda o, t: tiles([("SMALL PLANE", "lawnmower-sized engine"), ("WARHEAD", "aimed at one unit"), ("1,000+ KM", "low, slow, at night")], title="LONG-RANGE DRONES", tag=t, cues=[0, 1, 2]),
+"P2-04b": lambda o, t: map_scene(UKR, 5, hi=["Ukraine"], pins=[(lo, la, "", ORANGE, None) for lo, la in _WS], title="NO SINGLE FACTORY TO BOMB", tag="ILLUSTRATION · dots are not real sites"),
+"P2-04d": lambda o, t: number("≈ 600", "drones at the Moscow region in one night", kicker="MOSCOW'S MAYOR SAYS", tag=t, badge="CLAIM"),
+"P2-13": lambda o, t: card(["YOU QUEUE."], kicker="WHEN THE REFINERIES GO DARK", tag=t, cues=[0]),
+"P3-07": lambda o, t: card(["STOPPED SELLING TO SMALL STATIONS", "KEPT THE FUEL FOR THEIR OWN PUMPS", "SMALL STATIONS RAN DRY"], kicker="RUSSIA'S BIG FUEL SELLERS", tag=t, cues=None, style="serif"),
+"P4-08b": lambda o, t: split(("US CRUDE · WTI", "≈ $88", "a barrel, mid-November 2026"), ("BRENT", "< $96", "with the US blockade of Iran still in place"), tag=t),
+"P5-02b": lambda o, t: gauge(30, "less diesel from Russia's refineries", sub="IEA estimate, 2026", tag=t, valtxt=lambda e: "≈ -" + countup("30", e) + "%"),
+"P6-07": lambda o, t: tiles([("BUSES", "and rickshaws"), ("PUMPS", "watering the fields"), ("GENERATORS", "when the grid fails")], title="SOUTH ASIA RUNS ON DIESEL", tag=t, cues=[0, 1, 2]),
+"P6-08b": lambda o, t: card(["WAGES BUY LESS", "THE QUEUES COME HOME"], kicker="RUSSIA, FAR FROM THE FRONT", tag=t, cues=None),
+"P6-08c": lambda o, t: receipt([("BUS FARE", "UP"), ("DELIVERY CHARGE", "UP"), ("FIELD WATERED", "LESS OFTEN"), ("SIGNED BY YOU", "NEVER")], title="SMALL LINES", tag="ILLUSTRATION", cues_from=[sn(1) + 0.4, c(0), c(0) + 1.6, c(1)]),
+"P7-08": lambda o, t: tiles([("1", "same pace"), ("2", "ceasefire"), ("3", "strikes widen")], title="SCENARIOS, NOT FORECASTS", tag="SCENARIO", cues=None),
+})
