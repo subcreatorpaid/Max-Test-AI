@@ -396,6 +396,6 @@ SPEC.update({
 "P5-02b": lambda o, t: gauge(30, "less diesel from Russia's refineries", sub="IEA estimate, 2026", tag=t, valtxt=lambda e: "≈ -" + countup("30", e) + "%"),
 "P6-07": lambda o, t: tiles([("BUSES", "and rickshaws"), ("PUMPS", "watering the fields"), ("GENERATORS", "when the grid fails")], title="SOUTH ASIA RUNS ON DIESEL", tag=t, cues=[0, 1, 2]),
 "P6-08b": lambda o, t: card(["WAGES BUY LESS", "THE QUEUES COME HOME"], kicker="RUSSIA, FAR FROM THE FRONT", tag=t, cues=None),
-"P6-08c": lambda o, t: receipt([("BUS FARE", "UP"), ("DELIVERY CHARGE", "UP"), ("FIELD WATERED", "LESS OFTEN"), ("SIGNED BY YOU", "NEVER")], title="SMALL LINES", tag="ILLUSTRATION", cues_from=[sn(1) + 0.4, c(0), c(0) + 1.6, c(1)]),
+"P6-08c": lambda o, t: receipt([("BUS FARE", "UP"), ("DELIVERY CHARGE", "UP"), ("FIELD WATERED", "LESS OFTEN"), ("SIGNED BY YOU", "NEVER")], title="SMALL LINES", tag="ILLUSTRATION", show=0, cues_from=[sn(1) + 0.4, c(0), c(0) + 1.6, c(1)]),
 "P7-08": lambda o, t: tiles([("1", "same pace"), ("2", "ceasefire"), ("3", "strikes widen")], title="SCENARIOS, NOT FORECASTS", tag="SCENARIO", cues=None),
 })

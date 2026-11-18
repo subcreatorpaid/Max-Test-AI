@@ -49,7 +49,16 @@ def f(sz, kind="inter"):
     return _FC[k]
 class D:
     def __init__(s, im): s.im = im; s.d = ImageDraw.Draw(im, "RGBA")
-    def text(s, xy, t, font, fill, anchor=None): s.d.text((xy[0]*S, xy[1]*S), t, font=font, fill=fill, anchor=anchor)
+    def text(s, xy, t, font, fill, anchor=None):
+        # Pillow ignores fill alpha for text on RGB images, so fades go through a mask
+        a = fill[3] if len(fill) > 3 else 255
+        if a <= 0 or not t: return
+        x, y = xy[0]*S, xy[1]*S
+        if a >= 255: s.d.text((x, y), t, font=font, fill=fill, anchor=anchor); return
+        b = s.d.textbbox((x, y), t, font=font, anchor=anchor); x0, y0 = int(b[0]) - 2, int(b[1]) - 2
+        m = Image.new("L", (int(b[2]) - x0 + 4, int(b[3]) - y0 + 4), 0)
+        ImageDraw.Draw(m).text((x - x0, y - y0), t, font=font, fill=int(a), anchor=anchor)
+        s.im.paste(tuple(fill[:3]) + ((255,) if s.im.mode == "RGBA" else ()), (x0, y0), m)
     def tl(s, t, font): return s.d.textlength(t, font=font) / S
     def line(s, pts, fill, width=1): s.d.line([(x*S, y*S) for x, y in pts], fill=fill, width=max(1, int(width*S)), joint="curve")
     def rect(s, b, fill=None, outline=None, width=1):
@@ -85,7 +94,8 @@ def base(kind="ledger"):
             for y in range(0, PH, int(36*S)): d.line([(0, y), (PW, y)], fill=(29, 28, 26), width=2)
             d.line([(int(150*S), 0), (int(150*S), PH)], fill=(44, 26, 20), width=3)
         v = Image.new("L", (PW//4, PH//4), 0); vd = ImageDraw.Draw(v)
-        for i in range(40): vd.rectangle([i*3, i*2, PW//4 - i*3, PH//4 - i*2], fill=int(i*6.3))
+        vw, vh = PW//4, PH//4
+        for i in range(40): vd.rectangle([int(i*vw/320*3), int(i*vh/180*2), vw - int(i*vw/320*3), vh - int(i*vh/180*2)], fill=int(i*6.3))
         v = v.filter(ImageFilter.GaussianBlur(22)).resize((PW, PH))
         _BG[kind] = Image.composite(im, Image.new("RGB", (PW, PH), (4, 4, 4)), v.point(lambda x: min(255, 110 + x)))
     return _BG[kind].copy()
