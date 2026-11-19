@@ -14,9 +14,9 @@ R = runpy.run_path(str(HERE / "script_v1.py"))["R"]; ROW = {r[0]: r for r in R}
 V = runpy.run_path(str(HERE / "visuals_v1.py"))["V"]
 SG = json.load(open(VOD / "segs12.json"))["segs"][PART]
 # corner invoice: one line printed at the end of each part (rulebook 5)
-CORNER_LINES = {"P1": "UK DIESEL TANK ≈ £110", "P2": "REFINING OUT 45-55%", "P3": "MOSCOW: 30 L CAP", "P4": "1944: FUEL = WAR",
-                "P5": "US DIESEL $6.13 (+$2.29)", "W": "C. ASIA PUMPS +15-25%", "P6": "FOOD: + CENTS"}
-ORDER = ["CO", "P1", "BR", "P2", "P3", "P4", "P5", "W", "P6", "P7", "RC"]
+CORNER_LINES = {"P1": "HEAD START ≈ 3 MONTHS", "P2": "NO LICENSED VACCINE", "P3": "1 NEW CASE / 16 MIN", "P4": "TRACING > 80% MISSED",
+                "P5": "WAR KEEPS DOCTORS OUT", "P6": "YOUR PHONE: SAME HILLS", "P7": "HUNGER 30.3M", "P8": "AID $1.6BN NOT RELEASED"}
+ORDER = ["CO", "P1", "BR", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "RC"]
 prev = [CORNER_LINES[p] for p in ORDER[:ORDER.index(PART)] if p in CORNER_LINES]
 GRADE = {}  # code -> shadow / low / mid / high from the visual note
 for r in R:

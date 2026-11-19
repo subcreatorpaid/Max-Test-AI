@@ -414,7 +414,7 @@ def chain(steps, title="", tag="", cues=None, times=None):
         t0 = (times[i] if times else c(cues[i]) if cues and i < len(cues) else sn(i)) - 0.25; a = seg(t0, 0.4)
         x = 160 + i*gap + gap/2; y = 360
         d.ell((x-70, y-70, x+70, y+70), fill=alpha((44, 40, 36), a), outline=alpha(ORANGE, a), width=4)
-        center(d, y - 20, s.upper(), f(26 if len(s) > 7 else 32, "inter"), alpha(PAPER_HI, a), cx=x)
+        center(d, y - 20, s.upper(), fit(d, s.upper(), 32, 124), alpha(PAPER_HI, a), cx=x)
         if i < n - 1:
             k = seg(t0 + 0.3, 0.4); xa = x + 76; xb = x + gap - 76
             if k > 0: d.line([(xa, y), (xa + (xb - xa)*k, y)], ORANGE, 4)
@@ -476,7 +476,7 @@ def split(left, right, tag=""):
         t0 = 0.2 if side == 0 else lead(c(0), 0.4); a = seg(t0, 0.5)
         cx = W*0.3 if side == 0 else W*0.7
         center(d, 200, k_, f(34, "inter"), alpha(ORANGE, a), cx=cx)
-        center(d, 260 + (1-a)*20, big, f(88, "inter"), alpha(PAPER_HI, a), cx=cx)
+        center(d, 260 + (1-a)*20, big, fit(d, big, 88, W*0.4), alpha(PAPER_HI, a), cx=cx)
         for j, l in enumerate(wrap(d, sub, f(30, "serif"), W*0.36)[:3]): center(d, 380 + j*40, l, f(30, "serif"), alpha(PAPER, a), cx=cx)
     d.line([(W/2, 160 + (1-seg(0.1, 0.6))*400), (W/2, 560)], DIM, 3)
     tagline(im, tag); return im
@@ -516,7 +516,7 @@ def flap(rows, header="", tag="", hit_i=0):
         if T >= t0 + 0.5: stamp(im, "RECORD", 620 + len(txt)*62 + 140, y + 48, t0 + 0.55, size=50, angle=-10)
     tagline(im, tag); return im
 
-def scenario(n, title, direction, tag="SCENARIO, NOT A FORECAST"):
+def scenario(n, title, direction, tag="SCENARIO, NOT A FORECAST", ylab="DIESEL PRICE PRESSURE (SHAPE ILLUSTRATIVE)"):
     """scenario card with an arrow that holds (0), drifts down (-1) or spikes (+1)."""
     im = base(); d = D(im); a = seg(0, 0.4)
     d.text((180, 120), f"SCENARIO {n}", f(36, "bebas"), alpha(ORANGE, a))
@@ -534,7 +534,7 @@ def scenario(n, title, direction, tag="SCENARIO, NOT A FORECAST"):
     if pts:
         im = glow(im, lambda g: g.ell((pts[-1][0]-14, pts[-1][1]-14, pts[-1][0]+14, pts[-1][1]+14), fill=col + (255,)), 30, 1.0)
         d = D(im); d.ell((pts[-1][0]-9, pts[-1][1]-9, pts[-1][0]+9, pts[-1][1]+9), fill=col)
-    d.text((x0, y0 + 130), "DIESEL PRICE PRESSURE (SHAPE ILLUSTRATIVE)", f(20, "reg"), GREY)
+    d.text((x0, y0 + 130), ylab, f(20, "reg"), GREY)
     tagline(im, tag); return im
 
 def lights_out(text):
@@ -549,7 +549,7 @@ def endcard(next_title="THE WINTER BILL", sub="Every crisis sends a bill. Histor
     center(d, 210, sub, f(36, "serif"), alpha(ORANGE, seg(0.8, 0.8)))
     a = seg(lead(c(0, 1.5), 0.5), 0.5)
     d.rect((180, 330, 620, 578), fill=alpha((40, 37, 34), a), outline=alpha(ORANGE, a), width=3)
-    center(d, 360, "WATCH NEXT", f(28, "inter"), alpha(ORANGE, a), cx=400); center(d, 420, next_title, f(46, "inter"), alpha(PAPER_HI, a), cx=400)
+    center(d, 360, "WATCH NEXT", f(28, "inter"), alpha(ORANGE, a), cx=400); center(d, 420, next_title, fit(d, next_title, 46, 400), alpha(PAPER_HI, a), cx=400)
     b = seg(lead(c(1, 3.5), 0.5), 0.5)
     d.rrect((760, 410, 1100, 490), 12, fill=alpha(CRIMSON, b)); center(d, 428, "SUBSCRIBE", f(40, "inter"), alpha(PAPER_HI, b), cx=930)
     return im

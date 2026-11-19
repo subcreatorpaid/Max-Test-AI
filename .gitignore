@@ -5,3 +5,4 @@
 __pycache__/
 .env
 brain/competitors/transcripts/
+tools/inv012/cache/

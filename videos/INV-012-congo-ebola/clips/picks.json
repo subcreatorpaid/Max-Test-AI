@@ -1,0 +1,83 @@
+{
+ "picks": {
+  "P1-02bx": {
+   "id": 364184,
+   "url": "https://cdn.pixabay.com/video/2026/07/15/364184_large.mp4",
+   "user": "Hoangbuifilms",
+   "page": "https://pixabay.com/videos/id-364184/",
+   "duration": 8
+  },
+  "P1-03": {
+   "id": 35565,
+   "url": "https://cdn.pixabay.com/video/2020/04/09/35565-406021841_large.mp4",
+   "user": "Hans",
+   "page": "https://pixabay.com/videos/id-35565/",
+   "duration": 20
+  },
+  "P2-07x": {
+   "id": 262188,
+   "url": "https://cdn.pixabay.com/video/2025/03/03/262188_large.mp4",
+   "user": "Kost9n4",
+   "page": "https://pixabay.com/videos/id-262188/",
+   "duration": 14
+  },
+  "P2-08x": {
+   "id": 151857,
+   "url": "https://cdn.pixabay.com/video/2023/02/23/151857-801681519_large.mp4",
+   "user": "Jari-Lobo",
+   "page": "https://pixabay.com/videos/id-151857/",
+   "duration": 13
+  },
+  "P3-10x": {
+   "id": 32975,
+   "url": "https://cdn.pixabay.com/video/2020/02/27/32975-394513987_large.mp4",
+   "user": "wserrano",
+   "page": "https://pixabay.com/videos/id-32975/",
+   "duration": 30
+  },
+  "P6-02": {
+   "id": 47215,
+   "url": "https://cdn.pixabay.com/video/2020/08/14/47215-450995786_large.mp4",
+   "user": "nanoslavic",
+   "page": "https://pixabay.com/videos/id-47215/",
+   "duration": 50
+  },
+  "P6-05x": {
+   "id": 23008,
+   "url": "https://cdn.pixabay.com/video/2019/04/23/23008-332257750_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-23008/",
+   "duration": 20
+  },
+  "P7-02x": {
+   "id": 37663,
+   "url": "https://cdn.pixabay.com/video/2020/04/30/37663-418005775_large.mp4",
+   "user": "Ronin_Studio_Munich",
+   "page": "https://pixabay.com/videos/id-37663/",
+   "duration": 12
+  },
+  "P8-10x": {
+   "id": 991,
+   "url": "https://cdn.pixabay.com/video/2015/10/16/991-142613842_large.mp4",
+   "user": "Life-Of-Vids",
+   "page": "https://pixabay.com/videos/id-991/",
+   "duration": 33
+  },
+  "P9-02x": {
+   "id": 76396,
+   "url": "https://cdn.pixabay.com/video/2021/06/03/76396-559159185_large.mp4",
+   "user": "lumosajans",
+   "page": "https://pixabay.com/videos/id-76396/",
+   "duration": 17
+  }
+ },
+ "rejected_no_match": [
+  "P1-02x",
+  "P1-07x",
+  "P2-11x",
+  "P4-11x",
+  "P5-13x",
+  "P6-09x",
+  "P8-02x"
+ ]
+}
