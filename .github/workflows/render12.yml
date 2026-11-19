@@ -61,4 +61,4 @@ jobs:
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f $D/$P-*.mp4 $D/$P-shots.json
           git commit -qm "render12: part $P [skip ci]"
-          for i in 1 2 3 4 5 6 7 8; do git pull --rebase -q origin ${{ github.ref_name }} && git push -q && break; sleep $((RANDOM % 10 + 3)); done
+          for i in 1 2 3 4 5 6 7 8; do git pull --rebase --autostash -q origin ${{ github.ref_name }} && git push -q && break; sleep $((RANDOM % 10 + 3)); done
