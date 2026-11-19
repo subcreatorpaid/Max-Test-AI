@@ -1,0 +1,185 @@
+{
+ "part": "P2",
+ "dur": 193.68,
+ "vo_dur": 193.66725,
+ "shots": [
+  {
+   "code": "P2-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.84,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P2-02",
+   "kind": "gfx",
+   "t": 5.84,
+   "dur": 15.24,
+   "off": 0.0,
+   "cues": [
+    7.152
+   ],
+   "sfx": "deep whoosh",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P2-03",
+   "kind": "gfx",
+   "t": 21.08,
+   "dur": 12.88,
+   "off": 0.0,
+   "cues": [
+    4.657
+   ],
+   "sfx": "sub hit",
+   "tr": "hblur"
+  },
+  {
+   "code": "P2-04",
+   "kind": "gfx",
+   "t": 33.96,
+   "dur": 15.44,
+   "off": 0.0,
+   "cues": [
+    7.126
+   ],
+   "sfx": "chart grow",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P2-05",
+   "kind": "gfx",
+   "t": 49.4,
+   "dur": 13.68,
+   "off": 0.0,
+   "cues": [
+    8.651
+   ],
+   "sfx": "stamp thud",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P2-05b",
+   "kind": "gfx",
+   "t": 63.08,
+   "dur": 12.68,
+   "off": 0.0,
+   "cues": [
+    4.626
+   ],
+   "sfx": "typewriter",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P2-06",
+   "kind": "gfx",
+   "t": 75.76,
+   "dur": 12.2,
+   "off": 0.0,
+   "cues": [
+    4.566
+   ],
+   "sfx": "paper slide",
+   "tr": "slideup"
+  },
+  {
+   "code": "P2-06b",
+   "kind": "gfx",
+   "t": 87.96,
+   "dur": 15.56,
+   "off": 0.0,
+   "cues": [
+    4.886
+   ],
+   "sfx": "paper slide",
+   "tr": "radial"
+  },
+  {
+   "code": "P2-07",
+   "kind": "gfx",
+   "t": 103.52,
+   "dur": 16.48,
+   "off": 0.0,
+   "cues": [
+    12.233
+   ],
+   "sfx": "counter roll",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P2-08",
+   "kind": "gfx",
+   "t": 120.0,
+   "dur": 12.8,
+   "off": 0.0,
+   "cues": [
+    9.004
+   ],
+   "sfx": "pen scratch",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-09",
+   "kind": "gfx",
+   "t": 132.8,
+   "dur": 11.56,
+   "off": 0.0,
+   "cues": [
+    9.274
+   ],
+   "sfx": "pen scratch",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P2-09b",
+   "kind": "gfx",
+   "t": 144.36,
+   "dur": 13.96,
+   "off": 0.0,
+   "cues": [
+    5.375
+   ],
+   "sfx": "stamp",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P2-10",
+   "kind": "gfx",
+   "t": 158.32,
+   "dur": 9.56,
+   "off": 0.0,
+   "cues": [
+    6.339
+   ],
+   "sfx": "gauge tick",
+   "tr": "hblur"
+  },
+  {
+   "code": "P2-11",
+   "kind": "gfx",
+   "t": 167.88,
+   "dur": 15.6,
+   "off": 0.0,
+   "cues": [
+    9.326
+   ],
+   "sfx": "tick",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P2-12",
+   "kind": "gfx",
+   "t": 183.48,
+   "dur": 10.2,
+   "off": 0.0,
+   "cues": [
+    3.203
+   ],
+   "sfx": "receipt printer",
+   "tr": "wiperight"
+  }
+ ]
+}
