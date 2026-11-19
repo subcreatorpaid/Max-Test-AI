@@ -117,3 +117,23 @@ Rules for this video: no gore, no images of patients' bodies or suffering faces 
 
 ## Story note for storyteller
 Bill to the viewer = three real lines, no invented price spike: (a) the minerals in your devices come from the same ground the armed groups fight over, and that fight is why health teams cannot reach the sick; (b) the cheap fix (the unreleased $1.6bn) vs the expensive bill West Africa ran up ($53bn); (c) travel rules, aid money and the risk that reaches you (ECDC: very low). Keep tone calm, no fear-mongering.
+
+## v1.1 additions (2026-11-19, for the script)
+| # | Fact | Tag | Source |
+|---|---|---|---|
+| F60 | Dozens of Ebola outbreaks since the virus was discovered in 1976; DRC has 26 provinces | REPORTED | AP via WEAA 11 Nov 2026 |
+| F61 | UK population ≈ 69.3 million (mid-2024) | VERIFIED | ONS mid-2024 estimate |
+| F62 | US population ≈ 340 million (2025) | VERIFIED | US Census Bureau 2025 estimate |
+| F63 | WHO recommended against Ervebo use on 28 May 2026; WHO/SAGE now suggest it mainly within research protocols | REPORTED / VERIFIED | press via Wikipedia; ECDC 16 Nov 2026 |
+| F64 | Trials of remdesivir and MBP-134 began in DRC on 12 Jul 2026 | REPORTED | press via Wikipedia |
+| F65 | Uganda banned handshakes and hugs (19 May), closed its DRC border (27 May), declared its outbreak over (28 Jul) | REPORTED | press via Wikipedia; ECDC |
+| F66 | UNICEF (13 Nov): ~80% of child deaths outside treatment centres; 1 in 3 under-5s admitted die within 24 h; facility births in N Kivu Ebola zones down ~18% (Jan-Sep); first-dose measles down in all 3 reporting provinces; Ituri survey: 81% of children afraid/stressed, 89% of parents more stressed | VERIFIED | UNICEF 13 Nov 2026 |
+| F67 | Gold smuggling funds an Islamic State-linked insurgency in eastern Congo (ADF), report says | REPORTED | Daily Monitor (Uganda) headline, 2026 |
+| F68 | DRC Foreign Minister Therese Kayikwamba Wagner did the 21-day quarantine before travelling to Washington | REPORTED | Discovery Alert 23 Jul 2026 (Bloomberg) |
+| F69 | World Bank (Dec 2014): 2015 growth forecasts cut, Sierra Leone 11.3% to -2.0%, Guinea 4.3% to -0.2%, Liberia 6.8% to 3.0% | ESTIMATE | World Bank via Model Diplomat 6 Jul 2026 |
+| F70 | Africa CDC lists ten countries at elevated risk, including Angola, Tanzania, Ethiopia, Zambia | REPORTED | Al Jazeera via Model Diplomat |
+| F71 | More than 16,000 daily crossings on the Bunia corridor | REPORTED | IOM Situation Report No. 4 via Model Diplomat |
+| F72 | USGS: US tantalum imports (all forms, 2021-24) China 22%, Australia 14%, Germany 11%, Indonesia 7%, other 46% | VERIFIED | USGS MCS 2026 |
+| F73 | Africa CDC: delayed detection, conflict and strained health services made it spread faster than previous outbreaks | REPORTED | Al Jazeera/Reuters 15 Nov 2026 |
+| F74 | Ebola spreads through body fluids; bodies of people who died of Ebola stay highly infectious, which is why safe burials matter | VERIFIED | WHO Ebola fact sheet |
+| F75 | Ebola is a family of viruses (orthoebolaviruses): Zaire caused the 2014-16 West Africa epidemic and most DRC outbreaks; Bundibugyo is named after Bundibugyo district, Uganda, where it was first identified (2007) | VERIFIED | WHO fact sheet; CDC |

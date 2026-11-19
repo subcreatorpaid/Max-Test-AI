@@ -1,0 +1,104 @@
+[
+ {
+  "code": "P1-02x",
+  "query": "gold nuggets hand",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-02bx",
+  "query": "dirt road africa motorcycle",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-03",
+  "query": "gold panning river",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-07x",
+  "query": "red cross volunteers",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-07x",
+  "query": "laboratory scientist research",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-08x",
+  "query": "vaccine vial syringe",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-11x",
+  "query": "muddy dirt road car",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-10x",
+  "query": "airplane night runway",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P4-11x",
+  "query": "doctor protective suit hazmat",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-13x",
+  "query": "mining pit digging workers",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-02",
+  "query": "circuit board macro",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-05x",
+  "query": "cargo ship containers port",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-09x",
+  "query": "electronics factory assembly",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P7-02x",
+  "query": "farmer field hoe africa",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P8-02x",
+  "query": "hazmat suit protective",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P8-10x",
+  "query": "airport arrivals passengers",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P9-02x",
+  "query": "test tubes laboratory",
+  "n": 4,
+  "min_seconds": 6
+ }
+]
