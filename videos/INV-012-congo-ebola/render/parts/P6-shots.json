@@ -78,7 +78,9 @@
    "dur": 17.52,
    "off": 0.0,
    "cues": [
-    8.299
+    8.299,
+    9.164,
+    10.318
    ],
    "sfx": "chart grow",
    "tr": "slideup"
@@ -102,7 +104,8 @@
    "dur": 14.4,
    "off": 0.0,
    "cues": [
-    5.249
+    5.249,
+    10.591
    ],
    "sfx": "deep whoosh",
    "tr": "smoothright"
