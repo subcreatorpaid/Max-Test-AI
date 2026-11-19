@@ -59,7 +59,7 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 
 **P1-06** So the virus left that funeral with the mourners. Back to their homes, their markets, their mines.
 > Visual: G map: from Mongbwalu, thin lines spread to villages and mine pits around it  
-> On screen: IT LEFT WITH THE MOURNERS · Tag: ILLUSTRATION · spread lines not real routes · Facts: F01 · SFX: map whoosh
+> On screen: IT LEFT WITH THE MOURNERS · Tag: ILLUSTRATION · rings show spread, not real distances · Facts: F01 · SFX: map whoosh
 
 **P1-06b** Nobody was looking for it yet. No contact lists, no isolation, no safe burials. For weeks, every new funeral was another chance to spread it.
 > Visual: G calendar FEB-MAY: funeral icons multiply across the weeks; NOBODY LOOKING stamp  

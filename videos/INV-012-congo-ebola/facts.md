@@ -137,3 +137,5 @@ Bill to the viewer = three real lines, no invented price spike: (a) the minerals
 | F73 | Africa CDC: delayed detection, conflict and strained health services made it spread faster than previous outbreaks | REPORTED | Al Jazeera/Reuters 15 Nov 2026 |
 | F74 | Ebola spreads through body fluids; bodies of people who died of Ebola stay highly infectious, which is why safe burials matter | VERIFIED | WHO Ebola fact sheet |
 | F75 | Ebola is a family of viruses (orthoebolaviruses): Zaire caused the 2014-16 West Africa epidemic and most DRC outbreaks; Bundibugyo is named after Bundibugyo district, Uganda, where it was first identified (2007) | VERIFIED | WHO fact sheet; CDC |
+
+| M10 | Kolwezi (Katanga cobalt) to Bunia (Ituri), straight line ≈ 1,500 km | great-circle distance between the two towns' coordinates (≈1,460 km Kolwezi-Bunia, ≈1,500 km Kolwezi-Mongbwalu); ESTIMATE, rounded (F43) |

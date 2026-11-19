@@ -174,6 +174,50 @@ def pulse_rings(d, x, y, col, t0, n=2, rmax=46, speed=0.6):
         q = ((T - t0) * speed + ph / n) % 1.0; r = 10 + rmax * q
         d.ell((x-r, y-r, x+r, y+r), outline=alpha(col, (1-q)*0.9), width=2)
 
+# ---------------- hand-drawn layer: pencil strokes, pen circles, marker highlights (everything draws itself on the word) ----------------
+PENCIL = (230, 222, 206); GRAPHITE = (58, 50, 44); MARKER = (255, 196, 40)
+def _poly_upto(pts, k):
+    """the first k (0..1) of a polyline, by length."""
+    if k >= 1: return pts
+    L = [0.0]
+    for (xa, ya), (xb, yb) in zip(pts, pts[1:]): L.append(L[-1] + math.hypot(xb - xa, yb - ya))
+    tgt = L[-1] * k; out = [pts[0]]
+    for i in range(1, len(pts)):
+        if L[i] <= tgt: out.append(pts[i]); continue
+        q = (tgt - L[i-1]) / max(1e-6, L[i] - L[i-1]); (xa, ya), (xb, yb) = pts[i-1], pts[i]
+        out.append((xa + (xb - xa)*q, ya + (yb - ya)*q)); break
+    return out
+def pencil(d, pts, t0, dur=0.5, col=None, w=3.5, seed=1, passes=2):
+    """graphite/pen stroke that draws itself along pts from t0 (two slightly offset passes = hand-drawn)."""
+    k = ease_io((T - t0) / dur) if dur > 0 else 1.0
+    if k <= 0: return
+    col = col or PENCIL; rng = np.random.default_rng(seed)
+    for p in range(passes):
+        jit = rng.normal(0, 1.1, (len(pts), 2)); q = [(x + jit[i][0] + p*0.9, y + jit[i][1] + p*0.7) for i, (x, y) in enumerate(pts)]
+        sub = _poly_upto(q, k)
+        if len(sub) > 1: d.line(sub, alpha(col, 0.95 if p == 0 else 0.5), w if p == 0 else w*0.6)
+def pencil_underline(d, x0, x1, y, t0, col=None, seed=1, w=4, dur=0.45):
+    rng = np.random.default_rng(seed + 7); n = 26
+    pts = [(x0 + (x1 - x0)*i/(n-1), y + 3*math.sin(i/(n-1)*math.pi) - 2*i/(n-1) + rng.normal(0, 0.6)) for i in range(n)]
+    pts += [(x1 - 26, y + 7), (x1 - 52, y + 8)]   # little return flick
+    pencil(d, pts, t0, dur, col, w, seed)
+def pencil_circle(d, cx, cy, rx, ry, t0, col=RED, seed=1, w=5, dur=0.6):
+    """loose pen ellipse, a bit more than one turn, starting top-left, like a hand circling a number."""
+    rng = np.random.default_rng(seed + 3); n = 64; a0 = math.radians(-120); span = math.radians(395)
+    pts = []
+    for i in range(n):
+        q = i/(n-1); a = a0 + span*q; r = 1.0 + 0.05*math.sin(q*7 + seed) + 0.06*q
+        pts.append((cx + rx*r*math.cos(a) + rng.normal(0, 0.5), cy + ry*r*math.sin(a) + rng.normal(0, 0.5)))
+    pencil(d, pts, t0, dur, col, w, seed)
+def pencil_tick(d, x, y, t0, col=GRAPHITE, seed=1, s=1.0):
+    pencil(d, [(x, y + 10*s), (x + 8*s, y + 20*s), (x + 26*s, y - 4*s)], t0, 0.25, col, 4, seed)
+def highlight(d, box, t0, col=MARKER, a=0.38, dur=0.45):
+    """marker highlight sweeping left to right behind text (draw it BEFORE the text)."""
+    k = ease_io((T - t0) / dur)
+    if k <= 0: return
+    x0, y0, x1, y1 = box; xe = x0 + (x1 - x0)*k
+    d.poly([(x0 - 6, y0 + 4), (xe, y0), (xe + 4, y1 - 2), (x0 - 2, y1 + 3)], fill=alpha(col, a))
+
 # ---------------- generic types ----------------
 def part(n, title, sub=""):
     im = base(); d = D(im)
@@ -192,6 +236,8 @@ def number(big, sub="", kicker="", tag="", faded="", strike=None, cue=0, badge=N
     fb = f(160 if len(big) < 9 else 116, "inter")
     if faded: center(d, 170, faded, f(250, "bebas"), alpha((48, 44, 40), seg(0.2, 0.8)))
     e = ease_io((T - lead(hit, 1.1)) / 1.1)
+    if not strike:
+        bw_ = d.tl(big, fb); highlight(d, ((W - bw_)/2 - 18, 238, (W + bw_)/2 + 18, 205 + fb.lsize + 26), hit + 0.05, ORANGE, 0.30, 0.4)
     center(d, 205, countup(big, e) if not strike else big, fb, alpha(PAPER_HI, min(1, e*4) if not strike else seg(0, 0.4)))
     if strike:
         w = d.tl(big, fb); x0 = (W - w)/2; k = seg(hit - 0.2, 0.35)
@@ -199,7 +245,10 @@ def number(big, sub="", kicker="", tag="", faded="", strike=None, cue=0, badge=N
         center(d, 400, strike, f(130, "inter"), alpha(ORANGE, seg(hit, 0.4)))
     if sub:
         a = seg(hit + 0.2, 0.5)
-        for i, l in enumerate(wrap(d, sub, f(42, "serif"), W - 220)[:2]): center(d, (430 if not strike else 560) + i*54, l, f(42, "serif"), alpha(ORANGE, a))
+        sl = wrap(d, sub, f(42, "serif"), W - 220)[:2]
+        for i, l in enumerate(sl): center(d, (430 if not strike else 560) + i*54, l, f(42, "serif"), alpha(ORANGE, a))
+        uw = d.tl(sl[0], f(42, "serif")); uy = (430 if not strike else 560) + len(sl)*54 + 2
+        pencil_underline(d, (W - uw)/2, (W + uw)/2, uy, hit + 0.7, PENCIL, seed=len(big))
     if badge: stamp(im, badge, W - 250, 140, hit + 0.4, col=ORANGE, size=64, angle=-6)
     im = sweep(im, (0, 200, W, 380), hit + 0.1, 1.2)
     tagline(im, tag); return im
@@ -210,8 +259,12 @@ def quote(q, who, when, tag="", cue=0):
     center(d, 160, "“", f(180, "serif"), alpha(ORANGE, a))
     y = 300 - 40
     qf = f(110 if len(q) < 20 else 60, "serif"); y = 280 if len(q) < 20 else 260
-    for l in wrap(d, q, qf, W - 480): center(d, y, l, qf, alpha((30, 26, 22), seg(lead(hit, 0.4), 0.5))); y += qf.lsize + 12
+    ql = wrap(d, q, qf, W - 480)
+    for j, l in enumerate(ql):
+        lw = d.tl(l, qf); highlight(d, ((W - lw)/2, y + qf.lsize*0.35, (W + lw)/2, y + qf.lsize*1.12), hit + 0.5 + j*0.45, MARKER, 0.42, 0.45)
+        center(d, y, l, qf, alpha((30, 26, 22), seg(lead(hit, 0.4), 0.5))); y += qf.lsize + 12
     center(d, y + 20, f"{who} · {when}", f(28, "inter"), alpha((90, 60, 40), seg(hit + 0.3, 0.5)))
+    ww = d.tl(f"{who} · {when}", f(28, "inter")); pencil_underline(d, (W - ww)/2, (W + ww)/2, y + 58, hit + 0.6 + len(ql)*0.45, GRAPHITE, seed=len(q), w=3)
     tagline(im, tag); return im
 
 def card(lines, kicker="", tag="", stamp_txt=None, cues=None, style="big"):
@@ -223,12 +276,15 @@ def card(lines, kicker="", tag="", stamp_txt=None, cues=None, style="big"):
         col = PAPER_HI if i % 2 == 0 else ORANGE
         a = seg(t0, 0.5)
         for ll in wrap(d, l, fo, W - 200): center(d, y + (1-a)*16, ll, fo, alpha(col, a)); y += fo.lsize + 22
+        if i == len(lines) - 1:
+            lw = d.tl(wrap(d, l, fo, W - 200)[-1], fo); pencil_underline(d, (W - lw)/2, (W + lw)/2, y - 12, t0 + 0.55, RED, seed=i + 41, w=5)
     if stamp_txt: stamp(im, stamp_txt, W/2, min(H-120, y + 80), c(len(lines) if cues is None else cues[-1], sn(len(lines))) + 0.2)
     tagline(im, tag); return im
 
-def typed(lines, label="FILE", tag="", stamps=(), cue_lines=None):
+def typed(lines, label="FILE", tag="", stamps=(), cue_lines=None, title=""):
     """index cards typed in turn (Round Two typewriter G08), optional stamps [(text, at_time)]."""
     im = base(); d = D(im); n = len(lines)
+    if title: d.text((170, 50), title.upper(), fit(d, title.upper(), 34, 900), alpha(ORANGE, seg(0.1, 0.4)))
     for i, l in enumerate(lines):
         t0 = c(cue_lines[i]) - 0.6 if cue_lines else sn(i) + 0.1
         a = seg(t0 - 0.3, 0.4)
@@ -237,6 +293,8 @@ def typed(lines, label="FILE", tag="", stamps=(), cue_lines=None):
         dd = paper(im, (x0, y0 + (1-a)*30, x0 + 760, y0 + 120 + (1-a)*30), seed=i+5)
         dd.text((x0 + 24, y0 + 14), label, f(18, "inter"), (150, 60, 40))
         typewriter(dd, (x0 + 24, y0 + 48), l, f(40, "inter"), (30, 26, 22), t0, 30)
+        tdone = t0 + len(l)/30 + 0.2
+        if i == n - 1: pencil_underline(dd, x0 + 24, x0 + 24 + dd.tl(l, f(40, "inter")), y0 + 100, tdone, RED, seed=i + 81, w=4)
     for txt, at in stamps: stamp(im, txt, W - 260, H - 170, at)
     tagline(im, tag); return im
 
@@ -247,6 +305,7 @@ def headline(outlet, text, date, stamp_txt=None, tag=""):
     d.line([(190+dx, 196), (W-190+dx, 196)], INK, 3)
     y = 224
     for i, l in enumerate(wrap(d, text, f(56, "inter"), W - 380)):
+        highlight(d, (190+dx, y + 18, 190+dx + d.tl(l, f(56, "inter")), y + 66), c(0, 1.2) + i*0.4, MARKER, 0.5, 0.45)
         d.text((190+dx, y), l, f(56, "inter"), alpha(INK, seg(0.3 + i*0.25, 0.3))); y += 70
     d.text((190+dx, H-196), "Recreated headline · outlet credited", f(20, "reg"), (110, 110, 110))
     if stamp_txt: stamp(im, stamp_txt, W - 330, H - 190, c(0, 2.0))
@@ -270,11 +329,12 @@ def receipt(lines, title="THE RECEIPT", tag="", show=None, final_stamp=None, cue
         left, right = (l if isinstance(l, tuple) else (l, ""))
         d.text((x+30, y), left, f(29, "reg"), alpha(col, a))
         if right: d.text((x+pw-30-d.tl(right, f(29, "inter")), y), right, f(29, "inter"), alpha(col, a))
+        if i >= show and a > 0: pencil_tick(d, x + pw + 12, y + 2, t0 + 0.35, PENCIL, seed=i)
         y += 50
     if final_stamp: stamp(im, final_stamp, W/2 + 120, H - 150, c(len(lines) - show, sn(1)) + 0.4, size=84)
     tagline(im, tag); return im
 
-def bars(items, title="", unit="", hi=None, tag="", cues=None, fmt="{:,.0f}", log=False):
+def bars(items, title="", unit="", hi=None, tag="", cues=None, fmt="{:,.0f}", log=False, reveal=None):
     im = base(); d = D(im)
     if title:
         sz = 36
@@ -289,9 +349,12 @@ def bars(items, title="", unit="", hi=None, tag="", cues=None, fmt="{:,.0f}", lo
         frac = (math.log10(max(v, 1)) / math.log10(mx)) if log else v / mx
         h = int(380 * frac * e); y = H - 150 - h
         col = ORANGE if (hi is None or i == hi) else (96, 88, 80)
+        if reveal and i == reveal[0] and 0 < T - (t0 + 0.9) < 0.45 and int((T - t0) * 20) % 2: col = PAPER_HI   # flicker as it lands (G18)
         if h > 0: d.rect((x, y, x+bw, H-150), fill=col)
+        if reveal and i == reveal[0]: stamp(im, reveal[1], min(W - 150, x + bw + 150) if x + bw + 150 < W - 100 else x - 150, max(220, y + 80), t0 + 1.35, size=70, angle=-7)
         val = fmt.format(v*e) + unit; tw = d.tl(val, f(38, "inter"))
         d.text((x + (bw-tw)/2, y - 50), val, f(38, "inter"), alpha(PAPER_HI, min(1, e*4)))
+        if hi is not None and i == hi: pencil_circle(d, x + bw/2, y - 28, tw/2 + 34, 36, t0 + 1.0, RED, seed=i + 2)
         for j, l in enumerate(wrap(d, lab, f(24, "reg"), bw + 60)[:2]):
             tw = d.tl(l, f(24, "reg")); d.text((x + (bw-tw)/2, H - 138 + j*28), l, f(24, "reg"), alpha(PAPER, seg(0.1, 0.4)))
     tagline(im, tag); return im
@@ -342,7 +405,9 @@ def gauge(pct, label, sub="", tag="", ring_max=100, stamp_txt=None, outline_pct=
     txt = valtxt(e) if valtxt else countup(f"{pct:g}", e) + unit
     center(d, cy - 80, txt, f(118, "inter"), alpha(PAPER_HI, min(1, e*4)))
     center(d, cy + 232, label.upper(), f(30, "inter"), alpha(PAPER, seg(0.2, 0.4)))
-    if sub: center(d, cy + 274, sub, f(34, "serif"), alpha(ORANGE, seg(hit + 0.3, 0.5)))
+    if sub:
+        center(d, cy + 274, sub, f(34, "serif"), alpha(ORANGE, seg(hit + 0.3, 0.5)))
+        sw_ = d.tl(sub, f(34, "serif")); pencil_underline(d, (W - sw_)/2, (W + sw_)/2, cy + 318, hit + 0.8, PENCIL, seed=int(pct))
     if stamp_txt: stamp(im, stamp_txt, cx + 300, cy - 180, hit + 0.5, size=72)
     im = glow(im, lambda g: g.arc((cx-r, cy-r, cx+r, cy+r), 135, a1, fill=(232, 89, 12, 200), width=40), 26, 0.8) if e > 0 else im
     tagline(im, tag); return im
@@ -356,7 +421,9 @@ def tiles(items, title="", tag="", cues=None):
         t0 = (c(cues[i]) if cues and i < len(cues) else sn(i)) - 0.3; a = seg(t0, 0.45); lit = seg(t0, 0.2) * (1 - 0.6*seg((c(cues[i+1]) if cues and i+1 < len(cues) else sn(i+1)) - 0.3, 0.4) if i < n-1 else 1)
         x = 120 + i*(tw + 30); y = 220 + (1-a)*30
         d.rect((x, y, x+tw, y+300), fill=alpha(mix((40, 38, 35), (70, 40, 26), lit), a), outline=alpha(ORANGE, a*lit), width=3)
-        for j, l in enumerate(wrap(d, big, f(46, "inter"), tw - 40)): center(d, y + 70 + j*56, l, f(46, "inter"), alpha(PAPER_HI, a), cx=x + tw/2)
+        bl = wrap(d, big, f(46, "inter"), tw - 40)
+        for j, l in enumerate(bl): center(d, y + 70 + j*56, l, f(46, "inter"), alpha(PAPER_HI, a), cx=x + tw/2)
+        lw = min(tw - 50, max(d.tl(l, f(46, "inter")) for l in bl)); pencil_underline(d, x + tw/2 - lw/2, x + tw/2 + lw/2, y + 70 + len(bl)*56 + 4, t0 + 0.45, ORANGE, seed=i + 11, w=3)
         for j, l in enumerate(wrap(d, small, f(24, "reg"), tw - 40)[:3]): center(d, y + 210 + j*30, l, f(24, "reg"), alpha(PAPER, a), cx=x + tw/2)
     tagline(im, tag); return im
 
@@ -375,7 +442,9 @@ def timeline(events, active, title="", tag="", stamp_txt=None):
         d.ell((x-14, y-14, x+14, y+14), fill=alpha(col, max(a, 0.12)))
         center(d, y - 80, date, f(40, "bebas"), alpha(col, max(a, 0.15)), cx=x)
         for j, l in enumerate(wrap(d, label, f(22, "reg"), 210)[:3]): center(d, y + 34 + j*28, l, f(22, "reg"), alpha(PAPER, a), cx=x)
-        if i in active: pulse_rings(d, x, y, col, lead(c(active.index(i)), 0.3), 2, 36)
+        if i in active:
+            pulse_rings(d, x, y, col, lead(c(active.index(i)), 0.3), 2, 36)
+            dw = d.tl(date, f(40, "bebas")); pencil_circle(d, x, y - 58, dw/2 + 26, 30, lead(c(active.index(i)), 0.3) + 0.35, RED, seed=i + 5, w=4)
     if stamp_txt: stamp(im, stamp_txt, W - 330, 170, c(len(active), c(0) + 1.2))
     tagline(im, tag); return im
 
@@ -400,7 +469,7 @@ def calendar(months, circles=(), flames_every=None, stamps=(), title="", tag="")
     for j, (mi, lab, ci) in enumerate(circles):
         x = X0 + mi*cw + cw/2; t0 = lead(c(ci), 0.3); k = seg(t0, 0.5)
         if k > 0:
-            d.arc((x - cw*0.46, 230, x + cw*0.46, 440), -90, -90 + 360*k, fill=RED, width=7)
+            pencil_circle(d, x, 335, cw*0.46, 105, t0, RED, seed=j + 21, w=7, dur=0.5)
             fo = fit(d, lab, 26, 300); lx = min(max(x, X0 + d.tl(lab, fo)/2), X0 + n*cw - d.tl(lab, fo)/2)
             center(d, 468 + (j % 2)*40, lab, fo, alpha(RED, seg(t0 + 0.4, 0.3)), cx=lx)
     for (mi, txt, ci) in stamps: stamp(im, txt, X0 + mi*cw + cw/2, 360, c(ci), size=58, angle=-12)
@@ -476,7 +545,8 @@ def split(left, right, tag=""):
         t0 = 0.2 if side == 0 else lead(c(0), 0.4); a = seg(t0, 0.5)
         cx = W*0.3 if side == 0 else W*0.7
         center(d, 200, k_, f(34, "inter"), alpha(ORANGE, a), cx=cx)
-        center(d, 260 + (1-a)*20, big, fit(d, big, 88, W*0.4), alpha(PAPER_HI, a), cx=cx)
+        fb_ = fit(d, big, 88, W*0.4); center(d, 260 + (1-a)*20, big, fb_, alpha(PAPER_HI, a), cx=cx)
+        bw_ = d.tl(big, fb_); pencil_underline(d, cx - bw_/2, cx + bw_/2, 262 + fb_.lsize + 14, t0 + 0.5, RED if side else ORANGE, seed=side + 31, w=5)
         for j, l in enumerate(wrap(d, sub, f(30, "serif"), W*0.36)[:3]): center(d, 380 + j*40, l, f(30, "serif"), alpha(PAPER, a), cx=cx)
     d.line([(W/2, 160 + (1-seg(0.1, 0.6))*400), (W/2, 560)], DIM, 3)
     tagline(im, tag); return im
@@ -499,7 +569,7 @@ def pricetags(items, tag="", title=""):
                 center(d, y + 110, price, f(72, "inter"), col, cx=x + 20)
     tagline(im, tag); return im
 
-def flap(rows, header="", tag="", hit_i=0):
+def flap(rows, header="", tag="", hit_i=0, record=None):
     """split-flap price board: rows [(label, old, new)] flips old->new on cue hit_i."""
     im = base(); d = D(im)
     if header: center(d, 90, header.upper(), f(32, "inter"), alpha(ORANGE, seg(0, 0.4)))
@@ -513,7 +583,8 @@ def flap(rows, header="", tag="", hit_i=0):
             d.rect((x, y, x + 56, y + 96), fill=(30, 28, 26)); d.line([(x, y + 48), (x + 56, y + 48)], (12, 12, 12), 2)
             show = ch if not flick else "0123456789"[int(T*30 + j) % 10] if ch.isdigit() else ch
             center(d, y + 10, show, f(70, "inter"), ORANGE if T >= t0 + 0.5 else PAPER_HI, cx=x + 28)
-        if T >= t0 + 0.5: stamp(im, "RECORD", 620 + len(txt)*62 + 140, y + 48, t0 + 0.55, size=50, angle=-10)
+        if T >= t0 + 0.5 and (record is None or i in record): stamp(im, "RECORD", 620 + len(txt)*62 + 140, y + 48, t0 + 0.55, size=50, angle=-10)
+        if T >= t0 + 0.5: pencil_underline(d, 620, 620 + len(txt)*62 - 6, y + 112, t0 + 0.6, ORANGE, seed=i + 151, w=4)
     tagline(im, tag); return im
 
 def scenario(n, title, direction, tag="SCENARIO, NOT A FORECAST", ylab="DIESEL PRICE PRESSURE (SHAPE ILLUSTRATIVE)"):
@@ -537,9 +608,9 @@ def scenario(n, title, direction, tag="SCENARIO, NOT A FORECAST", ylab="DIESEL P
     d.text((x0, y0 + 130), ylab, f(20, "reg"), GREY)
     tagline(im, tag); return im
 
-def lights_out(text):
-    im = Image.new("RGB", (PW, PH), (6, 6, 6)); d = D(im)
-    a = seg(lead(c(0, 0.8), 0.6), 1.0) * (1 - seg(DUR - 0.6, 0.5))
+def lights_out(text, at=None, until=None):
+    im = Image.new("RGB", (PW, PH), (6, 6, 6)); d = D(im); end = (until if until is not None else (sn(1) if at is not None and len(SENTS) > 1 else DUR))
+    a = seg(at if at is not None else lead(c(0, 0.8), 0.6), 1.0) * (1 - seg(end - 0.6, 0.5))
     center(d, H/2 - 40, text, f(62, "serif"), alpha(PAPER_HI, a))
     return im
 
@@ -633,11 +704,25 @@ class Map:
             im.paste(hl, (0, 0), hl)
         return im
 _MAPS = {}
-def map_scene(bbox, z=6, hi=(), hi2=(), pins=(), lines=(), arcs=(), title="", tag="", measure=None, terrain=True, rings=(), labels=(), streams=None):
+def map_scene(bbox, z=6, hi=(), hi2=(), pins=(), lines=(), arcs=(), title="", tag="", measure=None, terrain=True, rings=(), labels=(), streams=None,
+              push=0.05, glow_hi=False, nv=False, reticle=None, strips=None, shock=None):
     """pins: [(lon, lat, label, col, cue_i)], lines: [((lon,lat),(lon,lat), col, width, cue_i, dashed)], arcs: same but curved,
        rings: [(lon, lat, km, cue_i, label)], labels: [(lon, lat, text, size, col)], measure: ((lon,lat),(lon,lat),text,cue_i),
-       streams: (src(lon,lat), [dst...], n, cue_i) moving dots (drone swarm)."""
-    m = Map(bbox, z, hi, hi2, terrain=terrain); im = m.frame(); d = D(im)
+       streams: (src(lon,lat), [dst...], n, cue_i) moving dots (drone swarm).
+       Round Two extras: push = slow push-in (G01), glow_hi = glowing borders (G11), nv = teal night-vision grade (G10),
+       reticle = (lon, lat, cue_i, label) HUD reticle + shutter (G04), strips = (s1, s2, cue_i) Bebas label strips (G12),
+       shock = (lon, lat, [(label, cue_i)]) seismic rings, active ring lit, earlier rings at 40% (G06)."""
+    m = Map(bbox, z, hi, hi2, terrain=terrain); im = m.frame()
+    if glow_hi and (hi or hi2):
+        g = m.hl.filter(ImageFilter.GaussianBlur(14*S)); a = g.getchannel("A").point(lambda v: int(min(255, v*2.2*seg(0.4, 0.8))))
+        im = ImageChops.add(im, ImageChops.multiply(g.convert("RGB"), Image.merge("RGB", (a, a, a))))
+    if nv:
+        g = np.asarray(im.convert("L")).astype(np.float32) / 255.0
+        g = np.clip((g - 0.12) * 1.6, 0, 1) ** 1.5
+        rgb = np.stack([4 + g*60, 14 + g*200, 16 + g*160], -1)
+        rgb[::max(2, int(3*S))] *= 0.72   # scan lines
+        im = Image.fromarray(np.clip(rgb, 0, 255).astype(np.uint8))
+    d = D(im)
     for (lo, la, txt, sz, col) in labels: d.text(m.P(lo, la), txt, f(sz, "inter"), alpha(col, seg(0.3, 0.6)))
     for (lo, la, km, ci, lab) in rings:
         x, y = m.P(lo, la); x2, _ = m.P(lo + km/(111.0*math.cos(math.radians(la))), la); r = abs(x2 - x)
@@ -676,12 +761,53 @@ def map_scene(bbox, z=6, hi=(), hi2=(), pins=(), lines=(), arcs=(), title="", ta
         if e <= 0: continue
         d.ell((x - 9*e, y - 9*e, x + 9*e, y + 9*e), fill=col, outline=(20, 18, 16), width=2); pulse_rings(d, x, y, col, t0, 2, 40)
         if txt: d.text((x + 16, y - 16), txt, f(26, "inter"), alpha(PAPER_HI, e))
+        if ci is not None and ci >= 0:   # the spoken place gets circled by hand, its name underlined
+            pencil_circle(d, x, y, 30, 26, t0 + 0.3, col if col != PAPER_HI else ORANGE, seed=j + 61, w=4, dur=0.5)
+            if txt: pencil_underline(d, x + 16, x + 16 + d.tl(txt, f(26, "inter")), y + 16, t0 + 0.6, PENCIL, seed=j + 71, w=3, dur=0.35)
     if measure:
         p0, p1, txt, ci = measure; (xa, ya), (xb, yb) = m.P(*p0), m.P(*p1); t0 = lead(c(ci), 0.6); k = seg(t0, 0.7)
         if k > 0:
             d.line([(xa, ya), (xa + (xb - xa)*k, ya + (yb - ya)*k)], PAPER_HI, 4)
             for (x, y) in ((xa, ya), (xa + (xb - xa)*k, ya + (yb - ya)*k)): d.line([(x - 8, y - 8), (x + 8, y + 8)], PAPER_HI, 3)
             d.text(((xa + xb)/2 + 20, (ya + yb)/2 - 60), txt, f(40, "bebas"), alpha(PAPER_HI, seg(t0 + 0.5, 0.3)))
+            if k >= 1: pencil_underline(d, (xa + xb)/2 + 20, (xa + xb)/2 + 20 + d.tl(txt, f(40, "bebas")), (ya + yb)/2 - 14, t0 + 0.8, ORANGE, seed=91, w=4)
+    if shock:
+        lo, la, rl = shock; x, y = m.P(lo, la); n = len(rl)
+        for i, (lab, ci) in enumerate(rl):
+            t0 = lead(c(ci), 0.5); k = seg(t0, 0.9)
+            if k <= 0: continue
+            nxt = lead(c(rl[i+1][1]), 0.5) if i + 1 < n else 1e9
+            lit = 1.0 if T < nxt else 0.4; r = (80 + 75*i) * ease_io(k)
+            d.ell((x - r, y - r*0.8, x + r, y + r*0.8), outline=alpha(ORANGE if lit == 1 else PAPER, 0.9*lit), width=4 if lit == 1 else 2)
+            fo = f(44 if lit == 1 else 30, "bebas"); lx, ly = x + r*0.72 + 12, y - r*0.8*0.72 - 34
+            d.text((lx, ly), lab, fo, alpha(PAPER_HI if lit == 1 else PAPER, lit*seg(t0 + 0.3, 0.3)))
+            if lit == 1: pencil_underline(d, lx, lx + d.tl(lab, fo), ly + fo.lsize + 6, t0 + 0.6, ORANGE, seed=i + 101, w=4)
+    if push and push > 0:   # slow push-in toward the frame centre (G01)
+        z_ = 1 + push * ease_io(T / max(1.0, DUR))
+        if z_ > 1.0005:
+            cw_, ch_ = PW / z_, PH / z_; im = im.crop((int((PW - cw_)/2), int((PH - ch_)/2), int((PW + cw_)/2), int((PH + ch_)/2))).resize((PW, PH), Image.BILINEAR)
+            d = D(im)
+    if reticle:
+        lo, la, ci, lab = reticle; x, y = m.P(lo, la); z_ = 1 + (push or 0) * ease_io(T / max(1.0, DUR)); x = W/2 + (x - W/2)*z_; y = H/2 + (y - H/2)*z_
+        t0 = lead(c(ci), 0.6); k = seg(t0, 0.6)
+        if k > 0:
+            r = 150 - 80*ease_io(k); L = 34
+            for sx in (-1, 1):
+                for sy in (-1, 1):
+                    cx_, cy_ = x + sx*r, y + sy*r; d.line([(cx_, cy_), (cx_ - sx*L, cy_)], PAPER_HI, 4); d.line([(cx_, cy_), (cx_, cy_ - sy*L)], PAPER_HI, 4)
+            d.line([(x - 14, y), (x + 14, y)], RED, 3); d.line([(x, y - 14), (x, y + 14)], RED, 3)
+            d.text((x + r + 14, y + r - 30), lab, f(28, "inter"), alpha(PAPER_HI, seg(t0 + 0.6, 0.3)))
+            d.text((60, 120), "REC ● " + "%02d:%02d" % (int(T)//60, int(T) % 60), f(22, "inter"), alpha(RED, k))
+            fl = 1 - seg(t0 + 0.6, 0.12) if T >= t0 + 0.6 else 0   # shutter flash as the reticle locks
+            if fl > 0: d.rect((0, 0, W, H), fill=(255, 250, 240, int(150*fl)))
+    if strips:
+        s1, s2, ci = strips; t0 = lead(c(ci), 0.4)
+        for j, txt in enumerate((s1, s2)):
+            k = ease_io((T - t0 - 0.35*j) / 0.45)
+            if k <= 0: continue
+            fo = f(56, "bebas"); tw = d.tl(txt, fo) + 50; y0 = H - 250 + j*86; x0 = -tw + (tw + 60)*k
+            d.rect((x0, y0, x0 + tw, y0 + 72), fill=(CRIMSON if j == 0 else (24, 22, 20)) + (235,)); d.text((x0 + 25, y0 + 8), txt, fo, PAPER_HI)
+    if nv: d.text((W - 300, 120), "ILLUSTRATION · NV GRADE", f(18, "inter"), alpha((120, 230, 200), 0.8))
     if title:
         d.rect((0, 0, W, 96), fill=(0, 0, 0, 120)); d.text((60, 30), title.upper(), fit(d, title.upper(), 36, 940), alpha(PAPER_HI, seg(0.2, 0.4)))
     tagline(im, tag); return im
@@ -697,3 +823,107 @@ def corner(im, lines, new_at=None):
         a = 1.0 if (new_at is None or i < len(lines) - 1) else seg(new_at, 0.3)
         d.text((x0 + 10, y0 + 24 + i*19), l, fit(d, l, 14, 214, "reg"), alpha(INK, a))
     return im
+
+# ---------------- Round Two set, part 2 (INV-002 G13 globe, G21 stacked bar, G22 diverging bars, G23 three stats) ----------------
+_GLOBE = {}
+def _globe_rings():
+    if "r" not in _GLOBE:
+        out = []
+        for rec, shp in shapes():
+            name = rec.get("ADMIN") or rec.get("NAME"); pts = shp.points; parts = list(shp.parts) + [len(pts)]
+            for a_, b_ in zip(parts[:-1], parts[1:]):
+                ring = pts[a_:b_][::3] if b_ - a_ > 60 else pts[a_:b_]
+                if len(ring) >= 3: out.append((name, np.radians(np.array(ring))))
+        _GLOBE["r"] = out
+    return _GLOBE["r"]
+def globe(center, arcs=(), hi=(), title="", tag="", spin=6.0, R=300):
+    """orthographic globe that turns slowly; arcs: [((lon,lat) src, (lon,lat) dst, label, cue_i)] draw on their cue with a moving pulse."""
+    im = base(); d = D(im); cx, cy = W/2 - 60, H/2 + 30
+    lon0 = math.radians(center[0] - spin/2 + spin*min(1, T/max(1, DUR))); lat0 = math.radians(center[1])
+    def P(lon, lat):
+        cosc = math.sin(lat0)*np.sin(lat) + math.cos(lat0)*np.cos(lat)*np.cos(lon - lon0)
+        x = np.cos(lat)*np.sin(lon - lon0); y = math.cos(lat0)*np.sin(lat) - math.sin(lat0)*np.cos(lat)*np.cos(lon - lon0)
+        return cx + R*x, cy - R*y, cosc
+    a = seg(0, 0.6)
+    im = glow(im, lambda g: g.ell((cx - R, cy - R, cx + R, cy + R), fill=(0, 120, 160, 120)), 40, 0.6); d = D(im)
+    d.ell((cx - R, cy - R, cx + R, cy + R), fill=alpha((14, 20, 26), a), outline=alpha((70, 110, 130), a), width=2)
+    for name, ring in _globe_rings():
+        X, Y, V = P(ring[:, 0], ring[:, 1])
+        if (V > 0).sum() < 3: continue
+        pts = [(x, y) for x, y, v in zip(X, Y, V) if v > 0]
+        fill = ORANGE + (170,) if name in hi else (48, 46, 42, int(255*a))
+        if len(pts) >= 3: d.poly(pts, fill=fill); d.line(pts + [pts[0]], (110, 104, 96, int(200*a)), 1)
+    for j, (src, dst, lab, ci) in enumerate(arcs):
+        t0 = lead(c(ci), 0.6) if ci is not None else 0.6 + 0.3*j; k = seg(t0, 0.9)
+        if k <= 0: continue
+        l1, p1, l2, p2 = map(math.radians, (src[0], src[1], dst[0], dst[1]))
+        v1 = np.array([math.cos(p1)*math.cos(l1), math.cos(p1)*math.sin(l1), math.sin(p1)]); v2 = np.array([math.cos(p2)*math.cos(l2), math.cos(p2)*math.sin(l2), math.sin(p2)])
+        om = math.acos(max(-1, min(1, float(v1 @ v2)))); pts = []
+        for i in range(int(48*k) + 1):
+            q = i/48; v = (math.sin((1-q)*om)*v1 + math.sin(q*om)*v2) / max(1e-6, math.sin(om)); v = v * (1 + 0.12*math.sin(math.pi*q))
+            lon, lat = math.atan2(v[1], v[0]), math.asin(v[2]/np.linalg.norm(v)); x, y, vis = P(lon, lat); sc = np.linalg.norm(v)
+            if vis > -0.05: pts.append((cx + (x - cx)*sc, cy + (y - cy)*sc))
+        if len(pts) > 1:
+            d.line(pts, ORANGE, 4)
+            if k < 1: d.ell((pts[-1][0]-7, pts[-1][1]-7, pts[-1][0]+7, pts[-1][1]+7), fill=PAPER_HI)
+            else:
+                q = ((T - t0) * 0.6) % 1.0; px, py = pts[min(len(pts)-1, int(q*(len(pts)-1)))]; d.ell((px-5, py-5, px+5, py+5), fill=PAPER_HI)
+        if k >= 1 and lab and pts:   # label in its own slot right of the globe, joined by a hand-drawn leader
+            ex, ey = pts[-1]; lx, ly = cx + R + 40, cy - R + 40 + j*62; kk = seg(t0 + 0.8, 0.3)
+            pencil(d, [(ex, ey), (lx - 10, ly + 18)], t0 + 0.8, 0.3, (200, 190, 175), 2, seed=j + 111, passes=1)
+            d.text((lx, ly), lab, f(28, "inter"), alpha(PAPER_HI, kk))
+            pencil_underline(d, lx, lx + d.tl(lab, f(28, "inter")), ly + 36, t0 + 1.0, ORANGE, seed=j + 121, w=3, dur=0.3)
+    if title: d.text((70, 60), title.upper(), fit(d, title.upper(), 34, 760), alpha(PAPER_HI, seg(0, 0.4)))
+    tagline(im, tag); return im
+
+def stats3(items, title="", tag=""):
+    """three big stats in a row (G23): [(big, small, cue_i)] each counts up on its word, then gets underlined."""
+    im = base(); d = D(im)
+    if title: center(d, 90, title.upper(), fit(d, title.upper(), 34, 900), alpha(ORANGE, seg(0, 0.4)))
+    n = len(items); gw = (W - 200) / n
+    for i, (big, small, ci) in enumerate(items):
+        t0 = lead(c(ci, sn(i) + 0.4), 0.9); e = ease_io((T - t0) / 0.9); cx = 100 + gw*i + gw/2
+        if e <= 0: continue
+        fo = fit(d, big, 92, gw - 40); center(d, 250 + (1-e)*20, countup(big, e) if len(re.findall(r"\d[\d,]*", big)) == 1 and "IN" not in big else big, fo, alpha(PAPER_HI, min(1, e*3)), cx=cx)
+        bw_ = d.tl(big, fo); pencil_underline(d, cx - bw_/2, cx + bw_/2, 262 + fo.lsize + 10, t0 + 1.0, RED if i == n-1 else ORANGE, seed=i + 131, w=5)
+        for j, l in enumerate(wrap(d, small, f(28, "serif"), gw - 50)[:3]): center(d, 400 + j*38, l, f(28, "serif"), alpha(PAPER, seg(t0 + 0.6, 0.4)), cx=cx)
+        if i: d.line([(100 + gw*i, 230 + (1-seg(t0, 0.5))*200), (100 + gw*i, 520)], DIM, 2)
+    tagline(im, tag); return im
+
+def stacked(segments, title="", total="", tag=""):
+    """horizontal stacked bar (G21): segments [(label, value, colour, cue_i)] grow one after another; total label on the end."""
+    im = base(); d = D(im)
+    if title: d.text((180, 70), title.upper(), fit(d, title.upper(), 34, 900), alpha(PAPER_HI, seg(0, 0.4)))
+    tot = sum(v for _, v, _, _ in segments) or 1; x0, x1, y0, y1 = 180, W - 140, 290, 400; x = x0
+    for i, (lab, v, col, ci) in enumerate(segments):
+        t0 = lead(c(ci, sn(i) + 0.3), 0.7); e = ease_io((T - t0) / 0.8); wseg = (x1 - x0) * v / tot
+        if e > 0:
+            d.rect((x, y0, x + wseg*e, y1), fill=col, outline=(20, 18, 16), width=2)
+            if e >= 1:
+                tl_ = wrap(d, lab, f(26, "inter"), max(160, wseg - 10))
+                for j, l in enumerate(tl_[:2]): d.text((x + 12, y1 + 22 + j*32), l, f(26, "inter"), alpha(col if col != DIM else PAPER, seg(t0 + 0.8, 0.3)))
+                pencil(d, [(x + 4, y0 - 18), (x + 4, y0 - 32), (x + wseg - 4, y0 - 32), (x + wseg - 4, y0 - 18)], t0 + 0.9, 0.4, PENCIL, 3, seed=i + 141)   # hand-drawn bracket
+        x += wseg
+    if total:
+        t0 = lead(c(0, 0.8), 0.3); center(d, 180, total, f(70, "inter"), alpha(ORANGE, seg(t0, 0.4)), cx=(x0 + x1)/2)
+    tagline(im, tag); return im
+
+def diverging(items, title="", tag="", unit="%", span=25):
+    """diverging bars around a zero line (G22): [(label, value, cue_i, valtxt)]; negatives grow left in red, positives right in green."""
+    im = base(); d = D(im)
+    if title: d.text((180, 60), title.upper(), fit(d, title.upper(), 34, 900), alpha(PAPER_HI, seg(0, 0.4)))
+    zx = W/2 + 120; k0 = seg(0.1, 0.5); d.line([(zx, 150), (zx, 150 + 420*k0)], PAPER, 3); d.text((zx - 8, 120), "0", f(24, "inter"), alpha(PAPER, k0))
+    for i, (lab, v, ci, vt) in enumerate(items):
+        y = 190 + i*150; t0 = lead(c(ci, sn(i) + 0.3), 0.7); e = ease_io((T - t0) / 0.8)
+        d.text((zx - 600, y - 42), lab, fit(d, lab, 28, 700, "inter"), alpha(PAPER_HI, seg(0.2 + 0.2*i, 0.4)))
+        if e <= 0: continue
+        L = 320 * min(1, abs(v) / span) * e; col = RED if v < 0 else GREEN
+        if v is not None and v != 0:
+            (d.rect((zx - L, y, zx, y + 70), fill=col) if v < 0 else d.rect((zx, y, zx + L, y + 70), fill=col))
+        else:   # change known in direction only: hatched, open-ended bar
+            for q in range(0, int(220*e), 18): d.line([(zx - q, y + 70), (zx - q - 18, y)], RED, 3)
+        txt = vt if vt else (f"{v:+g}{unit}")
+        tx = zx - L - 20 - d.tl(txt, f(40, "inter")) if (v or -1) < 0 else zx + L + 20
+        if v == 0 or v is None: tx = zx - 240 - d.tl(txt, f(30, "inter"))
+        d.text((tx, y + 12), txt, f(40 if v else 30, "inter"), alpha(PAPER_HI, seg(t0 + 0.7, 0.3)))
+    tagline(im, tag); return im
