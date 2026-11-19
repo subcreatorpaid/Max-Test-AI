@@ -1,0 +1,227 @@
+{
+ "part": "P3",
+ "dur": 204.6,
+ "vo_dur": 204.59545833333334,
+ "shots": [
+  {
+   "code": "P3-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 6.04,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P3-02",
+   "kind": "gfx",
+   "t": 6.04,
+   "dur": 10.76,
+   "off": 0.0,
+   "cues": [
+    7.263
+   ],
+   "sfx": "counter roll",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P3-03",
+   "kind": "gfx",
+   "t": 16.8,
+   "dur": 8.36,
+   "off": 0.0,
+   "cues": [
+    3.469
+   ],
+   "sfx": "chart grow, sub hit",
+   "tr": "hblur"
+  },
+  {
+   "code": "P3-04",
+   "kind": "gfx",
+   "t": 25.16,
+   "dur": 12.96,
+   "off": 0.0,
+   "cues": [
+    9.867
+   ],
+   "sfx": "chart grow",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P3-05",
+   "kind": "gfx",
+   "t": 38.12,
+   "dur": 14.52,
+   "off": 0.0,
+   "cues": [
+    3.31,
+    9.147,
+    11.089,
+    12.926
+   ],
+   "sfx": "pin drops",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P3-06",
+   "kind": "gfx",
+   "t": 52.64,
+   "dur": 8.44,
+   "off": 0.0,
+   "cues": [
+    2.45
+   ],
+   "sfx": "deep whoosh",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P3-06b",
+   "kind": "gfx",
+   "t": 61.08,
+   "dur": 10.52,
+   "off": 0.0,
+   "cues": [
+    7.429
+   ],
+   "sfx": "deep whoosh",
+   "tr": "slideup"
+  },
+  {
+   "code": "P3-07",
+   "kind": "gfx",
+   "t": 71.6,
+   "dur": 10.76,
+   "off": 0.0,
+   "cues": [
+    7.188
+   ],
+   "sfx": "chart grow",
+   "tr": "radial"
+  },
+  {
+   "code": "P3-08",
+   "kind": "gfx",
+   "t": 82.36,
+   "dur": 11.56,
+   "off": 0.0,
+   "cues": [
+    6.162,
+    10.105
+   ],
+   "sfx": "pin drops",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P3-08b",
+   "kind": "gfx",
+   "t": 93.92,
+   "dur": 12.68,
+   "off": 0.0,
+   "cues": [
+    3.511,
+    4.908,
+    10.097
+   ],
+   "sfx": "tick x3",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P3-09",
+   "kind": "gfx",
+   "t": 106.6,
+   "dur": 9.28,
+   "off": 0.0,
+   "cues": [
+    6.466
+   ],
+   "sfx": "whoosh",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P3-10",
+   "kind": "gfx",
+   "t": 115.88,
+   "dur": 10.16,
+   "off": 0.0,
+   "cues": [
+    8.602
+   ],
+   "sfx": "soft whoosh",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P3-10b",
+   "kind": "gfx",
+   "t": 126.04,
+   "dur": 14.4,
+   "off": 0.0,
+   "cues": [
+    5.505
+   ],
+   "sfx": "pin drop",
+   "tr": "hblur"
+  },
+  {
+   "code": "P3-11",
+   "kind": "gfx",
+   "t": 140.44,
+   "dur": 14.2,
+   "off": 0.0,
+   "cues": [
+    6.372
+   ],
+   "sfx": "silence, soft tick",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P3-12",
+   "kind": "gfx",
+   "t": 154.64,
+   "dur": 13.64,
+   "off": 0.0,
+   "cues": [
+    3.854
+   ],
+   "sfx": "low pulse",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P3-12b",
+   "kind": "gfx",
+   "t": 168.28,
+   "dur": 11.6,
+   "off": 0.0,
+   "cues": [
+    0.442
+   ],
+   "sfx": "low pulse",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P3-13",
+   "kind": "gfx",
+   "t": 179.88,
+   "dur": 13.4,
+   "off": 0.0,
+   "cues": [
+    4.112
+   ],
+   "sfx": "low drone",
+   "tr": "slideup"
+  },
+  {
+   "code": "P3-14",
+   "kind": "gfx",
+   "t": 193.28,
+   "dur": 11.32,
+   "off": 0.0,
+   "cues": [
+    9.125
+   ],
+   "sfx": "clock tick, printer",
+   "tr": "radial"
+  }
+ ]
+}
