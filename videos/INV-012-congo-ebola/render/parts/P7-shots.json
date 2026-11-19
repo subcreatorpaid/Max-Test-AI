@@ -1,0 +1,191 @@
+{
+ "part": "P7",
+ "dur": 174.4,
+ "vo_dur": 174.38991666666666,
+ "shots": [
+  {
+   "code": "P7-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.64,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P7-02",
+   "kind": "gfx",
+   "t": 4.64,
+   "dur": 6.24,
+   "off": 0.0,
+   "cues": [
+    4.051
+   ],
+   "sfx": "tick x4",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P7-02",
+   "kind": "clip",
+   "t": 10.88,
+   "dur": 4.56,
+   "off": 6.251166666666666,
+   "cues": [],
+   "sfx": "tick x4",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P7-03",
+   "kind": "photo",
+   "t": 15.44,
+   "dur": 13.76,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "market air",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P7-03b",
+   "kind": "gfx",
+   "t": 29.2,
+   "dur": 16.08,
+   "off": 0.0,
+   "cues": [
+    6.381
+   ],
+   "sfx": "map whoosh",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P7-04",
+   "kind": "gfx",
+   "t": 45.28,
+   "dur": 13.32,
+   "off": 0.0,
+   "cues": [
+    3.802
+   ],
+   "sfx": "paper slide",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P7-05",
+   "kind": "gfx",
+   "t": 58.6,
+   "dur": 8.52,
+   "off": 0.0,
+   "cues": [
+    6.318
+   ],
+   "sfx": "low hit",
+   "tr": "slideup"
+  },
+  {
+   "code": "P7-05",
+   "kind": "photo",
+   "t": 67.12,
+   "dur": 3.88,
+   "off": 8.518375000000002,
+   "cues": [],
+   "sfx": "low hit",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P7-06",
+   "kind": "gfx",
+   "t": 71.0,
+   "dur": 15.88,
+   "off": 0.0,
+   "cues": [
+    4.95
+   ],
+   "sfx": "chart grow",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P7-06b",
+   "kind": "gfx",
+   "t": 86.88,
+   "dur": 15.08,
+   "off": 0.0,
+   "cues": [
+    9.361
+   ],
+   "sfx": "chart drop",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P7-07",
+   "kind": "gfx",
+   "t": 101.96,
+   "dur": 12.16,
+   "off": 0.0,
+   "cues": [
+    1.777
+   ],
+   "sfx": "pin drops",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P7-08",
+   "kind": "gfx",
+   "t": 114.12,
+   "dur": 12.56,
+   "off": 0.0,
+   "cues": [
+    10.023
+   ],
+   "sfx": "paper slide",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P7-09",
+   "kind": "gfx",
+   "t": 126.68,
+   "dur": 13.68,
+   "off": 0.0,
+   "cues": [
+    9.021
+   ],
+   "sfx": "loop whoosh",
+   "tr": "hblur"
+  },
+  {
+   "code": "P7-10",
+   "kind": "gfx",
+   "t": 140.36,
+   "dur": 13.76,
+   "off": 0.0,
+   "cues": [
+    3.987
+   ],
+   "sfx": "soft tick",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P7-10b",
+   "kind": "gfx",
+   "t": 154.12,
+   "dur": 12.56,
+   "off": 0.0,
+   "cues": [
+    2.232
+   ],
+   "sfx": "soft tick",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P7-11",
+   "kind": "gfx",
+   "t": 166.68,
+   "dur": 7.72,
+   "off": 0.0,
+   "cues": [
+    6.285
+   ],
+   "sfx": "receipt printer",
+   "tr": "zoomin"
+  }
+ ]
+}
