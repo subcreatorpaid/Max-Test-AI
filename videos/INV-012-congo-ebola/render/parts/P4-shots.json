@@ -1,0 +1,187 @@
+{
+ "part": "P4",
+ "dur": 172.64,
+ "vo_dur": 172.65983333333332,
+ "shots": [
+  {
+   "code": "P4-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.08,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P4-02",
+   "kind": "gfx",
+   "t": 5.08,
+   "dur": 12.32,
+   "off": 0.0,
+   "cues": [
+    10.037
+   ],
+   "sfx": "paper slide",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P4-03",
+   "kind": "gfx",
+   "t": 17.4,
+   "dur": 8.44,
+   "off": 0.0,
+   "cues": [
+    4.832
+   ],
+   "sfx": "low hit",
+   "tr": "hblur"
+  },
+  {
+   "code": "P4-04",
+   "kind": "gfx",
+   "t": 25.84,
+   "dur": 9.96,
+   "off": 0.0,
+   "cues": [
+    6.154
+   ],
+   "sfx": "two ticks",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P4-05",
+   "kind": "gfx",
+   "t": 35.8,
+   "dur": 17.48,
+   "off": 0.0,
+   "cues": [
+    11.791
+   ],
+   "sfx": "gauge tick",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P4-06",
+   "kind": "gfx",
+   "t": 53.28,
+   "dur": 13.04,
+   "off": 0.0,
+   "cues": [
+    9.415
+   ],
+   "sfx": "whoosh",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P4-06b",
+   "kind": "gfx",
+   "t": 66.32,
+   "dur": 8.52,
+   "off": 0.0,
+   "cues": [
+    4.333
+   ],
+   "sfx": "tick",
+   "tr": "slideup"
+  },
+  {
+   "code": "P4-07",
+   "kind": "gfx",
+   "t": 74.84,
+   "dur": 12.88,
+   "off": 0.0,
+   "cues": [
+    0.979
+   ],
+   "sfx": "low pulse",
+   "tr": "radial"
+  },
+  {
+   "code": "P4-08",
+   "kind": "gfx",
+   "t": 87.72,
+   "dur": 17.52,
+   "off": 0.0,
+   "cues": [
+    8.772,
+    9.831
+   ],
+   "sfx": "fire flare",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P4-09",
+   "kind": "gfx",
+   "t": 105.24,
+   "dur": 12.48,
+   "off": 0.0,
+   "cues": [
+    2.649,
+    8.34
+   ],
+   "sfx": "stamp thud",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P4-10",
+   "kind": "gfx",
+   "t": 117.72,
+   "dur": 8.88,
+   "off": 0.0,
+   "cues": [
+    2.693
+   ],
+   "sfx": "counter roll",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P4-11",
+   "kind": "gfx",
+   "t": 126.6,
+   "dur": 10.16,
+   "off": 0.0,
+   "cues": [
+    7.768
+   ],
+   "sfx": "soft tick",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P4-12",
+   "kind": "gfx",
+   "t": 136.76,
+   "dur": 14.16,
+   "off": 0.0,
+   "cues": [
+    1.578
+   ],
+   "sfx": "typewriter, stamp",
+   "tr": "hblur"
+  },
+  {
+   "code": "P4-13",
+   "kind": "gfx",
+   "t": 150.92,
+   "dur": 14.96,
+   "off": 0.0,
+   "cues": [
+    9.086
+   ],
+   "sfx": "low boom",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P4-14",
+   "kind": "gfx",
+   "t": 165.88,
+   "dur": 6.76,
+   "off": 0.0,
+   "cues": [
+    2.939
+   ],
+   "sfx": "receipt printer",
+   "tr": "wiperight"
+  }
+ ]
+}
