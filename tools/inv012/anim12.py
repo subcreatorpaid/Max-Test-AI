@@ -610,7 +610,7 @@ def scenario(n, title, direction, tag="SCENARIO, NOT A FORECAST", ylab="DIESEL P
 
 def lights_out(text, at=None, until=None):
     im = Image.new("RGB", (PW, PH), (6, 6, 6)); d = D(im); end = (until if until is not None else (sn(1) if at is not None and len(SENTS) > 1 else DUR))
-    a = seg(at if at is not None else lead(c(0, 0.8), 0.6), 1.0) * (1 - seg(end - 0.6, 0.5))
+    a = seg(at if at is not None else lead(c(0, 0.8), 0.6), 0.5 if at is not None else 1.0) * (1 - seg(end - 0.35, 0.3))
     center(d, H/2 - 40, text, f(62, "serif"), alpha(PAPER_HI, a))
     return im
 
@@ -796,16 +796,16 @@ def map_scene(bbox, z=6, hi=(), hi2=(), pins=(), lines=(), arcs=(), title="", ta
                 for sy in (-1, 1):
                     cx_, cy_ = x + sx*r, y + sy*r; d.line([(cx_, cy_), (cx_ - sx*L, cy_)], PAPER_HI, 4); d.line([(cx_, cy_), (cx_, cy_ - sy*L)], PAPER_HI, 4)
             d.line([(x - 14, y), (x + 14, y)], RED, 3); d.line([(x, y - 14), (x, y + 14)], RED, 3)
-            d.text((x + r + 14, y + r - 30), lab, f(28, "inter"), alpha(PAPER_HI, seg(t0 + 0.6, 0.3)))
+            d.text((x - r - 14 - d.tl(lab, f(28, "inter")), y + r - 30), lab, f(28, "inter"), alpha(PAPER_HI, seg(t0 + 0.6, 0.3)))
             d.text((60, 120), "REC ● " + "%02d:%02d" % (int(T)//60, int(T) % 60), f(22, "inter"), alpha(RED, k))
             fl = 1 - seg(t0 + 0.6, 0.12) if T >= t0 + 0.6 else 0   # shutter flash as the reticle locks
             if fl > 0: d.rect((0, 0, W, H), fill=(255, 250, 240, int(150*fl)))
     if strips:
-        s1, s2, ci = strips; t0 = lead(c(ci), 0.4)
+        s1, s2, ci = strips[:3]; sy = strips[3] if len(strips) > 3 else H - 250; t0 = lead(c(ci), 0.4)
         for j, txt in enumerate((s1, s2)):
             k = ease_io((T - t0 - 0.35*j) / 0.45)
             if k <= 0: continue
-            fo = f(56, "bebas"); tw = d.tl(txt, fo) + 50; y0 = H - 250 + j*86; x0 = -tw + (tw + 60)*k
+            fo = f(56, "bebas"); tw = d.tl(txt, fo) + 50; y0 = sy + j*86; x0 = -tw + (tw + 60)*k
             d.rect((x0, y0, x0 + tw, y0 + 72), fill=(CRIMSON if j == 0 else (24, 22, 20)) + (235,)); d.text((x0 + 25, y0 + 8), txt, fo, PAPER_HI)
     if nv: d.text((W - 300, 120), "ILLUSTRATION · NV GRADE", f(18, "inter"), alpha((120, 230, 200), 0.8))
     if title:
@@ -895,6 +895,7 @@ def stacked(segments, title="", total="", tag=""):
     im = base(); d = D(im)
     if title: d.text((180, 70), title.upper(), fit(d, title.upper(), 34, 900), alpha(PAPER_HI, seg(0, 0.4)))
     tot = sum(v for _, v, _, _ in segments) or 1; x0, x1, y0, y1 = 180, W - 140, 290, 400; x = x0
+    k0 = seg(0.2, 0.8); d.rect((x0, y0, x0 + (x1 - x0)*k0, y1), outline=alpha(DIM, 1), width=2)   # empty frame draws itself first
     for i, (lab, v, col, ci) in enumerate(segments):
         t0 = lead(c(ci, sn(i) + 0.3), 0.7); e = ease_io((T - t0) / 0.8); wseg = (x1 - x0) * v / tot
         if e > 0:
