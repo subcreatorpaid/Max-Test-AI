@@ -1,0 +1,79 @@
+{
+ "part": "CO",
+ "dur": 80.68,
+ "vo_dur": 80.66220833333334,
+ "shots": [
+  {
+   "code": "CO-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 17.92,
+   "off": 0.0,
+   "cues": [
+    11.877
+   ],
+   "sfx": "low boom on 'broke'",
+   "tr": ""
+  },
+  {
+   "code": "CO-02",
+   "kind": "gfx",
+   "t": 17.92,
+   "dur": 12.12,
+   "off": 0.0,
+   "cues": [
+    6.948
+   ],
+   "sfx": "soft ticks",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "CO-03",
+   "kind": "gfx",
+   "t": 30.04,
+   "dur": 17.24,
+   "off": 0.0,
+   "cues": [
+    7.283
+   ],
+   "sfx": "counter roll, sub hit",
+   "tr": "hblur"
+  },
+  {
+   "code": "CO-04",
+   "kind": "gfx",
+   "t": 47.28,
+   "dur": 6.08,
+   "off": 0.0,
+   "cues": [
+    3.746
+   ],
+   "sfx": "stamp thud",
+   "tr": "circleopen"
+  },
+  {
+   "code": "CO-05",
+   "kind": "gfx",
+   "t": 53.36,
+   "dur": 14.28,
+   "off": 0.0,
+   "cues": [
+    7.151
+   ],
+   "sfx": "deep whoosh",
+   "tr": "wiperight"
+  },
+  {
+   "code": "CO-06",
+   "kind": "gfx",
+   "t": 67.64,
+   "dur": 13.04,
+   "off": 0.0,
+   "cues": [
+    8.562
+   ],
+   "sfx": "riser",
+   "tr": "zoomin"
+  }
+ ]
+}
