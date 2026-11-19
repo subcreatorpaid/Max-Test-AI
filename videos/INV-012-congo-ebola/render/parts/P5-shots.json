@@ -1,0 +1,219 @@
+{
+ "part": "P5",
+ "dur": 214.36,
+ "vo_dur": 214.34975,
+ "shots": [
+  {
+   "code": "P5-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.36,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P5-02",
+   "kind": "gfx",
+   "t": 5.36,
+   "dur": 12.28,
+   "off": 0.0,
+   "cues": [
+    7.408
+   ],
+   "sfx": "tick",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P5-03",
+   "kind": "gfx",
+   "t": 17.64,
+   "dur": 11.64,
+   "off": 0.0,
+   "cues": [
+    0.06
+   ],
+   "sfx": "tick, tick",
+   "tr": "hblur"
+  },
+  {
+   "code": "P5-03b",
+   "kind": "gfx",
+   "t": 29.28,
+   "dur": 14.68,
+   "off": 0.0,
+   "cues": [
+    5.521
+   ],
+   "sfx": "pin drops",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P5-04",
+   "kind": "gfx",
+   "t": 43.96,
+   "dur": 7.68,
+   "off": 0.0,
+   "cues": [
+    5.457
+   ],
+   "sfx": "pin drops",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P5-04",
+   "kind": "photo",
+   "t": 51.64,
+   "dur": 4.56,
+   "off": 7.656541666666667,
+   "cues": [],
+   "sfx": "pin drops",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P5-05",
+   "kind": "gfx",
+   "t": 56.2,
+   "dur": 14.44,
+   "off": 0.0,
+   "cues": [
+    4.52
+   ],
+   "sfx": "deep whoosh",
+   "tr": "slideup"
+  },
+  {
+   "code": "P5-06",
+   "kind": "gfx",
+   "t": 70.64,
+   "dur": 9.68,
+   "off": 0.0,
+   "cues": [
+    5.515
+   ],
+   "sfx": "whoosh",
+   "tr": "radial"
+  },
+  {
+   "code": "P5-07",
+   "kind": "gfx",
+   "t": 80.32,
+   "dur": 16.2,
+   "off": 0.0,
+   "cues": [
+    6.828
+   ],
+   "sfx": "chart grow, sub hit",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P5-07b",
+   "kind": "gfx",
+   "t": 96.52,
+   "dur": 11.32,
+   "off": 0.0,
+   "cues": [
+    6.98
+   ],
+   "sfx": "paper rustle",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P5-08",
+   "kind": "gfx",
+   "t": 107.84,
+   "dur": 10.28,
+   "off": 0.0,
+   "cues": [
+    8.825
+   ],
+   "sfx": "paper slide",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P5-09",
+   "kind": "gfx",
+   "t": 118.12,
+   "dur": 17.48,
+   "off": 0.0,
+   "cues": [
+    8.993
+   ],
+   "sfx": "pin drop",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P5-10",
+   "kind": "gfx",
+   "t": 135.6,
+   "dur": 12.24,
+   "off": 0.0,
+   "cues": [
+    5.208
+   ],
+   "sfx": "counter roll",
+   "tr": "hblur"
+  },
+  {
+   "code": "P5-11",
+   "kind": "gfx",
+   "t": 147.84,
+   "dur": 15.48,
+   "off": 0.0,
+   "cues": [
+    3.306
+   ],
+   "sfx": "low pulse",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P5-11b",
+   "kind": "gfx",
+   "t": 163.32,
+   "dur": 14.32,
+   "off": 0.0,
+   "cues": [
+    4.179
+   ],
+   "sfx": "tick x3",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P5-12",
+   "kind": "gfx",
+   "t": 177.64,
+   "dur": 9.68,
+   "off": 0.0,
+   "cues": [
+    4.083
+   ],
+   "sfx": "pin drop",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P5-13",
+   "kind": "gfx",
+   "t": 187.32,
+   "dur": 14.2,
+   "off": 0.0,
+   "cues": [
+    11.759
+   ],
+   "sfx": "paper slide",
+   "tr": "slideup"
+  },
+  {
+   "code": "P5-14",
+   "kind": "gfx",
+   "t": 201.52,
+   "dur": 12.84,
+   "off": 0.0,
+   "cues": [
+    10.131
+   ],
+   "sfx": "receipt printer",
+   "tr": "radial"
+  }
+ ]
+}
