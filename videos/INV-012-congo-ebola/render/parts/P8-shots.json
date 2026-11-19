@@ -1,0 +1,231 @@
+{
+ "part": "P8",
+ "dur": 238.2,
+ "vo_dur": 238.18883333333332,
+ "shots": [
+  {
+   "code": "P8-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.4,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P8-02",
+   "kind": "gfx",
+   "t": 4.4,
+   "dur": 19.32,
+   "off": 0.0,
+   "cues": [
+    14.978
+   ],
+   "sfx": "chart grow",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P8-02b",
+   "kind": "gfx",
+   "t": 23.72,
+   "dur": 9.4,
+   "off": 0.0,
+   "cues": [
+    4.08
+   ],
+   "sfx": "typewriter",
+   "tr": "hblur"
+  },
+  {
+   "code": "P8-03",
+   "kind": "gfx",
+   "t": 33.12,
+   "dur": 11.6,
+   "off": 0.0,
+   "cues": [
+    1.902
+   ],
+   "sfx": "sub hit",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P8-04",
+   "kind": "gfx",
+   "t": 44.72,
+   "dur": 16.56,
+   "off": 0.0,
+   "cues": [
+    4.952
+   ],
+   "sfx": "tick x3",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P8-05",
+   "kind": "gfx",
+   "t": 61.28,
+   "dur": 11.8,
+   "off": 0.0,
+   "cues": [
+    4.88
+   ],
+   "sfx": "typewriter",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P8-06",
+   "kind": "gfx",
+   "t": 73.08,
+   "dur": 14.52,
+   "off": 0.0,
+   "cues": [
+    6.859
+   ],
+   "sfx": "paper slide",
+   "tr": "slideup"
+  },
+  {
+   "code": "P8-07",
+   "kind": "gfx",
+   "t": 87.6,
+   "dur": 15.6,
+   "off": 0.0,
+   "cues": [
+    9.4
+   ],
+   "sfx": "counter roll",
+   "tr": "radial"
+  },
+  {
+   "code": "P8-08",
+   "kind": "gfx",
+   "t": 103.2,
+   "dur": 13.92,
+   "off": 0.0,
+   "cues": [
+    4.411
+   ],
+   "sfx": "two ticks",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P8-09",
+   "kind": "gfx",
+   "t": 117.12,
+   "dur": 15.72,
+   "off": 0.0,
+   "cues": [
+    11.186
+   ],
+   "sfx": "gauge tick",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P8-09b",
+   "kind": "gfx",
+   "t": 132.84,
+   "dur": 13.44,
+   "off": 0.0,
+   "cues": [
+    8.861
+   ],
+   "sfx": "chart drop",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P8-10",
+   "kind": "gfx",
+   "t": 146.28,
+   "dur": 16.08,
+   "off": 0.0,
+   "cues": [
+    14.536
+   ],
+   "sfx": "whoosh",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P8-11",
+   "kind": "gfx",
+   "t": 162.36,
+   "dur": 10.76,
+   "off": 0.0,
+   "cues": [
+    8.591
+   ],
+   "sfx": "pen scratch",
+   "tr": "hblur"
+  },
+  {
+   "code": "P8-11",
+   "kind": "photo",
+   "t": 173.12,
+   "dur": 3.08,
+   "off": 10.79087500000001,
+   "cues": [],
+   "sfx": "pen scratch",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P8-12",
+   "kind": "gfx",
+   "t": 176.2,
+   "dur": 14.04,
+   "off": 0.0,
+   "cues": [
+    7.252
+   ],
+   "sfx": "soft tick",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P8-12b",
+   "kind": "gfx",
+   "t": 190.24,
+   "dur": 9.08,
+   "off": 0.0,
+   "cues": [
+    5.52
+   ],
+   "sfx": "paper slide",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P8-13",
+   "kind": "gfx",
+   "t": 199.32,
+   "dur": 17.96,
+   "off": 0.0,
+   "cues": [
+    9.454
+   ],
+   "sfx": "sub hit",
+   "tr": "slideup"
+  },
+  {
+   "code": "P8-14",
+   "kind": "gfx",
+   "t": 217.28,
+   "dur": 11.36,
+   "off": 0.0,
+   "cues": [
+    5.311
+   ],
+   "sfx": "low hit",
+   "tr": "radial"
+  },
+  {
+   "code": "P8-15",
+   "kind": "gfx",
+   "t": 228.64,
+   "dur": 9.56,
+   "off": 0.0,
+   "cues": [
+    6.226
+   ],
+   "sfx": "receipt printer",
+   "tr": "smoothright"
+  }
+ ]
+}
