@@ -46,6 +46,7 @@ def figures(o, t, n=50, cols=10, title="", cue=0, grey_every=1, crimson_every=No
 def counter2(o, t):
     im = base(); d = D(im); hit = c(0, 1.5); e = ease_io((_A.T - lead(hit, 1.4))/1.4); e2 = ease_io((_A.T - lead(hit + 1.6, 1.2))/1.2)
     center(d, 110, "CONGO EBOLA OUTBREAK · CONFIRMED", f(32, "inter"), alpha(ORANGE, seg(0, 0.4)))
+    center(d, 620, "SIX MONTHS AFTER IT WAS DECLARED · 15 MAY 2026", f(30, "serif"), alpha(PAPER, seg(0.3, 0.6)))
     center(d, 180, countup("11,376", e), f(150, "inter"), alpha(PAPER_HI, min(1, e*4))); center(d, 350, "CASES", f(34, "inter"), alpha(PAPER, seg(hit, 0.4)))
     center(d, 410, countup("5,568", e2), f(130, "inter"), alpha(CRIMSON, min(1, e2*4))); center(d, 560, "DEATHS", f(34, "inter"), alpha(PAPER, seg(hit + 1.6, 0.4)))
     stamp(im, "ECDC · 15 NOV 2026", W - 230, 420, hit + 2.8, col=ORANGE, size=40, angle=-6)
@@ -322,10 +323,10 @@ def run_line(n, t):   # running receipt: n-th line prints on the row's cue
     return receipt(RUN[:n], title="RUNNING TOTAL", tag=t, show=n - 1, cues_from=[c(0, 1.5)])
 
 SPEC = {
-"CO-01": lambda o, t: map_scene(ITURI, 8, hi2=[], pins=[(*MONG, "MONGBWALU · 4 FEB 2026", RED, 0), (*BUNIA, "BUNIA", PAPER_HI, None)], title="ITURI · EASTERN CONGO", tag=t, labels=[(30.8, 2.9, "UGANDA →", 28, PAPER)]),
+"CO-01": lambda o, t: map_scene(ITURI, 8, hi2=[], pins=[(*BUNIA, "BUNIA", PAPER_HI, None), (*MONG, "MONGBWALU · GOLD TOWN", PAPER_HI, None)] + ([(*MONG, "", RED, 0)] if _A.T > c(0, 9) - 0.3 else []), title="ITURI · EASTERN CONGO · 4 FEB 2026", tag=t, labels=[(30.8, 2.9, "UGANDA →", 28, PAPER)]),
 "CO-02": lambda o, t: figures(o, t, 50, 10, "IN THE WEEKS THAT FOLLOWED", 0, hit_txt="≈ 50 DEATHS · NO TEST"),
 "CO-03": counter2,
-"CO-04": lambda o, t: quote("Still not under control.", "Jean Kaseya, Africa CDC", "15 Nov 2026", tag=t),
+"CO-04": lambda o, t: quote("Still not under control.", "Jean Kaseya, Africa CDC", "15 Nov 2026", tag=t, cue=9),
 "CO-05": phone_link,
 "CO-06": lambda o, t: roadmap(o, t, ["THE FUNERAL", "THE VIRUS", "THE WAR", "THE GOLD", "YOUR BILL"]),
 "P1-01": lambda o, t: part(1, "The funeral"),
@@ -384,8 +385,8 @@ SPEC = {
 "P3-13": iceberg,
 "P3-14": clock16,
 "P4-01": lambda o, t: part(4, "Not under control"),
-"P4-02": lambda o, t: quote("Still serious, and still not under control.", "Jean Kaseya, Africa CDC", "15 Nov 2026", tag=t),
-"P4-03": lambda o, t: quote("The worst Ebola outbreak that the world will have.", "Jean Kaseya, if it isn't stopped now", "15 Nov 2026", tag=t),
+"P4-02": lambda o, t: quote("Still serious, and still not under control.", "Jean Kaseya, Africa CDC", "15 Nov 2026", tag=t, cue=9),
+"P4-03": lambda o, t: quote("The worst Ebola outbreak that the world will have.", "Jean Kaseya, if it isn't stopped now", "15 Nov 2026", tag=t, cue=9),
 "P4-04": lambda o, t: split(("AFRICA CDC", "NOT UNDER CONTROL", "Jean Kaseya, 15 Nov"), ("WHO", "SLOWING", "in several early epicentres · Tedros"), tag=t),
 "P4-05": lambda o, t: gauge(80, "of new cases come from outside contact lists", sub="Africa CDC figure", tag=t, stamp_txt="CLAIM", valtxt=lambda e: "> " + countup("80", e) + "%"),
 "P4-06": net,
@@ -415,7 +416,7 @@ SPEC = {
 "P5-11": overlap,
 "P5-11b": lambda o, t: tiles([("LATE", "delayed detection"), ("WAR", "conflict, no access"), ("STRETCHED", "health services thin")], title="WHY IT SPREAD FASTER", tag=t, cues=[0, 0, 0]),
 "P5-12": lambda o, t: map_pins(EAST, 7, [(*KATANA, "KATANA · REBEL-HELD", RED), (*BUKAVU, "BUKAVU", PAPER_HI)], "THE VIRUS IN REBEL TERRITORY", t, cues=[0, None]),
-"P5-13": lambda o, t: quote("If I stay at home, what are my children going to eat?", "Justin Okaume, gold digger, Mongbwalu", "AFP, 2026", tag=t),
+"P5-13": lambda o, t: quote("If I stay at home, what are my children going to eat?", "Justin Okaume, gold digger, Mongbwalu", "AFP, 2026", tag=t, cue=9),
 "P5-14": lambda o, t: receipt(RUN[:5], title="RUNNING TOTAL", tag=t, show=4, cues_from=[c(0, 1.5)]),
 "P6-01": lambda o, t: part(6, "Your phone"),
 "P6-03": lambda o, t: bars([("DR CONGO", 1300), ("RWANDA", 400), ("NIGERIA", 390), ("BRAZIL", 190), ("REST", 220)], title="TANTALUM MINED IN 2025 (TONNES, EST.)", unit=" t", tag=t, hi=0, cues=[0, 0, 0, 0, 0]),
@@ -436,12 +437,12 @@ SPEC = {
 "P7-01": lambda o, t: part(7, "The hunger line"),
 "P7-02": lambda o, t: chain(["Quarantine", "No fields", "No market", "No food"], title="HOW EBOLA MAKES PEOPLE HUNGRY", tag=t),
 "P7-03b": lambda o, t: map_scene(ITURI, 8, pins=[(*BUNIA, "BUNIA", ORANGE, None)], streams=(BUNIA, [MONG, (30.6, 1.9), (29.9, 1.3), (30.5, 1.2), (30.0, 2.3)], 90, 0), title="16,000+ CROSSINGS A DAY · BUNIA CORRIDOR", tag=t),
-"P7-04": lambda o, t: quote("Food assistance is a public health tool.", "World Food Programme", "Aug 2026", tag=t),
+"P7-04": lambda o, t: quote("Food assistance is a public health tool.", "World Food Programme", "Aug 2026", tag=t, cue=9),
 "P7-05": lambda o, t: number("≈ 29M", "people in crisis-level hunger or worse · Sep-Dec 2026", kicker="DR CONGO · IPC", tag=t),
 "P7-06": lambda o, t: bars([("JAN-JUN 2026", 26.5), ("SEP-DEC 2026", 29.0), ("JAN-JUN 2027 · RECORD", 30.3)], title="CONGO: PEOPLE IN CRISIS HUNGER OR WORSE (MILLIONS)", unit="M", tag=t, hi=2, fmt="{:.1f}", cues=[-5, -5, 0]),
 "P7-06b": lambda o, t: bars([("BIRTHS IN CLINICS · N KIVU EBOLA ZONES", 18), ("MEASLES 1ST DOSE · S KIVU", 7.6)], title="CARE PUSHED ASIDE · % FALL, JAN-SEP 2026", unit="%", tag=t, fmt="-{:.1f}", cues=[0, 0]),
 "P7-07": lambda o, t: map_pins(EAST, 7, [(*DJUGU, "DJUGU", RED), (*LUBERO, "LUBERO", RED), (*MASISI, "MASISI", RED), (*OICHA, "OICHA", RED)], "EMERGENCY LEVEL (IPC 4) · ONE STEP BELOW FAMINE", t, cues=[0, 0, 0, 0]),
-"P7-08": lambda o, t: quote("Putting food beyond their reach.", "Ross Smith, World Food Programme", "Nov 2026", tag=t),
+"P7-08": lambda o, t: quote("Putting food beyond their reach.", "Ross Smith, World Food Programme", "Nov 2026", tag=t, cue=9),
 "P7-09": loop,
 "P7-10": lambda o, t: number("7,500", "schools, nearly 2.5 million children, not yet reached with infection protection", kicker="UNICEF · 13 NOV 2026", tag=t),
 "P7-10b": lambda o, t: split(("CHILDREN, ITURI", "81%", "said Ebola made them afraid or stressed"), ("PARENTS", "89%", "said their stress had gone up"), tag=t),
