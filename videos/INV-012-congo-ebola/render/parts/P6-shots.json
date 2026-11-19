@@ -1,0 +1,205 @@
+{
+ "part": "P6",
+ "dur": 200.4,
+ "vo_dur": 200.411375,
+ "shots": [
+  {
+   "code": "P6-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.44,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P6-02",
+   "kind": "clip",
+   "t": 4.44,
+   "dur": 17.32,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "electronic hum",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P6-03",
+   "kind": "gfx",
+   "t": 21.76,
+   "dur": 15.4,
+   "off": 0.0,
+   "cues": [
+    7.21
+   ],
+   "sfx": "chart grow",
+   "tr": "hblur"
+  },
+  {
+   "code": "P6-03b",
+   "kind": "gfx",
+   "t": 37.16,
+   "dur": 12.36,
+   "off": 0.0,
+   "cues": [
+    2.085
+   ],
+   "sfx": "tick",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P6-04",
+   "kind": "gfx",
+   "t": 49.52,
+   "dur": 6.68,
+   "off": 0.0,
+   "cues": [
+    3.564
+   ],
+   "sfx": "gauge tick",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P6-05",
+   "kind": "gfx",
+   "t": 56.2,
+   "dur": 10.0,
+   "off": 0.0,
+   "cues": [
+    5.363
+   ],
+   "sfx": "stamp",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P6-05b",
+   "kind": "gfx",
+   "t": 66.2,
+   "dur": 17.52,
+   "off": 0.0,
+   "cues": [
+    8.299
+   ],
+   "sfx": "chart grow",
+   "tr": "slideup"
+  },
+  {
+   "code": "P6-06",
+   "kind": "gfx",
+   "t": 83.72,
+   "dur": 19.12,
+   "off": 0.0,
+   "cues": [
+    5.967
+   ],
+   "sfx": "two ticks",
+   "tr": "radial"
+  },
+  {
+   "code": "P6-07",
+   "kind": "gfx",
+   "t": 102.84,
+   "dur": 14.4,
+   "off": 0.0,
+   "cues": [
+    5.249
+   ],
+   "sfx": "deep whoosh",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P6-07b",
+   "kind": "gfx",
+   "t": 117.24,
+   "dur": 15.68,
+   "off": 0.0,
+   "cues": [
+    10.784
+   ],
+   "sfx": "stamp",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P6-08",
+   "kind": "gfx",
+   "t": 132.92,
+   "dur": 12.44,
+   "off": 0.0,
+   "cues": [
+    3.984
+   ],
+   "sfx": "low pulse",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P6-09",
+   "kind": "gfx",
+   "t": 145.36,
+   "dur": 14.96,
+   "off": 0.0,
+   "cues": [
+    6.381
+   ],
+   "sfx": "paper rustle",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P6-10",
+   "kind": "gfx",
+   "t": 160.32,
+   "dur": 8.76,
+   "off": 0.0,
+   "cues": [
+    6.57
+   ],
+   "sfx": "paper slide",
+   "tr": "hblur"
+  },
+  {
+   "code": "P6-10",
+   "kind": "photo",
+   "t": 169.08,
+   "dur": 6.24,
+   "off": 8.769583333333355,
+   "cues": [],
+   "sfx": "paper slide",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P6-11",
+   "kind": "gfx",
+   "t": 175.32,
+   "dur": 9.72,
+   "off": 0.0,
+   "cues": [
+    1.363
+   ],
+   "sfx": "pin drops",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P6-11b",
+   "kind": "gfx",
+   "t": 185.04,
+   "dur": 8.28,
+   "off": 0.0,
+   "cues": [
+    3.012
+   ],
+   "sfx": "ticks",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P6-12",
+   "kind": "gfx",
+   "t": 193.32,
+   "dur": 7.08,
+   "off": 0.0,
+   "cues": [
+    5.368
+   ],
+   "sfx": "receipt printer",
+   "tr": "slideup"
+  }
+ ]
+}
