@@ -1,0 +1,135 @@
+{
+ "part": "P9",
+ "dur": 110.12,
+ "vo_dur": 110.13025,
+ "shots": [
+  {
+   "code": "P9-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.04,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P9-02",
+   "kind": "gfx",
+   "t": 5.04,
+   "dur": 9.36,
+   "off": 0.0,
+   "cues": [
+    7.159
+   ],
+   "sfx": "pen scratch",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P9-02",
+   "kind": "clip",
+   "t": 14.4,
+   "dur": 5.64,
+   "off": 9.359333333333334,
+   "cues": [],
+   "sfx": "pen scratch",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P9-03",
+   "kind": "gfx",
+   "t": 20.04,
+   "dur": 9.24,
+   "off": 0.0,
+   "cues": [
+    0.959
+   ],
+   "sfx": "pen scratch",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P9-04",
+   "kind": "gfx",
+   "t": 29.28,
+   "dur": 11.32,
+   "off": 0.0,
+   "cues": [
+    0.87
+   ],
+   "sfx": "pen scratch",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P9-04b",
+   "kind": "gfx",
+   "t": 40.6,
+   "dur": 10.16,
+   "off": 0.0,
+   "cues": [
+    1.864
+   ],
+   "sfx": "pin drops",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P9-05",
+   "kind": "gfx",
+   "t": 50.76,
+   "dur": 10.76,
+   "off": 0.0,
+   "cues": [
+    7.781
+   ],
+   "sfx": "tick",
+   "tr": "slideup"
+  },
+  {
+   "code": "P9-06",
+   "kind": "gfx",
+   "t": 61.52,
+   "dur": 9.08,
+   "off": 0.0,
+   "cues": [
+    7.09
+   ],
+   "sfx": "tick",
+   "tr": "radial"
+  },
+  {
+   "code": "P9-07",
+   "kind": "gfx",
+   "t": 70.6,
+   "dur": 12.24,
+   "off": 0.0,
+   "cues": [
+    2.875
+   ],
+   "sfx": "sub hit",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P9-08",
+   "kind": "gfx",
+   "t": 82.84,
+   "dur": 13.64,
+   "off": 0.0,
+   "cues": [
+    12.171
+   ],
+   "sfx": "low drone",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P9-08b",
+   "kind": "gfx",
+   "t": 96.48,
+   "dur": 13.64,
+   "off": 0.0,
+   "cues": [
+    6.96
+   ],
+   "sfx": "low pulse",
+   "tr": "fadewhite"
+  }
+ ]
+}
