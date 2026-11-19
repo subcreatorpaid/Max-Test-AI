@@ -104,7 +104,9 @@
    "dur": 16.48,
    "off": 0.0,
    "cues": [
-    12.233
+    7.677,
+    12.233,
+    13.13
    ],
    "sfx": "counter roll",
    "tr": "smoothright"
