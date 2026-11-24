@@ -1,0 +1,43 @@
+# INV-017 shot plan v1: code -> shots. ('G',) graphic from spec17 · ('F', query) video · ('S', query) photo. Second entry = cutaway.
+# Every F/S must match the words in its half of the line; if no candidate matches, the row stays a graphic.
+import runpy, pathlib
+R = runpy.run_path(str(pathlib.Path(__file__).parent / "script_v1.py"))["R"]
+FOOT = {
+ "CO-01": [("G",), ("F", "rocket launch night")],
+ "CO-03": [("S", "honolulu beach night lights")],
+ "P1-04": [("G",), ("S", "moscow skyline night")],
+ "P1-09": [("G",), ("S", "kremlin moscow")],
+ "P1-12": [("G",), ("S", "white house washington")],
+ "P1-13": [("G",), ("F", "soyuz rocket launch")],
+ "P1-15": [("G",), ("S", "united nations headquarters new york")],
+ "P2-04": [("G",), ("F", "tropical atoll aerial ocean")],
+ "P2-08": [("G",), ("F", "space station orbit earth")],
+ "P2-08b": [("G",), ("F", "navy ship ocean")],
+ "P2-10": [("G",), ("F", "aurora timelapse")],
+ "P2-11": [("F", "aurora night sky green")],
+ "P2-12": [("S", "red sky night ocean horizon")],
+ "P2-14": [("G",), ("F", "street lights night")],
+ "P3-03": [("G",), ("F", "satellite orbit earth")],
+ "P3-06": [("F", "vintage television")],
+ "P3-08": [("G",), ("S", "kazakhstan steppe")],
+ "P3-10": [("G",), ("F", "power lines electricity")],
+ "P3-11": [("G",), ("S", "signing document pen")],
+ "P4-02": [("G",), ("F", "earth from space night lights")],
+ "P4-04": [("G",), ("F", "satellite dish roof")],
+ "P4-12": [("F", "sun solar flare")],
+ "P5-02": [("F", "weather app smartphone")],
+ "P5-04": [("G",), ("F", "storm clouds timelapse")],
+ "P5-05": [("F", "tractor field sunrise")],
+ "P5-05b": [("G",), ("F", "tractor sowing seeds field")],
+ "P5-06": [("F", "cargo ship ocean aerial")],
+ "P5-11": [("G",), ("F", "cell phone tower")],
+ "P5-12": [("F", "traffic lights night city")],
+ "P5-13": [("F", "ambulance night lights")],
+ "P6-06": [("G",), ("F", "fire engine emergency")],
+ "P6-08": [("G",), ("F", "tractor planting field")],
+ "P6-09": [("G",), ("S", "kitchen table bills calculator")],
+ "P6-11": [("G",), ("F", "delivery van street")],
+ "P7-09": [("G",), ("F", "rocket launch")],
+ "P7-09b": [("S", "street lamps night city")],
+}
+V = {r[0]: [list(s) for s in FOOT.get(r[0], [("G",)])] for r in R}

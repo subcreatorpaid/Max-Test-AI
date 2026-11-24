@@ -1,0 +1,158 @@
+[
+ {
+  "code": "CO-01x",
+  "query": "rocket launch night",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P1-13x",
+  "query": "soyuz rocket launch",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-04x",
+  "query": "tropical atoll aerial ocean",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-08x",
+  "query": "space station orbit earth",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-08bx",
+  "query": "navy ship ocean",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-10x",
+  "query": "aurora timelapse",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-11",
+  "query": "aurora night sky green",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P2-14x",
+  "query": "street lights night",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-03x",
+  "query": "satellite orbit earth",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-06",
+  "query": "vintage television",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P3-10x",
+  "query": "power lines electricity",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P4-02x",
+  "query": "earth from space night lights",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P4-04x",
+  "query": "satellite dish roof",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P4-12",
+  "query": "sun solar flare",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-02",
+  "query": "weather app smartphone",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-04x",
+  "query": "storm clouds timelapse",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-05",
+  "query": "tractor field sunrise",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-05bx",
+  "query": "tractor sowing seeds field",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-06",
+  "query": "cargo ship ocean aerial",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-11x",
+  "query": "cell phone tower",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-12",
+  "query": "traffic lights night city",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P5-13",
+  "query": "ambulance night lights",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-06x",
+  "query": "fire engine emergency",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-08x",
+  "query": "tractor planting field",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P6-11x",
+  "query": "delivery van street",
+  "n": 4,
+  "min_seconds": 6
+ },
+ {
+  "code": "P7-09x",
+  "query": "rocket launch",
+  "n": 4,
+  "min_seconds": 6
+ }
+]
