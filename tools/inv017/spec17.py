@@ -157,7 +157,7 @@ def skyflash(o, t):
 def streetlight_map(o, t):
     """Hawaii map: Oahu lamps go dark; the Kauai phone link breaks."""
     im = map_scene(HAWAII, z=7, pins=[(KAUAI[0], KAUAI[1], "KAUAI", PAPER_HI, None), (HONOLULU[0], HONOLULU[1], "OAHU · HONOLULU", ORANGE, 0)],
-                   lines=[(KAUAI, (HONOLULU[0], HONOLULU[1]), CYAN, 3, None, True)], title="HAWAII · 9 JULY 1962, 11 PM", tag=t)
+                   lines=[(KAUAI, (HONOLULU[0], HONOLULU[1]), CYAN, 3, None, True)], title="HAWAII · 8 JULY 1962, 11 PM LOCAL", tag=t)
     m = Map(HAWAII, 7); d = D(im); rng = np.random.default_rng(5); hit = c(0, 1.5)
     for i in range(70):
         lo = HONOLULU[0] - 0.35 + rng.random()*0.55; la = HONOLULU[1] + rng.random()*0.35 - 0.05; x, y = m.P(lo, la)

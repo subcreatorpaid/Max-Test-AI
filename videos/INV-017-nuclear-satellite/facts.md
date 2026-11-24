@@ -18,7 +18,7 @@ F12 VERIFIED · Outer Space Treaty: opened for signature 27 Jan 1967, in force 1
 
 ## 1962
 F20 VERIFIED · Starfish Prime: launched from Johnston Atoll (≈1,450 km WSW of Hawaii) on a Thor rocket; detonated 9 Jul 1962, 09:00:09 UTC (11 pm 8 Jul Honolulu time), 400 km up, 1.4 Mt; 13 min 41 s after liftoff (Wikipedia, US govt reports).
-F21 VERIFIED · First attempt 20 Jun 1962 failed; missile destroyed at ~10 km, debris and contamination fell on Johnston Atoll.
+F21 VERIFIED · First attempt 20 Jun 1962 failed (engine cut out ~59 s after launch); missile destroyed at ~10 km, debris and contamination fell on Johnston Atoll. Earlier Fishbowl shot Bluegill (3 Jun 1962) was lost by the tracking radar and destroyed by range safety (Wikipedia Operation Fishbowl).
 F22 VERIFIED · EMP far larger than expected: in Hawaii ~300 streetlights out, burglar alarms, telephone microwave link damaged; Kauai phone calls to other islands cut.
 F23 REPORTED · Some Hawaii hotels held "rainbow bomb" rooftop parties (atomic veteran Cecil R. Coale, via Wikipedia).
 F24 VERIFIED · Auroras across a huge area of the Pacific, north and south of the equator; seen from Kwajalein 2,600 km away.
