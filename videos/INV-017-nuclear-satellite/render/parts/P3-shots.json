@@ -65,7 +65,7 @@
    "code": "P3-05",
    "kind": "gfx",
    "t": 61.84,
-   "dur": 14.88,
+   "dur": 7.44,
    "off": 0.0,
    "cues": [
     1.395
@@ -74,16 +74,24 @@
    "tr": "zoomin"
   },
   {
+   "code": "P3-05",
+   "kind": "photo",
+   "t": 69.28,
+   "dur": 7.44,
+   "off": 7.432208333333328,
+   "cues": [],
+   "sfx": "paper slide",
+   "tr": "dissolve"
+  },
+  {
    "code": "P3-06",
-   "kind": "gfx",
+   "kind": "photo",
    "t": 76.72,
    "dur": 9.68,
    "off": 0.0,
-   "cues": [
-    4.293
-   ],
+   "cues": [],
    "sfx": "old TV hum",
-   "tr": "slideup"
+   "tr": "radial"
   },
   {
    "code": "P3-07",
@@ -95,7 +103,7 @@
     1.328
    ],
    "sfx": "pen scratch, stamp",
-   "tr": "radial"
+   "tr": "smoothright"
   },
   {
    "code": "P3-07b",
@@ -107,7 +115,7 @@
     11.984
    ],
    "sfx": "warning tone",
-   "tr": "smoothright"
+   "tr": "dissolve"
   },
   {
    "code": "P3-07c",
@@ -119,7 +127,7 @@
     4.17
    ],
    "sfx": "stamp thud",
-   "tr": "dissolve"
+   "tr": "fadewhite"
   },
   {
    "code": "P3-08",
@@ -131,7 +139,7 @@
     7.189
    ],
    "sfx": "map whoosh",
-   "tr": "fadewhite"
+   "tr": "smoothleft"
   },
   {
    "code": "P3-09",
@@ -143,7 +151,7 @@
     12.466
    ],
    "sfx": "tick, sub hit",
-   "tr": "smoothleft"
+   "tr": "hblur"
   },
   {
    "code": "P3-10",
@@ -155,7 +163,7 @@
     1.303
    ],
    "sfx": "crackle, fire",
-   "tr": "hblur"
+   "tr": "circleopen"
   },
   {
    "code": "P3-10",
@@ -177,7 +185,7 @@
     2.727
    ],
    "sfx": "paper slide",
-   "tr": "wiperight"
+   "tr": "zoomin"
   },
   {
    "code": "P3-10c",
@@ -189,7 +197,7 @@
     6.03
    ],
    "sfx": "sub hit",
-   "tr": "zoomin"
+   "tr": "slideup"
   },
   {
    "code": "P3-11",
@@ -201,7 +209,7 @@
     11.921
    ],
    "sfx": "pen signature",
-   "tr": "slideup"
+   "tr": "radial"
   },
   {
    "code": "P3-11b",
@@ -213,7 +221,7 @@
     9.603
    ],
    "sfx": "tick",
-   "tr": "radial"
+   "tr": "smoothright"
   },
   {
    "code": "P3-12",
@@ -225,7 +233,7 @@
     4.534
    ],
    "sfx": "tick",
-   "tr": "smoothright"
+   "tr": "dissolve"
   },
   {
    "code": "P3-13",
@@ -237,7 +245,7 @@
     6.417
    ],
    "sfx": "receipt printer",
-   "tr": "dissolve"
+   "tr": "fadewhite"
   }
  ]
 }
