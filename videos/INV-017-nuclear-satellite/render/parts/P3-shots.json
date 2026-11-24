@@ -1,0 +1,243 @@
+{
+ "part": "P3",
+ "dur": 233.12,
+ "vo_dur": 233.124625,
+ "shots": [
+  {
+   "code": "P3-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.36,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P3-02",
+   "kind": "gfx",
+   "t": 5.36,
+   "dur": 15.36,
+   "off": 0.0,
+   "cues": [
+    11.289
+   ],
+   "sfx": "deep whoosh",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P3-03",
+   "kind": "gfx",
+   "t": 20.72,
+   "dur": 10.32,
+   "off": 0.0,
+   "cues": [
+    4.883
+   ],
+   "sfx": "tick per pass",
+   "tr": "hblur"
+  },
+  {
+   "code": "P3-03b",
+   "kind": "gfx",
+   "t": 31.04,
+   "dur": 14.64,
+   "off": 0.0,
+   "cues": [
+    9.204
+   ],
+   "sfx": "deep whoosh",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P3-04",
+   "kind": "gfx",
+   "t": 45.68,
+   "dur": 16.16,
+   "off": 0.0,
+   "cues": [
+    5.923
+   ],
+   "sfx": "stamp x3",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P3-05",
+   "kind": "gfx",
+   "t": 61.84,
+   "dur": 14.88,
+   "off": 0.0,
+   "cues": [
+    1.395
+   ],
+   "sfx": "paper slide",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P3-06",
+   "kind": "gfx",
+   "t": 76.72,
+   "dur": 9.68,
+   "off": 0.0,
+   "cues": [
+    4.293
+   ],
+   "sfx": "old TV hum",
+   "tr": "slideup"
+  },
+  {
+   "code": "P3-07",
+   "kind": "gfx",
+   "t": 86.4,
+   "dur": 11.08,
+   "off": 0.0,
+   "cues": [
+    1.328
+   ],
+   "sfx": "pen scratch, stamp",
+   "tr": "radial"
+  },
+  {
+   "code": "P3-07b",
+   "kind": "gfx",
+   "t": 97.48,
+   "dur": 17.08,
+   "off": 0.0,
+   "cues": [
+    11.984
+   ],
+   "sfx": "warning tone",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P3-07c",
+   "kind": "gfx",
+   "t": 114.56,
+   "dur": 9.2,
+   "off": 0.0,
+   "cues": [
+    4.17
+   ],
+   "sfx": "stamp thud",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P3-08",
+   "kind": "gfx",
+   "t": 123.76,
+   "dur": 8.52,
+   "off": 0.0,
+   "cues": [
+    7.189
+   ],
+   "sfx": "map whoosh",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P3-09",
+   "kind": "gfx",
+   "t": 132.28,
+   "dur": 14.28,
+   "off": 0.0,
+   "cues": [
+    12.466
+   ],
+   "sfx": "tick, sub hit",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P3-10",
+   "kind": "gfx",
+   "t": 146.56,
+   "dur": 7.64,
+   "off": 0.0,
+   "cues": [
+    1.303
+   ],
+   "sfx": "crackle, fire",
+   "tr": "hblur"
+  },
+  {
+   "code": "P3-10",
+   "kind": "clip",
+   "t": 154.2,
+   "dur": 7.6,
+   "off": 7.626124999999988,
+   "cues": [],
+   "sfx": "crackle, fire",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P3-10b",
+   "kind": "gfx",
+   "t": 161.8,
+   "dur": 8.4,
+   "off": 0.0,
+   "cues": [
+    2.727
+   ],
+   "sfx": "paper slide",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P3-10c",
+   "kind": "gfx",
+   "t": 170.2,
+   "dur": 11.48,
+   "off": 0.0,
+   "cues": [
+    6.03
+   ],
+   "sfx": "sub hit",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P3-11",
+   "kind": "gfx",
+   "t": 181.68,
+   "dur": 13.32,
+   "off": 0.0,
+   "cues": [
+    11.921
+   ],
+   "sfx": "pen signature",
+   "tr": "slideup"
+  },
+  {
+   "code": "P3-11b",
+   "kind": "gfx",
+   "t": 195.0,
+   "dur": 11.24,
+   "off": 0.0,
+   "cues": [
+    9.603
+   ],
+   "sfx": "tick",
+   "tr": "radial"
+  },
+  {
+   "code": "P3-12",
+   "kind": "gfx",
+   "t": 206.24,
+   "dur": 11.36,
+   "off": 0.0,
+   "cues": [
+    4.534
+   ],
+   "sfx": "tick",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P3-13",
+   "kind": "gfx",
+   "t": 217.6,
+   "dur": 15.52,
+   "off": 0.0,
+   "cues": [
+    6.417
+   ],
+   "sfx": "receipt printer",
+   "tr": "dissolve"
+  }
+ ]
+}
