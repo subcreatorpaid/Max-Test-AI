@@ -7,6 +7,15 @@ sys.path.insert(0, str(HERE.parent / "inv012"))
 from anim12 import *
 import anim12 as _A
 from anim12 import _globe_rings
+_quote12 = quote
+def quote(q, who, when, tag="", cue=0):
+    """INV-017 review: words appear early (by 1.5 s) instead of waiting on the cue word, so the paper is never empty."""
+    save = _A.CUES
+    try:
+        _A.CUES = [min(save[cue] if len(save) > cue else 1.5, 1.5)]
+        return _quote12(q, who, when, tag=tag, cue=0)
+    finally:
+        _A.CUES = save
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
