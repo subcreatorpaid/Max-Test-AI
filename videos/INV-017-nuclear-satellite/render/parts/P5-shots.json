@@ -1,0 +1,207 @@
+{
+ "part": "P5",
+ "dur": 182.28,
+ "vo_dur": 182.27479166666666,
+ "shots": [
+  {
+   "code": "P5-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.84,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P5-02",
+   "kind": "clip",
+   "t": 5.84,
+   "dur": 8.44,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "soft tick",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P5-03",
+   "kind": "gfx",
+   "t": 14.28,
+   "dur": 14.04,
+   "off": 0.0,
+   "cues": [
+    10.504
+   ],
+   "sfx": "map whoosh",
+   "tr": "hblur"
+  },
+  {
+   "code": "P5-04",
+   "kind": "gfx",
+   "t": 28.32,
+   "dur": 12.68,
+   "off": 0.0,
+   "cues": [
+    8.31
+   ],
+   "sfx": "chain ticks",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P5-05",
+   "kind": "clip",
+   "t": 41.0,
+   "dur": 9.36,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "wind",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P5-05b",
+   "kind": "gfx",
+   "t": 50.36,
+   "dur": 8.6,
+   "off": 0.0,
+   "cues": [
+    6.049
+   ],
+   "sfx": "counter roll",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P5-05b",
+   "kind": "clip",
+   "t": 58.96,
+   "dur": 8.6,
+   "off": 8.610041666666667,
+   "cues": [],
+   "sfx": "counter roll",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P5-06",
+   "kind": "clip",
+   "t": 67.56,
+   "dur": 13.32,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "sea",
+   "tr": "radial"
+  },
+  {
+   "code": "P5-07",
+   "kind": "gfx",
+   "t": 80.88,
+   "dur": 10.68,
+   "off": 0.0,
+   "cues": [
+    5.751
+   ],
+   "sfx": "radio static",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P5-08",
+   "kind": "gfx",
+   "t": 91.56,
+   "dur": 11.52,
+   "off": 0.0,
+   "cues": [
+    9.633
+   ],
+   "sfx": "sub hit",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P5-09",
+   "kind": "gfx",
+   "t": 103.08,
+   "dur": 13.2,
+   "off": 0.0,
+   "cues": [
+    9.931
+   ],
+   "sfx": "whoosh",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P5-09b",
+   "kind": "gfx",
+   "t": 116.28,
+   "dur": 9.0,
+   "off": 0.0,
+   "cues": [
+    5.199
+   ],
+   "sfx": "tick x4",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P5-10",
+   "kind": "gfx",
+   "t": 125.28,
+   "dur": 14.68,
+   "off": 0.0,
+   "cues": [
+    8.114
+   ],
+   "sfx": "paper slide",
+   "tr": "hblur"
+  },
+  {
+   "code": "P5-11",
+   "kind": "gfx",
+   "t": 139.96,
+   "dur": 9.8,
+   "off": 0.0,
+   "cues": [
+    7.604
+   ],
+   "sfx": "clock tick",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P5-11",
+   "kind": "clip",
+   "t": 149.76,
+   "dur": 4.2,
+   "off": 9.80441666666665,
+   "cues": [],
+   "sfx": "clock tick",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P5-12",
+   "kind": "clip",
+   "t": 153.96,
+   "dur": 8.6,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "city ambience",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P5-13",
+   "kind": "clip",
+   "t": 162.56,
+   "dur": 7.72,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "siren far",
+   "tr": "slideup"
+  },
+  {
+   "code": "P5-14",
+   "kind": "gfx",
+   "t": 170.28,
+   "dur": 12.0,
+   "off": 0.0,
+   "cues": [
+    6.596
+   ],
+   "sfx": "receipt printer",
+   "tr": "radial"
+  }
+ ]
+}
