@@ -1,0 +1,259 @@
+{
+ "part": "P2",
+ "dur": 237.12,
+ "vo_dur": 237.13575,
+ "shots": [
+  {
+   "code": "P2-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.64,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P2-02",
+   "kind": "gfx",
+   "t": 5.64,
+   "dur": 10.88,
+   "off": 0.0,
+   "cues": [
+    9.274
+   ],
+   "sfx": "sub hit",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P2-03",
+   "kind": "gfx",
+   "t": 16.52,
+   "dur": 14.32,
+   "off": 0.0,
+   "cues": [
+    12.963
+   ],
+   "sfx": "tick",
+   "tr": "hblur"
+  },
+  {
+   "code": "P2-04",
+   "kind": "gfx",
+   "t": 30.84,
+   "dur": 11.68,
+   "off": 0.0,
+   "cues": [
+    5.514
+   ],
+   "sfx": "map whoosh",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P2-04b",
+   "kind": "gfx",
+   "t": 42.52,
+   "dur": 14.56,
+   "off": 0.0,
+   "cues": [
+    3.1
+   ],
+   "sfx": "map whoosh",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P2-05",
+   "kind": "gfx",
+   "t": 57.08,
+   "dur": 17.44,
+   "off": 0.0,
+   "cues": [
+    11.183
+   ],
+   "sfx": "explosion muffled",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P2-06",
+   "kind": "gfx",
+   "t": 74.52,
+   "dur": 6.76,
+   "off": 0.0,
+   "cues": [
+    4.66
+   ],
+   "sfx": "typewriter",
+   "tr": "slideup"
+  },
+  {
+   "code": "P2-06b",
+   "kind": "gfx",
+   "t": 81.28,
+   "dur": 12.28,
+   "off": 0.0,
+   "cues": [
+    3.778
+   ],
+   "sfx": "typewriter, stamp x2",
+   "tr": "radial"
+  },
+  {
+   "code": "P2-07",
+   "kind": "gfx",
+   "t": 93.56,
+   "dur": 13.96,
+   "off": 0.0,
+   "cues": [
+    7.87
+   ],
+   "sfx": "counter roll",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P2-08",
+   "kind": "gfx",
+   "t": 107.52,
+   "dur": 8.36,
+   "off": 0.0,
+   "cues": [
+    6.141
+   ],
+   "sfx": "boom + high whine",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-08",
+   "kind": "photo",
+   "t": 115.88,
+   "dur": 4.64,
+   "off": 8.34137500000001,
+   "cues": [],
+   "sfx": "boom + high whine",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-08b",
+   "kind": "gfx",
+   "t": 120.52,
+   "dur": 13.6,
+   "off": 0.0,
+   "cues": [
+    9.501
+   ],
+   "sfx": "map whoosh",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P2-09",
+   "kind": "gfx",
+   "t": 134.12,
+   "dur": 12.4,
+   "off": 0.0,
+   "cues": [
+    9.105
+   ],
+   "sfx": "electric hum",
+   "tr": "hblur"
+  },
+  {
+   "code": "P2-10",
+   "kind": "gfx",
+   "t": 146.52,
+   "dur": 7.2,
+   "off": 0.0,
+   "cues": [
+    5.0
+   ],
+   "sfx": "shimmer",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P2-10",
+   "kind": "clip",
+   "t": 153.72,
+   "dur": 6.72,
+   "off": 7.199625000000009,
+   "cues": [],
+   "sfx": "shimmer",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-11",
+   "kind": "photo",
+   "t": 160.44,
+   "dur": 13.84,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "low drone",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P2-11b",
+   "kind": "gfx",
+   "t": 174.28,
+   "dur": 12.6,
+   "off": 0.0,
+   "cues": [
+    10.505
+   ],
+   "sfx": "shimmer",
+   "tr": "slideup"
+  },
+  {
+   "code": "P2-12",
+   "kind": "photo",
+   "t": 186.88,
+   "dur": 8.56,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "rising drone",
+   "tr": "radial"
+  },
+  {
+   "code": "P2-13",
+   "kind": "gfx",
+   "t": 195.44,
+   "dur": 13.28,
+   "off": 0.0,
+   "cues": [
+    5.794
+   ],
+   "sfx": "electric zap",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P2-14",
+   "kind": "gfx",
+   "t": 208.72,
+   "dur": 9.76,
+   "off": 0.0,
+   "cues": [
+    7.57
+   ],
+   "sfx": "crackle, alarm bell faint",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-14",
+   "kind": "clip",
+   "t": 218.48,
+   "dur": 5.04,
+   "off": 9.770333333333337,
+   "cues": [],
+   "sfx": "crackle, alarm bell faint",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P2-15",
+   "kind": "gfx",
+   "t": 223.52,
+   "dur": 13.6,
+   "off": 0.0,
+   "cues": [
+    7.757
+   ],
+   "sfx": "receipt printer",
+   "tr": "smoothleft"
+  }
+ ]
+}
