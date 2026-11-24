@@ -1,0 +1,109 @@
+{
+ "picks": {
+  "CO-01x": {
+   "id": 8,
+   "url": "https://cdn.pixabay.com/video/2015/08/07/8-135682271_large.mp4",
+   "user": "NASA-Imagery",
+   "page": "https://pixabay.com/videos/id-8/",
+   "duration": 16
+  },
+  "P2-10x": {
+   "id": 90877,
+   "url": "https://cdn.pixabay.com/video/2021/10/05/90877-629483574_large.mp4",
+   "user": "6696758",
+   "page": "https://pixabay.com/videos/id-90877/",
+   "duration": 30
+  },
+  "P2-14x": {
+   "id": 13441,
+   "url": "https://cdn.pixabay.com/video/2017/12/17/13441-247710869_large.mp4",
+   "user": "adege",
+   "page": "https://pixabay.com/videos/id-13441/",
+   "duration": 27
+  },
+  "P3-10x": {
+   "id": 324019,
+   "url": "https://cdn.pixabay.com/video/2025/12/23/324019_large.mp4",
+   "user": "Kaffees\u00fcchtig",
+   "page": "https://pixabay.com/videos/id-324019/",
+   "duration": 15
+  },
+  "P4-02x": {
+   "id": 24072,
+   "url": "https://cdn.pixabay.com/video/2019/05/30/24072-339549370_large.mp4",
+   "user": "vkhima",
+   "page": "https://pixabay.com/videos/id-24072/",
+   "duration": 10
+  },
+  "P5-02": {
+   "id": 202987,
+   "url": "https://cdn.pixabay.com/video/2024/03/04/202987-919379330_large.mp4",
+   "user": "Natures_Embrace",
+   "page": "https://pixabay.com/videos/id-202987/",
+   "duration": 15
+  },
+  "P5-04x": {
+   "id": 107336,
+   "url": "https://cdn.pixabay.com/video/2022/02/10/107336-676158829_large.mp4",
+   "user": "adege",
+   "page": "https://pixabay.com/videos/id-107336/",
+   "duration": 39
+  },
+  "P5-05": {
+   "id": 246786,
+   "url": "https://cdn.pixabay.com/video/2024/12/15/246786_large.mp4",
+   "user": "ammarvid",
+   "page": "https://pixabay.com/videos/id-246786/",
+   "duration": 24
+  },
+  "P5-05bx": {
+   "id": 180909,
+   "url": "https://cdn.pixabay.com/video/2023/09/16/180909-865216913_large.mp4",
+   "user": "Thomas-Ritter",
+   "page": "https://pixabay.com/videos/id-180909/",
+   "duration": 13
+  },
+  "P5-06": {
+   "id": 2849,
+   "url": "https://cdn.pixabay.com/video/2016/04/18/2849-163375551_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-2849/",
+   "duration": 76
+  },
+  "P5-11x": {
+   "id": 129409,
+   "url": "https://cdn.pixabay.com/video/2022/08/28/129409-744385400_large.mp4",
+   "user": "D-GM",
+   "page": "https://pixabay.com/videos/id-129409/",
+   "duration": 55
+  },
+  "P5-12": {
+   "id": 164339,
+   "url": "https://cdn.pixabay.com/video/2023/05/24/164339-830461201_large.mp4",
+   "user": "tsvetomit_lazarov_isky",
+   "page": "https://pixabay.com/videos/id-164339/",
+   "duration": 9
+  },
+  "P5-13": {
+   "id": 7012,
+   "url": "https://cdn.pixabay.com/video/2017/01/03/7012-197962781_large.mp4",
+   "user": "Thomas-Ritter",
+   "page": "https://pixabay.com/videos/id-7012/",
+   "duration": 6
+  },
+  "P6-06x": {
+   "id": 8872,
+   "url": "https://cdn.pixabay.com/video/2017/04/28/8872-215589218_large.mp4",
+   "user": "Filming",
+   "page": "https://pixabay.com/videos/id-8872/",
+   "duration": 8
+  },
+  "P6-08x": {
+   "id": 1098,
+   "url": "https://cdn.pixabay.com/video/2015/10/19/1098-143052476_medium.mp4",
+   "user": "Vimeo-Free-Videos",
+   "page": "https://pixabay.com/videos/id-1098/",
+   "duration": 10
+  }
+ }
+}

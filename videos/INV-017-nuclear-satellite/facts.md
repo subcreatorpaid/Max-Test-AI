@@ -42,6 +42,7 @@ F50 ESTIMATE · London Economics for UK Space Agency/DSIT (pub. 18 Oct 2023): UK
 F51 ESTIMATE · same: emergency services 7-day loss: caller location £1,560m, vehicle and personnel location £1,969m.
 F52 ESTIMATE · RTI for NIST (2019): loss of GPS ≈ $1 billion per day to the US; up to 50% higher in April-May planting season; GPS benefits ≈ $1.4 trillion since the 1980s.
 F53 ILLUSTRATION · our maths: UK ≈ 28.6m households (ONS 2024): £7,644m / 28.6m ≈ £267 per household for one week; £1,424m ≈ £50 per household per day. US ≈ 132m households (Census 2024): $1bn ≈ $7.60 per household per day, ≈ $53 a week. Not a bill anyone sends; a way to size the loss.
+F55 ESTIMATE · London Economics for Innovate UK (2017), 'The economic impact on the UK of a disruption to GNSS': a 5-day outage ≈ £5.2bn. https://londoneconomics.co.uk/wp-content/uploads/2017/10/LE-IUK-Economic-impact-to-UK-of-a-disruption-to-GNSS-SHOWCASE-PUBLISH-S2C190517.pdf
 F54 SCENARIO · a blast in LEO does not switch GPS off by itself; GPS is ~20,000 km up. The DIA says a detonation could be tailored to affect MEO. The UK/US studies price a navigation outage; we use them as the nearest price tags, not a forecast.
 
 ## Context (general reference, checked)

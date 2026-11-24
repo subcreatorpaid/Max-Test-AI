@@ -1,7 +1,7 @@
 # INV-017 The Bomb Above Your Phone: script v1 (2026-11-24)
 
 Working title: **Russia's Nuclear Satellite: What One Blast in Space Would Cost You**
-Words: 3664 (≈ 28.2 min at the narrator's pace)
+Words: 3662 (≈ 28.2 min at the narrator's pace)
 
 Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: facts.md. Not a forecast.
 
@@ -465,9 +465,9 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 > Visual: G split card: AVIATION · ≈ £4M (BACKUPS) vs EMERGENCY · ≈ £3.5BN  
 > On screen: SOME HAVE BACKUPS · MANY DON'T · Tag: ESTIMATE · London Economics, 2023 · Facts: F50 · SFX: paper slide
 
-**P6-06c** But the trend is going the wrong way. Between the report's first edition and the latest one, the value Britain gets from satellite navigation more than doubled, to about thirteen and a half billion pounds a year. The more we use it, the more it costs to lose it.
-> Visual: G linechart: BENEFIT 2017 ≈ £6.7BN -> 2021 £13.6BN; LOSS 7 DAYS £5.2BN -> £7.6BN  
-> On screen: MORE RELIANCE · BIGGER LOSS · Tag: ESTIMATE · London Economics 2017 / 2023 · Facts: F50 · SFX: chart draw
+**P6-06c** And the bill keeps growing. The first edition of this report, in 2017, priced a five-day outage at about five billion pounds. The 2023 edition priced a seven-day outage at seven point six billion. The more we lean on it, the more it costs to lose it.
+> Visual: G split: 2017 REPORT £5.2BN (5-day outage) vs 2023 REPORT £7.6BN (7-day outage)  
+> On screen: MORE RELIANCE · BIGGER LOSS · Tag: ESTIMATE · London Economics 2017 / 2023 · Facts: F50 F55 · SFX: chart draw
 
 **P6-07** In America, a study for the government's standards agency, NIST, put the cost of losing GPS at about one billion dollars a day.
 > Visual: G number card $1 BN A DAY · USA  
