@@ -1,0 +1,89 @@
+{
+ "part": "CO",
+ "dur": 97.36,
+ "vo_dur": 97.367875,
+ "shots": [
+  {
+   "code": "CO-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 15.4,
+   "off": 0.0,
+   "cues": [
+    13.65
+   ],
+   "sfx": "low boom on 'sixty'",
+   "tr": ""
+  },
+  {
+   "code": "CO-02",
+   "kind": "gfx",
+   "t": 15.4,
+   "dur": 13.48,
+   "off": 0.0,
+   "cues": [
+    5.161
+   ],
+   "sfx": "deep whoosh",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "CO-03",
+   "kind": "photo",
+   "t": 28.88,
+   "dur": 14.2,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "night waves",
+   "tr": "hblur"
+  },
+  {
+   "code": "CO-03b",
+   "kind": "gfx",
+   "t": 43.08,
+   "dur": 11.92,
+   "off": 0.0,
+   "cues": [
+    2.922
+   ],
+   "sfx": "stamp thud",
+   "tr": "circleopen"
+  },
+  {
+   "code": "CO-04",
+   "kind": "gfx",
+   "t": 55.0,
+   "dur": 11.88,
+   "off": 0.0,
+   "cues": [
+    9.423
+   ],
+   "sfx": "flash, electric crackle",
+   "tr": "wiperight"
+  },
+  {
+   "code": "CO-05",
+   "kind": "gfx",
+   "t": 66.88,
+   "dur": 11.08,
+   "off": 0.0,
+   "cues": [
+    4.964
+   ],
+   "sfx": "soft hit x3",
+   "tr": "zoomin"
+  },
+  {
+   "code": "CO-06",
+   "kind": "gfx",
+   "t": 77.96,
+   "dur": 19.4,
+   "off": 0.0,
+   "cues": [
+    4.861
+   ],
+   "sfx": "riser",
+   "tr": "slideup"
+  }
+ ]
+}
