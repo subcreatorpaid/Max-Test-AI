@@ -1,0 +1,64 @@
+name: Video render v17 (INV-017, parallel parts, 1080p)
+# Trigger: push videos/<ID>/render/go17.json {"parts":["CO",...], "scale":1.5}
+# Uses the committed voice (render/vo/*.flac + segs17.json) so the final matches the reviewed 360p cut word for word.
+on:
+  push:
+    branches: [history-invoice-brain]
+    paths: ["videos/*/render/go17.json"]
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs: { cfg: "${{ steps.p.outputs.cfg }}", parts: "${{ steps.p.outputs.parts }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: p
+        run: |
+          f=$(git diff --name-only HEAD~1 HEAD -- 'videos/*/render/go17.json' | head -1)
+          echo "cfg=$f" >> $GITHUB_OUTPUT
+          echo "parts=$(python3 -c "import json;print(json.dumps(json.load(open('$f'))['parts']))")" >> $GITHUB_OUTPUT
+  part:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix: { part: "${{ fromJSON(needs.plan.outputs.parts) }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
+          pip -q install pyshp pillow numpy
+      - name: Clips (picked by eye, full quality, this render only)
+        run: |
+          CFG=${{ needs.plan.outputs.cfg }}; V=$(dirname $(dirname $CFG)); mkdir -p clips
+          python3 - "$V/clips/picks.json" <<'PY'
+          import json,sys,urllib.request
+          for code,p in json.load(open(sys.argv[1]))["picks"].items():
+              req=urllib.request.Request(p["url"],headers={"User-Agent":"history-invoice-broll/1.0"})
+              try: open(f"clips/{code}.mp4","wb").write(urllib.request.urlopen(req,timeout=120).read()); print(code,"ok")
+              except Exception as e: print(code,"FAILED",type(e).__name__)
+          PY
+      - name: Render
+        env: { WORKERS: "4" }
+        run: |
+          CFG=${{ needs.plan.outputs.cfg }}; P=${{ matrix.part }}; V=$(dirname $(dirname $CFG))
+          export INV_S=$(python3 -c "import json;print(json.load(open('$CFG')).get('scale',1.5))")
+          mkdir -p vo out; cp $V/render/vo/segs17.json vo/
+          ffmpeg -nostdin -loglevel error -i $V/render/vo/INV-017-$P.flac vo/INV-017-$P.wav
+          python tools/inv017/render17.py $P vo out clips $V/storyboard/picks
+      - name: Commit part
+        run: |
+          CFG=${{ needs.plan.outputs.cfg }}; P=${{ matrix.part }}; D=$(dirname $CFG)/parts; mkdir -p $D
+          rm -f $D/$P-*.mp4
+          ffmpeg -nostdin -loglevel error -i out/$P.mp4 -c copy -f segment -segment_time 40 -reset_timestamps 1 $D/$P-%02d.mp4
+          cp out/$P-shots.json $D/
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f $D/$P-*.mp4 $D/$P-shots.json
+          git commit -qm "render17: part $P [skip ci]"
+          for i in 1 2 3 4 5 6 7 8; do git pull --rebase --autostash -q origin ${{ github.ref_name }} && git push -q && break; sleep $((RANDOM % 10 + 3)); done

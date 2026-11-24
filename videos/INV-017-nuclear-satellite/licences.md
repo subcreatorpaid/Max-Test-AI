@@ -26,7 +26,6 @@ All stock is tagged ILLUSTRATIVE STOCK IMAGE on screen. No AI faces of real peop
 
 | Code | Pixabay id | Creator | Page |
 |---|---|---|---|
-| CO-03 | 896054 | klausdie | https://pixabay.com/photos/usa-hawaii-honolulu-beach-waikiki-896054/ |
 | P1-04x | 2259724 | EvgeniT | https://pixabay.com/photos/moscow-night-russia-kremlin-2259724/ |
 | P1-09x | 3872941 | Stroganova | https://pixabay.com/photos/the-kremlin-fair-red-area-moscow-3872941/ |
 | P1-12x | 1846270 | Pexels | https://pixabay.com/photos/administration-architecture-building-1846270/ |
@@ -42,6 +41,7 @@ All stock is tagged ILLUSTRATIVE STOCK IMAGE on screen. No AI faces of real peop
 |---|---|---|---|
 | P2-08x | Operation Dominic Starfish-Prime nuclear test from plane.jpg | U.S. Air Force 1352nd Photographic Group, Lookout Mountain Station | Public domain (US government work) |
 | P2-11 | Operation Dominic Starfish-Prime nuclear test from pane.jpg | unknown (US government) | Public domain |
-| P2-12 | Starfish5.JPG (Starfish Prime seen from Honolulu) | US government | Public domain |
+| CO-03, P2-12 | Starfish5.JPG (Starfish Prime seen from Honolulu) | US government | Public domain |
 
 Sources: https://commons.wikimedia.org/wiki/File:Operation_Dominic_Starfish-Prime_nuclear_test_from_plane.jpg · https://commons.wikimedia.org/wiki/File:Operation_Dominic_Starfish-Prime_nuclear_test_from_pane.jpg · https://commons.wikimedia.org/wiki/File:Starfish5.JPG
+
