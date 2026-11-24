@@ -42,6 +42,7 @@ All stock is tagged ILLUSTRATIVE STOCK IMAGE on screen. No AI faces of real peop
 | P2-08x | Operation Dominic Starfish-Prime nuclear test from plane.jpg | U.S. Air Force 1352nd Photographic Group, Lookout Mountain Station | Public domain (US government work) |
 | P2-11 | Operation Dominic Starfish-Prime nuclear test from pane.jpg | unknown (US government) | Public domain |
 | CO-03, P2-12 | Starfish5.JPG (Starfish Prime seen from Honolulu) | US government | Public domain |
+| P3-05x | Telstar.jpg (Telstar 1) | unknown (US) | Public domain |
+| P3-06 | AT&T Telstar test.jpg ("First pictures from England via Telstar") | Thomas J. O'Halloran (AT&T) | Public domain |
 
-Sources: https://commons.wikimedia.org/wiki/File:Operation_Dominic_Starfish-Prime_nuclear_test_from_plane.jpg · https://commons.wikimedia.org/wiki/File:Operation_Dominic_Starfish-Prime_nuclear_test_from_pane.jpg · https://commons.wikimedia.org/wiki/File:Starfish5.JPG
-
+Sources: https://commons.wikimedia.org/wiki/File:Telstar.jpg · https://commons.wikimedia.org/wiki/File:AT%26T_Telstar_test.jpg · https://commons.wikimedia.org/wiki/File:Operation_Dominic_Starfish-Prime_nuclear_test_from_plane.jpg · https://commons.wikimedia.org/wiki/File:Operation_Dominic_Starfish-Prime_nuclear_test_from_pane.jpg · https://commons.wikimedia.org/wiki/File:Starfish5.JPG

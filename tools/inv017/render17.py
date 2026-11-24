@@ -13,12 +13,13 @@ OUT.mkdir(parents=True, exist_ok=True); TMP = OUT / f"tmp-{PART}-{A.PW}"; TMP.mk
 FPS = 25; XF = 0.4; PW, PH = A.PW, A.PH
 R = runpy.run_path(str(HERE / "script_v1.py"))["R"]; ROW = {r[0]: r for r in R}
 V = runpy.run_path(str(HERE / "visuals_v1.py"))["V"]
+V["P3-05"] = [["G"], ["S", "Telstar 1 archive photo"]]   # review: real 1962 photo as cutaway
 SG = json.load(open(VOD / "segs17.json"))["segs"][PART]
 # corner invoice: one line printed at the end of each part (rulebook 5)
 CORNER_LINES = {"P1": "BANNED · WEEKS AWAY?", "P2": "1 BLAST · 1,450 KM", "P3": "SATELLITES DEAD", "P4": "≈98% LOW ORBIT",
                 "P5": "THE CHORES STOP", "P6": "≈£50/DAY/HOME", "P7": "A THREAT OVER ALL"}
 # real 1962 archive photos (public domain): framed on a blurred copy, tagged as archive, not stock
-ARCH = {"CO-03": "ARCHIVE · STARFISH PRIME SEEN FROM HONOLULU, 9 JULY 1962 · PUBLIC DOMAIN", "P2-08x": "ARCHIVE · STARFISH PRIME FROM A US PLANE, 9 JULY 1962 · PUBLIC DOMAIN", "P2-11": "ARCHIVE · STARFISH PRIME FROM A US PLANE, 1962 · PUBLIC DOMAIN",
+ARCH = {"P3-05x": "ARCHIVE · TELSTAR 1, 1962 · PUBLIC DOMAIN", "P3-06": "ARCHIVE · FIRST PICTURES FROM ENGLAND VIA TELSTAR, 1962 · AT&T · PUBLIC DOMAIN", "CO-03": "ARCHIVE · STARFISH PRIME SEEN FROM HONOLULU, 1962 · PUBLIC DOMAIN", "P2-08x": "ARCHIVE · STARFISH PRIME FROM A US PLANE, 9 JULY 1962 · PUBLIC DOMAIN", "P2-11": "ARCHIVE · STARFISH PRIME FROM A US PLANE, 1962 · PUBLIC DOMAIN",
         "P2-12": "ARCHIVE · STARFISH PRIME SEEN FROM HONOLULU, 1962 · PUBLIC DOMAIN"}
 ORDER = ["CO", "P1", "BR", "P2", "P3", "P4", "P5", "P6", "P7", "RC"]
 prev = [CORNER_LINES[p] for p in ORDER[:ORDER.index(PART)] if p in CORNER_LINES]
