@@ -1,0 +1,315 @@
+{
+ "part": "P1",
+ "dur": 312.92,
+ "vo_dur": 312.9091666666667,
+ "shots": [
+  {
+   "code": "P1-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.44,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P1-02",
+   "kind": "gfx",
+   "t": 5.44,
+   "dur": 13.52,
+   "off": 0.0,
+   "cues": [
+    8.086
+   ],
+   "sfx": "paper slide x3",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P1-02b",
+   "kind": "gfx",
+   "t": 18.96,
+   "dur": 14.12,
+   "off": 0.0,
+   "cues": [
+    7.036
+   ],
+   "sfx": "paper slide",
+   "tr": "hblur"
+  },
+  {
+   "code": "P1-03",
+   "kind": "gfx",
+   "t": 33.08,
+   "dur": 11.4,
+   "off": 0.0,
+   "cues": [
+    5.685
+   ],
+   "sfx": "typewriter",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P1-04",
+   "kind": "gfx",
+   "t": 44.48,
+   "dur": 9.8,
+   "off": 0.0,
+   "cues": [
+    7.663
+   ],
+   "sfx": "map whoosh",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P1-05",
+   "kind": "gfx",
+   "t": 54.28,
+   "dur": 14.32,
+   "off": 0.0,
+   "cues": [
+    7.984
+   ],
+   "sfx": "clock ticks, pen scratch",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P1-05b",
+   "kind": "gfx",
+   "t": 68.6,
+   "dur": 13.0,
+   "off": 0.0,
+   "cues": [
+    4.576
+   ],
+   "sfx": "typewriter",
+   "tr": "slideup"
+  },
+  {
+   "code": "P1-06",
+   "kind": "gfx",
+   "t": 81.6,
+   "dur": 9.72,
+   "off": 0.0,
+   "cues": [
+    7.995
+   ],
+   "sfx": "stamp thud",
+   "tr": "radial"
+  },
+  {
+   "code": "P1-06b",
+   "kind": "gfx",
+   "t": 91.32,
+   "dur": 8.44,
+   "off": 0.0,
+   "cues": [
+    5.83
+   ],
+   "sfx": "paper slide",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P1-07",
+   "kind": "gfx",
+   "t": 99.76,
+   "dur": 10.84,
+   "off": 0.0,
+   "cues": [
+    4.807
+   ],
+   "sfx": "paper slide",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P1-08",
+   "kind": "gfx",
+   "t": 110.6,
+   "dur": 13.04,
+   "off": 0.0,
+   "cues": [
+    1.783
+   ],
+   "sfx": "typewriter, stamp",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P1-09",
+   "kind": "gfx",
+   "t": 123.64,
+   "dur": 5.52,
+   "off": 0.0,
+   "cues": [
+    1.399
+   ],
+   "sfx": "paper slide",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P1-09",
+   "kind": "photo",
+   "t": 129.16,
+   "dur": 5.52,
+   "off": 5.517500000000005,
+   "cues": [],
+   "sfx": "paper slide",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P1-10",
+   "kind": "gfx",
+   "t": 134.68,
+   "dur": 12.36,
+   "off": 0.0,
+   "cues": [
+    4.927
+   ],
+   "sfx": "tick x3",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P1-10b",
+   "kind": "gfx",
+   "t": 147.04,
+   "dur": 14.88,
+   "off": 0.0,
+   "cues": [
+    4.106
+   ],
+   "sfx": "stamp x2",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P1-11",
+   "kind": "gfx",
+   "t": 161.92,
+   "dur": 17.36,
+   "off": 0.0,
+   "cues": [
+    15.266
+   ],
+   "sfx": "typewriter, marker",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P1-11b",
+   "kind": "gfx",
+   "t": 179.28,
+   "dur": 12.56,
+   "off": 0.0,
+   "cues": [
+    6.191
+   ],
+   "sfx": "sub hit",
+   "tr": "slideup"
+  },
+  {
+   "code": "P1-11c",
+   "kind": "gfx",
+   "t": 191.84,
+   "dur": 19.4,
+   "off": 0.0,
+   "cues": [
+    12.576
+   ],
+   "sfx": "tick x4, sub hit",
+   "tr": "radial"
+  },
+  {
+   "code": "P1-12",
+   "kind": "gfx",
+   "t": 211.24,
+   "dur": 12.28,
+   "off": 0.0,
+   "cues": [
+    8.241
+   ],
+   "sfx": "tick",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P1-13",
+   "kind": "gfx",
+   "t": 223.52,
+   "dur": 14.96,
+   "off": 0.0,
+   "cues": [
+    8.925
+   ],
+   "sfx": "deep whoosh",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P1-13c",
+   "kind": "gfx",
+   "t": 238.48,
+   "dur": 11.52,
+   "off": 0.0,
+   "cues": [
+    9.994
+   ],
+   "sfx": "pen scratch x2",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P1-13b",
+   "kind": "gfx",
+   "t": 250.0,
+   "dur": 13.2,
+   "off": 0.0,
+   "cues": [
+    8.768
+   ],
+   "sfx": "wobble whoosh",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P1-14",
+   "kind": "gfx",
+   "t": 263.2,
+   "dur": 13.92,
+   "off": 0.0,
+   "cues": [
+    8.406
+   ],
+   "sfx": "paper slide",
+   "tr": "hblur"
+  },
+  {
+   "code": "P1-14b",
+   "kind": "gfx",
+   "t": 277.12,
+   "dur": 8.24,
+   "off": 0.0,
+   "cues": [
+    6.368
+   ],
+   "sfx": "counter roll",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P1-15",
+   "kind": "gfx",
+   "t": 285.36,
+   "dur": 17.36,
+   "off": 0.0,
+   "cues": [
+    15.906
+   ],
+   "sfx": "stamp thud",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P1-16",
+   "kind": "gfx",
+   "t": 302.72,
+   "dur": 10.2,
+   "off": 0.0,
+   "cues": [
+    8.038
+   ],
+   "sfx": "receipt printer",
+   "tr": "zoomin"
+  }
+ ]
+}
