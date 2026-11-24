@@ -1,0 +1,231 @@
+{
+ "part": "P6",
+ "dur": 227.92,
+ "vo_dur": 227.91941666666668,
+ "shots": [
+  {
+   "code": "P6-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 4.24,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P6-02",
+   "kind": "gfx",
+   "t": 4.24,
+   "dur": 9.64,
+   "off": 0.0,
+   "cues": [
+    7.927
+   ],
+   "sfx": "typewriter",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P6-03",
+   "kind": "gfx",
+   "t": 13.88,
+   "dur": 16.24,
+   "off": 0.0,
+   "cues": [
+    12.617
+   ],
+   "sfx": "counter roll",
+   "tr": "hblur"
+  },
+  {
+   "code": "P6-04",
+   "kind": "gfx",
+   "t": 30.12,
+   "dur": 5.28,
+   "off": 0.0,
+   "cues": [
+    3.171
+   ],
+   "sfx": "chart grow",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P6-04b",
+   "kind": "gfx",
+   "t": 35.4,
+   "dur": 14.48,
+   "off": 0.0,
+   "cues": [
+    9.516
+   ],
+   "sfx": "pen scratch",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P6-05",
+   "kind": "gfx",
+   "t": 49.88,
+   "dur": 10.6,
+   "off": 0.0,
+   "cues": [
+    6.07
+   ],
+   "sfx": "chart grow",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P6-06",
+   "kind": "gfx",
+   "t": 60.48,
+   "dur": 12.0,
+   "off": 0.0,
+   "cues": [
+    10.745
+   ],
+   "sfx": "counter roll",
+   "tr": "slideup"
+  },
+  {
+   "code": "P6-06b",
+   "kind": "gfx",
+   "t": 72.48,
+   "dur": 18.52,
+   "off": 0.0,
+   "cues": [
+    5.299
+   ],
+   "sfx": "paper slide",
+   "tr": "radial"
+  },
+  {
+   "code": "P6-06c",
+   "kind": "gfx",
+   "t": 91.0,
+   "dur": 22.2,
+   "off": 0.0,
+   "cues": [
+    8.888
+   ],
+   "sfx": "chart draw",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P6-07",
+   "kind": "gfx",
+   "t": 113.2,
+   "dur": 10.52,
+   "off": 0.0,
+   "cues": [
+    7.609
+   ],
+   "sfx": "counter roll",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P6-08",
+   "kind": "gfx",
+   "t": 123.72,
+   "dur": 4.68,
+   "off": 0.0,
+   "cues": [
+    0.745
+   ],
+   "sfx": "pen scratch, stamp",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P6-08",
+   "kind": "clip",
+   "t": 128.4,
+   "dur": 4.68,
+   "off": 4.667416666666668,
+   "cues": [],
+   "sfx": "pen scratch, stamp",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P6-08b",
+   "kind": "gfx",
+   "t": 133.08,
+   "dur": 13.56,
+   "off": 0.0,
+   "cues": [
+    4.969
+   ],
+   "sfx": "counter roll",
+   "tr": "hblur"
+  },
+  {
+   "code": "P6-09",
+   "kind": "gfx",
+   "t": 146.64,
+   "dur": 14.24,
+   "off": 0.0,
+   "cues": [
+    10.601
+   ],
+   "sfx": "register ding",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P6-10",
+   "kind": "gfx",
+   "t": 160.88,
+   "dur": 13.32,
+   "off": 0.0,
+   "cues": [
+    7.255
+   ],
+   "sfx": "register ding",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P6-11",
+   "kind": "gfx",
+   "t": 174.2,
+   "dur": 14.04,
+   "off": 0.0,
+   "cues": [
+    4.065
+   ],
+   "sfx": "chain ticks",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P6-11b",
+   "kind": "gfx",
+   "t": 188.24,
+   "dur": 14.72,
+   "off": 0.0,
+   "cues": [
+    9.755
+   ],
+   "sfx": "counter roll",
+   "tr": "slideup"
+  },
+  {
+   "code": "P6-12",
+   "kind": "gfx",
+   "t": 202.96,
+   "dur": 13.6,
+   "off": 0.0,
+   "cues": [
+    8.636
+   ],
+   "sfx": "pen scratch x3",
+   "tr": "radial"
+  },
+  {
+   "code": "P6-13",
+   "kind": "gfx",
+   "t": 216.56,
+   "dur": 11.36,
+   "off": 0.0,
+   "cues": [
+    2.919
+   ],
+   "sfx": "receipt printer",
+   "tr": "smoothright"
+  }
+ ]
+}
