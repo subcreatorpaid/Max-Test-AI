@@ -65,7 +65,7 @@ meter = pyln.Meter(SR)
 music = pyln.normalize.loudness(music.astype("float64"), meter.integrated_loudness(music.astype("float64")), -31.0).astype(np.float32)
 
 # ---------- SFX on the words ----------
-ALIAS = {"hit-thud-low": "land_stone_01", "printer-dot-matrix-1s2": "ratchet_zip_02", "drone-bed-30s": "wind_whistle_01", "pen-scratch": "land_card_01", "typing-keys-3s": "type_01"}
+ALIAS = {"hit-thud-low": "land_stone_01", "printer-dot-matrix-1s2": "ratchet_zip_02", "drone-bed-30s": "wind_whistle_01", "pen-scratch": "land_card_01", "typing-keys-3s": "type_01", "paper-rustle-short": "swipe_paper_01"}
 def find(name):
     g = glob.glob(f"{SFXD}/**/{name}.wav", recursive=True) or glob.glob(f"{SFXD}/**/{ALIAS.get(name, name)}.wav", recursive=True)
     return g[0]
@@ -106,7 +106,7 @@ for s in shots:
     if hit: last = T
 
 mix = vo + music + fx
-L = meter.integrated_loudness(mix.astype("float64")); mix = pyln.normalize.loudness(mix.astype("float64"), L, -15.0)
+L = meter.integrated_loudness(mix.astype("float64")); mix = pyln.normalize.loudness(mix.astype("float64"), L, -13.9)  # tanh limiter below costs ~1.1 LU -> ~-15 LUFS
 mix = np.tanh(mix / 0.95) * 0.95 * 0.94
 mix = mix[:int(TOTAL * SR)].astype(np.float32)
 sf.write(OUT, mix, SR)
