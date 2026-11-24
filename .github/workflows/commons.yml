@@ -22,6 +22,6 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add videos/*/commons
+          git add $(git ls-files -o --exclude-standard videos | grep "/commons/") 2>/dev/null || true
           git commit -m "commons: candidate photos [skip ci]" || echo nothing
           for i in 1 2 3 4 5; do git pull --rebase -q origin ${{ github.ref_name }} && git push && break; sleep 5; done
