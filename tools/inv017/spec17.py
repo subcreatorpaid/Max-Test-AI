@@ -396,7 +396,7 @@ def checklist(items, title="", tag=""):
     im = base(); d = paper(im, (260, 90, W - 260, H - 110), seed=12)
     center(d, 120, title, f(44, "bebas"), INK)
     for i, l in enumerate(items):
-        y = 220 + i*110; t0 = lead(c(i, sn(i) + 0.5), 0.3)
+        y = 220 + i*110; k = len(_A.SENTS) - len(items) + i; t0 = (sn(k) + 0.4) if k >= 0 else 1.0 + 1.5*i
         d.rect((320, y, 360, y + 40), outline=INK, width=3); d.text((390, y), l, f(36, "inter"), alpha(INK, seg(t0 - 0.3, 0.3)))
         pencil_tick(d, 324, y + 4, t0 + 0.2, RED, seed=i + 3, s=1.3)
     tagline(im, tag); return im
@@ -575,7 +575,7 @@ SPEC = {
 "P7-01": P(7, "Why would anyone pull the trigger?"),
 "P7-02": lambda o, t: space(n=200, die_at=lead(c(0, 1.5), 0.2), die_frac=1.0, R=140, colors=[PAPER_HI, CYAN, ORANGE, RED, GREEN], title="RADIATION DOESN'T CHECK FLAGS", tag=t),
 "P7-03": lambda o, t: split(("WHO FIRED STARFISH?", "USA", "9 July 1962"), ("WHO LOST TELSTAR?", "USA", "early 1963"), tag=t),
-"P7-04": lambda o, t: number("THREAT", sub="push too far, and the sky goes dark for everyone", kicker="WHAT IT MAY BE FOR", badge="NOT A FORECAST", tag=t),
+"P7-04": lambda o, t: number("THREAT", sub="push too far, and the sky goes dark for everyone", kicker="WHAT IT MAY BE FOR", tag=t),
 "P7-04b": scale,
 "P7-05": lambda o, t: tiles([("NEVER FLIES", "a bargaining chip"), ("PARKED IN ORBIT", "a loaded gun overhead"), ("USED", "what the studies describe")], title="THREE WAYS THIS COULD GO", tag=t, cues=[0, 9, 9]),
 "P7-06": lambda o, t: tiles([("NEVER FLIES", "a bargaining chip"), ("PARKED IN ORBIT", "breaks the 1967 treaty"), ("USED", "what the studies describe")], title="SCENARIO 2", tag=t, cues=[-1, 0, 9]),
