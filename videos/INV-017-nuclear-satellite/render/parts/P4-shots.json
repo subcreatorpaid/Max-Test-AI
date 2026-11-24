@@ -1,0 +1,197 @@
+{
+ "part": "P4",
+ "dur": 181.12,
+ "vo_dur": 181.11708333333334,
+ "shots": [
+  {
+   "code": "P4-01",
+   "kind": "gfx",
+   "t": 0.0,
+   "dur": 5.64,
+   "off": 0.0,
+   "cues": [],
+   "sfx": "reverse cymbal + sub drop",
+   "tr": ""
+  },
+  {
+   "code": "P4-02",
+   "kind": "gfx",
+   "t": 5.64,
+   "dur": 8.12,
+   "off": 0.0,
+   "cues": [
+    6.857
+   ],
+   "sfx": "rising whoosh",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P4-03",
+   "kind": "gfx",
+   "t": 13.76,
+   "dur": 14.32,
+   "off": 0.0,
+   "cues": [
+    5.049
+   ],
+   "sfx": "counter roll",
+   "tr": "hblur"
+  },
+  {
+   "code": "P4-04",
+   "kind": "gfx",
+   "t": 28.08,
+   "dur": 13.64,
+   "off": 0.0,
+   "cues": [
+    5.728
+   ],
+   "sfx": "chart grow",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P4-05",
+   "kind": "gfx",
+   "t": 41.72,
+   "dur": 10.52,
+   "off": 0.0,
+   "cues": [
+    2.105
+   ],
+   "sfx": "boom",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P4-06",
+   "kind": "gfx",
+   "t": 52.24,
+   "dur": 14.16,
+   "off": 0.0,
+   "cues": [
+    12.7
+   ],
+   "sfx": "shimmer",
+   "tr": "zoomin"
+  },
+  {
+   "code": "P4-07",
+   "kind": "gfx",
+   "t": 66.4,
+   "dur": 8.12,
+   "off": 0.0,
+   "cues": [
+    1.886
+   ],
+   "sfx": "counter roll, sub hit",
+   "tr": "slideup"
+  },
+  {
+   "code": "P4-08",
+   "kind": "gfx",
+   "t": 74.52,
+   "dur": 10.4,
+   "off": 0.0,
+   "cues": [
+    5.608
+   ],
+   "sfx": "chart grow",
+   "tr": "radial"
+  },
+  {
+   "code": "P4-09",
+   "kind": "gfx",
+   "t": 84.92,
+   "dur": 11.8,
+   "off": 0.0,
+   "cues": [
+    8.476
+   ],
+   "sfx": "small crunches",
+   "tr": "smoothright"
+  },
+  {
+   "code": "P4-10",
+   "kind": "gfx",
+   "t": 96.72,
+   "dur": 8.36,
+   "off": 0.0,
+   "cues": [
+    2.07
+   ],
+   "sfx": "debris scatter",
+   "tr": "dissolve"
+  },
+  {
+   "code": "P4-11",
+   "kind": "gfx",
+   "t": 105.08,
+   "dur": 11.12,
+   "off": 0.0,
+   "cues": [
+    7.819
+   ],
+   "sfx": "warning tone",
+   "tr": "fadewhite"
+  },
+  {
+   "code": "P4-12",
+   "kind": "gfx",
+   "t": 116.2,
+   "dur": 16.0,
+   "off": 0.0,
+   "cues": [
+    8.308
+   ],
+   "sfx": "low rumble",
+   "tr": "smoothleft"
+  },
+  {
+   "code": "P4-12b",
+   "kind": "gfx",
+   "t": 132.2,
+   "dur": 12.52,
+   "off": 0.0,
+   "cues": [
+    8.662
+   ],
+   "sfx": "falling whoosh",
+   "tr": "hblur"
+  },
+  {
+   "code": "P4-13",
+   "kind": "gfx",
+   "t": 144.72,
+   "dur": 7.28,
+   "off": 0.0,
+   "cues": [
+    5.689
+   ],
+   "sfx": "sub hit",
+   "tr": "circleopen"
+  },
+  {
+   "code": "P4-14",
+   "kind": "gfx",
+   "t": 152.0,
+   "dur": 13.12,
+   "off": 0.0,
+   "cues": [
+    6.076
+   ],
+   "sfx": "three whooshes",
+   "tr": "wiperight"
+  },
+  {
+   "code": "P4-15",
+   "kind": "gfx",
+   "t": 165.12,
+   "dur": 16.0,
+   "off": 0.0,
+   "cues": [
+    12.442
+   ],
+   "sfx": "receipt printer",
+   "tr": "zoomin"
+  }
+ ]
+}
