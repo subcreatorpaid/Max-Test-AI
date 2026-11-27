@@ -2,7 +2,7 @@
 
 **Video 6 of the Iran follow-up series.** Planned slot: **Tuesday 5 Jan 2027, 7 pm UK (suggested)**. Nothing has been uploaded; you upload it by hand after your OK.
 
-- **Video file:** `final\INV-023-1979-Oil-1080p.mp4` ({LEN}). Join the pieces with `final\join-INV-023.bat`. Rename it to `last-time-iran-shut-the-oil-1979.mp4` before uploading.
+- **Video file:** `final\INV-023-1979-Oil-1080p.mp4` (15:57). Join the pieces with `final\join-INV-023.bat`. Rename it to `last-time-iran-shut-the-oil-1979.mp4` before uploading.
 - **Thumbnail:** `thumbnails\INV-023-thumb-draft.jpg` is a layout draft (US flag, a 1970s petrol pump, 1979 / LAST TIME). The object is a drawn stand-in. Make the hero photo with `upload\INV-023-gemini-hero-prompt.md` and send it to me; I swap it in.
 
 ## Title (pick one; the first is recommended)
@@ -20,7 +20,14 @@ Watch first: What Happens If the Iran War Restarts? Here's Your Bill → https:/
 Every crisis sends a bill. History keeps the receipts.
 
 CHAPTERS
-{CHAPTERS}
+0:00 The last time Iran shut the oil
+1:09 The strike
+2:53 The panic
+5:13 The price
+7:14 Britain
+9:33 The long bill
+12:06 The lesson
+15:02 The Receipt
 
 DISCLAIMER
 This video is for news and education only. It is not financial advice. Historical figures are from the sources below. Comparisons with 2026 are our analysis (labelled ANALYSIS on screen). The 'Crisis? What crisis?' line was a newspaper headline, not a quote. Stock footage and photos are from Pixabay and are illustrative, not the real places. Maps and documents are recreated illustrations; map borders from Natural Earth. The narration is an AI-generated voice.
