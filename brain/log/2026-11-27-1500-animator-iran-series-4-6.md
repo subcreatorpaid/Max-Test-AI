@@ -1,0 +1,1 @@
+2026-11-27 15:00 | animator | INV-021 blockade-year: graphics spec, clips, 360p review done, 1080p queued on Actions. INV-022 iran-bomb + INV-023 1979-oil: facts, scripts, voices, graphics specs, clips; 360p review running. Thumbnail drafts (thumb19 new modes lock/atom/pump), licences. sub_card now "N OF 6". | needs owner: review all three, Gemini hero photos, upload OK

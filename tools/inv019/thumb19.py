@@ -8,7 +8,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageEnhance, ImageChops, ImageFont
 W, H = TV.W, TV.H
 OUT = sys.argv[1] if len(sys.argv) > 1 else 'INV-018-thumb-draft.jpg'
-TOP, BAN, MODE = sys.argv[2], sys.argv[3], sys.argv[4]   # MODE: flag (white flag) | barrel (falling oil barrel)
+TOP, BAN, MODE = sys.argv[2], sys.argv[3], sys.argv[4]   # MODE: flag (white flag) | barrel (falling oil barrel) | lock (padlock) | atom (yellow drum + trefoil) | pump (1970s petrol pump)
+FLAG = sys.argv[5] if len(sys.argv) > 5 else 'ir'
 # ---- background: cold teal sea at dusk, warm horizon glow
 y = np.linspace(0, 1, H)[:, None, None]; x = np.linspace(0, 1, W)[None, :, None]
 sky = np.array([18, 34, 44]) * (1 - y) + np.array([6, 14, 20]) * y
@@ -19,7 +20,7 @@ for i in range(260):   # water glints
     yy = int(H * (0.56 + rnd.random() * 0.44)); xx = rnd.random() * W; L = 20 + rnd.random() * 80
     d.line([(xx, yy), (xx + L, yy)], fill=(40 + int(60 * rnd.random()), 70, 80), width=2)
 # ---- flag top-left
-wv, wm = TV.fabric(TV.flag_img('ir', 980, 560)); wv = ImageEnhance.Brightness(wv).enhance(1.25)
+wv, wm = TV.fabric(TV.flag_img(FLAG, 980, 560)); wv = ImageEnhance.Brightness(wv).enhance(1.25)
 bl = wv.filter(ImageFilter.GaussianBlur(14)); gm = Image.linear_gradient('L').rotate(90).resize(wv.size).point(lambda v: int(255 * max(0, v / 255 - 0.35) / 0.65)); wv = Image.composite(bl, wv, gm)
 fade = Image.new('L', wm.size, 255); fd = ImageDraw.Draw(fade)
 for xx in range(int(980 * 0.7), wm.size[0]): fd.line([(xx, 0), (xx, wm.size[1])], fill=int(255 * max(0, 1 - (xx - 980 * 0.7) / (980 * 0.3)) ** 1.3))
@@ -36,6 +37,25 @@ if MODE == 'flag':
     hd.polygon(pts + pts2, fill=(238, 236, 228, 255))
     for i in range(0, 60, 6):   # soft folds
         u = i / 60; x = 548 + 470 * u; hd.line([(x, 285 + 26 * math.sin(u * 6) + 40 * u), (x + 10, 600 - 20 * u)], fill=(222, 220, 212, 255), width=6)
+elif MODE == 'lock':
+    hd.arc([400, 250, 720, 620], 180, 360, fill=(170, 170, 176, 255), width=56)
+    hd.line([(428, 435), (428, 560)], fill=(170, 170, 176, 255), width=56); hd.line([(692, 435), (692, 560)], fill=(170, 170, 176, 255), width=56)
+    hd.rounded_rectangle([330, 520, 790, 940], 40, fill=(200, 150, 60, 255)); hd.rounded_rectangle([350, 540, 770, 920], 30, outline=(150, 105, 35, 255), width=10)
+    hd.ellipse([525, 640, 595, 710], fill=(30, 22, 16, 255)); hd.polygon([(545, 690), (575, 690), (590, 820), (530, 820)], fill=(30, 22, 16, 255))
+elif MODE == 'atom':
+    hd.rounded_rectangle([340, 330, 780, 940], 30, fill=(214, 176, 40, 255))
+    for yb in (450, 820): hd.rectangle([340, yb - 14, 780, yb + 14], fill=(150, 120, 20, 255))
+    hd.ellipse([340, 290, 780, 370], fill=(236, 200, 60, 255)); cx, cy, r = 560, 635, 130
+    hd.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(20, 16, 10, 255)); hd.ellipse([cx - r + 14, cy - r + 14, cx + r - 14, cy + r - 14], fill=(214, 176, 40, 255))
+    for a0 in (-120, 0, 120):
+        hd.pieslice([cx - r + 24, cy - r + 24, cx + r - 24, cy + r - 24], a0 - 30, a0 + 30, fill=(20, 16, 10, 255))
+    hd.ellipse([cx - 34, cy - 34, cx + 34, cy + 34], fill=(214, 176, 40, 255)); hd.ellipse([cx - 22, cy - 22, cx + 22, cy + 22], fill=(20, 16, 10, 255))
+elif MODE == 'pump':
+    hd.rounded_rectangle([380, 300, 740, 1000], 40, fill=(196, 60, 40, 255)); hd.rounded_rectangle([420, 360, 700, 560], 16, fill=(236, 226, 200, 255))
+    for i, yy in enumerate((400, 470)):
+        for k in range(4): hd.rectangle([440 + k * 62, yy, 490 + k * 62, yy + 50], fill=(30, 22, 16, 255))
+    hd.ellipse([450, 170, 670, 330], fill=(238, 232, 214, 255)); hd.rounded_rectangle([400, 640, 720, 700], 10, fill=(236, 226, 200, 255))
+    hd.line([(740, 620), (800, 640), (820, 800), (790, 900)], fill=(30, 22, 16, 255), width=26); hd.rectangle([770, 880, 830, 960], fill=(60, 60, 64, 255))
 else:
     cx, top, bot, w2 = 560, 330, 900, 230
     yy, xx = np.mgrid[0:H, 0:W]; inside = (abs(xx - cx) < w2) & (yy > top) & (yy < bot)

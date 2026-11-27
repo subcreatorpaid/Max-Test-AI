@@ -1,0 +1,76 @@
+{
+ "picks": {
+  "CO-05x": {
+   "id": 159708,
+   "url": "https://cdn.pixabay.com/video/2023/04/19/159708-819368955_large.mp4",
+   "user": "harshpunnoose123",
+   "page": "https://pixabay.com/videos/id-159708/",
+   "duration": 8,
+   "what": "petrol station at night",
+   "from": "INV-011-russia-fuel/CO-03x"
+  },
+  "P1-06x": {
+   "id": 95240,
+   "url": "https://cdn.pixabay.com/video/2021/11/09/95240-645704326_large.mp4",
+   "user": "Matthias_Groeneveld",
+   "page": "https://pixabay.com/videos/id-95240/",
+   "duration": 62,
+   "what": "tanker under way",
+   "from": "INV-011-russia-fuel/P3-11x"
+  },
+  "P2-06x": {
+   "id": 23008,
+   "url": "https://cdn.pixabay.com/video/2019/04/23/23008-332257750_large.mp4",
+   "user": "bellergy",
+   "page": "https://pixabay.com/videos/id-23008/",
+   "duration": 20,
+   "what": "ships at port",
+   "from": "INV-012-congo-ebola/P6-05x"
+  },
+  "P4-04x": {
+   "id": 95239,
+   "url": "https://cdn.pixabay.com/video/2021/11/09/95239-645704324_large.mp4",
+   "user": "Matthias_Groeneveld",
+   "page": "https://pixabay.com/videos/id-95239/",
+   "duration": 60,
+   "what": "ship at a fuel terminal",
+   "from": "INV-011-russia-fuel/P5-09x"
+  },
+  "P5-04x": {
+   "id": 23712,
+   "url": "https://cdn.pixabay.com/video/2019/05/15/23712-337108764_large.mp4",
+   "user": "wcw6900",
+   "page": "https://pixabay.com/videos/id-23712/",
+   "duration": 21,
+   "what": "city traffic",
+   "from": "INV-011-russia-fuel/P3-09bx"
+  },
+  "P5-09x": {
+   "id": 209542,
+   "url": "https://cdn.pixabay.com/video/2024/04/26/209542_large.mp4",
+   "user": "phlyingdoctor",
+   "page": "https://pixabay.com/videos/id-209542/",
+   "duration": 39,
+   "what": "motorway traffic",
+   "from": "INV-011-russia-fuel/P6-03x"
+  },
+  "P5-11x": {
+   "id": 324019,
+   "url": "https://cdn.pixabay.com/video/2025/12/23/324019_large.mp4",
+   "user": "Kaffees\u00fcchtig",
+   "page": "https://pixabay.com/videos/id-324019/",
+   "duration": 15,
+   "what": "power lines",
+   "from": "INV-017-nuclear-satellite/P3-10x"
+  },
+  "P5-12cx": {
+   "id": 8357,
+   "url": "https://cdn.pixabay.com/video/2017/03/12/8357-208052048_large.mp4",
+   "user": "Matthias_Groeneveld",
+   "page": "https://pixabay.com/videos/id-8357/",
+   "duration": 42,
+   "what": "lorries on a road",
+   "from": "INV-011-russia-fuel/P4-09x"
+  }
+ }
+}

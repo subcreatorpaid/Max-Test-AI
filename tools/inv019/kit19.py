@@ -70,10 +70,10 @@ def rocket_feather(mode="both", tag="", title=""):
         if pts: d.text((pts[-1][0] - 420, pts[-1][1] + 34), "FEATHER · DOWN IN ≈ 8 WEEKS ▼", f(28, "inter"), alpha(CYAN, seg(t0 + 0.4, 0.4)))
     tagline(im, tag); return im
 
-def sub_card(n, nxt):
+def sub_card(n, nxt, of=4):
     def fn(o, t):
         im = base(); d = D(im)
-        center(d, 110, f"{n} OF 4 · THE IRAN WAR BILL", f(32, "inter"), alpha(ORANGE, seg(0, 0.4)))
+        center(d, 110, f"{n} OF {of} · THE IRAN WAR BILL", f(32, "inter"), alpha(ORANGE, seg(0, 0.4)))
         center(d, 190, "NEXT WEEK", f(40, "inter"), alpha(PAPER, seg(0.3, 0.4)))
         center(d, 250, nxt, fit(d, nxt, 54, 1080), alpha(PAPER_HI, seg(0.6, 0.4)))
         b = seg(lead(c(0, 3.0), 0.5), 0.4)
