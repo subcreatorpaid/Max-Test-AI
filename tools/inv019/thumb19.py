@@ -18,8 +18,9 @@ if PHOTO:
     ph = ph.resize((round(ph.width * sc), round(ph.height * sc)), Image.LANCZOS); ox, oy = (ph.width - W) // 2, (ph.height - H) // 2
     ph = ph.crop((ox, oy, ox + W, oy + H)); canvas = ph.copy()
     m = json.loads(sys.argv[6]); hm = Image.new('L', (W, H), 0); md = ImageDraw.Draw(hm)
-    e = [v * sc for v in m['ellipse']]; md.ellipse([e[0] - ox, e[1] - oy, e[2] - ox, e[3] - oy], fill=255)
+    e = [v * sc for v in m.get('ellipse', [0, 0, 0, 0])]; md.ellipse([e[0] - ox, e[1] - oy, e[2] - ox, e[3] - oy], fill=255)
     for (x0, y0, x1, y1, wd) in m.get('lines', []): md.line([(x0 * sc - ox, y0 * sc - oy), (x1 * sc - ox, y1 * sc - oy)], fill=255, width=int(wd * sc))
+    for poly in m.get('polys', []): md.polygon([(x * sc - ox, y * sc - oy) for x, y in poly], fill=255)
     for (x0, y0, x1, y1) in m.get('rects', []): md.rectangle([x0 * sc - ox, y0 * sc - oy, x1 * sc - ox, y1 * sc - oy], fill=255)
     hm = hm.filter(ImageFilter.GaussianBlur(3))
     wv, wm = TV.fabric(TV.flag_img(FLAG, 980, 560)); wv = ImageEnhance.Brightness(wv).enhance(1.05)
@@ -29,7 +30,7 @@ if PHOTO:
     for yy in range(int(560 * 0.55), wm.size[1]): fd.line([(0, yy), (wm.size[0], yy)], fill=0)
     fade = fade.filter(ImageFilter.GaussianBlur(40))
     wm = ImageChops.multiply(wm, fade).point(lambda v: int(v * 0.85)); wv = wv.rotate(3, resample=Image.BICUBIC); wm = wm.rotate(3, resample=Image.BICUBIC)
-    canvas.paste(wv, (-70, -90), wm); canvas.paste(ph, (0, 0), hm)
+    canvas.paste(wv, (m.get('flag_x', -70), -90), wm); canvas.paste(ph, (0, 0), hm)
 else:
     # ---- background: cold teal sea at dusk, warm horizon glow
     y = np.linspace(0, 1, H)[:, None, None]; x = np.linspace(0, 1, W)[None, :, None]
