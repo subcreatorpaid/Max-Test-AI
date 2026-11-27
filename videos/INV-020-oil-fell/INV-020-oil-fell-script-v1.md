@@ -311,8 +311,8 @@ Tags: VERIFIED / REPORTED / CLAIM / ESTIMATE / SCENARIO / ILLUSTRATION. Facts: f
 > On screen: JANUARY IS LOCKED · Tag: VERIFIED · Ofgem · Facts: B22 · SFX: pen
 
 **P5-10** Put the two side by side. If you fill up twice a month and finally get your ten pence, that's about a hundred and thirty pounds a year. The energy cap takes four hundred and forty-three.
-> Visual: G two numbers: FUEL OWED ≈ +£130 A YEAR · ENERGY CAP -£443  
-> On screen: +£130 vs -£443 · Tag: ILLUSTRATION · our maths · Facts: B21 B27 · SFX: stamp thud
+> Visual: G two numbers: PETROL SAVED ≈ £130 A YEAR · ENERGY CAP +£443  
+> On screen: SAVE £130 · PAY £443 MORE · Tag: ILLUSTRATION · our maths · Facts: B21 B27 · SFX: stamp thud
 
 **P5-11** So oil falling doesn't make your year cheaper. At best, it makes it less expensive.
 > Visual: G card: OIL FELL. YOUR YEAR STILL COSTS MORE.  

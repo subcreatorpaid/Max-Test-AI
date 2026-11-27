@@ -172,7 +172,7 @@ part("Part 5: Your other bills", "~13:40", [
 ("P5-09", "And the cap looks backwards. Ofgem sets it every three months from wholesale prices in an earlier window. So even if gas fell today, January's bill is already {locked}.", "B22",
  "G calendar: EARLIER WINDOW → CAP SET → JAN LOCKED · APR NEXT", "JANUARY IS LOCKED", "VERIFIED · Ofgem", "pen"),
 ("P5-10", "Put the two side by side. If you fill up twice a month and finally get your ten pence, that's about a hundred and thirty pounds a year. The energy cap takes four hundred and forty-{three}.", "B21 B27",
- "G two numbers: FUEL OWED ≈ +£130 A YEAR · ENERGY CAP -£443", "+£130 vs -£443", "ILLUSTRATION · our maths", "stamp thud"),
+ "G two numbers: PETROL SAVED ≈ £130 A YEAR · ENERGY CAP +£443", "SAVE £130 · PAY £443 MORE", "ILLUSTRATION · our maths", "stamp thud"),
 ("P5-11", "So oil falling doesn't make your year cheaper. At best, it makes it less {expensive}.", "",
  "G card: OIL FELL. YOUR YEAR STILL COSTS MORE.", "STILL COSTS MORE", "", "paper"),
 ("P5-12", "Running total. Line five. Energy cap up twenty-six percent, {regardless}.", "",
