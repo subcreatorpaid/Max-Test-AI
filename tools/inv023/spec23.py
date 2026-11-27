@@ -57,7 +57,7 @@ SPEC = {
 "P3-08": lambda o, t: map_scene(GULF2, z=5, hi=("Iran",), hi2=("Iraq",), title="SEPT 1980: IRAQ INVADES · ANOTHER -7%", tag=t, arcs=[((44.4, 33.3), (48.6, 31.3), RED, 5, 0, False)]),
 "P3-09": lambda o, t: number("+250%", kicker="WTI OIL · 1978 TO 1980", tag=t),
 "P3-10": lambda o, t: bars([("1979-80", 2.5), ("2026 (PEAK)", 1.8)], title="HOW FAR OIL MULTIPLIED", unit="×", hi=0, tag=t, cues=[-1, 0], fmt="{:g}"),
-"P3-10b": lambda o, t: map_scene(USA, z=4, hi=("United States of America",), title="THE OTHER SIDE OF THE BILL · OIL-STATE BOOM", tag=t, pins=[(-97.5, 31.0, "TEXAS", ORANGE, -1), (-97.5, 35.5, "OKLAHOMA", ORANGE, -1), (-150.0, 61.0, "ALASKA", ORANGE, 0)]),
+"P3-10b": lambda o, t: map_scene(USA, z=4, hi=("United States of America",), title="THE OTHER SIDE OF THE BILL · OIL-STATE BOOM", tag=t, pins=[(-100.5, 31.0, "TEXAS", ORANGE, -1), (-97.5, 35.5, "OKLAHOMA", ORANGE, -1), (-92.0, 30.6, "LOUISIANA", ORANGE, 0)]),
 "P3-11": lambda o, t: receipt(RUN[:3], title="RUNNING TOTAL", tag=t, show=2),
 
 "P4-01": P(4, "Britain"),
