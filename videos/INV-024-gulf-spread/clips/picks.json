@@ -1,0 +1,49 @@
+{
+ "picks": {
+  "P3-04bx": {
+   "id": 95240,
+   "url": "https://cdn.pixabay.com/video/2021/11/09/95240-645704326_large.mp4",
+   "user": "Matthias_Groeneveld",
+   "page": "https://pixabay.com/videos/id-95240/",
+   "duration": 62,
+   "what": "tanker under way",
+   "from": "INV-011-russia-fuel/P3-11x"
+  },
+  "P2-09x": {
+   "id": 324019,
+   "url": "https://cdn.pixabay.com/video/2025/12/23/324019_large.mp4",
+   "user": "Kaffees\u00fcchtig",
+   "page": "https://pixabay.com/videos/id-324019/",
+   "duration": 15,
+   "what": "power lines",
+   "from": "INV-017-nuclear-satellite/P3-10x"
+  },
+  "P5-02x": {
+   "id": 159708,
+   "url": "https://cdn.pixabay.com/video/2023/04/19/159708-819368955_large.mp4",
+   "user": "harshpunnoose123",
+   "page": "https://pixabay.com/videos/id-159708/",
+   "duration": 8,
+   "what": "petrol station at night",
+   "from": "INV-011-russia-fuel/CO-03x"
+  },
+  "P5-05bx": {
+   "id": 23712,
+   "url": "https://cdn.pixabay.com/video/2019/05/15/23712-337108764_large.mp4",
+   "user": "wcw6900",
+   "page": "https://pixabay.com/videos/id-23712/",
+   "duration": 21,
+   "what": "city traffic",
+   "from": "INV-011-russia-fuel/P3-09bx"
+  },
+  "P5-09x": {
+   "id": 209542,
+   "url": "https://cdn.pixabay.com/video/2024/04/26/209542_large.mp4",
+   "user": "phlyingdoctor",
+   "page": "https://pixabay.com/videos/id-209542/",
+   "duration": 39,
+   "what": "motorway traffic",
+   "from": "INV-011-russia-fuel/P6-03x"
+  }
+ }
+}
